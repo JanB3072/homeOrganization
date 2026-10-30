@@ -1,0 +1,59 @@
+---
+// 浴室分类页
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const subcategories = [
+  { name: 'Vanity & Sink', slug: 'vanity', description: '浴室柜、下水管避让、抽拉方案' },
+  { name: 'Small Bathroom', slug: 'small-bathroom', description: '无柜方案、免打孔、潮湿防霉' }
+];
+---
+
+<BaseLayout title="Bathroom - 浴室收纳" description="浴室收纳方案：浴室柜、小浴室方案、防霉保养">
+  <h1>浴室 Bathroom</h1>
+  <p>浴室是最小的房间，也是最容易堆积杂物的地方。这里是我在有限空间内的收纳策略。</p>
+
+  <section class="subcategories">
+    <h2>子分类</h2>
+    <div class="subcategory-grid">
+      {subcategories.map(sub => (
+        <div class="subcategory-card">
+          <h3><a href={`/bathroom/${sub.slug}/`}>{sub.name}</a></h3>
+          <p>{sub.description}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="articles">
+    <h2>最新文章</h2>
+    <p>敬请期待...</p>
+  </section>
+
+  <style>
+    .subcategories {
+      margin: 2rem 0;
+    }
+
+    .subcategory-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .subcategory-card {
+      border: 1px solid #eee;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+
+    .subcategory-card h3 {
+      margin-top: 0;
+    }
+
+    .subcategory-card a {
+      text-decoration: none;
+    }
+  </style>
+</BaseLayout>

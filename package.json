@@ -1,0 +1,16 @@
+{
+  "name": "home-org-blog",
+  "version": "0.1.0",
+  "description": "个人居家收纳博客",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^4.11.5"
+  },
+  "devDependencies": {}
+}

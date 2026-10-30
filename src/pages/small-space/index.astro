@@ -1,0 +1,59 @@
+---
+// 小空间分类页
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const subcategories = [
+  { name: 'Apartment', slug: 'apartment', description: '垂直空间、多用途家具、动线规划' },
+  { name: 'Rental-Friendly', slug: 'rental', description: '免打孔、可拆卸、押金安全、退租复原' }
+];
+---
+
+<BaseLayout title="Small Space - 小空间收纳" description="小空间收纳方案：公寓改造、租房友好方案">
+  <h1>小空间 Small Space</h1>
+  <p>在有限的空间里最大化收纳 — 这是小公寓生活的终极挑战。这里是我的户型公开 + 逐房间方案。</p>
+
+  <section class="subcategories">
+    <h2>子分类</h2>
+    <div class="subcategory-grid">
+      {subcategories.map(sub => (
+        <div class="subcategory-card">
+          <h3><a href={`/small-space/${sub.slug}/`}>{sub.name}</a></h3>
+          <p>{sub.description}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="articles">
+    <h2>最新文章</h2>
+    <p>敬请期待...</p>
+  </section>
+
+  <style>
+    .subcategories {
+      margin: 2rem 0;
+    }
+
+    .subcategory-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .subcategory-card {
+      border: 1px solid #eee;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+
+    .subcategory-card h3 {
+      margin-top: 0;
+    }
+
+    .subcategory-card a {
+      text-decoration: none;
+    }
+  </style>
+</BaseLayout>

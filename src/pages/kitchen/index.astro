@@ -1,0 +1,60 @@
+---
+// 厨房分类页
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const subcategories = [
+  { name: 'Pantry', slug: 'pantry', description: '食品柜、干货、保质期管理' },
+  { name: 'Fridge', slug: 'fridge', description: '冰箱分区、保鲜、冷冻分装' },
+  { name: 'Cabinets & Counters', slug: 'cabinets', description: '抽屉分隔、锅具、台面减物' }
+];
+---
+
+<BaseLayout title="Kitchen - 厨房收纳" description="厨房收纳方案：食品柜、冰箱、橱柜与台面">
+  <h1>厨房 Kitchen</h1>
+  <p>从食品柜到冰箱，从橱柜到台面 — 厨房是家里收纳难度最高的地方。这里是我对自己厨房的完整拆解。</p>
+
+  <section class="subcategories">
+    <h2>子分类</h2>
+    <div class="subcategory-grid">
+      {subcategories.map(sub => (
+        <div class="subcategory-card">
+          <h3><a href={`/kitchen/${sub.slug}/`}>{sub.name}</a></h3>
+          <p>{sub.description}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="articles">
+    <h2>最新文章</h2>
+    <p>敬请期待...</p>
+  </section>
+
+  <style>
+    .subcategories {
+      margin: 2rem 0;
+    }
+
+    .subcategory-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .subcategory-card {
+      border: 1px solid #eee;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+
+    .subcategory-card h3 {
+      margin-top: 0;
+    }
+
+    .subcategory-card a {
+      text-decoration: none;
+    }
+  </style>
+</BaseLayout>

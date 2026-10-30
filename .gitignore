@@ -1,0 +1,29 @@
+# 依赖
+node_modules/
+package-lock.json
+yarn.lock
+
+# Astro 生成
+dist/
+.astro/
+build/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 环境
+.env
+.env.local
+.env.*.local
+
+# 开发
+.test-cache/
+coverage/

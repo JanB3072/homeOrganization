@@ -1,0 +1,60 @@
+---
+// 习惯与断舍离分类页
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const subcategories = [
+  { name: 'Declutter', slug: 'declutter', description: '方法对比、按区域/按类别、捐赠渠道' },
+  { name: 'Routines', slug: 'routines', description: '每周复位、季节性整理、复盘记录' },
+  { name: 'Moving', slug: 'moving', description: '打包、箱号系统、首夜箱、搬家踩坑' }
+];
+---
+
+<BaseLayout title="Declutter - 习惯与断舍离" description="断舍离方法、日常维护习惯、搬家技巧">
+  <h1>习惯与断舍离 Declutter</h1>
+  <p>收纳不是一次性的工作，而是可持续的习惯。这里记录我怎样通过日常维护、定期复盘来保持家的整洁。</p>
+
+  <section class="subcategories">
+    <h2>子分类</h2>
+    <div class="subcategory-grid">
+      {subcategories.map(sub => (
+        <div class="subcategory-card">
+          <h3><a href={`/declutter/${sub.slug}/`}>{sub.name}</a></h3>
+          <p>{sub.description}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="articles">
+    <h2>最新文章</h2>
+    <p>敬请期待...</p>
+  </section>
+
+  <style>
+    .subcategories {
+      margin: 2rem 0;
+    }
+
+    .subcategory-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .subcategory-card {
+      border: 1px solid #eee;
+      padding: 1.5rem;
+      border-radius: 8px;
+    }
+
+    .subcategory-card h3 {
+      margin-top: 0;
+    }
+
+    .subcategory-card a {
+      text-decoration: none;
+    }
+  </style>
+</BaseLayout>

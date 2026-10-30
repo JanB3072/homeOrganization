@@ -1,0 +1,128 @@
+---
+// 博客文章布局
+
+import BaseLayout from './BaseLayout.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+  author?: string;
+  pubDate?: Date;
+  updatedDate?: Date;
+  category?: string;
+  tags?: string[];
+  image?: string;
+}
+
+const { title, description, author, pubDate, updatedDate, category, tags, image } = Astro.props;
+
+// 格式化日期
+const formatDate = (date: Date) => {
+  return new Intl.DateTimeFormat('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  }).format(date);
+};
+---
+
+<BaseLayout title={title} description={description}>
+  <article>
+    {image && <img src={image} alt={title} />}
+    
+    <header>
+      <h1>{title}</h1>
+      
+      <div class="post-meta">
+        {pubDate && <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>}
+        {category && <span class="category">{category}</span>}
+      </div>
+    </header>
+
+    <div class="post-content">
+      <slot />
+    </div>
+
+    {tags && tags.length > 0 && (
+      <footer class="post-footer">
+        <div class="tags">
+          {tags.map(tag => (
+            <a href={`/tags/${tag}/`} class="tag">{tag}</a>
+          ))}
+        </div>
+        {updatedDate && (
+          <p class="updated">
+            Last updated: <time datetime={updatedDate.toISOString()}>{formatDate(updatedDate)}</time>
+          </p>
+        )}
+      </footer>
+    )}
+  </article>
+
+  <style>
+    article {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    img {
+      margin: 2rem 0;
+      border-radius: 8px;
+    }
+
+    .post-meta {
+      display: flex;
+      gap: 1rem;
+      color: #666;
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+    }
+
+    .category {
+      display: inline-block;
+      background-color: #f0f0f0;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+    }
+
+    .post-content {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin: 2rem 0;
+    }
+
+    .post-footer {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid #eee;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .tag {
+      display: inline-block;
+      background-color: #f0f0f0;
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      text-decoration: none;
+    }
+
+    .tag:hover {
+      background-color: #e0e0e0;
+      text-decoration: none;
+    }
+
+    .updated {
+      font-size: 0.9rem;
+      color: #666;
+      margin: 0;
+    }
+  </style>
+</BaseLayout>
