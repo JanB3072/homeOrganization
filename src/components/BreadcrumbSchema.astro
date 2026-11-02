@@ -74,7 +74,7 @@ const schema = {
 ---
 
 <!-- Breadcrumb Navigation -->
-<nav aria-label="Breadcrumb" class="breadcrumb-nav">
+<nav aria-label="Breadcrumb" class="breadcrumb-bar">
   <ol class="breadcrumb-list">
     {breadcrumbs.map((item, index) => (
       <li class="breadcrumb-item" key={index}>
@@ -95,7 +95,7 @@ const schema = {
 <script type="application/ld+json" set:html={JSON.stringify(schema)} />
 
 <style>
-  .breadcrumb-nav {
+  .breadcrumb-bar {
     margin: 0;
     padding: 0;
     border-bottom: 1px solid var(--color-border);
@@ -147,7 +147,7 @@ const schema = {
   }
 
   @media (max-width: 768px) {
-    .breadcrumb-nav {
+    .breadcrumb-bar {
       margin: 0;
       padding: 0;
     }
