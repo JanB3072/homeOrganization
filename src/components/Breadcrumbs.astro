@@ -25,20 +25,20 @@ const breadcrumbSchema = {
 };
 ---
 
-<nav aria-label="Breadcrumb navigation">
+<nav aria-label="Breadcrumb navigation" style="margin: 0; padding: 0; border: none;">
   <ol style="display: flex; gap: 0.5rem; flex-wrap: wrap; list-style: none; margin: 0; padding: 0;">
     {items.map((item, index) => (
-      <li style="display: flex; align-items: center; gap: 0.5rem;">
+      <li style="display: flex; align-items: center; gap: 0.5rem; margin: 0; padding: 0;">
         <a 
           href={item.url}
-          style="color: var(--color-primary); text-decoration: none;"
+          style="color: var(--color-primary); text-decoration: none; line-height: 1;"
           onmouseover="this.style.textDecoration='underline'"
           onmouseout="this.style.textDecoration='none'"
         >
           {item.name}
         </a>
         {index < items.length - 1 && (
-          <span style="color: var(--color-border);">/</span>
+          <span style="color: var(--color-border); line-height: 1;">/</span>
         )}
       </li>
     ))}
@@ -46,11 +46,3 @@ const breadcrumbSchema = {
 </nav>
 
 <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
-
-<style>
-  nav {
-    margin-bottom: 0.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--color-border);
-  }
-</style>
