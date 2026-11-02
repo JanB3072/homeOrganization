@@ -2,9 +2,14 @@
 title: "How to Organize a Small Kitchen Pantry – Real Setup with Measurements"
 description: "Real pantry organization for small kitchens. See my actual setup, costs, dimensions, and what worked after 3 months of testing."
 pubDate: 2024-02-15
+updatedDate: 2024-02-20
 category: "Kitchen"
-tags: ["pantry-organization", "small-kitchen", "apartment-living", "storage-solutions"]
+subcategory: "Pantry"
+tags: ["pantry-organization", "small-kitchen", "apartment-living", "storage-solutions", "diy-solutions"]
+keywords: ["kitchen pantry organization", "small apartment storage", "pantry containers"]
 image: "/assets/images/pantry-example.jpg"
+featured: false
+draft: false
 ---
 
 ## The Problem I Had

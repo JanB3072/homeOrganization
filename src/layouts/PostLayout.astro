@@ -12,11 +12,13 @@ interface Props {
   pubDate?: Date;
   updatedDate?: Date;
   category?: string;
+  subcategory?: string;
   tags?: string[];
   image?: string;
+  breadcrumbs?: Array<{ name: string; path: string }>;
 }
 
-const { title, description, author, pubDate, updatedDate, category, tags, image } = Astro.props;
+const { title, description, author, pubDate, updatedDate, category, subcategory, tags, image } = Astro.props;
 
 // Format date for display
 const formatDate = (date: Date) => {
@@ -30,7 +32,8 @@ const formatDate = (date: Date) => {
 // Breadcrumb items
 const breadcrumbs = [
   { name: 'Home', url: '/' },
-  ...(category ? [{ name: category, url: `/${category.toLowerCase()}/` }] : []),
+  ...(category ? [{ name: category, url: `/${category.toLowerCase().replace(/\s+/g, '-')}/` }] : []),
+  ...(subcategory ? [{ name: subcategory, url: '#' }] : []),
   { name: title, url: Astro.url.href },
 ];
 ---

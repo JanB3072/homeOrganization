@@ -1,0 +1,33 @@
+---
+import { getSubcategoryPaginated } from '../../../utils/content';
+import SubcategoryLayout from '../../../layouts/SubcategoryLayout.astro';
+
+export async function getStaticPaths() {
+  const firstPage = await getSubcategoryPaginated('Kitchen', 'Pantry', 1);
+  
+  const paths = [];
+  for (let page = 1; page <= firstPage.totalPages; page++) {
+    paths.push({
+      params: { page: page === 1 ? undefined : String(page) },
+      props: { page },
+    });
+  }
+  
+  return paths;
+}
+
+interface Props {
+  page: number;
+}
+
+const page = Astro.props.page || 1;
+const data = await getSubcategoryPaginated('Kitchen', 'Pantry', page);
+---
+
+<SubcategoryLayout 
+  category="Kitchen"
+  subcategory="Pantry"
+  posts={data.posts}
+  currentPage={data.currentPage}
+  totalPages={data.totalPages}
+/>

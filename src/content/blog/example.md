@@ -3,8 +3,12 @@ title: "I Installed Pull-Out Baskets in My Deep Pantry – 3 Month Honest Review
 description: "Real experience with pull-out organizers in a 30cm deep pantry: what worked, what didn't, and if I'd do it again"
 pubDate: 2024-01-15
 category: "Kitchen"
-tags: ["pantry-organization", "storage-baskets", "deep-shelves"]
+subcategory: "Pantry"
+tags: ["pantry-organization", "storage-baskets", "deep-shelves", "diy-solutions"]
+keywords: ["pull out pantry baskets", "deep pantry organization"]
 image: "/assets/images/pantry-example.jpg"
+featured: false
+draft: false
 ---
 
 ## Why I Needed to Organize My Pantry
