@@ -1,0 +1,277 @@
+---
+// Sidebar component for post pages with popular articles, related articles, and tags
+
+import { getAllTags, getFeaturedPosts } from '../utils/content';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  currentSlug?: string;
+  relatedPosts?: CollectionEntry<'blog'>[];
+  category?: string;
+  tags?: string[];
+}
+
+const { currentSlug, relatedPosts = [], category, tags = [] } = Astro.props;
+
+// Get featured/popular posts
+const featuredPosts = await getFeaturedPosts(5);
+
+// Get all tags for tag cloud
+const allTags = await getAllTags();
+const topTags = allTags.slice(0, 8);
+
+// Filter featured posts to exclude current post
+const sidebarFeaturedPosts = featuredPosts
+  .filter(p => p.slug !== currentSlug)
+  .slice(0, 4);
+---
+
+<aside class="post-sidebar">
+  <!-- Popular Articles Section -->
+  <div class="sidebar-section">
+    <h3 class="sidebar-title">🌟 热门文章</h3>
+    <ul class="article-list">
+      {sidebarFeaturedPosts.map(post => (
+        <li>
+          <a href={`/blog/${post.slug}/`} class="article-link">
+            {post.data.title}
+          </a>
+          <span class="article-date">
+            {post.data.pubDate.toLocaleDateString('zh-CN', { 
+              month: 'short', 
+              day: 'numeric' 
+            })}
+          </span>
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  <!-- Related Articles Section -->
+  {relatedPosts && relatedPosts.length > 0 && (
+    <div class="sidebar-section">
+      <h3 class="sidebar-title">🔗 相关文章</h3>
+      <ul class="article-list">
+        {relatedPosts.map(post => (
+          <li>
+            <a href={`/blog/${post.slug}/`} class="article-link">
+              {post.data.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+
+  <!-- Popular Tags Section -->
+  <div class="sidebar-section">
+    <h3 class="sidebar-title">🏷️ 热门标签</h3>
+    <div class="tag-cloud">
+      {topTags.map(([tag, count]) => (
+        <a 
+          href={`/tags/${tag}/`} 
+          class="tag-cloud-item"
+          title={`${count} articles`}
+          style={{
+            fontSize: `${0.85 + (count / Math.max(...topTags.map(t => t[1]))) * 0.4}rem`,
+            opacity: 0.7 + (count / Math.max(...topTags.map(t => t[1]))) * 0.3
+          }}
+        >
+          {tag}
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <!-- Category Articles Section -->
+  {category && (
+    <div class="sidebar-section">
+      <h3 class="sidebar-title">📂 {category}</h3>
+      <p class="sidebar-cta">
+        <a href={`/${category.toLowerCase().replace(/\s+/g, '-')}/`} class="cta-link">
+          查看此分类的所有文章 →
+        </a>
+      </p>
+    </div>
+  )}
+
+  <!-- CTA Section -->
+  <div class="sidebar-section cta-section">
+    <h3 class="sidebar-title">💡 提示</h3>
+    <p class="sidebar-text">
+      使用搜索功能快速查找相关内容
+    </p>
+    <a href="/search/" class="sidebar-button">前往搜索</a>
+  </div>
+</aside>
+
+<style>
+  .post-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: sticky;
+    top: 80px;
+  }
+
+  .sidebar-section {
+    background: var(--color-card-bg, #ffffff);
+    border: 1px solid var(--color-border, #e5e7eb);
+    border-radius: 8px;
+    padding: 1.25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+
+  .sidebar-section:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-color: var(--color-primary, #3b82f6);
+  }
+
+  .sidebar-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+    color: var(--color-text, #1f2937);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  /* Article List */
+  .article-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .article-list li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .article-link {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: var(--color-primary, #3b82f6);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+
+  .article-link:hover {
+    color: var(--color-primary-dark, #1e40af);
+    text-decoration: underline;
+  }
+
+  .article-date {
+    font-size: 0.75rem;
+    color: var(--color-text-light, #6b7280);
+  }
+
+  /* Tag Cloud */
+  .tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .tag-cloud-item {
+    display: inline-block;
+    padding: 0.4rem 0.75rem;
+    background: linear-gradient(135deg, var(--color-primary-light, #dbeafe), var(--color-primary, #3b82f6));
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+  }
+
+  .tag-cloud-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(59, 130, 246, 0.3);
+  }
+
+  /* Category and CTA */
+  .sidebar-cta,
+  .sidebar-text {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--color-text, #1f2937);
+    line-height: 1.5;
+  }
+
+  .cta-link {
+    color: var(--color-primary, #3b82f6);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+
+  .cta-link:hover {
+    text-decoration: underline;
+    color: var(--color-primary-dark, #1e40af);
+  }
+
+  .cta-section {
+    background: linear-gradient(135deg, var(--color-primary-light, #dbeafe), var(--color-primary-very-light, #f0f9ff));
+    border-color: var(--color-primary, #3b82f6);
+  }
+
+  .sidebar-button {
+    display: inline-block;
+    margin-top: 0.75rem;
+    padding: 0.5rem 1rem;
+    background: var(--color-primary, #3b82f6);
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+  }
+
+  .sidebar-button:hover {
+    background: var(--color-primary-dark, #1e40af);
+    transform: translateY(-2px);
+  }
+
+  /* Dark Mode Support */
+  :global(.dark) .sidebar-section {
+    background: var(--color-card-bg, #1f2937);
+    border-color: var(--color-border, #374151);
+  }
+
+  :global(.dark) .sidebar-title {
+    color: var(--color-text, #f3f4f6);
+  }
+
+  :global(.dark) .article-link {
+    color: #60a5fa;
+  }
+
+  :global(.dark) .article-link:hover {
+    color: #93c5fd;
+  }
+
+  :global(.dark) .article-date {
+    color: var(--color-text-light, #9ca3af);
+  }
+
+  :global(.dark) .cta-section {
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.05));
+  }
+
+  /* Responsive */
+  @media (max-width: 1024px) {
+    .post-sidebar {
+      position: relative;
+      top: 0;
+    }
+  }
+</style>

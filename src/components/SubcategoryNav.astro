@@ -1,0 +1,151 @@
+---
+// Subcategory navigation component for category pages
+
+import { getPostsByCategory } from '../utils/content';
+
+interface Props {
+  category: string;
+  currentSubcategory?: string;
+}
+
+const { category, currentSubcategory } = Astro.props;
+
+// Get all posts in this category
+const posts = await getPostsByCategory(category);
+
+// Get unique subcategories with count
+const subcategoryMap = new Map<string, number>();
+posts.forEach(post => {
+  if (post.data.subcategory) {
+    subcategoryMap.set(
+      post.data.subcategory,
+      (subcategoryMap.get(post.data.subcategory) || 0) + 1
+    );
+  }
+});
+
+// Sort by count (descending)
+const subcategories = Array.from(subcategoryMap.entries())
+  .sort((a, b) => b[1] - a[1]);
+
+const categorySlug = category.toLowerCase().replace(/\s+/g, '-');
+---
+
+<nav class="subcategory-nav">
+  <div class="subcategory-label">📂 子分类</div>
+  <ul class="subcategory-list">
+    <li>
+      <a 
+        href={`/${categorySlug}/`}
+        class={`subcategory-link ${!currentSubcategory ? 'active' : ''}`}
+      >
+        全部 <span class="count">({posts.length})</span>
+      </a>
+    </li>
+    {subcategories.map(([subcategory, count]) => (
+      <li>
+        <a 
+          href={`/${categorySlug}/#${subcategory.toLowerCase().replace(/\s+/g, '-')}`}
+          class={`subcategory-link ${currentSubcategory === subcategory ? 'active' : ''}`}
+        >
+          {subcategory} <span class="count">({count})</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>
+
+<style>
+  .subcategory-nav {
+    background: var(--color-card-bg, #ffffff);
+    border: 1px solid var(--color-border, #e5e7eb);
+    border-radius: 8px;
+    padding: 1.25rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  }
+
+  .subcategory-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--color-text, #1f2937);
+  }
+
+  .subcategory-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0.5rem;
+  }
+
+  .subcategory-link {
+    display: inline-block;
+    padding: 0.6rem 0.9rem;
+    background: var(--color-tag-bg, #f3f4f6);
+    color: var(--color-text, #1f2937);
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .subcategory-link:hover {
+    background: var(--color-primary-light, #dbeafe);
+    color: var(--color-primary, #3b82f6);
+  }
+
+  .subcategory-link.active {
+    background: var(--color-primary, #3b82f6);
+    color: white;
+  }
+
+  .count {
+    font-size: 0.8rem;
+    opacity: 0.8;
+  }
+
+  /* Dark Mode */
+  :global(.dark) .subcategory-nav {
+    background: var(--color-card-bg, #1f2937);
+    border-color: var(--color-border, #374151);
+  }
+
+  :global(.dark) .subcategory-label {
+    color: var(--color-text, #f3f4f6);
+  }
+
+  :global(.dark) .subcategory-link {
+    background: rgba(107, 114, 128, 0.2);
+    color: var(--color-text, #e5e7eb);
+  }
+
+  :global(.dark) .subcategory-link:hover {
+    background: rgba(59, 130, 246, 0.2);
+    color: #60a5fa;
+  }
+
+  :global(.dark) .subcategory-link.active {
+    background: var(--color-primary, #3b82f6);
+    color: white;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .subcategory-list {
+      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+  }
+
+  @media (max-width: 480px) {
+    .subcategory-list {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

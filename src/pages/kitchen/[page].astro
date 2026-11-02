@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import Pagination from '../../components/Pagination.astro';
+import SubcategoryNav from '../../components/SubcategoryNav.astro';
 import { getPostsByCategory, getPaginatedPosts } from '../../utils/content';
 
 interface Props {
@@ -64,6 +65,9 @@ const canonicalUrl = page === 1
         {totalPages > 1 && ` • Page ${page} of ${totalPages}`}
       </p>
     </div>
+
+    <!-- Subcategory Navigation -->
+    <SubcategoryNav category="Kitchen" />
 
     {posts.length > 0 ? (
       <>

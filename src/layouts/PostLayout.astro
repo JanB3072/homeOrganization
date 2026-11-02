@@ -4,6 +4,7 @@
 import BaseLayout from './BaseLayout.astro';
 import SchemaOrg from '../components/SchemaOrg.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
+import PostSidebar from '../components/PostSidebar.astro';
 
 interface Props {
   title: string;
@@ -16,9 +17,11 @@ interface Props {
   tags?: string[];
   image?: string;
   breadcrumbs?: Array<{ name: string; path: string }>;
+  relatedPosts?: any[];
+  currentSlug?: string;
 }
 
-const { title, description, author, pubDate, updatedDate, category, subcategory, tags, image } = Astro.props;
+const { title, description, author, pubDate, updatedDate, category, subcategory, tags, image, relatedPosts, currentSlug } = Astro.props;
 
 // Format date for display
 const formatDate = (date: Date) => {
@@ -59,102 +62,215 @@ const breadcrumbs = [
   
   <!-- Breadcrumb Navigation -->
   <Breadcrumbs items={breadcrumbs} />
-  <article>
-    {image && <img src={image} alt={title} />}
-    
-    <header>
-      <h1>{title}</h1>
+  
+  <div class="post-container">
+    <!-- Main Article Content -->
+    <article class="post-main">
+      {image && <img src={image} alt={title} class="post-hero-image" />}
       
-      <div class="post-meta">
-        {pubDate && <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>}
-        {category && <span class="category">{category}</span>}
-      </div>
-    </header>
-
-    <div class="post-content">
-      <slot />
-    </div>
-
-    {tags && tags.length > 0 && (
-      <footer class="post-footer">
-        <div class="tags">
-          {tags.map(tag => (
-            <a href={`/tags/${tag}/`} class="tag">{tag}</a>
-          ))}
+      <header>
+        <h1>{title}</h1>
+        
+        <div class="post-meta">
+          {pubDate && <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>}
+          {category && <span class="category">{category}</span>}
+          {subcategory && <span class="subcategory">{subcategory}</span>}
         </div>
-        {updatedDate && (
-          <p class="updated">
-            Last updated: <time datetime={updatedDate.toISOString()}>{formatDate(updatedDate)}</time>
-          </p>
-        )}
-      </footer>
-    )}
-  </article>
+      </header>
+
+      <div class="post-content">
+        <slot />
+      </div>
+
+      {tags && tags.length > 0 && (
+        <footer class="post-footer">
+          <div class="tags">
+            {tags.map(tag => (
+              <a href={`/tags/${tag}/`} class="tag">{tag}</a>
+            ))}
+          </div>
+          {updatedDate && (
+            <p class="updated">
+              Last updated: <time datetime={updatedDate.toISOString()}>{formatDate(updatedDate)}</time>
+            </p>
+          )}
+        </footer>
+      )}
+    </article>
+
+    <!-- Sidebar -->
+    <PostSidebar 
+      currentSlug={currentSlug}
+      relatedPosts={relatedPosts}
+      category={category}
+      tags={tags}
+    />
+  </div>
 
   <style>
-    article {
-      max-width: 900px;
+    .post-container {
+      display: grid;
+      grid-template-columns: 1fr 320px;
+      gap: 2rem;
+      max-width: 1200px;
       margin: 0 auto;
     }
 
-    img {
+    .post-main {
+      width: 100%;
+    }
+
+    .post-hero-image {
+      width: 100%;
       margin: 2rem 0;
-      border-radius: 8px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+      margin-bottom: 2rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      line-height: 1.2;
+      margin: 0 0 1rem 0;
+      color: var(--color-text, #1f2937);
     }
 
     .post-meta {
       display: flex;
+      flex-wrap: wrap;
       gap: 1rem;
-      color: #666;
+      color: var(--color-text-light, #6b7280);
       font-size: 0.95rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
 
-    .category {
+    .post-meta time {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .post-meta time::before {
+      content: '📅';
+    }
+
+    .category,
+    .subcategory {
       display: inline-block;
-      background-color: #f0f0f0;
-      padding: 0.25rem 0.75rem;
+      background-color: var(--color-tag-bg, #f3f4f6);
+      color: var(--color-primary, #3b82f6);
+      padding: 0.4rem 0.9rem;
       border-radius: 20px;
       font-size: 0.85rem;
+      font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .category:hover,
+    .subcategory:hover {
+      background-color: var(--color-primary, #3b82f6);
+      color: white;
     }
 
     .post-content {
       font-size: 1.1rem;
       line-height: 1.8;
       margin: 2rem 0;
+      color: var(--color-text, #1f2937);
+    }
+
+    .post-content > * + * {
+      margin-top: 1.5rem;
     }
 
     .post-footer {
       margin-top: 3rem;
       padding-top: 2rem;
-      border-top: 1px solid #eee;
+      border-top: 1px solid var(--color-border, #e5e7eb);
     }
 
     .tags {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem;
+      gap: 0.75rem;
       margin-bottom: 1rem;
     }
 
     .tag {
       display: inline-block;
-      background-color: #f0f0f0;
-      padding: 0.25rem 0.75rem;
+      background: linear-gradient(135deg, var(--color-primary-light, #dbeafe), var(--color-primary, #3b82f6));
+      color: white;
+      padding: 0.5rem 1rem;
       border-radius: 20px;
       font-size: 0.85rem;
       text-decoration: none;
+      font-weight: 500;
+      transition: all 0.2s ease;
     }
 
     .tag:hover {
-      background-color: #e0e0e0;
-      text-decoration: none;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(59, 130, 246, 0.3);
     }
 
     .updated {
       font-size: 0.9rem;
-      color: #666;
+      color: var(--color-text-light, #6b7280);
       margin: 0;
+    }
+
+    /* Dark Mode */
+    :global(.dark) header h1 {
+      color: var(--color-text, #f3f4f6);
+    }
+
+    :global(.dark) .post-content {
+      color: var(--color-text, #e5e7eb);
+    }
+
+    :global(.dark) .category,
+    :global(.dark) .subcategory {
+      background-color: rgba(59, 130, 246, 0.1);
+      color: #60a5fa;
+    }
+
+    :global(.dark) .post-hero-image {
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .post-container {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+      }
+
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .post-meta {
+        gap: 0.75rem;
+      }
+    }
+
+    @media (max-width: 640px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      .post-meta {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+
+      .post-content {
+        font-size: 1rem;
+      }
     }
   </style>
 </BaseLayout>
