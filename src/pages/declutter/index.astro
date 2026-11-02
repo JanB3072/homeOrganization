@@ -1,111 +1,68 @@
 ---
-// Declutter & Habits category page
+// Declutter category page
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getPostsByCategory } from '../../utils/content';
 
-const subcategories = [
-  { 
-    name: 'Decluttering Methods', 
-    slug: 'declutter', 
-    icon: '🧹',
-    description: 'Method comparison, room-by-room approach, and donation resources' 
-  },
-  { 
-    name: 'Maintenance Routines', 
-    slug: 'routines', 
-    icon: '📅',
-    description: 'Weekly resets, seasonal tidying, and monthly reviews' 
-  },
-  { 
-    name: 'Moving & Packing', 
-    slug: 'moving', 
-    icon: '📦',
-    description: 'Packing systems, box labeling, and moving day tips' 
-  }
-];
+const declutterPosts = await getPostsByCategory('Declutter');
 ---
 
 <BaseLayout 
-  title="Declutter & Habits - Organization Maintenance" 
-  description="Decluttering methods, maintenance routines, and moving tips. Learn how to keep your space organized long-term."
+  title="Decluttering Methods & Tips - Organization Routines" 
+  description="Decluttering strategies: minimalism methods, moving tips, and maintenance routines to keep your home organized long-term."
 >
   <!-- Hero Section -->
   <section style="margin-bottom: 3rem;">
-    <div style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); padding: 3rem 2rem; border-radius: 1rem; text-align: center;">
-      <h1 style="color: #92400e; margin-bottom: 1rem;">✨ Declutter & Habits</h1>
+    <div style="background: linear-gradient(135deg, #fef08a 0%, #fde047 100%); padding: 3rem 2rem; border-radius: 1rem; text-align: center;">
+      <h1 style="color: #854d0e; margin-bottom: 1rem;">✨ Decluttering</h1>
       <p style="color: #b45309; font-size: 1.1rem; max-width: 600px; margin: 0 auto; line-height: 1.8;">
-        Organization isn't a one-time project—it's a practice. Here's how I maintain my space through daily habits, seasonal resets, and smart systems.
+        Getting organized starts with decluttering. Here are the methods that actually work and how I maintain my organized spaces long-term.
       </p>
     </div>
   </section>
 
-  <!-- Subcategories Grid -->
-  <section style="margin-bottom: 4rem;">
-    <h2 style="text-align: center; margin-bottom: 2.5rem; font-size: 1.8rem;">Master Your Habits</h2>
-    
-    <div style="
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-    ">
-      {subcategories.map((sub) => (
-        <a 
-          href={`/declutter/${sub.slug}/`}
-          style="
-            display: block;
-            padding: 2rem;
-            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
-            border: 2px solid var(--color-border);
-            border-radius: 1rem;
-            text-decoration: none;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            position: relative;
-            overflow: hidden;
-          "
-          onmouseenter="this.style.borderColor='#eab308'; this.style.transform='translateY(-6px)'; this.style.boxShadow='0 20px 25px -5px rgba(0, 0, 0, 0.1)';"
-          onmouseleave="this.style.borderColor='var(--color-border)'; this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 2px 0 rgba(0, 0, 0, 0.05)';"
-        >
-          <div style="font-size: 2.5rem; margin-bottom: 1rem;">{sub.icon}</div>
-          <h3 style="color: var(--color-text); margin: 0.5rem 0; font-size: 1.2rem;">{sub.name}</h3>
-          <p style="color: var(--color-text-light); margin: 0; font-size: 0.95rem; line-height: 1.5;">
-            {sub.description}
-          </p>
-        </a>
-      ))}
-    </div>
-  </section>
-
-  <!-- Info Section -->
-  <section style="
-    background: linear-gradient(135deg, #fde68a 0%, #fef3c7 100%);
-    padding: 3rem 2rem;
-    border-radius: 1rem;
-    border-left: 4px solid #f59e0b;
-    margin-bottom: 3rem;
-  ">
-    <h2 style="color: #b45309; margin-top: 0; font-size: 1.5rem;">💡 Long-Term Success Tips</h2>
-    <ul style="color: var(--color-text-light); line-height: 1.8;">
-      <li>Weekly maintenance - 15 minutes beats one big session a month</li>
-      <li>One in, one out - prevent accumulation</li>
-      <li>Seasonal resets - adjust storage for changing needs</li>
-      <li>Donation systems - make it easy to let go</li>
-      <li>Regular review - monthly check-ins prevent chaos</li>
-    </ul>
-  </section>
-
-  <!-- Articles Coming Soon -->
+  <!-- Articles -->
   <section>
     <h2 style="margin-bottom: 2rem;">📝 Latest Articles</h2>
-    <div style="
-      padding: 3rem 2rem;
-      text-align: center;
-      background: var(--color-bg-light);
-      border-radius: 1rem;
-      border: 2px dashed var(--color-border);
-    ">
-      <p style="margin: 0; color: var(--color-text-light); font-size: 1.05rem;">
-        Decluttering and maintenance articles coming soon!
-      </p>
-    </div>
+    {declutterPosts.length > 0 ? (
+      <div style="display: grid; gap: 1.5rem;">
+        {declutterPosts.map(post => (
+          <article style="
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            border: 1px solid var(--color-border);
+            border-radius: 0.75rem;
+            transition: all 0.3s ease;
+          "
+          onmouseenter="this.style.borderColor='var(--color-primary)'; this.style.boxShadow='0 10px 15px -3px rgba(0, 0, 0, 0.1)';"
+          onmouseleave="this.style.borderColor='var(--color-border)'; this.style.boxShadow='0 1px 2px 0 rgba(0, 0, 0, 0.05)';">
+            <a href={`/blog/${post.slug}/`} style="text-decoration: none; color: inherit;">
+              <h3 style="margin: 0 0 0.5rem 0; color: var(--color-text);">{post.data.title}</h3>
+            </a>
+            <p style="color: var(--color-text-light); margin: 0.5rem 0 1rem 0; line-height: 1.6;">
+              {post.data.description}
+            </p>
+            <div style="display: flex; gap: 1.5rem; font-size: 0.9rem; color: var(--color-text-light);">
+              <span>📅 {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+              <a href={`/blog/${post.slug}/`} style="color: var(--color-primary); text-decoration: none; margin-left: auto;">
+                Read More →
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+    ) : (
+      <div style="
+        padding: 3rem 2rem;
+        text-align: center;
+        background: var(--color-bg-light);
+        border-radius: 1rem;
+        border: 2px dashed var(--color-border);
+      ">
+        <p style="margin: 0; color: var(--color-text-light); font-size: 1.05rem;">
+          No Declutter articles yet. Check back soon!
+        </p>
+      </div>
+    )}
   </section>
 </BaseLayout>

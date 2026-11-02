@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout 
+  title="Page Not Found - 404"
+  description="The page you're looking for doesn't exist."
+>
+  <section style="text-align: center; padding: 4rem 2rem;">
+    <h1 style="font-size: 4rem; margin-bottom: 1rem; background: linear-gradient(135deg, #2563eb, #1e40af); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+      404
+    </h1>
+    <h2 style="font-size: 2rem; margin-bottom: 1rem; color: var(--color-text);">Page Not Found</h2>
+    <p style="font-size: 1.2rem; color: var(--color-text-light); margin-bottom: 2rem; max-width: 500px; margin-left: auto; margin-right: auto; line-height: 1.8;">
+      Oops! The page you're looking for doesn't exist. It might have been moved or deleted.
+    </p>
+    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+      <a href="/" style="
+        display: inline-block;
+        padding: 0.75rem 2rem;
+        background: var(--color-primary);
+        color: white;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      "
+      onmouseenter="this.style.backgroundColor='var(--color-primary-dark)';"
+      onmouseleave="this.style.backgroundColor='var(--color-primary)';">
+        ← Back to Home
+      </a>
+      <a href="/tags/" style="
+        display: inline-block;
+        padding: 0.75rem 2rem;
+        background: var(--color-bg-light);
+        color: var(--color-primary);
+        border: 1px solid var(--color-border);
+        border-radius: 0.5rem;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      "
+      onmouseenter="this.style.backgroundColor='var(--color-border)';"
+      onmouseleave="this.style.backgroundColor='var(--color-bg-light)';">
+        Browse Articles
+      </a>
+    </div>
+  </section>
+</BaseLayout>
