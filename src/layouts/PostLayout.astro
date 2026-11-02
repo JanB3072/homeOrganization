@@ -56,7 +56,7 @@ const formatDate = (date: Date) => {
     <article class="post-main">
       {image && <img src={image} alt={title} class="post-hero-image" />}
       
-      <header>
+      <div class="article-header">
         <h1>{title}</h1>
         
         <div class="post-meta">
@@ -64,7 +64,7 @@ const formatDate = (date: Date) => {
           {category && <span class="category">{category}</span>}
           {subcategory && <span class="subcategory">{subcategory}</span>}
         </div>
-      </header>
+      </div>
 
       <div class="post-content">
         <slot />
@@ -115,11 +115,11 @@ const formatDate = (date: Date) => {
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
 
-    header {
+    .article-header {
       margin-bottom: 0.5rem;
     }
 
-    header h1 {
+    .article-header h1 {
       font-size: 2.5rem;
       font-weight: 700;
       line-height: 1.2;
