@@ -1,0 +1,211 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import Pagination from '../../components/Pagination.astro';
+import { getPostsByCategory, getPaginatedPosts } from '../../utils/content';
+
+interface Props {
+  params: {
+    page: string;
+  };
+}
+
+const page = parseInt(Astro.params.page || '1', 10);
+const perPage = 12;
+
+// Get all kitchen posts
+const allPosts = await getPostsByCategory('Kitchen');
+const totalPages = Math.ceil(allPosts.length / perPage);
+
+// Validate page number
+if (page < 1 || page > totalPages) {
+  return Astro.redirect('/kitchen/');
+}
+
+const startIdx = (page - 1) * perPage;
+const posts = allPosts.slice(startIdx, startIdx + perPage);
+
+// Generate static paths
+export async function getStaticPaths() {
+  const allKitchenPosts = await getPostsByCategory('Kitchen');
+  const totalPages = Math.ceil(allKitchenPosts.length / 12);
+
+  return Array.from({ length: totalPages }, (_, i) => ({
+    params: { page: String(i + 1) },
+  }));
+}
+
+// SEO metadata
+const title = page === 1 
+  ? 'Kitchen Organization - Home Organization Blog'
+  : `Kitchen Organization - Page ${page} - Home Organization Blog`;
+
+const description = page === 1
+  ? 'Explore our collection of kitchen organization ideas. Pantry, fridge, and cabinet organization tips with real measurements.'
+  : `Kitchen organization articles page ${page}. Browse all our kitchen storage and organization solutions.`;
+
+const canonicalUrl = page === 1 
+  ? `${Astro.url.origin}/kitchen/`
+  : `${Astro.url.origin}/kitchen/${page}/`;
+---
+
+<BaseLayout 
+  title={title}
+  description={description}
+>
+  <section class="category-section">
+    <div class="category-header">
+      <h1 class="category-title">🍳 Kitchen Organization</h1>
+      <p class="category-description">
+        Pantry, fridge & cabinet organization tips with real measurements and costs.
+      </p>
+      <p class="category-count">
+        {allPosts.length} articles in this category
+        {totalPages > 1 && ` • Page ${page} of ${totalPages}`}
+      </p>
+    </div>
+
+    {posts.length > 0 ? (
+      <>
+        <div class="articles-grid">
+          {posts.map((post, index) => (
+            <div class="article-wrapper" style={`animation-delay: ${index * 50}ms`}>
+              <ArticleCard
+                title={post.data.title}
+                description={post.data.description}
+                url={post.url}
+                tags={post.data.tags}
+                category={post.data.category}
+                date={post.data.pubDate}
+                readingTime={post.data.readingTime || 5}
+              />
+            </div>
+          ))}
+        </div>
+
+        {totalPages > 1 && (
+          <Pagination
+            currentPage={page}
+            totalPages={totalPages}
+            baseUrl="/kitchen/"
+            prevUrl={page > 1 ? `/kitchen/${page > 2 ? page - 1 : ''}` : undefined}
+            nextUrl={page < totalPages ? `/kitchen/${page + 1}` : undefined}
+          />
+        )}
+      </>
+    ) : (
+      <div class="empty-state">
+        <p>No articles found in this category yet.</p>
+      </div>
+    )}
+  </section>
+
+  <!-- Canonical URL for pagination -->
+  <link rel="canonical" href={canonicalUrl} />
+  
+  <!-- Pagination rel tags for Google -->
+  {page > 1 && (
+    <link rel="prev" href={page > 2 ? `/kitchen/${page - 1}/` : '/kitchen/'} />
+  )}
+  {page < totalPages && (
+    <link rel="next" href={`/kitchen/${page + 1}/`} />
+  )}
+</BaseLayout>
+
+<style>
+  .category-section {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .category-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .category-title {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    margin-bottom: 1rem;
+    color: var(--color-text);
+  }
+
+  .category-description {
+    font-size: 1.1rem;
+    color: var(--color-text-light);
+    max-width: 600px;
+    margin: 0 auto 1rem;
+    line-height: 1.8;
+  }
+
+  .category-count {
+    font-size: 0.95rem;
+    color: var(--color-secondary);
+    margin: 0;
+  }
+
+  .articles-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .article-wrapper {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: var(--color-bg-light);
+    border-radius: var(--radius-lg);
+    border: 1px dashed var(--color-border);
+  }
+
+  .empty-state p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 1.05rem;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .category-header {
+      padding: 1.5rem 0;
+      margin-bottom: 2rem;
+    }
+
+    .category-title {
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .category-description {
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .articles-grid {
+      gap: 1.25rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .category-section,
+    .article-wrapper {
+      animation: none;
+    }
+  }
+</style>

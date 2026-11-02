@@ -1,10 +1,17 @@
 ---
-// Kitchen category page - Beautiful and modern
+// Kitchen category page - Beautiful and modern with pagination
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import Pagination from '../../components/Pagination.astro';
 import { getPostsByCategory } from '../../utils/content';
 
 const kitchenPosts = await getPostsByCategory('Kitchen');
+const perPage = 12;
+const totalPages = Math.ceil(kitchenPosts.length / perPage);
+
+// First page articles
+const firstPagePosts = kitchenPosts.slice(0, perPage);
 
 const subcategories = [
   { 
@@ -39,6 +46,11 @@ const subcategories = [
       <p style="color: #b45309; font-size: 1.1rem; max-width: 600px; margin: 0 auto; line-height: 1.8;">
         The kitchen is where the most chaos happens. Here's my complete breakdown of how I organized my pantry, fridge, and cabinets—with real photos and measurements.
       </p>
+      {kitchenPosts.length > 0 && (
+        <p style="color: #b45309; margin-top: 1rem; font-size: 0.95rem;">
+          📚 {kitchenPosts.length} articles available
+        </p>
+      )}
     </div>
   </section>
 
@@ -78,6 +90,38 @@ const subcategories = [
     </div>
   </section>
 
+  <!-- Latest Kitchen Articles -->
+  {firstPagePosts.length > 0 && (
+    <section style="margin-bottom: 4rem;">
+      <h2 style="margin-bottom: 2rem; font-size: 1.8rem;">Latest Articles</h2>
+      
+      <div style="display: grid; gap: 1.5rem; margin-bottom: 2rem;">
+        {firstPagePosts.map((post, index) => (
+          <div style={`animation-delay: ${index * 50}ms; animation: fadeInUp 0.6s ease-out forwards; opacity: 0;`}>
+            <ArticleCard
+              title={post.data.title}
+              description={post.data.description}
+              url={post.url}
+              tags={post.data.tags}
+              category={post.data.category}
+              date={post.data.pubDate}
+              readingTime={post.data.readingTime || 5}
+            />
+          </div>
+        ))}
+      </div>
+
+      {totalPages > 1 && (
+        <Pagination
+          currentPage={1}
+          totalPages={totalPages}
+          baseUrl="/kitchen/"
+          nextUrl="/kitchen/2"
+        />
+      )}
+    </section>
+  )}
+
   <!-- Info Section -->
   <section style="
     background: linear-gradient(135deg, #f0f9ff 0%, #f0fdf4 100%);
@@ -96,8 +140,27 @@ const subcategories = [
     </ul>
   </section>
 
-  <!-- Articles Coming Soon -->
-  <section>
+  <style>
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      :global(div[style*="animation"]) {
+        animation: none !important;
+      }
+    }
+  </style>
+</BaseLayout>
+
+
     <h2 style="margin-bottom: 2rem;">📝 Latest Articles</h2>
     {kitchenPosts.length > 0 ? (
       <div style="display: grid; gap: 1.5rem;">

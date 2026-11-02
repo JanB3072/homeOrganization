@@ -2,6 +2,7 @@
 // Professional base layout with modern design, great UX, and complete SEO optimization
 
 import SchemaOrg from '../components/SchemaOrg.astro';
+import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
 
 interface Props {
   title: string;
@@ -583,6 +584,7 @@ const isHomepage = Astro.url.pathname === '/';
     </header>
 
     <main>
+      <BreadcrumbSchema />
       <slot />
     </main>
 
