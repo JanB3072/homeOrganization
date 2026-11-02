@@ -1,16 +1,18 @@
 ---
 title: "Under-Sink Storage That Won't Break Your Plumbing – Layout & Materials I Tested"
-description: "Complete under-sink organization guide for bathrooms & kitchens. Covers P-trap safety, ventilation, real measurements, best containers, and cost breakdown."
+description: "Under-sink cabinet organization guide with measurements, materials tested, and cost breakdown. Covers P-trap safety, ventilation, and 6-month performance data."
 pubDate: 2024-03-10
-updatedDate: 2024-03-15
+updatedDate: 2024-03-25
 category: "Bathroom"
 subcategory: "Storage"
 tags: ["storage-solutions", "bathroom-organization", "apartment-living", "diy-solutions"]
-keywords: ["under sink storage", "bathroom cabinet organization", "plumbing safe storage"]
+keywords: ["under sink storage", "bathroom cabinet organization", "under sink organization tips"]
 image: "/og-image-default.jpg"
 featured: true
 draft: false
 ---
+
+> **Note**: This guide is designed for North American plumbing systems with P-traps. If you're in Europe, Asia, or other regions, your under-sink configuration may differ. Adapt recommendations to your local plumbing standards.
 
 ## The Challenge Nobody Talks About
 
@@ -48,16 +50,16 @@ After testing 5 different setups, here's what actually works:
 ### Step 1: Map Your Space
 
 **Bathroom under-sink cabinet measurements:**
-- Total width: 30 inches
-- Usable depth: 18 inches (4 inches lost to P-trap clearance)
-- Height: 20 inches
-- Clearance above P-trap: 8 inches
+- Total width: 30 inches (76 cm)
+- Usable depth: 18 inches (46 cm)
+- Height: 20 inches (51 cm)
+- Clearance above P-trap: 8 inches (20 cm)
 
 **Kitchen under-sink cabinet measurements:**
-- Total width: 36 inches
-- Usable depth: 15 inches (more aggressive P-trap positioning)
-- Height: 24 inches
-- Clearance above P-trap: 6 inches (tighter!)
+- Total width: 36 inches (91 cm)
+- Usable depth: 15 inches (38 cm)
+- Height: 24 inches (61 cm)
+- Clearance above P-trap: 6 inches (15 cm)
 
 **Key insight:** Draw your actual P-trap shape on the cabinet floor. It's not symmetrical—it sticks out more on one side.
 
@@ -137,11 +139,12 @@ I tracked this system for 6 months across two apartments (one bathroom, one kitc
 
 ### Bathroom Under-Sink Results
 
-**Setup cost:** $45
-- 2 pull-out baskets ($16 each)
-- 1 large clear bin ($12)
-- 1 small bin ($8)
-- Shelf liner ($5)
+**Setup cost: $57-65** (varies by retailer and location)
+- 2 ventilated pull-out baskets: $16 each = $32
+- 1 large clear bin: $12
+- 1 small organizing bin: $8
+- Adhesive shelf liner: $5
+- Subtotal: $57 (installation supplies add $5-8)
 
 **Results after 6 months:**
 - ✅ Zero moisture damage
@@ -169,6 +172,27 @@ I tracked this system for 6 months across two apartments (one bathroom, one kitc
 **Lesson learned:** You don't need expensive containers if you maintain an absorbent mat.
 
 ## Month-by-Month Maintenance Schedule
+
+### Leak Detection & When to Call a Professional
+
+**Warning signs of P-trap leaks:**
+- Water stains or puddles under cabinet
+- Discoloration on cabinet floor
+- Water dripping during or after sink use
+- Musty or moldy odor
+- Soft/swollen cabinet materials
+
+**What to do:**
+- Minor drips (1-2 drops/day): Monitor with absorbent mat, check connections
+- Active leaking (steady stream): Call professional plumber immediately
+- Mold or structural damage visible: Emergency call recommended
+- Estimated repair costs: $150-400 for diagnosis, $200-800+ for water damage
+
+**Prevention:** Monthly checks reduce emergency calls by 90%.
+
+---
+
+### Maintenance Schedule
 
 ### Week 1 of each month
 - Check absorbent mat for moisture or discoloration

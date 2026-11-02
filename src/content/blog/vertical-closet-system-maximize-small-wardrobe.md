@@ -1,26 +1,22 @@
 ---
 title: "Vertical Wardrobe System – How I Fit 200+ Items in a 4ft Closet Without Cramming"
-description: "Scientific closet organization: vertical storage techniques, category stacking, rotation system, and metrics. Real wardrobe for 40+ years old professional."
+description: "Small closet organization system: vertical storage, folding methods, rotation, and real metrics. Organize 200+ items, reduce dressing time to 90 seconds."
 pubDate: 2024-03-20
 updatedDate: 2024-03-25
 category: "Closet"
 subcategory: "Clothing"
 tags: ["storage-solutions", "wardrobe-organization", "apartment-living", "small-space"]
-keywords: ["small closet organization", "vertical storage closet", "wardrobe system"]
+keywords: ["small closet organization", "closet storage system", "wardrobe organization"]
 image: "/og-image-default.jpg"
 featured: true
 draft: false
 ---
 
-## The Impossible Closet Situation
+## The Challenge: Small Closet Space
 
-My bedroom closet is 4 feet wide, 5 feet deep, and 7 feet tall. That's about 140 cubic feet of space—sounds decent until you actually try to fit a real wardrobe into it.
+My bedroom closet measures 4 feet wide × 5 feet deep × 7 feet tall (1.2m × 1.5m × 2.1m) — about 140 cubic feet (4 cubic meters). Initially, it was chaos: clothes jammed on one rod, piles on a shelf, 15-minute mornings, and I kept buying duplicates because I couldn't see what I had.
 
-When I started, I had the typical setup: clothes jammed on one rod, piles on a shelf, miscellaneous items on the floor. I couldn't find anything. Getting dressed took 15 minutes. And I kept buying "new" items I already owned because I couldn't see what I had.
-
-Then I discovered something: **the problem wasn't space—it was organization structure**.
-
-After implementing a vertical system, I now fit 200+ items in the same closet, and I can find anything in 30 seconds. This article breaks down exactly how.
+The problem wasn't space—it was **organization structure**. After implementing a vertical system, I fit 200+ items and find anything in 30 seconds. Here's exactly how.
 
 ## Why Horizontal Storage Fails
 
@@ -46,12 +42,12 @@ I used to take everything out in spring/fall. Every closet reorganization took 3
 ## The Vertical System (With Exact Measurements)
 
 My closet:
-- **Width:** 48 inches (4 feet)
-- **Usable depth:** 20 inches (back wall to front edge, accounting for the door swing)
-- **Height:** 84 inches (7 feet)
-- **Rod height:** 65 inches from floor
-- **Space above rod:** 19 inches
-- **Space below rod:** 65 inches
+- **Width:** 48 inches (122 cm)
+- **Usable depth:** 20 inches (51 cm)
+- **Height:** 84 inches (213 cm)
+- **Rod height:** 65 inches (165 cm) from floor
+- **Space above rod:** 19 inches (48 cm)
+- **Space below rod:** 65 inches (165 cm)
 
 Here's how I optimized it:
 
