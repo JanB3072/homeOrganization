@@ -1,0 +1,255 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { searchPosts } from '../utils/content';
+
+// Get query from URL
+const url = new URL(Astro.request.url);
+const query = url.searchParams.get('q') || '';
+
+let results = [];
+if (query.length > 2) {
+  results = await searchPosts(query);
+}
+---
+
+<BaseLayout 
+  title={query ? `Search: ${query}` : 'Search Articles'}
+  description={query ? `Search results for "${query}"` : 'Search our article collection'}
+>
+  <section class="search-section">
+    <div class="search-header">
+      <h1 class="search-title">🔍 Search Articles</h1>
+      
+      <form method="get" class="search-form">
+        <input 
+          type="text" 
+          name="q" 
+          value={query}
+          placeholder="Search by title, description, or tags..."
+          class="search-input"
+          autocomplete="off"
+        />
+        <button type="submit" class="search-button">
+          Search
+        </button>
+      </form>
+
+      {query && (
+        <p class="search-info">
+          {results.length === 0 
+            ? `No results found for "${query}". Try different keywords.`
+            : `Found ${results.length} article${results.length !== 1 ? 's' : ''} for "${query}"`
+          }
+        </p>
+      )}
+    </div>
+
+    {query && results.length > 0 ? (
+      <div class="articles-grid">
+        {results.map((post, index) => (
+          <div class="article-wrapper" style={`animation-delay: ${index * 50}ms`}>
+            <ArticleCard
+              title={post.data.title}
+              description={post.data.description}
+              url={post.url}
+              tags={post.data.tags}
+              category={post.data.category}
+              date={post.data.pubDate}
+              readingTime={post.data.readingTime || 5}
+            />
+          </div>
+        ))}
+      </div>
+    ) : query ? (
+      <div class="no-results">
+        <p>💡 Try searching for:</p>
+        <ul>
+          <li>Article topics (e.g., "pantry", "closet", "declutter")</li>
+          <li>Storage methods (e.g., "baskets", "boxes", "shelves")</li>
+          <li>Room names (e.g., "kitchen", "bedroom", "bathroom")</li>
+          <li>Organization keywords (e.g., "small space", "apartment")</li>
+        </ul>
+      </div>
+    ) : (
+      <div class="empty-search">
+        <p>Enter a search term above to find articles about:</p>
+        <div class="search-tags">
+          {['organizing', 'storage', 'kitchen', 'closet', 'small spaces', 'decluttering'].map(tag => (
+            <a href={`/search/?q=${tag}`} class="search-tag">
+              {tag}
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .search-section {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .search-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .search-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 2rem;
+    color: var(--color-text);
+  }
+
+  .search-form {
+    display: flex;
+    gap: 0.75rem;
+    max-width: 600px;
+    margin: 0 auto 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .search-input {
+    flex: 1;
+    min-width: 250px;
+    padding: 1rem;
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-md);
+    font-size: 1rem;
+    font-family: var(--font-primary);
+    transition: all 0.3s ease;
+  }
+
+  .search-input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  }
+
+  .search-button {
+    padding: 1rem 2rem;
+    background: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: var(--radius-md);
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: var(--font-primary);
+  }
+
+  .search-button:hover {
+    background: var(--color-primary-dark);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+
+  .search-button:active {
+    transform: translateY(0);
+  }
+
+  .search-info {
+    font-size: 1.05rem;
+    color: var(--color-text-light);
+    margin: 0;
+  }
+
+  .articles-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .article-wrapper {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  .no-results,
+  .empty-search {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: var(--color-bg-light);
+    border-radius: var(--radius-lg);
+    border: 1px dashed var(--color-border);
+  }
+
+  .no-results p,
+  .empty-search p {
+    margin-bottom: 1.5rem;
+    color: var(--color-text-light);
+  }
+
+  .no-results ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .no-results li {
+    margin-bottom: 0.75rem;
+    color: var(--color-text-light);
+  }
+
+  .search-tags {
+    display: flex;
+    gap: 0.75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .search-tag {
+    padding: 0.5rem 1rem;
+    background: var(--color-primary);
+    color: white;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+  }
+
+  .search-tag:hover {
+    background: var(--color-primary-dark);
+    transform: translateY(-2px);
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .search-header {
+      padding: 1.5rem 0;
+    }
+
+    .search-form {
+      flex-direction: column;
+    }
+
+    .search-input,
+    .search-button {
+      width: 100%;
+    }
+
+    .no-results ul,
+    .search-tags {
+      max-width: none;
+    }
+  }
+</style>

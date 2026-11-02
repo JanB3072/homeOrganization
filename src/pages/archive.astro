@@ -1,0 +1,169 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getArchivePosts } from '../utils/content';
+
+const archive = await getArchivePosts();
+const totalArticles = archive.reduce((sum, group) => sum + group.count, 0);
+---
+
+<BaseLayout 
+  title="Article Archive - Organized by Date"
+  description={`Browse all ${totalArticles} articles organized by month and year. Find content by publication date.`}
+>
+  <section class="archive-section">
+    <div class="archive-header">
+      <h1 class="archive-title">📅 Article Archive</h1>
+      <p class="archive-description">
+        All {totalArticles} articles organized by publication date
+      </p>
+    </div>
+
+    <div class="archive-content">
+      {archive.map(group => (
+        <section class="archive-group" key={group.yearMonth}>
+          <div class="archive-month-header">
+            <h2 class="archive-month-title">
+              {group.month} {group.year}
+            </h2>
+            <span class="archive-month-count">
+              {group.count} article{group.count !== 1 ? 's' : ''}
+            </span>
+          </div>
+
+          <div class="archive-articles">
+            {group.posts.map((post, index) => (
+              <div class="article-wrapper" style={`animation-delay: ${index * 30}ms`}>
+                <ArticleCard
+                  title={post.data.title}
+                  description={post.data.description}
+                  url={post.url}
+                  tags={post.data.tags}
+                  category={post.data.category}
+                  date={post.data.pubDate}
+                  readingTime={post.data.readingTime || 5}
+                />
+              </div>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+
+    {archive.length === 0 && (
+      <div class="no-archive">
+        <p>No articles archived yet.</p>
+      </div>
+    )}
+  </section>
+</BaseLayout>
+
+<style>
+  .archive-section {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .archive-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .archive-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 1rem;
+    color: var(--color-text);
+  }
+
+  .archive-description {
+    font-size: 1.1rem;
+    color: var(--color-text-light);
+    margin: 0;
+  }
+
+  .archive-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .archive-group {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .archive-month-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--color-primary);
+  }
+
+  .archive-month-title {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--color-primary);
+  }
+
+  .archive-month-count {
+    background: var(--color-primary);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 2rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
+  .archive-articles {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .article-wrapper {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  .no-archive {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: var(--color-bg-light);
+    border-radius: var(--radius-lg);
+    border: 1px dashed var(--color-border);
+    color: var(--color-text-light);
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .archive-header {
+      padding: 1.5rem 0;
+      margin-bottom: 2rem;
+    }
+
+    .archive-title {
+      font-size: 1.5rem;
+    }
+
+    .archive-month-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+
+    .archive-content {
+      gap: 2rem;
+    }
+  }
+</style>

@@ -1,174 +1,163 @@
 ---
-import { getAllTags, getTagPaginated } from '../../utils/content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import Pagination from '../../components/Pagination.astro';
+import { getTagPaginatedEnhanced, getAllTags } from '../../utils/content';
 
 export async function getStaticPaths() {
   const allTags = await getAllTags();
-  const paths: any[] = [];
-  
+  const paths = [];
+
   for (const [tag] of allTags) {
-    // 第 1 页
-    const firstPage = await getTagPaginated(tag, 1);
-    paths.push({
-      params: { slug: tag },
-      props: { tag, page: 1, totalPages: firstPage.totalPages },
-    });
-    
-    // 后续分页
-    for (let p = 2; p <= firstPage.totalPages; p++) {
+    const data = await getTagPaginatedEnhanced(tag, 1);
+    for (let page = 1; page <= data.totalPages; page++) {
       paths.push({
-        params: { slug: `${tag}/${p}` },
-        props: { tag, page: p, totalPages: firstPage.totalPages },
+        params: {
+          slug: page === 1 
+            ? tag.toLowerCase().replace(/\s+/g, '-')
+            : `${tag.toLowerCase().replace(/\s+/g, '-')}/${page}`,
+        },
+        props: { tag, page },
       });
     }
   }
-  
+
   return paths;
 }
 
 interface Props {
   tag: string;
   page: number;
-  totalPages: number;
 }
 
-const { tag, page, totalPages } = Astro.props;
-const data = await getTagPaginated(tag, page);
+const { tag, page = 1 } = Astro.props as Props;
+const data = await getTagPaginatedEnhanced(tag, page);
 
-const breadcrumbs = [
-  { name: 'Home', path: '/' },
-  { name: 'Tags', path: '/tags/' },
-  { name: tag, path: '#' },
-];
+const tagSlug = tag.toLowerCase().replace(/\s+/g, '-');
+const canonicalUrl = page === 1
+  ? `${Astro.url.origin}/tags/${tagSlug}/`
+  : `${Astro.url.origin}/tags/${tagSlug}/${page}/`;
 ---
 
 <BaseLayout 
-  title={`Articles tagged with "${tag}" - Home Organization Blog`}
-  description={`Browse ${data.total} articles about ${tag}. Real home organization solutions and tips.`}
+  title={`Articles tagged with "${tag}" - Page ${page}`}
+  description={`Showing ${data.posts.length} articles tagged with ${tag}. Page ${page} of ${data.totalPages}.`}
 >
-  <!-- Breadcrumbs -->
-  <nav style="margin-bottom: 2rem; font-size: 0.95rem;">
-    <a href="/" style="color: var(--color-primary);">Home</a>
-    <span style="color: var(--color-text-light);">  /  </span>
-    <a href="/tags/" style="color: var(--color-primary);">Tags</a>
-    <span style="color: var(--color-text-light);">  /  </span>
-    <span style="color: var(--color-text);">{tag}</span>
-  </nav>
-
-  <!-- Header -->
-  <section style="margin-bottom: 3rem;">
-    <h1 style="margin-bottom: 0.5rem;">🏷️ {tag}</h1>
-    <p style="color: var(--color-text-light); font-size: 1.05rem; margin: 0;">
-      {data.total} article{data.total !== 1 ? 's' : ''} about {tag}
-    </p>
-  </section>
-
-  <!-- Articles -->
-  {data.posts.length > 0 ? (
-    <section>
-      <div style="display: grid; gap: 1.5rem; margin-bottom: 3rem;">
-        {data.posts.map(post => (
-          <article style="
-            padding: 1.5rem;
-            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
-            border: 1px solid var(--color-border);
-            border-radius: 0.75rem;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-          "
-          onmouseenter="this.style.borderColor='var(--color-primary)'; this.style.boxShadow='0 10px 15px -3px rgba(0, 0, 0, 0.1)';"
-          onmouseleave="this.style.borderColor='var(--color-border)'; this.style.boxShadow='0 1px 2px 0 rgba(0, 0, 0, 0.05)';">
-            <a href={`/blog/${post.slug}/`} style="text-decoration: none; color: inherit;">
-              <h2 style="margin: 0 0 0.5rem 0; font-size: 1.25rem; color: var(--color-text);">
-                {post.data.title}
-              </h2>
-            </a>
-            <p style="color: var(--color-text-light); margin: 0.5rem 0 1rem 0; line-height: 1.6;">
-              {post.data.description}
-            </p>
-            <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: 0.9rem; color: var(--color-text-light);">
-              <span>📅 {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
-              <span>📁 {post.data.category}</span>
-              <span>🏷️ {post.data.subcategory}</span>
-              <a href={`/blog/${post.slug}/`} style="color: var(--color-primary); font-weight: 500;">
-                Read More →
-              </a>
-            </div>
-          </article>
-        ))}
-      </div>
-
-      <!-- Pagination -->
-      {totalPages > 1 && (
-        <nav style="
-          display: flex;
-          justify-content: center;
-          gap: 0.5rem;
-          margin-top: 3rem;
-          flex-wrap: wrap;
-        ">
-          {page > 1 && (
-            <a href={page === 2 ? `/tags/${tag}/` : `/tags/${tag}/${page - 1}/`}
-               style="
-                 padding: 0.75rem 1rem;
-                 background: var(--color-primary);
-                 color: white;
-                 border-radius: 0.5rem;
-                 text-decoration: none;
-                 transition: all 0.3s ease;
-               "
-               onmouseenter="this.style.backgroundColor='var(--color-primary-dark)';"
-               onmouseleave="this.style.backgroundColor='var(--color-primary)';">
-              ← Previous
-            </a>
-          )}
-          
-          {Array.from({ length: totalPages }, (_, i) => i + 1).map(p => (
-            <a href={p === 1 ? `/tags/${tag}/` : `/tags/${tag}/${p}/`}
-               style={`
-                 padding: 0.75rem 1rem;
-                 background: ${p === page ? 'var(--color-primary)' : 'var(--color-bg-light)'};
-                 color: ${p === page ? 'white' : 'var(--color-text)'};
-                 border: 1px solid ${p === page ? 'var(--color-primary)' : 'var(--color-border)'};
-                 border-radius: 0.5rem;
-                 text-decoration: none;
-                 transition: all 0.3s ease;
-                 font-weight: ${p === page ? '600' : 'normal'};
-               `}
-               onmouseenter={p !== page ? "this.style.backgroundColor='var(--color-bg)'; this.style.borderColor='var(--color-primary)';" : ''}
-               onmouseleave={p !== page ? "this.style.backgroundColor='var(--color-bg-light)'; this.style.borderColor='var(--color-border)';" : ''}>
-              {p}
-            </a>
-          ))}
-          
-          {page < totalPages && (
-            <a href={`/tags/${tag}/${page + 1}/`}
-               style="
-                 padding: 0.75rem 1rem;
-                 background: var(--color-primary);
-                 color: white;
-                 border-radius: 0.5rem;
-                 text-decoration: none;
-                 transition: all 0.3s ease;
-               "
-               onmouseenter="this.style.backgroundColor='var(--color-primary-dark)';"
-               onmouseleave="this.style.backgroundColor='var(--color-primary)';">
-              Next →
-            </a>
-          )}
-        </nav>
-      )}
-    </section>
-  ) : (
-    <div style="
-      padding: 3rem 2rem;
-      text-align: center;
-      background: var(--color-bg-light);
-      border-radius: 0.75rem;
-      border: 1px dashed var(--color-border);
-    ">
-      <p style="margin: 0; color: var(--color-text-light); font-size: 1.05rem;">
-        No articles found with this tag yet.
+  <section class="tag-section">
+    <div class="tag-header">
+      <h1 class="tag-title">
+        🏷️ #{tag}
+      </h1>
+      <p class="tag-description">
+        {data.total} articles found
+        {data.totalPages > 1 && ` • Page ${page} of ${data.totalPages}`}
       </p>
     </div>
+
+    {data.posts.length > 0 ? (
+      <>
+        <div class="articles-grid">
+          {data.posts.map((post, index) => (
+            <div class="article-wrapper" style={`animation-delay: ${index * 50}ms`}>
+              <ArticleCard
+                title={post.data.title}
+                description={post.data.description}
+                url={post.url}
+                tags={post.data.tags}
+                category={post.data.category}
+                date={post.data.pubDate}
+                readingTime={post.data.readingTime || 5}
+              />
+            </div>
+          ))}
+        </div>
+
+        {data.totalPages > 1 && (
+          <Pagination
+            currentPage={page}
+            totalPages={data.totalPages}
+            baseUrl={`/tags/${tagSlug}/`}
+          />
+        )}
+      </>
+    ) : (
+      <div class="empty-state">
+        <p>No articles found with this tag.</p>
+      </div>
+    )}
+  </section>
+
+  <link rel="canonical" href={canonicalUrl} />
+  {page > 1 && (
+    <link rel="prev" href={page > 2 ? `/tags/${tagSlug}/${page - 1}/` : `/tags/${tagSlug}/`} />
+  )}
+  {page < data.totalPages && (
+    <link rel="next" href={`/tags/${tagSlug}/${page + 1}/`} />
   )}
 </BaseLayout>
+
+<style>
+  .tag-section {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .tag-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .tag-title {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+  }
+
+  .tag-description {
+    font-size: 1.05rem;
+    color: var(--color-text-light);
+    margin: 0;
+  }
+
+  .articles-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .article-wrapper {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: var(--color-bg-light);
+    border-radius: var(--radius-lg);
+    border: 1px dashed var(--color-border);
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .tag-header {
+      padding: 1.5rem 0;
+      margin-bottom: 2rem;
+    }
+
+    .tag-title {
+      font-size: 1.5rem;
+    }
+  }
+</style>

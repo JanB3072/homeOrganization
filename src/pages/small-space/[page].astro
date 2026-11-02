@@ -1,0 +1,66 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import Pagination from '../../components/Pagination.astro';
+import { getCategoryPaginated } from '../../utils/content';
+
+const page = parseInt(Astro.params.page || '1', 10);
+const data = await getCategoryPaginated('Small Space', page);
+
+if (page < 1 || page > data.totalPages) {
+  return Astro.redirect('/small-space/');
+}
+
+export async function getStaticPaths() {
+  const d = await getCategoryPaginated('Small Space', 1);
+  return Array.from({ length: d.totalPages }, (_, i) => ({
+    params: { page: String(i + 1) },
+  }));
+}
+
+const title = page === 1 
+  ? 'Small Space Organization - Apartment Living'
+  : `Small Space Organization - Page ${page}`;
+
+const canonicalUrl = page === 1 
+  ? `${Astro.url.origin}/small-space/`
+  : `${Astro.url.origin}/small-space/${page}/`;
+---
+
+<BaseLayout title={title} description="Apartment living & rental-friendly storage solutions with real examples from my small space.">
+  <section class="category-section">
+    <div class="category-header">
+      <h1 class="category-title">🏠 Small Space Organization</h1>
+      <p class="category-description">Apartment living & rental solutions</p>
+      <p class="category-count">{data.posts.length} articles{data.totalPages > 1 && ` • Page ${page} of ${data.totalPages}`}</p>
+    </div>
+
+    {data.posts.length > 0 ? (
+      <>
+        <div class="articles-grid">
+          {data.posts.map((post, i) => (
+            <div style={`animation-delay: ${i * 50}ms`}>
+              <ArticleCard {...post.data} url={post.url} readingTime={post.data.readingTime || 5} />
+            </div>
+          ))}
+        </div>
+        {data.totalPages > 1 && <Pagination currentPage={page} totalPages={data.totalPages} baseUrl="/small-space/" />}
+      </>
+    ) : (
+      <p style="text-align: center; color: var(--color-text-light);">No articles found</p>
+    )}
+  </section>
+  <link rel="canonical" href={canonicalUrl} />
+  {page > 1 && <link rel="prev" href={page > 2 ? `/small-space/${page - 1}/` : '/small-space/'} />}
+  {page < data.totalPages && <link rel="next" href={`/small-space/${page + 1}/`} />}
+</BaseLayout>
+
+<style>
+  .category-section { animation: fadeInUp 0.6s ease-out; }
+  .category-header { text-align: center; margin-bottom: 3rem; padding: 2rem 0; border-bottom: 1px solid var(--color-border); }
+  .category-title { font-size: clamp(1.75rem, 4vw, 2.5rem); margin-bottom: 1rem; }
+  .category-description { font-size: 1.1rem; color: var(--color-text-light); margin: 0 auto 1rem; max-width: 600px; }
+  .category-count { font-size: 0.95rem; color: var(--color-secondary); }
+  .articles-grid { display: grid; gap: 1.5rem; margin-bottom: 3rem; }
+  @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; } }
+</style>

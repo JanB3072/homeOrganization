@@ -134,3 +134,107 @@ export async function searchPosts(query: string) {
     p.data.tags.some(tag => tag.toLowerCase().includes(q))
   );
 }
+
+// 分页：按分类 (通用版本)
+export async function getCategoryPaginated(
+  category: string,
+  page: number = 1,
+  perPage: number = 12
+) {
+  const posts = await getPostsByCategory(category);
+  const totalPages = Math.ceil(posts.length / perPage);
+  
+  return {
+    posts: posts.slice((page - 1) * perPage, page * perPage),
+    totalPages,
+    currentPage: page,
+    hasNext: page < totalPages,
+    hasPrev: page > 1,
+  };
+}
+
+// 分页：按标签 (增强版本)
+export async function getTagPaginatedEnhanced(
+  tag: string,
+  page: number = 1,
+  perPage: number = 12
+) {
+  const posts = await getAllPosts();
+  const tagPosts = posts.filter(p => p.data.tags.includes(tag));
+  const totalPages = Math.ceil(tagPosts.length / perPage);
+  
+  return {
+    posts: tagPosts.slice((page - 1) * perPage, page * perPage),
+    totalPages,
+    currentPage: page,
+    total: tagPosts.length,
+  };
+}
+
+// 搜索分页版本
+export async function searchPostsPaginated(
+  query: string,
+  page: number = 1,
+  perPage: number = 12
+) {
+  const posts = await searchPosts(query);
+  const totalPages = Math.ceil(posts.length / perPage);
+  
+  return {
+    posts: posts.slice((page - 1) * perPage, page * perPage),
+    totalPages,
+    currentPage: page,
+    total: posts.length,
+    query,
+  };
+}
+
+// 按年月获取存档数据
+export async function getArchivePosts() {
+  const posts = await getAllPosts();
+  const archiveMap = new Map<string, BlogPost[]>();
+  
+  posts.forEach(post => {
+    const yearMonth = post.data.pubDate.toISOString().slice(0, 7);
+    if (!archiveMap.has(yearMonth)) {
+      archiveMap.set(yearMonth, []);
+    }
+    archiveMap.get(yearMonth)!.push(post);
+  });
+  
+  return Array.from(archiveMap.entries())
+    .sort((a, b) => b[0].localeCompare(a[0]))
+    .map(([yearMonth, posts]) => ({
+      yearMonth,
+      year: yearMonth.slice(0, 4),
+      month: new Date(yearMonth + '-01').toLocaleString('en-US', { month: 'long' }),
+      posts,
+      count: posts.length,
+    }));
+}
+
+// 获取热门/特色文章
+export async function getFeaturedPosts(limit: number = 12) {
+  const posts = await getAllPosts();
+  
+  // 计算热度分数：特色文章 + 最近发布 + 标签多
+  const scored = posts.map(post => {
+    let score = 0;
+    
+    if (post.data.featured) score += 10;
+    
+    const daysSincePub = (Date.now() - post.data.pubDate.getTime()) / (1000 * 60 * 60 * 24);
+    if (daysSincePub < 7) score += 5;
+    else if (daysSincePub < 30) score += 3;
+    else if (daysSincePub < 90) score += 1;
+    
+    score += post.data.tags.length * 0.5;
+    
+    return { post, score };
+  });
+  
+  return scored
+    .sort((a, b) => b.score - a.score)
+    .slice(0, limit)
+    .map(item => item.post);
+}

@@ -1,0 +1,298 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getFeaturedPosts, getAllTags } from '../utils/content';
+
+// Get featured posts
+const featured = await getFeaturedPosts(12);
+
+// Get trending tags
+const allTags = await getAllTags();
+const topTags = allTags.slice(0, 5);
+---
+
+<BaseLayout 
+  title="Popular & Featured Articles"
+  description="Browse the most popular and featured articles from our home organization blog."
+>
+  <section class="popular-section">
+    <div class="popular-header">
+      <h1 class="popular-title">⭐ Popular Articles</h1>
+      <p class="popular-description">
+        The best home organization tips and trends
+      </p>
+    </div>
+
+    {/* Featured Articles */}
+    {featured.length > 0 && (
+      <section class="featured-section">
+        <h2 class="section-heading">🌟 Featured</h2>
+        <div class="articles-grid">
+          {featured.map((post, index) => (
+            <div class="article-wrapper" style={`animation-delay: ${index * 50}ms`}>
+              <ArticleCard
+                title={post.data.title}
+                description={post.data.description}
+                url={post.url}
+                tags={post.data.tags}
+                category={post.data.category}
+                date={post.data.pubDate}
+                readingTime={post.data.readingTime || 5}
+              />
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {/* Trending Topics */}
+    {topTags.length > 0 && (
+      <section class="trending-section">
+        <h2 class="section-heading">🔥 Trending Topics</h2>
+        
+        <div class="tags-cloud">
+          {topTags.map(([tag, count]) => (
+            <a 
+              href={`/tags/${tag.toLowerCase().replace(/\s+/g, '-')}/`}
+              class="tag-bubble"
+              style={`
+                --tag-size: ${Math.min(1.5, 0.8 + count * 0.1)}rem;
+                --tag-weight: ${Math.min(700, 400 + count * 20)};
+              `}
+              title={`${count} article${count !== 1 ? 's' : ''}`}
+            >
+              #{tag}
+              <span class="tag-count">({count})</span>
+            </a>
+          ))}
+        </div>
+
+        <div class="trending-articles">
+          {topTags.slice(0, 3).map(([tag]) => (
+            <div key={tag} class="trending-category">
+              <h3 style="color: var(--color-primary); margin-bottom: 1rem; font-size: 1.1rem;">
+                About #{tag}
+              </h3>
+              <p style="color: var(--color-text-light); margin-bottom: 1rem; font-size: 0.95rem;">
+                Popular tips and ideas for {tag.toLowerCase()}. Browse all {tag} articles for detailed guides and real-world examples.
+              </p>
+              <a href={`/tags/${tag.toLowerCase().replace(/\s+/g, '-')}/`} style="
+                display: inline-block;
+                padding: 0.5rem 1rem;
+                background: var(--color-primary);
+                color: white;
+                border-radius: var(--radius-md);
+                text-decoration: none;
+                font-weight: 600;
+                transition: all 0.3s ease;
+              " onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='var(--shadow-md)';" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none';">
+                View all {tag} articles →
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="tips-section">
+      <h2 class="section-heading">💡 Popular Topics</h2>
+      <div class="tips-grid">
+        <a href="/kitchen/" class="tip-card">
+          <div class="tip-emoji">🍳</div>
+          <h3>Kitchen Organization</h3>
+          <p>Pantry, fridge & cabinet solutions</p>
+        </a>
+        <a href="/closet/" class="tip-card">
+          <div class="tip-emoji">👕</div>
+          <h3>Closet Organization</h3>
+          <p>Wardrobe & storage solutions</p>
+        </a>
+        <a href="/bathroom/" class="tip-card">
+          <div class="tip-emoji">🚿</div>
+          <h3>Bathroom Organization</h3>
+          <p>Small space storage hacks</p>
+        </a>
+        <a href="/small-space/" class="tip-card">
+          <div class="tip-emoji">🏠</div>
+          <h3>Small Space Living</h3>
+          <p>Apartment organization tips</p>
+        </a>
+      </div>
+    </section>
+  </section>
+</BaseLayout>
+
+<style>
+  .popular-section {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .popular-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .popular-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 1rem;
+    color: var(--color-text);
+  }
+
+  .popular-description {
+    font-size: 1.1rem;
+    color: var(--color-text-light);
+    margin: 0;
+  }
+
+  .featured-section,
+  .trending-section,
+  .tips-section {
+    margin-bottom: 4rem;
+  }
+
+  .section-heading {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
+    padding-bottom: 1rem;
+  }
+
+  .articles-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .article-wrapper {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  .tags-cloud {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+
+  .tag-bubble {
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, var(--color-primary-light), var(--color-primary));
+    color: white;
+    border-radius: 2rem;
+    text-decoration: none;
+    font-size: var(--tag-size, 1rem);
+    font-weight: var(--tag-weight, 500);
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .tag-bubble:hover {
+    transform: scale(1.1) translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+
+  .tag-count {
+    font-size: 0.8rem;
+    opacity: 0.9;
+  }
+
+  .trending-articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    background: var(--color-bg-light);
+    border-radius: var(--radius-lg);
+  }
+
+  .trending-category {
+    transition: all 0.3s ease;
+  }
+
+  .trending-category:hover {
+    transform: translateY(-5px);
+  }
+
+  .tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .tip-card {
+    padding: 2rem;
+    background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  .tip-card:hover {
+    transform: translateY(-8px);
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .tip-emoji {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .tip-card h3 {
+    margin: 0.5rem 0;
+    color: var(--color-text);
+    font-size: 1.1rem;
+  }
+
+  .tip-card p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .popular-header {
+      padding: 1.5rem 0;
+    }
+
+    .tags-cloud {
+      gap: 0.75rem;
+    }
+
+    .tag-bubble {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+    }
+
+    .trending-articles {
+      grid-template-columns: 1fr;
+      padding: 1.5rem;
+    }
+
+    .tips-grid {
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
+</style>
