@@ -7,7 +7,7 @@ category: "Kitchen"
 subcategory: "Pantry"
 tags: ["pantry-organization", "small-kitchen", "apartment-living", "storage-solutions", "diy-solutions"]
 keywords: ["kitchen pantry organization", "small apartment storage", "pantry containers"]
-image: "/assets/images/pantry-example.jpg"
+image: "/og-image-default.jpg"
 featured: false
 draft: false
 ---

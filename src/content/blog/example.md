@@ -6,7 +6,7 @@ category: "Kitchen"
 subcategory: "Pantry"
 tags: ["pantry-organization", "storage-baskets", "deep-shelves", "diy-solutions"]
 keywords: ["pull out pantry baskets", "deep pantry organization"]
-image: "/assets/images/pantry-example.jpg"
+image: "/og-image-default.jpg"
 featured: false
 draft: false
 ---
