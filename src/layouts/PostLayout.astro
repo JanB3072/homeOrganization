@@ -3,7 +3,6 @@
 
 import BaseLayout from './BaseLayout.astro';
 import SchemaOrg from '../components/SchemaOrg.astro';
-import Breadcrumbs from '../components/Breadcrumbs.astro';
 import PostSidebar from '../components/PostSidebar.astro';
 
 interface Props {
@@ -31,14 +30,6 @@ const formatDate = (date: Date) => {
     day: 'numeric'
   }).format(date);
 };
-
-// Breadcrumb items
-const breadcrumbs = [
-  { name: 'Home', url: '/' },
-  ...(category ? [{ name: category, url: `/${category.toLowerCase().replace(/\s+/g, '-')}/` }] : []),
-  ...(subcategory ? [{ name: subcategory, url: '#' }] : []),
-  { name: title, url: Astro.url.href },
-];
 ---
 
 <BaseLayout 
@@ -59,9 +50,6 @@ const breadcrumbs = [
     category={category}
     tags={tags}
   />
-  
-  <!-- Breadcrumb Navigation -->
-  <Breadcrumbs items={breadcrumbs} />
   
   <div class="post-container">
     <!-- Main Article Content -->
