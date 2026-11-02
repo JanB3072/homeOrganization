@@ -1,21 +1,21 @@
 ---
-// 习惯与断舍离分类页
+// Declutter & Habits category page
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const subcategories = [
-  { name: 'Declutter', slug: 'declutter', description: '方法对比、按区域/按类别、捐赠渠道' },
-  { name: 'Routines', slug: 'routines', description: '每周复位、季节性整理、复盘记录' },
-  { name: 'Moving', slug: 'moving', description: '打包、箱号系统、首夜箱、搬家踩坑' }
+  { name: 'Decluttering Methods', slug: 'declutter', description: 'Method comparison, room-by-room approach, and donation resources' },
+  { name: 'Maintenance Routines', slug: 'routines', description: 'Weekly resets, seasonal tidying, and monthly reviews' },
+  { name: 'Moving & Packing', slug: 'moving', description: 'Packing systems, box labeling, and moving day tips' }
 ];
 ---
 
-<BaseLayout title="Declutter - 习惯与断舍离" description="断舍离方法、日常维护习惯、搬家技巧">
-  <h1>习惯与断舍离 Declutter</h1>
-  <p>收纳不是一次性的工作，而是可持续的习惯。这里记录我怎样通过日常维护、定期复盘来保持家的整洁。</p>
+<BaseLayout title="Declutter & Habits - Organization Maintenance" description="Decluttering methods, maintenance routines, and moving tips. Learn how to keep your space organized long-term.">
+  <h1>Declutter & Habits</h1>
+  <p>Organization isn't a one-time project—it's a practice. Here's how I maintain my space through daily habits, seasonal resets, and smart systems.</p>
 
   <section class="subcategories">
-    <h2>子分类</h2>
+    <h2>Categories</h2>
     <div class="subcategory-grid">
       {subcategories.map(sub => (
         <div class="subcategory-card">
@@ -27,8 +27,8 @@ const subcategories = [
   </section>
 
   <section class="articles">
-    <h2>最新文章</h2>
-    <p>敬请期待...</p>
+    <h2>Latest Articles</h2>
+    <p>Coming soon...</p>
   </section>
 
   <style>

@@ -1,46 +1,46 @@
 ---
-// 首页
+// Home page
 
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-// TODO: 从 src/content/blog 中读取最新文章
+// TODO: Read latest posts from src/content/blog
 const recentPosts = [];
 ---
 
-<BaseLayout title="Home" description="个人居家收纳博客 - 我用真实经历分享怎样把家收纳好">
+<BaseLayout title="Home Organization Blog - Real Experiences, Real Solutions" description="A personal home organization blog with real solutions, before-and-after transformations, and practical storage ideas for small spaces.">
   <section class="hero">
-    <h1>欢迎来到我的居家收纳博客</h1>
-    <p>我是 __，住在 __ 的 __㎡ 公寓。这个博客记录我怎么把家收纳到能住得下去的真实故事。</p>
+    <h1>Welcome to My Home Organization Blog</h1>
+    <p>I'm sharing my real experience organizing a small apartment. Every article is tested, measured, and photographed in my own home—no stock photos, no theory, just what actually works.</p>
   </section>
 
   <section class="categories">
-    <h2>按房间浏览</h2>
+    <h2>Browse by Room</h2>
     <div class="category-grid">
       <div class="category-card">
-        <h3><a href="/kitchen/">厨房 Kitchen</a></h3>
-        <p>食品柜、冰箱、橱柜与台面</p>
+        <h3><a href="/kitchen/">Kitchen</a></h3>
+        <p>Pantry, fridge, and cabinet organization</p>
       </div>
       <div class="category-card">
-        <h3><a href="/closet/">衣柜与卧室 Closet & Bedroom</a></h3>
-        <p>衣柜、卧室与床下收纳</p>
+        <h3><a href="/closet/">Closet & Bedroom</a></h3>
+        <p>Wardrobe storage and under-bed solutions</p>
       </div>
       <div class="category-card">
-        <h3><a href="/bathroom/">浴室 Bathroom</a></h3>
-        <p>浴室柜、小浴室方案</p>
+        <h3><a href="/bathroom/">Bathroom</a></h3>
+        <p>Small bathroom hacks and vanity organization</p>
       </div>
       <div class="category-card">
-        <h3><a href="/small-space/">小空间 Small Space</a></h3>
-        <p>公寓、租房友好方案</p>
+        <h3><a href="/small-space/">Small Space</a></h3>
+        <p>Apartment living and rental-friendly solutions</p>
       </div>
       <div class="category-card">
-        <h3><a href="/declutter/">习惯与断舍离 Declutter</a></h3>
-        <p>断舍离、日常维护、搬家</p>
+        <h3><a href="/declutter/">Declutter & Habits</a></h3>
+        <p>Decluttering methods, routines, and moving tips</p>
       </div>
     </div>
   </section>
 
   <section class="latest-posts">
-    <h2>最新文章</h2>
+    <h2>Latest Articles</h2>
     {recentPosts.length > 0 ? (
       <ul>
         {recentPosts.map(post => (
@@ -51,13 +51,13 @@ const recentPosts = [];
         ))}
       </ul>
     ) : (
-      <p>敬请期待...</p>
+      <p>New articles coming soon...</p>
     )}
   </section>
 
   <section class="series">
-    <h2>正在进行的系列</h2>
-    <p>系列内容将逐步发布...</p>
+    <h2>Featured Series</h2>
+    <p>Multi-part series exploring different aspects of home organization...</p>
   </section>
 
   <style>

@@ -1,20 +1,20 @@
 ---
-// 浴室分类页
+// Bathroom category page
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const subcategories = [
-  { name: 'Vanity & Sink', slug: 'vanity', description: '浴室柜、下水管避让、抽拉方案' },
-  { name: 'Small Bathroom', slug: 'small-bathroom', description: '无柜方案、免打孔、潮湿防霉' }
+  { name: 'Vanity & Sink', slug: 'vanity', description: 'Bathroom cabinet storage and under-sink organization' },
+  { name: 'Small Bathroom', slug: 'small-bathroom', description: 'No-cabinet solutions, no-drill storage, and mold prevention' }
 ];
 ---
 
-<BaseLayout title="Bathroom - 浴室收纳" description="浴室收纳方案：浴室柜、小浴室方案、防霉保养">
-  <h1>浴室 Bathroom</h1>
-  <p>浴室是最小的房间，也是最容易堆积杂物的地方。这里是我在有限空间内的收纳策略。</p>
+<BaseLayout title="Bathroom Organization - Small Space Solutions" description="Bathroom storage ideas for small spaces: vanity organization, no-drill solutions, and moisture prevention tips.">
+  <h1>Bathroom Organization</h1>
+  <p>A small bathroom demands smart solutions. Here's what I learned organizing a tiny bathroom with limited space and a shared sink setup.</p>
 
   <section class="subcategories">
-    <h2>子分类</h2>
+    <h2>Categories</h2>
     <div class="subcategory-grid">
       {subcategories.map(sub => (
         <div class="subcategory-card">
@@ -26,8 +26,8 @@ const subcategories = [
   </section>
 
   <section class="articles">
-    <h2>最新文章</h2>
-    <p>敬请期待...</p>
+    <h2>Latest Articles</h2>
+    <p>Coming soon...</p>
   </section>
 
   <style>

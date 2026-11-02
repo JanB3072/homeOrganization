@@ -10,13 +10,15 @@ const { title, description } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="language" content="English" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     <meta name="generator" content="Astro" />
+    <link rel="alternate" hrefLang="en" href="https://example.com" />
     <style is:global>
       * {
         margin: 0;
@@ -80,14 +82,15 @@ const { title, description } = Astro.props;
         <a href="/bathroom/">Bathroom</a> · 
         <a href="/small-space/">Small Space</a> · 
         <a href="/declutter/">Declutter</a>
-        <a href="/about/" style="float: right;">About</a>
+        <a href="/about/" style="float: right;">About</a> · 
+        <a href="/now/">Now</a>
       </nav>
     </header>
     <main>
       <slot />
     </main>
     <footer>
-      <p>&copy; 2024. Personal home organization blog.</p>
+      <p>&copy; 2024. All rights reserved. | <a href="/privacy/">Privacy</a> | <a href="/affiliate-disclosure/">Affiliate Disclosure</a></p>
     </footer>
   </body>
 </html>

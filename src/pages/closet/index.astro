@@ -1,20 +1,20 @@
 ---
-// 衣柜与卧室分类页
+// Closet & Bedroom category page
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const subcategories = [
-  { name: 'Closet', slug: 'closet', description: '挂杆高度、层板、换季、折叠' },
-  { name: 'Bedroom & Under-Bed', slug: 'bedroom', description: '床下、斗柜、床头收纳' }
+  { name: 'Closet Organization', slug: 'closet', description: 'Hanging rods, shelving, seasonal rotation, and folding methods' },
+  { name: 'Bedroom & Under-Bed', slug: 'bedroom', description: 'Under-bed storage, dressers, and bedside solutions' }
 ];
 ---
 
-<BaseLayout title="Closet & Bedroom - 衣柜与卧室收纳" description="衣柜与卧室收纳方案：衣柜拆解、床下收纳、卧室空间利用">
-  <h1>衣柜与卧室 Closet & Bedroom</h1>
-  <p>衣柜是最容易"看起来整洁"的地方，也是最容易反复崩溃的地方。这里记录我对衣柜的完整改造和床下的充分利用。</p>
+<BaseLayout title="Closet & Bedroom Organization - Storage Ideas" description="Closet organization ideas: complete closet breakdown, under-bed storage, and bedroom space utilization. Real measurements and before-and-after photos.">
+  <h1>Closet & Bedroom Organization</h1>
+  <p>A well-organized closet looks neat but falls apart easily. Here's my complete closet breakdown plus how I maximize under-bed storage.</p>
 
   <section class="subcategories">
-    <h2>子分类</h2>
+    <h2>Categories</h2>
     <div class="subcategory-grid">
       {subcategories.map(sub => (
         <div class="subcategory-card">
@@ -26,8 +26,8 @@ const subcategories = [
   </section>
 
   <section class="articles">
-    <h2>最新文章</h2>
-    <p>敬请期待...</p>
+    <h2>Latest Articles</h2>
+    <p>Coming soon...</p>
   </section>
 
   <style>

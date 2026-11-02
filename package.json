@@ -1,7 +1,7 @@
 {
-  "name": "home-org-blog",
+  "name": "home-organization-blog",
   "version": "0.1.0",
-  "description": "个人居家收纳博客",
+  "description": "A personal home organization blog with real solutions, before-and-after photos, and practical storage ideas",
   "type": "module",
   "scripts": {
     "dev": "astro dev",

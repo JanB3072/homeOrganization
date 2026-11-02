@@ -1,22 +1,22 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  // 项目配置
-  site: 'https://example.com', // 替换为实际域名
+  // Site configuration for SEO
+  site: 'https://yourblogdomain.com', // Change to your actual domain
   base: '/',
   
-  // 构建配置
+  // Build settings
   build: {
     assets: 'assets',
   },
   
-  // 输出配置
+  // Output as static HTML for SEO and fast performance
   output: 'static',
   
-  // 国际化配置（可选）
+  // Optional: Internationalization setup (if you expand to multiple languages later)
   // i18n: {
   //   defaultLocale: 'en',
-  //   locales: ['en', 'zh'],
+  //   locales: ['en', 'es', 'fr'],
   //   routing: 'prefix-other-locales',
   // }
 });

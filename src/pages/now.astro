@@ -1,0 +1,55 @@
+---
+// Now page - What I'm working on this month
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const lastUpdated = new Date('2024-01-25');
+const formatDate = (date: Date) => {
+  return new Intl.DateTimeFormat('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  }).format(date);
+};
+---
+
+<BaseLayout title="Now - What I'm Working On" description="This month's organization projects, what I'm testing, and lessons learned">
+  <h1>Now</h1>
+  <p>This page answers: What's on my mind right now? What am I working on?</p>
+
+  <section>
+    <h2>Active Projects</h2>
+    <ul>
+      <li>[ ] Kitchen pantry reorganization</li>
+      <li>[ ] Seasonal closet rotation</li>
+      <li>[ ] Bathroom moisture management</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Currently Testing</h2>
+    <ul>
+      <li>New pull-out basket systems for deep shelves</li>
+      <li>No-drill adhesive hooks durability</li>
+      <li>Under-bed storage box stackability</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Recent Observations</h2>
+    <p>This month I discovered: A 15-minute weekly reset beats one big monthly organizing session by 10x. Consistency matters more than perfection.</p>
+  </section>
+
+  <section>
+    <h2>Currently Reading</h2>
+    <ul>
+      <li>Home organization blogs and resources</li>
+      <li>Small space living strategies</li>
+    </ul>
+  </section>
+
+  <p style="font-size: 0.9rem; color: #666; margin-top: 3rem;">
+    Last updated: {formatDate(lastUpdated)} | 
+    <a href="https://nownownow.com/about">About this page</a>
+  </p>
+</BaseLayout>

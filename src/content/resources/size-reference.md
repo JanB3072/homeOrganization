@@ -1,27 +1,40 @@
 ---
-title: "居家收纳尺寸参考表"
-description: "常见家具和收纳用品的尺寸对比"
+title: "Home Organization Size Reference Guide"
+description: "Common furniture and storage dimensions for planning your space"
 ---
 
-# 尺寸参考表
+# Size Reference Guide
 
-## 床下高度对照
+This is a quick reference of common dimensions I use for planning storage solutions.
 
-| 床架类型 | 床高 | 能塞收纳箱高度 | 备注 |
-|---------|------|----------------|------|
-| 标准木床架 | 45cm | ≤ 35cm | 根据垫厚度调整 |
-| 低矮床架 | 30cm | ≤ 20cm | 收纳空间有限 |
-| 高架床 | 65cm | ≤ 50cm | 推荐放置空间最大 |
+## Under-Bed Height Reference
 
-## 衣柜挂杆高度
+| Bed Type | Bed Height | Max Box Height | Notes |
+|----------|-----------|----------------|-------|
+| Standard Frame | 45cm (18") | ≤ 35cm (14") | Adjust for mattress thickness |
+| Low Platform | 30cm (12") | ≤ 20cm (8") | Limited storage space |
+| Tall Frame | 65cm (26") | ≤ 50cm (20") | Maximum storage potential |
 
-- 长衣区（大衣、连衣裙）：140-170cm
-- 短衣区（裤子、上衣）：60-90cm
-- 标准配置：150cm（深层）+ 75cm（浅层）
+## Closet Rod Heights
 
-## 食品柜深度实测
+**Standard Setup:**
+- Long hanging (dresses, coats): 140-170cm (55-67")
+- Short hanging (shirts, pants): 60-90cm (24-35")
+- Double-hanging: 150cm + 75cm
 
-- 标准深度：35-40cm
-- 我家深柜：30cm（特殊尺寸）
+## Kitchen Pantry Depth
 
-更多尺寸表敬请期待...
+- Standard depth: 35-40cm (14-16")
+- My pantry: 30cm (12") - small but functional
+
+## Drawer Dimensions
+
+- Standard drawer width: 45-90cm (18-36")
+- Pull-out basket depth: 35-40cm
+- Under-sink width: 60-80cm typically
+
+---
+
+More dimensions coming as I measure and test...
+
+**Last updated:** January 2024

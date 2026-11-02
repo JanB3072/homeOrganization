@@ -1,20 +1,20 @@
 ---
-// 小空间分类页
+// Small Space category page
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const subcategories = [
-  { name: 'Apartment', slug: 'apartment', description: '垂直空间、多用途家具、动线规划' },
-  { name: 'Rental-Friendly', slug: 'rental', description: '免打孔、可拆卸、押金安全、退租复原' }
+  { name: 'Apartment Living', slug: 'apartment', description: 'Vertical space, multi-purpose furniture, and flow' },
+  { name: 'Rental-Friendly', slug: 'rental', description: 'No-drill solutions, removable storage, and damage-free moves' }
 ];
 ---
 
-<BaseLayout title="Small Space - 小空间收纳" description="小空间收纳方案：公寓改造、租房友好方案">
-  <h1>小空间 Small Space</h1>
-  <p>在有限的空间里最大化收纳 — 这是小公寓生活的终极挑战。这里是我的户型公开 + 逐房间方案。</p>
+<BaseLayout title="Small Space Organization - Apartment Ideas" description="Small apartment organization: apartment layout, rental-friendly solutions, and space-maximizing techniques for small living spaces.">
+  <h1>Small Space Organization</h1>
+  <p>Living in a small space requires different strategies. Here's my apartment layout plus room-by-room organization plans you can adapt.</p>
 
   <section class="subcategories">
-    <h2>子分类</h2>
+    <h2>Categories</h2>
     <div class="subcategory-grid">
       {subcategories.map(sub => (
         <div class="subcategory-card">
@@ -26,8 +26,8 @@ const subcategories = [
   </section>
 
   <section class="articles">
-    <h2>最新文章</h2>
-    <p>敬请期待...</p>
+    <h2>Latest Articles</h2>
+    <p>Coming soon...</p>
   </section>
 
   <style>
