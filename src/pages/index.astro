@@ -1,114 +1,198 @@
 ---
-// Home page
+// Modern and beautiful homepage
 
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-// TODO: Read latest posts from src/content/blog
 const recentPosts = [];
+
+const categories = [
+  {
+    name: 'Kitchen',
+    icon: '🍳',
+    slug: '/kitchen/',
+    description: 'Pantry, fridge & cabinet organization',
+  },
+  {
+    name: 'Closet & Bedroom',
+    icon: '👕',
+    slug: '/closet/',
+    description: 'Wardrobe storage & under-bed solutions',
+  },
+  {
+    name: 'Bathroom',
+    icon: '🚿',
+    slug: '/bathroom/',
+    description: 'Small bathroom hacks & storage',
+  },
+  {
+    name: 'Small Space',
+    icon: '🏠',
+    slug: '/small-space/',
+    description: 'Apartment living & rental solutions',
+  },
+  {
+    name: 'Declutter',
+    icon: '✨',
+    slug: '/declutter/',
+    description: 'Methods, routines & moving tips',
+  },
+];
 ---
 
-<BaseLayout title="Home Organization Blog - Real Experiences, Real Solutions" description="A personal home organization blog with real solutions, before-and-after transformations, and practical storage ideas for small spaces.">
-  <section class="hero">
-    <h1>Welcome to My Home Organization Blog</h1>
-    <p>I'm sharing my real experience organizing a small apartment. Every article is tested, measured, and photographed in my own home—no stock photos, no theory, just what actually works.</p>
-  </section>
-
-  <section class="categories">
-    <h2>Browse by Room</h2>
-    <div class="category-grid">
-      <div class="category-card">
-        <h3><a href="/kitchen/">Kitchen</a></h3>
-        <p>Pantry, fridge, and cabinet organization</p>
-      </div>
-      <div class="category-card">
-        <h3><a href="/closet/">Closet & Bedroom</a></h3>
-        <p>Wardrobe storage and under-bed solutions</p>
-      </div>
-      <div class="category-card">
-        <h3><a href="/bathroom/">Bathroom</a></h3>
-        <p>Small bathroom hacks and vanity organization</p>
-      </div>
-      <div class="category-card">
-        <h3><a href="/small-space/">Small Space</a></h3>
-        <p>Apartment living and rental-friendly solutions</p>
-      </div>
-      <div class="category-card">
-        <h3><a href="/declutter/">Declutter & Habits</a></h3>
-        <p>Decluttering methods, routines, and moving tips</p>
-      </div>
+<BaseLayout 
+  title="Home Organization Blog - Real Solutions" 
+  description="A personal home organization blog with real solutions, before-and-after transformations, and practical storage ideas for small spaces."
+>
+  <!-- Hero Section -->
+  <section style="text-align: center; margin-bottom: 4rem; padding: 2rem 0;">
+    <h1 style="margin-bottom: 1rem; background: linear-gradient(135deg, #2563eb, #1e40af); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+      Real Home Organization Stories
+    </h1>
+    <p style="font-size: 1.1rem; color: var(--color-text-light); max-width: 600px; margin: 0 auto; line-height: 1.8;">
+      I'm sharing my real experience organizing a small apartment. Every article is tested, measured, and photographed in my own home—no stock photos, just what actually works.
+    </p>
+    <div style="margin-top: 2rem;">
+      <a href="#categories" style="display: inline-block; background: var(--color-primary); color: white; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 600; transition: all 0.3s ease;">
+        Explore by Room →
+      </a>
     </div>
   </section>
 
-  <section class="latest-posts">
-    <h2>Latest Articles</h2>
+  <!-- Categories Grid -->
+  <section id="categories" style="margin-bottom: 4rem;">
+    <h2 style="text-align: center; margin-bottom: 3rem; font-size: 2rem;">Browse by Room</h2>
+    
+    <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    ">
+      {categories.map((cat) => (
+        <a href={cat.slug} style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          padding: 2rem 1.5rem;
+          background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+          border: 1px solid var(--color-border);
+          border-radius: 1rem;
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+          text-decoration: none;
+          cursor: pointer;
+          position: relative;
+          overflow: hidden;
+        " onmouseenter="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 25px -5px rgba(0, 0, 0, 0.1)'; this.style.borderColor='var(--color-primary)';" 
+           onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 2px 0 rgba(0, 0, 0, 0.05)'; this.style.borderColor='var(--color-border)';">
+          
+          <div style="font-size: 3rem; margin-bottom: 1rem;">{cat.icon}</div>
+          <h3 style="margin: 0.5rem 0; color: var(--color-text); font-size: 1.1rem;">{cat.name}</h3>
+          <p style="font-size: 0.9rem; color: var(--color-text-light); margin: 0; line-height: 1.5;">
+            {cat.description}
+          </p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <!-- Latest Posts Section -->
+  <section style="margin-bottom: 4rem;">
+    <h2 style="margin-bottom: 2rem; font-size: 1.8rem;">Latest Articles</h2>
+    
     {recentPosts.length > 0 ? (
-      <ul>
-        {recentPosts.map(post => (
-          <li>
-            <a href={post.url}>{post.title}</a>
-            <p>{post.description}</p>
-          </li>
+      <div style="
+        display: grid;
+        gap: 1.5rem;
+      ">
+        {recentPosts.map((post) => (
+          <article style="
+            padding: 1.5rem;
+            border: 1px solid var(--color-border);
+            border-radius: 0.75rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+          " onmouseenter="this.style.boxShadow='0 10px 15px -3px rgba(0, 0, 0, 0.1)'; this.style.borderColor='var(--color-primary)';"
+             onmouseleave="this.style.boxShadow='0 1px 2px 0 rgba(0, 0, 0, 0.05)'; this.style.borderColor='var(--color-border)';">
+            <a href={post.url} style="color: var(--color-text);">
+              <h3 style="margin: 0 0 0.5rem 0; font-size: 1.2rem;">{post.title}</h3>
+            </a>
+            <p style="margin: 0; color: var(--color-text-light); font-size: 0.95rem;">{post.description}</p>
+          </article>
         ))}
-      </ul>
+      </div>
     ) : (
-      <p>New articles coming soon...</p>
+      <div style="
+        padding: 3rem 2rem;
+        text-align: center;
+        background: var(--color-bg-light);
+        border-radius: 1rem;
+        border: 1px dashed var(--color-border);
+      ">
+        <p style="margin: 0; color: var(--color-text-light); font-size: 1.05rem;">
+          ✍️ New articles coming soon. Check back regularly for updates!
+        </p>
+      </div>
     )}
   </section>
 
-  <section class="series">
-    <h2>Featured Series</h2>
-    <p>Multi-part series exploring different aspects of home organization...</p>
+  <!-- CTA Section -->
+  <section style="
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    color: white;
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin-top: 4rem;
+  ">
+    <h2 style="color: white; margin-bottom: 1rem;">Get Real Home Organization Tips</h2>
+    <p style="color: rgba(255, 255, 255, 0.9); margin-bottom: 1.5rem; max-width: 500px; margin-left: auto; margin-right: auto;">
+      Subscribe to receive the latest articles with real measurements, costs, and honest reviews.
+    </p>
+    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+      <input 
+        type="email" 
+        placeholder="Your email address" 
+        style="
+          padding: 0.75rem 1rem;
+          border: none;
+          border-radius: 0.5rem;
+          min-width: 250px;
+          font-family: var(--font-primary);
+        "
+      />
+      <button style="
+        padding: 0.75rem 2rem;
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 0.5rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-family: var(--font-primary);
+      " onmouseover="this.style.background='rgba(255, 255, 255, 0.3)'; this.style.transform='scale(1.05)';"
+        onmouseout="this.style.background='rgba(255, 255, 255, 0.2)'; this.style.transform='scale(1)';">
+        Subscribe
+      </button>
+    </div>
   </section>
-
-  <style>
-    .hero {
-      text-align: center;
-      margin: 3rem 0;
-    }
-
-    .hero h1 {
-      margin-bottom: 1rem;
-    }
-
-    .hero p {
-      font-size: 1.2rem;
-      color: #666;
-    }
-
-    .categories {
-      margin: 3rem 0;
-    }
-
-    .category-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-      margin: 1.5rem 0;
-    }
-
-    .category-card {
-      border: 1px solid #eee;
-      padding: 1.5rem;
-      border-radius: 8px;
-      transition: all 0.3s ease;
-    }
-
-    .category-card:hover {
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      border-color: #0066cc;
-    }
-
-    .category-card h3 {
-      margin-top: 0;
-    }
-
-    .category-card a {
-      text-decoration: none;
-    }
-
-    .latest-posts,
-    .series {
-      margin: 3rem 0;
-    }
-  </style>
 </BaseLayout>
+
+<style>
+  /* Additional animations */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  section {
+    animation: fadeInUp 0.6s ease-out;
+  }
+</style>

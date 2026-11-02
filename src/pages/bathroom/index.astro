@@ -4,56 +4,102 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const subcategories = [
-  { name: 'Vanity & Sink', slug: 'vanity', description: 'Bathroom cabinet storage and under-sink organization' },
-  { name: 'Small Bathroom', slug: 'small-bathroom', description: 'No-cabinet solutions, no-drill storage, and mold prevention' }
+  { 
+    name: 'Vanity & Sink', 
+    slug: 'vanity', 
+    icon: '🚿',
+    description: 'Bathroom cabinet storage and under-sink organization' 
+  },
+  { 
+    name: 'Small Bathroom', 
+    slug: 'small-bathroom', 
+    icon: '🪟',
+    description: 'No-cabinet solutions, no-drill storage, and mold prevention' 
+  }
 ];
 ---
 
-<BaseLayout title="Bathroom Organization - Small Space Solutions" description="Bathroom storage ideas for small spaces: vanity organization, no-drill solutions, and moisture prevention tips.">
-  <h1>Bathroom Organization</h1>
-  <p>A small bathroom demands smart solutions. Here's what I learned organizing a tiny bathroom with limited space and a shared sink setup.</p>
+<BaseLayout 
+  title="Bathroom Organization - Small Space Solutions" 
+  description="Bathroom storage ideas for small spaces: vanity organization, no-drill solutions, and moisture prevention tips."
+>
+  <!-- Hero Section -->
+  <section style="margin-bottom: 3rem;">
+    <div style="background: linear-gradient(135deg, #cffafe 0%, #dbeafe 100%); padding: 3rem 2rem; border-radius: 1rem; text-align: center;">
+      <h1 style="color: #0c4a6e; margin-bottom: 1rem;">🚿 Bathroom Organization</h1>
+      <p style="color: #0369a1; font-size: 1.1rem; max-width: 600px; margin: 0 auto; line-height: 1.8;">
+        A small bathroom demands smart solutions. Here's what I learned organizing a tiny bathroom with limited space and a shared sink setup.
+      </p>
+    </div>
+  </section>
 
-  <section class="subcategories">
-    <h2>Categories</h2>
-    <div class="subcategory-grid">
-      {subcategories.map(sub => (
-        <div class="subcategory-card">
-          <h3><a href={`/bathroom/${sub.slug}/`}>{sub.name}</a></h3>
-          <p>{sub.description}</p>
-        </div>
+  <!-- Subcategories Grid -->
+  <section style="margin-bottom: 4rem;">
+    <h2 style="text-align: center; margin-bottom: 2.5rem; font-size: 1.8rem;">Find Solutions</h2>
+    
+    <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    ">
+      {subcategories.map((sub) => (
+        <a 
+          href={`/bathroom/${sub.slug}/`}
+          style="
+            display: block;
+            padding: 2rem;
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            border: 2px solid var(--color-border);
+            border-radius: 1rem;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+          "
+          onmouseenter="this.style.borderColor='#06b6d4'; this.style.transform='translateY(-6px)'; this.style.boxShadow='0 20px 25px -5px rgba(0, 0, 0, 0.1)';"
+          onmouseleave="this.style.borderColor='var(--color-border)'; this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 2px 0 rgba(0, 0, 0, 0.05)';"
+        >
+          <div style="font-size: 2.5rem; margin-bottom: 1rem;">{sub.icon}</div>
+          <h3 style="color: var(--color-text); margin: 0.5rem 0; font-size: 1.2rem;">{sub.name}</h3>
+          <p style="color: var(--color-text-light); margin: 0; font-size: 0.95rem; line-height: 1.5;">
+            {sub.description}
+          </p>
+        </a>
       ))}
     </div>
   </section>
 
-  <section class="articles">
-    <h2>Latest Articles</h2>
-    <p>Coming soon...</p>
+  <!-- Info Section -->
+  <section style="
+    background: linear-gradient(135deg, #dbeafe 0%, #cffafe 100%);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    border-left: 4px solid #0ea5e9;
+    margin-bottom: 3rem;
+  ">
+    <h2 style="color: #0369a1; margin-top: 0; font-size: 1.5rem;">💡 Small Bathroom Tips</h2>
+    <ul style="color: var(--color-text-light); line-height: 1.8;">
+      <li>Go vertical - use walls for storage, not floor space</li>
+      <li>Wall-mounted shelves - maximize every inch</li>
+      <li>Moisture control - prevent mold and mildew</li>
+      <li>Multi-purpose furniture - choose dual-function pieces</li>
+      <li>Over-the-door storage - hidden storage opportunities</li>
+    </ul>
   </section>
 
-  <style>
-    .subcategories {
-      margin: 2rem 0;
-    }
-
-    .subcategory-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-      margin: 1.5rem 0;
-    }
-
-    .subcategory-card {
-      border: 1px solid #eee;
-      padding: 1.5rem;
-      border-radius: 8px;
-    }
-
-    .subcategory-card h3 {
-      margin-top: 0;
-    }
-
-    .subcategory-card a {
-      text-decoration: none;
-    }
-  </style>
+  <!-- Articles Coming Soon -->
+  <section>
+    <h2 style="margin-bottom: 2rem;">📝 Latest Articles</h2>
+    <div style="
+      padding: 3rem 2rem;
+      text-align: center;
+      background: var(--color-bg-light);
+      border-radius: 1rem;
+      border: 2px dashed var(--color-border);
+    ">
+      <p style="margin: 0; color: var(--color-text-light); font-size: 1.05rem;">
+        Bathroom organization articles coming soon!
+      </p>
+    </div>
+  </section>
 </BaseLayout>

@@ -14,42 +14,118 @@ const formatDate = (date: Date) => {
 ---
 
 <BaseLayout title="Now - What I'm Working On" description="This month's organization projects, what I'm testing, and lessons learned">
-  <h1>Now</h1>
-  <p>This page answers: What's on my mind right now? What am I working on?</p>
-
-  <section>
-    <h2>Active Projects</h2>
-    <ul>
-      <li>[ ] Kitchen pantry reorganization</li>
-      <li>[ ] Seasonal closet rotation</li>
-      <li>[ ] Bathroom moisture management</li>
-    </ul>
+  <!-- Header -->
+  <section style="
+    background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    border-left: 4px solid #10b981;
+  ">
+    <h1 style="color: #15803d; margin-top: 0;">What I'm Working On Right Now</h1>
+    <p style="color: #16a34a; font-size: 1.05rem; line-height: 1.8; margin: 0;">
+      This page answers: What's on my mind this month? What am I currently testing? It's a living snapshot of my home organization journey.
+    </p>
   </section>
 
-  <section>
-    <h2>Currently Testing</h2>
-    <ul>
-      <li>New pull-out basket systems for deep shelves</li>
-      <li>No-drill adhesive hooks durability</li>
-      <li>Under-bed storage box stackability</li>
-    </ul>
+  <!-- Active Projects -->
+  <section style="margin-bottom: 3rem;">
+    <h2 style="display: flex; align-items: center; gap: 0.5rem;">🚀 Active Projects</h2>
+    <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    ">
+      <div style="background: var(--color-bg-light); padding: 1.5rem; border-radius: 0.75rem; border-left: 4px solid #f59e0b;">
+        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+          <input type="checkbox" disabled />
+          <h3 style="margin: 0; font-size: 1rem;">Kitchen Pantry Reorganization</h3>
+        </div>
+        <p style="margin: 0; color: var(--color-text-light); font-size: 0.9rem;">Testing pull-out basket systems for deep shelves</p>
+      </div>
+
+      <div style="background: var(--color-bg-light); padding: 1.5rem; border-radius: 0.75rem; border-left: 4px solid #ec4899;">
+        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+          <input type="checkbox" disabled />
+          <h3 style="margin: 0; font-size: 1rem;">Seasonal Closet Rotation</h3>
+        </div>
+        <p style="margin: 0; color: var(--color-text-light); font-size: 0.9rem;">Moving winter clothes to under-bed storage</p>
+      </div>
+
+      <div style="background: var(--color-bg-light); padding: 1.5rem; border-radius: 0.75rem; border-left: 4px solid #0ea5e9;">
+        <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
+          <input type="checkbox" disabled />
+          <h3 style="margin: 0; font-size: 1rem;">Bathroom Moisture Control</h3>
+        </div>
+        <p style="margin: 0; color: var(--color-text-light); font-size: 0.9rem;">Testing humidity solutions and ventilation</p>
+      </div>
+    </div>
   </section>
 
-  <section>
-    <h2>Recent Observations</h2>
-    <p>This month I discovered: A 15-minute weekly reset beats one big monthly organizing session by 10x. Consistency matters more than perfection.</p>
+  <!-- Currently Testing -->
+  <section style="margin-bottom: 3rem;">
+    <h2 style="display: flex; align-items: center; gap: 0.5rem;">🧪 Currently Testing</h2>
+    <div style="
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      padding: 2rem;
+      border-radius: 1rem;
+      border-left: 4px solid #f59e0b;
+    ">
+      <ul style="color: var(--color-text-light); line-height: 2; margin: 0; padding-left: 1.5rem;">
+        <li><strong>Pull-out basket systems</strong> for deep shelves — durability & daily use</li>
+        <li><strong>No-drill adhesive hooks</strong> — testing weight capacity & longevity</li>
+        <li><strong>Under-bed storage boxes</strong> — stackability & accessibility</li>
+        <li><strong>Vertical wall shelving</strong> — small space solutions</li>
+      </ul>
+    </div>
   </section>
 
-  <section>
-    <h2>Currently Reading</h2>
-    <ul>
-      <li>Home organization blogs and resources</li>
-      <li>Small space living strategies</li>
-    </ul>
+  <!-- Observations -->
+  <section style="margin-bottom: 3rem;">
+    <h2 style="display: flex; align-items: center; gap: 0.5rem;">💡 Recent Observations</h2>
+    <div style="
+      background: linear-gradient(135deg, #dbeafe 0%, #cffafe 100%);
+      padding: 2rem;
+      border-radius: 1rem;
+      border: 2px solid #06b6d4;
+    ">
+      <p style="margin: 0; color: #0369a1; font-size: 1.05rem; line-height: 1.8;">
+        <strong>Big Discovery This Month:</strong> A 15-minute weekly reset beats one big monthly organizing session by 10x. Consistency matters more than perfection. The key is making it part of your routine, not a special event.
+      </p>
+    </div>
   </section>
 
-  <p style="font-size: 0.9rem; color: #666; margin-top: 3rem;">
-    Last updated: {formatDate(lastUpdated)} | 
-    <a href="https://nownownow.com/about">About this page</a>
+  <!-- Reading -->
+  <section style="margin-bottom: 3rem;">
+    <h2 style="display: flex; align-items: center; gap: 0.5rem;">📚 Currently Reading</h2>
+    <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    ">
+      <div style="background: var(--color-bg-light); padding: 1.5rem; border-radius: 0.75rem; border: 1px solid var(--color-border);">
+        <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">📖</div>
+        <h3 style="margin: 0 0 0.5rem 0; font-size: 1rem;">Home Organization Blogs</h3>
+        <p style="margin: 0; color: var(--color-text-light); font-size: 0.9rem;">Following trends and testing new ideas</p>
+      </div>
+
+      <div style="background: var(--color-bg-light); padding: 1.5rem; border-radius: 0.75rem; border: 1px solid var(--color-border);">
+        <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">🏙️</div>
+        <h3 style="margin: 0 0 0.5rem 0; font-size: 1rem;">Small Space Living</h3>
+        <p style="margin: 0; color: var(--color-text-light); font-size: 0.9rem;">Strategies for apartments under 600 sq ft</p>
+      </div>
+
+      <div style="background: var(--color-bg-light); padding: 1.5rem; border-radius: 0.75rem; border: 1px solid var(--color-border);">
+        <div style="font-size: 1.5rem; margin-bottom: 0.5rem;">✨</div>
+        <h3 style="margin: 0 0 0.5rem 0; font-size: 1rem;">Minimalism & Decluttering</h3>
+        <p style="margin: 0; color: var(--color-text-light); font-size: 0.9rem;">Learning about sustainable organizing</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Info -->
+  <p style="font-size: 0.85rem; color: var(--color-text-light); margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--color-border);">
+    Last updated: <strong>{formatDate(lastUpdated)}</strong> | 
+    <a href="https://nownownow.com/about">Learn about /now pages</a>
   </p>
 </BaseLayout>

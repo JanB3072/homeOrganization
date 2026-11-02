@@ -1,42 +1,183 @@
 ---
-// About page
+// About page - Make a connection with readers
 
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="About Me" description="Learn about this home organization blog and who's behind it">
-  <h1>About Me</h1>
-  
-  <section>
-    <h2>Who I Am</h2>
-    <p>Tell your story here, including:</p>
-    <ul>
-      <li>Your real name</li>
-      <li>Where you live (city/country)</li>
-      <li>Your home size</li>
-      <li>Your living situation (alone, with family, roommates)</li>
-      <li>Why you started this blog</li>
-    </ul>
+<BaseLayout 
+  title="About Me - Home Organization" 
+  description="Learn about this home organization blog and who's behind it"
+>
+  <!-- About Header -->
+  <section style="
+    background: linear-gradient(135deg, #f0f9ff 0%, #f8fafc 100%);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    border-left: 4px solid var(--color-primary);
+  ">
+    <h1 style="margin-top: 0;">About Me & This Blog</h1>
+    <p style="font-size: 1.1rem; line-height: 1.8; color: var(--color-text-light);">
+      Welcome! This is a space for sharing real home organization stories—not just tips, but honest experiences with actual measurements, real costs, and genuine results.
+    </p>
   </section>
 
-  <section>
-    <h2>Why This Blog</h2>
-    <p>Share your journey. Why did you decide to document your home organization process? What problem were you trying to solve?</p>
+  <!-- Two Column Section -->
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-bottom: 3rem; align-items: center;">
+    <div style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); padding: 2rem; border-radius: 1rem; aspect-ratio: 1/1; display: flex; align-items: center; justify-content: center; border: 2px dashed var(--color-border);">
+      <div style="text-align: center; color: var(--color-text-light);">
+        <div style="font-size: 4rem; margin-bottom: 1rem;">📸</div>
+        <p>Your photo will go here</p>
+      </div>
+    </div>
+
+    <div>
+      <h2 style="margin-top: 0;">Who I Am</h2>
+      <p style="line-height: 1.8; color: var(--color-text-light); margin-bottom: 1rem;">
+        <strong>Your Name:</strong> [Add your real name]
+      </p>
+      <p style="line-height: 1.8; color: var(--color-text-light); margin-bottom: 1rem;">
+        <strong>Location:</strong> [Your city, country] — currently living in a [size] sq ft apartment
+      </p>
+      <p style="line-height: 1.8; color: var(--color-text-light); margin-bottom: 1rem;">
+        <strong>Family:</strong> [Living with...: just me, partner, kids, roommates]
+      </p>
+      <p style="line-height: 1.8; color: var(--color-text-light);">
+        <strong>Background:</strong> [Your relevant background or what led you to home organization]
+      </p>
+    </div>
+  </div>
+
+  <!-- Why This Blog -->
+  <section style="
+    background: linear-gradient(135deg, #fef3c7 0%, #fee2e2 100%);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+  ">
+    <h2 style="color: #92400e; margin-top: 0;">Why I Started This Blog</h2>
+    <p style="line-height: 1.8; color: #b45309; margin-bottom: 1rem;">
+      I got tired of generic organization advice that didn't actually work in real homes. After struggling with my own space for years, I finally figured out what works—not just in theory, but through actual testing and living with the systems.
+    </p>
+    <p style="line-height: 1.8; color: #b45309;">
+      This blog is my way of sharing those discoveries: the real costs, the honest "before I messed up," and what actually made a lasting difference. I want to help others avoid the mistakes I made and get straight to solutions that actually work.
+    </p>
   </section>
 
-  <section>
+  <!-- My Approach -->
+  <section style="margin-bottom: 3rem;">
     <h2>My Approach</h2>
-    <p>Every article here is based on:</p>
-    <ul>
-      <li>Real experience in my own home</li>
-      <li>Actual measurements and dimensions</li>
-      <li>Real before-and-after photos</li>
-      <li>Honest feedback on what works and what doesn't</li>
-    </ul>
+    
+    <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    ">
+      <div style="
+        background: var(--color-bg-light);
+        padding: 2rem;
+        border-radius: 1rem;
+        border: 1px solid var(--color-border);
+      ">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">📸</div>
+        <h3 style="margin: 0.5rem 0;">Real Photos</h3>
+        <p style="font-size: 0.95rem; color: var(--color-text-light); margin: 0;">
+          Every image is from my own home. No stock photos, no perfected styling—just real life.
+        </p>
+      </div>
+
+      <div style="
+        background: var(--color-bg-light);
+        padding: 2rem;
+        border-radius: 1rem;
+        border: 1px solid var(--color-border);
+      ">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">📏</div>
+        <h3 style="margin: 0.5rem 0;">Actual Measurements</h3>
+        <p style="font-size: 0.95rem; color: var(--color-text-light); margin: 0;">
+          I measure and test everything. You get real dimensions so you can replicate or adapt.
+        </p>
+      </div>
+
+      <div style="
+        background: var(--color-bg-light);
+        padding: 2rem;
+        border-radius: 1rem;
+        border: 1px solid var(--color-border);
+      ">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">💰</div>
+        <h3 style="margin: 0.5rem 0;">Real Costs</h3>
+        <p style="font-size: 0.95rem; color: var(--color-text-light); margin: 0;">
+          I break down the expenses so you know exactly what you're investing in.
+        </p>
+      </div>
+
+      <div style="
+        background: var(--color-bg-light);
+        padding: 2rem;
+        border-radius: 1rem;
+        border: 1px solid var(--color-border);
+      ">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎯</div>
+        <h3 style="margin: 0.5rem 0;">Honest Reviews</h3>
+        <p style="font-size: 0.95rem; color: var(--color-text-light); margin: 0;">
+          I tell you what works, what doesn't, and whether I'd do it again.
+        </p>
+      </div>
+
+      <div style="
+        background: var(--color-bg-light);
+        padding: 2rem;
+        border-radius: 1rem;
+        border: 1px solid var(--color-border);
+      ">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">⏱️</div>
+        <h3 style="margin: 0.5rem 0;">Time Investment</h3>
+        <p style="font-size: 0.95rem; color: var(--color-text-light); margin: 0;">
+          I track how long projects actually take, not how long they should take.
+        </p>
+      </div>
+
+      <div style="
+        background: var(--color-bg-light);
+        padding: 2rem;
+        border-radius: 1rem;
+        border: 1px solid var(--color-border);
+      ">
+        <div style="font-size: 2rem; margin-bottom: 0.5rem;">📈</div>
+        <h3 style="margin: 0.5rem 0;">Long-Term Results</h3>
+        <p style="font-size: 0.95rem; color: var(--color-text-light); margin: 0;">
+          I follow up on systems months later to see if they actually stick.
+        </p>
+      </div>
+    </div>
   </section>
 
-  <section>
-    <h2>Get In Touch</h2>
-    <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+  <!-- Get In Touch -->
+  <section style="
+    background: linear-gradient(135deg, #dbeafe 0%, #e0e7ff 100%);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: 2px solid var(--color-border);
+  ">
+    <h2 style="margin-top: 0; color: var(--color-primary);">Get In Touch</h2>
+    <p style="font-size: 1.05rem; margin-bottom: 1.5rem; max-width: 500px; margin-left: auto; margin-right: auto;">
+      I'd love to hear from you! Have questions, suggestions, or want to share your own organizing story?
+    </p>
+    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+      <a href="mailto:your-email@example.com" style="
+        display: inline-block;
+        background: var(--color-primary);
+        color: white;
+        padding: 0.75rem 2rem;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+      " onmouseover="this.style.transform='scale(1.05)'; this.style.background='var(--color-primary-dark)';"
+         onmouseout="this.style.transform='scale(1)'; this.style.background='var(--color-primary)';">
+        Send me an email
+      </a>
+    </div>
   </section>
 </BaseLayout>

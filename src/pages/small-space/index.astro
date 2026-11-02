@@ -4,56 +4,102 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 
 const subcategories = [
-  { name: 'Apartment Living', slug: 'apartment', description: 'Vertical space, multi-purpose furniture, and flow' },
-  { name: 'Rental-Friendly', slug: 'rental', description: 'No-drill solutions, removable storage, and damage-free moves' }
+  { 
+    name: 'Apartment Living', 
+    slug: 'apartment', 
+    icon: '🏢',
+    description: 'Vertical space, multi-purpose furniture, and flow' 
+  },
+  { 
+    name: 'Rental-Friendly', 
+    slug: 'rental', 
+    icon: '🔑',
+    description: 'No-drill solutions, removable storage, and damage-free moves' 
+  }
 ];
 ---
 
-<BaseLayout title="Small Space Organization - Apartment Ideas" description="Small apartment organization: apartment layout, rental-friendly solutions, and space-maximizing techniques for small living spaces.">
-  <h1>Small Space Organization</h1>
-  <p>Living in a small space requires different strategies. Here's my apartment layout plus room-by-room organization plans you can adapt.</p>
+<BaseLayout 
+  title="Small Space Organization - Apartment Ideas" 
+  description="Small apartment organization: apartment layout, rental-friendly solutions, and space-maximizing techniques for small living spaces."
+>
+  <!-- Hero Section -->
+  <section style="margin-bottom: 3rem;">
+    <div style="background: linear-gradient(135deg, #dcfce7 0%, #dbeafe 100%); padding: 3rem 2rem; border-radius: 1rem; text-align: center;">
+      <h1 style="color: #15803d; margin-bottom: 1rem;">🏠 Small Space Living</h1>
+      <p style="color: #16a34a; font-size: 1.1rem; max-width: 600px; margin: 0 auto; line-height: 1.8;">
+        Living in a small space requires different strategies. Here's my apartment layout plus room-by-room organization plans you can adapt.
+      </p>
+    </div>
+  </section>
 
-  <section class="subcategories">
-    <h2>Categories</h2>
-    <div class="subcategory-grid">
-      {subcategories.map(sub => (
-        <div class="subcategory-card">
-          <h3><a href={`/small-space/${sub.slug}/`}>{sub.name}</a></h3>
-          <p>{sub.description}</p>
-        </div>
+  <!-- Subcategories Grid -->
+  <section style="margin-bottom: 4rem;">
+    <h2 style="text-align: center; margin-bottom: 2.5rem; font-size: 1.8rem;">Choose Your Focus</h2>
+    
+    <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    ">
+      {subcategories.map((sub) => (
+        <a 
+          href={`/small-space/${sub.slug}/`}
+          style="
+            display: block;
+            padding: 2rem;
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            border: 2px solid var(--color-border);
+            border-radius: 1rem;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+          "
+          onmouseenter="this.style.borderColor='#22c55e'; this.style.transform='translateY(-6px)'; this.style.boxShadow='0 20px 25px -5px rgba(0, 0, 0, 0.1)';"
+          onmouseleave="this.style.borderColor='var(--color-border)'; this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 2px 0 rgba(0, 0, 0, 0.05)';"
+        >
+          <div style="font-size: 2.5rem; margin-bottom: 1rem;">{sub.icon}</div>
+          <h3 style="color: var(--color-text); margin: 0.5rem 0; font-size: 1.2rem;">{sub.name}</h3>
+          <p style="color: var(--color-text-light); margin: 0; font-size: 0.95rem; line-height: 1.5;">
+            {sub.description}
+          </p>
+        </a>
       ))}
     </div>
   </section>
 
-  <section class="articles">
-    <h2>Latest Articles</h2>
-    <p>Coming soon...</p>
+  <!-- Info Section -->
+  <section style="
+    background: linear-gradient(135deg, #dbeafe 0%, #dcfce7 100%);
+    padding: 3rem 2rem;
+    border-radius: 1rem;
+    border-left: 4px solid #10b981;
+    margin-bottom: 3rem;
+  ">
+    <h2 style="color: #059669; margin-top: 0; font-size: 1.5rem;">💡 Small Space Strategies</h2>
+    <ul style="color: var(--color-text-light); line-height: 1.8;">
+      <li>Think vertical - walls are your biggest asset</li>
+      <li>Multi-purpose furniture - every piece must earn its space</li>
+      <li>Minimal clutter - less is truly more in small spaces</li>
+      <li>Clear containers - see what you have at a glance</li>
+      <li>Under-bed storage - hidden space that's easy to access</li>
+    </ul>
   </section>
 
-  <style>
-    .subcategories {
-      margin: 2rem 0;
-    }
-
-    .subcategory-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-      margin: 1.5rem 0;
-    }
-
-    .subcategory-card {
-      border: 1px solid #eee;
-      padding: 1.5rem;
-      border-radius: 8px;
-    }
-
-    .subcategory-card h3 {
-      margin-top: 0;
-    }
-
-    .subcategory-card a {
-      text-decoration: none;
-    }
-  </style>
+  <!-- Articles Coming Soon -->
+  <section>
+    <h2 style="margin-bottom: 2rem;">📝 Latest Articles</h2>
+    <div style="
+      padding: 3rem 2rem;
+      text-align: center;
+      background: var(--color-bg-light);
+      border-radius: 1rem;
+      border: 2px dashed var(--color-border);
+    ">
+      <p style="margin: 0; color: var(--color-text-light); font-size: 1.05rem;">
+        Small space organization articles coming soon!
+      </p>
+    </div>
+  </section>
 </BaseLayout>
