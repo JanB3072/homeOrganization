@@ -1,5 +1,5 @@
 ---
-// Subcategory navigation component for category pages
+// Elegant subcategory navigation component
 
 import { getPostsByCategory } from '../utils/content';
 
@@ -32,23 +32,28 @@ const categorySlug = category.toLowerCase().replace(/\s+/g, '-');
 ---
 
 <nav class="subcategory-nav">
-  <div class="subcategory-label">📂 子分类</div>
-  <ul class="subcategory-list">
+  <div class="nav-header">
+    <h3 class="nav-title">Browse by topic</h3>
+  </div>
+  
+  <ul class="nav-list">
     <li>
       <a 
         href={`/${categorySlug}/`}
-        class={`subcategory-link ${!currentSubcategory ? 'active' : ''}`}
+        class={`nav-link ${!currentSubcategory ? 'active' : ''}`}
       >
-        全部 <span class="count">({posts.length})</span>
+        <span class="link-text">All topics</span>
+        <span class="link-count">{posts.length}</span>
       </a>
     </li>
     {subcategories.map(([subcategory, count]) => (
       <li>
         <a 
           href={`/${categorySlug}/#${subcategory.toLowerCase().replace(/\s+/g, '-')}`}
-          class={`subcategory-link ${currentSubcategory === subcategory ? 'active' : ''}`}
+          class={`nav-link ${currentSubcategory === subcategory ? 'active' : ''}`}
         >
-          {subcategory} <span class="count">({count})</span>
+          <span class="link-text">{subcategory}</span>
+          <span class="link-count">{count}</span>
         </a>
       </li>
     ))}
@@ -57,94 +62,122 @@ const categorySlug = category.toLowerCase().replace(/\s+/g, '-');
 
 <style>
   .subcategory-nav {
-    background: var(--color-card-bg, #ffffff);
-    border: 1px solid var(--color-border, #e5e7eb);
-    border-radius: 8px;
-    padding: 1.25rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    margin-bottom: 3rem;
   }
 
-  .subcategory-label {
-    font-size: 0.9rem;
-    font-weight: 600;
-    margin-bottom: 0.75rem;
-    color: var(--color-text, #1f2937);
+  .nav-header {
+    margin-bottom: 1rem;
   }
 
-  .subcategory-list {
+  .nav-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-light, #6b7280);
+    margin: 0;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid var(--color-border, #e5e7eb);
+  }
+
+  .nav-list {
     list-style: none;
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 0.75rem;
   }
 
-  .subcategory-link {
-    display: inline-block;
-    padding: 0.6rem 0.9rem;
-    background: var(--color-tag-bg, #f3f4f6);
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    background: var(--color-bg-light, #f9fafb);
     color: var(--color-text, #1f2937);
     text-decoration: none;
     border-radius: 6px;
     font-size: 0.9rem;
     font-weight: 500;
+    border: 1px solid var(--color-border, #e5e7eb);
     transition: all 0.2s ease;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
-  .subcategory-link:hover {
+  .nav-link:hover {
     background: var(--color-primary-light, #dbeafe);
     color: var(--color-primary, #3b82f6);
+    border-color: var(--color-primary, #3b82f6);
+    transform: translateY(-2px);
   }
 
-  .subcategory-link.active {
+  .nav-link.active {
     background: var(--color-primary, #3b82f6);
     color: white;
+    border-color: var(--color-primary, #3b82f6);
   }
 
-  .count {
-    font-size: 0.8rem;
-    opacity: 0.8;
+  .link-text {
+    flex: 1;
+    text-align: left;
+  }
+
+  .link-count {
+    font-size: 0.75rem;
+    font-weight: 600;
+    opacity: 0.7;
+    margin-left: 0.5rem;
+  }
+
+  .nav-link.active .link-count {
+    opacity: 0.9;
   }
 
   /* Dark Mode */
-  :global(.dark) .subcategory-nav {
-    background: var(--color-card-bg, #1f2937);
+  :global(.dark) .nav-title {
+    color: var(--color-text-light, #9ca3af);
+    border-bottom-color: var(--color-border, #374151);
+  }
+
+  :global(.dark) .nav-link {
+    background: rgba(107, 114, 128, 0.1);
+    color: var(--color-text, #e5e7eb);
     border-color: var(--color-border, #374151);
   }
 
-  :global(.dark) .subcategory-label {
-    color: var(--color-text, #f3f4f6);
-  }
-
-  :global(.dark) .subcategory-link {
-    background: rgba(107, 114, 128, 0.2);
-    color: var(--color-text, #e5e7eb);
-  }
-
-  :global(.dark) .subcategory-link:hover {
+  :global(.dark) .nav-link:hover {
     background: rgba(59, 130, 246, 0.2);
     color: #60a5fa;
+    border-color: rgba(96, 165, 250, 0.5);
   }
 
-  :global(.dark) .subcategory-link.active {
+  :global(.dark) .nav-link.active {
     background: var(--color-primary, #3b82f6);
     color: white;
+    border-color: var(--color-primary, #3b82f6);
   }
 
   /* Responsive */
+  @media (max-width: 1024px) {
+    .nav-list {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+  }
+
   @media (max-width: 768px) {
-    .subcategory-list {
-      grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    .nav-list {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+      gap: 0.5rem;
+    }
+
+    .nav-link {
+      padding: 0.6rem 0.8rem;
+      font-size: 0.85rem;
     }
   }
 
   @media (max-width: 480px) {
-    .subcategory-list {
+    .nav-list {
       grid-template-columns: 1fr;
     }
   }

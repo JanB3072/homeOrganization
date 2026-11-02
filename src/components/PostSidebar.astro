@@ -1,5 +1,5 @@
 ---
-// Sidebar component for post pages with popular articles, related articles, and tags
+// Elegant sidebar component for post pages
 
 import { getAllTags, getFeaturedPosts } from '../utils/content';
 import type { CollectionEntry } from 'astro:content';
@@ -18,128 +18,100 @@ const featuredPosts = await getFeaturedPosts(5);
 
 // Get all tags for tag cloud
 const allTags = await getAllTags();
-const topTags = allTags.slice(0, 8);
+const topTags = allTags.slice(0, 6);
 
 // Filter featured posts to exclude current post
 const sidebarFeaturedPosts = featuredPosts
   .filter(p => p.slug !== currentSlug)
-  .slice(0, 4);
+  .slice(0, 3);
 ---
 
-<aside class="post-sidebar">
-  <!-- Popular Articles Section -->
-  <div class="sidebar-section">
-    <h3 class="sidebar-title">🌟 热门文章</h3>
-    <ul class="article-list">
-      {sidebarFeaturedPosts.map(post => (
-        <li>
-          <a href={`/blog/${post.slug}/`} class="article-link">
-            {post.data.title}
-          </a>
-          <span class="article-date">
-            {post.data.pubDate.toLocaleDateString('zh-CN', { 
-              month: 'short', 
-              day: 'numeric' 
-            })}
-          </span>
-        </li>
-      ))}
-    </ul>
-  </div>
+<aside class="sidebar">
+  <!-- Popular Articles -->
+  {sidebarFeaturedPosts.length > 0 && (
+    <section class="sidebar-block">
+      <h3 class="block-title">Popular</h3>
+      <ul class="articles">
+        {sidebarFeaturedPosts.map((post, idx) => (
+          <li class="article-item">
+            <a href={`/blog/${post.slug}/`} class="article-title">
+              <span class="number">{idx + 1}</span>
+              {post.data.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
 
-  <!-- Related Articles Section -->
+  <!-- Related Articles -->
   {relatedPosts && relatedPosts.length > 0 && (
-    <div class="sidebar-section">
-      <h3 class="sidebar-title">🔗 相关文章</h3>
-      <ul class="article-list">
-        {relatedPosts.map(post => (
-          <li>
+    <section class="sidebar-block">
+      <h3 class="block-title">Related</h3>
+      <ul class="articles">
+        {relatedPosts.map((post) => (
+          <li class="article-item">
             <a href={`/blog/${post.slug}/`} class="article-link">
               {post.data.title}
             </a>
           </li>
         ))}
       </ul>
-    </div>
+    </section>
   )}
 
-  <!-- Popular Tags Section -->
-  <div class="sidebar-section">
-    <h3 class="sidebar-title">🏷️ 热门标签</h3>
-    <div class="tag-cloud">
-      {topTags.map(([tag, count]) => (
-        <a 
-          href={`/tags/${tag}/`} 
-          class="tag-cloud-item"
-          title={`${count} articles`}
-          style={{
-            fontSize: `${0.85 + (count / Math.max(...topTags.map(t => t[1]))) * 0.4}rem`,
-            opacity: 0.7 + (count / Math.max(...topTags.map(t => t[1]))) * 0.3
-          }}
-        >
-          {tag}
-        </a>
-      ))}
-    </div>
-  </div>
+  <!-- Tags -->
+  {topTags.length > 0 && (
+    <section class="sidebar-block">
+      <h3 class="block-title">Topics</h3>
+      <div class="tags">
+        {topTags.map(([tag, count]) => (
+          <a href={`/tags/${tag}/`} class="tag" title={`${count} articles`}>
+            {tag}
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 
-  <!-- Category Articles Section -->
+  <!-- Category -->
   {category && (
-    <div class="sidebar-section">
-      <h3 class="sidebar-title">📂 {category}</h3>
-      <p class="sidebar-cta">
-        <a href={`/${category.toLowerCase().replace(/\s+/g, '-')}/`} class="cta-link">
-          查看此分类的所有文章 →
-        </a>
-      </p>
-    </div>
+    <section class="sidebar-block">
+      <h3 class="block-title">Category</h3>
+      <a href={`/${category.toLowerCase().replace(/\s+/g, '-')}/`} class="category-link">
+        {category}
+        <span class="arrow">→</span>
+      </a>
+    </section>
   )}
-
-  <!-- CTA Section -->
-  <div class="sidebar-section cta-section">
-    <h3 class="sidebar-title">💡 提示</h3>
-    <p class="sidebar-text">
-      使用搜索功能快速查找相关内容
-    </p>
-    <a href="/search/" class="sidebar-button">前往搜索</a>
-  </div>
 </aside>
 
 <style>
-  .post-sidebar {
+  .sidebar {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 2rem;
     position: sticky;
-    top: 80px;
+    top: 100px;
   }
 
-  .sidebar-section {
-    background: var(--color-card-bg, #ffffff);
-    border: 1px solid var(--color-border, #e5e7eb);
-    border-radius: 8px;
-    padding: 1.25rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-    transition: all 0.3s ease;
+  .sidebar-block {
+    animation: fadeIn 0.5s ease-out;
   }
 
-  .sidebar-section:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    border-color: var(--color-primary, #3b82f6);
-  }
-
-  .sidebar-title {
-    font-size: 0.95rem;
-    font-weight: 600;
+  .block-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-light, #6b7280);
     margin: 0 0 1rem 0;
-    color: var(--color-text, #1f2937);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--color-border, #e5e7eb);
   }
 
-  /* Article List */
-  .article-list {
+  /* Articles List */
+  .articles {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -148,130 +120,203 @@ const sidebarFeaturedPosts = featuredPosts
     gap: 0.75rem;
   }
 
-  .article-list li {
+  .article-item {
+    margin: 0;
+  }
+
+  .article-title {
     display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
+    align-items: flex-start;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: var(--color-text, #1f2937);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    transition: all 0.2s ease;
+    font-weight: 500;
+  }
+
+  .article-title:hover {
+    color: var(--color-primary, #3b82f6);
+    transform: translateX(4px);
+  }
+
+  .number {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    background: var(--color-primary-light, #dbeafe);
+    color: var(--color-primary, #3b82f6);
+    border-radius: 50%;
+    font-size: 0.75rem;
+    font-weight: 700;
   }
 
   .article-link {
-    font-size: 0.9rem;
-    line-height: 1.4;
-    color: var(--color-primary, #3b82f6);
+    display: block;
     text-decoration: none;
-    font-weight: 500;
+    color: var(--color-text, #1f2937);
+    font-size: 0.9rem;
+    line-height: 1.5;
     transition: all 0.2s ease;
+    padding: 0.5rem;
+    border-left: 2px solid transparent;
+    padding-left: 0.75rem;
   }
 
   .article-link:hover {
-    color: var(--color-primary-dark, #1e40af);
-    text-decoration: underline;
+    color: var(--color-primary, #3b82f6);
+    border-left-color: var(--color-primary, #3b82f6);
+    background: var(--color-primary-light, #f0f9ff);
   }
 
-  .article-date {
-    font-size: 0.75rem;
-    color: var(--color-text-light, #6b7280);
-  }
-
-  /* Tag Cloud */
-  .tag-cloud {
+  /* Tags */
+  .tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
   }
 
-  .tag-cloud-item {
-    display: inline-block;
-    padding: 0.4rem 0.75rem;
-    background: linear-gradient(135deg, var(--color-primary-light, #dbeafe), var(--color-primary, #3b82f6));
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 20px;
-    font-weight: 500;
-    transition: all 0.2s ease;
-    white-space: nowrap;
-  }
-
-  .tag-cloud-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(59, 130, 246, 0.3);
-  }
-
-  /* Category and CTA */
-  .sidebar-cta,
-  .sidebar-text {
-    margin: 0;
-    font-size: 0.9rem;
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.4rem 0.8rem;
+    background: var(--color-bg-light, #f9fafb);
     color: var(--color-text, #1f2937);
-    line-height: 1.5;
-  }
-
-  .cta-link {
-    color: var(--color-primary, #3b82f6);
     text-decoration: none;
+    border-radius: 6px;
+    font-size: 0.8rem;
     font-weight: 500;
+    border: 1px solid var(--color-border, #e5e7eb);
     transition: all 0.2s ease;
   }
 
-  .cta-link:hover {
-    text-decoration: underline;
-    color: var(--color-primary-dark, #1e40af);
-  }
-
-  .cta-section {
-    background: linear-gradient(135deg, var(--color-primary-light, #dbeafe), var(--color-primary-very-light, #f0f9ff));
-    border-color: var(--color-primary, #3b82f6);
-  }
-
-  .sidebar-button {
-    display: inline-block;
-    margin-top: 0.75rem;
-    padding: 0.5rem 1rem;
+  .tag:hover {
     background: var(--color-primary, #3b82f6);
     color: white;
-    border-radius: 4px;
+    border-color: var(--color-primary, #3b82f6);
+    transform: translateY(-1px);
+  }
+
+  /* Category Link */
+  .category-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
     text-decoration: none;
+    color: var(--color-primary, #3b82f6);
+    font-size: 0.95rem;
     font-weight: 500;
-    font-size: 0.9rem;
+    padding: 0.75rem 1rem;
+    background: var(--color-primary-light, #f0f9ff);
+    border-radius: 6px;
+    border: 1px solid var(--color-primary, #3b82f6);
+    transition: all 0.2s ease;
+    width: 100%;
+  }
+
+  .category-link:hover {
+    background: var(--color-primary, #3b82f6);
+    color: white;
+    transform: translateX(4px);
+  }
+
+  .arrow {
+    opacity: 0.6;
     transition: all 0.2s ease;
   }
 
-  .sidebar-button:hover {
-    background: var(--color-primary-dark, #1e40af);
-    transform: translateY(-2px);
+  .category-link:hover .arrow {
+    opacity: 1;
+    transform: translateX(4px);
   }
 
-  /* Dark Mode Support */
-  :global(.dark) .sidebar-section {
-    background: var(--color-card-bg, #1f2937);
-    border-color: var(--color-border, #374151);
+  /* Dark Mode */
+  :global(.dark) .block-title {
+    color: var(--color-text-light, #9ca3af);
+    border-bottom-color: var(--color-border, #374151);
   }
 
-  :global(.dark) .sidebar-title {
-    color: var(--color-text, #f3f4f6);
+  :global(.dark) .article-title {
+    color: var(--color-text, #e5e7eb);
   }
 
-  :global(.dark) .article-link {
+  :global(.dark) .article-title:hover {
     color: #60a5fa;
   }
 
+  :global(.dark) .number {
+    background: rgba(96, 165, 250, 0.1);
+    color: #60a5fa;
+  }
+
+  :global(.dark) .article-link {
+    color: var(--color-text, #e5e7eb);
+  }
+
   :global(.dark) .article-link:hover {
-    color: #93c5fd;
+    color: #60a5fa;
+    border-left-color: #60a5fa;
+    background: rgba(96, 165, 250, 0.1);
   }
 
-  :global(.dark) .article-date {
-    color: var(--color-text-light, #9ca3af);
+  :global(.dark) .tag {
+    background: rgba(107, 114, 128, 0.2);
+    color: var(--color-text, #e5e7eb);
+    border-color: var(--color-border, #374151);
   }
 
-  :global(.dark) .cta-section {
-    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.05));
+  :global(.dark) .tag:hover {
+    background: #3b82f6;
+    border-color: #3b82f6;
+    color: white;
+  }
+
+  :global(.dark) .category-link {
+    background: rgba(59, 130, 246, 0.1);
+    color: #60a5fa;
+    border-color: rgba(96, 165, 250, 0.3);
+  }
+
+  :global(.dark) .category-link:hover {
+    background: #3b82f6;
+    color: white;
+    border-color: #3b82f6;
+  }
+
+  /* Animations */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 
   /* Responsive */
   @media (max-width: 1024px) {
-    .post-sidebar {
+    .sidebar {
       position: relative;
       top: 0;
+      gap: 1.5rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .sidebar {
+      gap: 1.5rem;
+    }
+
+    .sidebar-block {
+      display: none;
+    }
+
+    .sidebar-block:first-child {
+      display: block;
     }
   }
 </style>

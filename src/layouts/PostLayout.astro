@@ -135,8 +135,9 @@ const breadcrumbs = [
       font-size: 2.5rem;
       font-weight: 700;
       line-height: 1.2;
-      margin: 0 0 1rem 0;
+      margin: 0 0 1.5rem 0;
       color: var(--color-text, #1f2937);
+      letter-spacing: -0.02em;
     }
 
     .post-meta {
@@ -161,19 +162,20 @@ const breadcrumbs = [
     .category,
     .subcategory {
       display: inline-block;
-      background-color: var(--color-tag-bg, #f3f4f6);
-      color: var(--color-primary, #3b82f6);
-      padding: 0.4rem 0.9rem;
-      border-radius: 20px;
-      font-size: 0.85rem;
+      background-color: transparent;
+      color: var(--color-text-light, #6b7280);
+      padding: 0;
+      border-radius: 0;
+      font-size: 0.9rem;
       font-weight: 500;
       transition: all 0.2s ease;
+      border-bottom: 2px solid var(--color-text-light, #6b7280);
     }
 
     .category:hover,
     .subcategory:hover {
-      background-color: var(--color-primary, #3b82f6);
-      color: white;
+      color: var(--color-text, #1f2937);
+      border-bottom-color: var(--color-text, #1f2937);
     }
 
     .post-content {
@@ -202,19 +204,22 @@ const breadcrumbs = [
 
     .tag {
       display: inline-block;
-      background: linear-gradient(135deg, var(--color-primary-light, #dbeafe), var(--color-primary, #3b82f6));
-      color: white;
+      background: var(--color-bg-light, #f9fafb);
+      color: var(--color-text, #1f2937);
       padding: 0.5rem 1rem;
-      border-radius: 20px;
+      border-radius: 6px;
       font-size: 0.85rem;
       text-decoration: none;
       font-weight: 500;
+      border: 1px solid var(--color-border, #e5e7eb);
       transition: all 0.2s ease;
     }
 
     .tag:hover {
+      background: var(--color-primary, #3b82f6);
+      color: white;
+      border-color: var(--color-primary, #3b82f6);
       transform: translateY(-2px);
-      box-shadow: 0 4px 8px rgba(59, 130, 246, 0.3);
     }
 
     .updated {
