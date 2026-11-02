@@ -1,0 +1,39 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 定义渐变 -->
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆形 -->
+  <circle cx="100" cy="100" r="95" fill="url(#logoGradient)"/>
+  
+  <!-- 白色边框 -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#ffffff" stroke-width="3"/>
+  
+  <!-- 房子图标 - 屋顶 -->
+  <polygon points="100,40 140,80 60,80" fill="#ffffff"/>
+  
+  <!-- 房子图标 - 墙体 -->
+  <rect x="65" y="80" width="70" height="65" fill="none" stroke="#ffffff" stroke-width="3"/>
+  
+  <!-- 房子图标 - 门 -->
+  <rect x="85" y="100" width="30" height="45" fill="none" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- 房子图标 - 门把手 -->
+  <circle cx="112" cy="123" r="2" fill="#ffffff"/>
+  
+  <!-- 房子图标 - 左窗 -->
+  <rect x="70" y="85" width="15" height="15" fill="none" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- 房子图标 - 右窗 -->
+  <rect x="115" y="85" width="15" height="15" fill="none" stroke="#ffffff" stroke-width="2"/>
+  
+  <!-- 装饰星星（左上） -->
+  <polygon points="30,25 35,40 50,40 38,50 43,65 30,55 17,65 22,50 10,40 25,40" fill="#e2e8f0"/>
+  
+  <!-- 装饰星星（右下） -->
+  <polygon points="170,160 175,175 190,175 178,185 183,200 170,190 157,200 162,185 150,175 165,175" fill="#e2e8f0"/>
+</svg>

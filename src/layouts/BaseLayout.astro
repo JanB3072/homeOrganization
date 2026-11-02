@@ -1,12 +1,31 @@
 ---
-// Professional base layout with modern design and great UX
+// Professional base layout with modern design, great UX, and complete SEO optimization
+
+import SchemaOrg from '../components/SchemaOrg.astro';
 
 interface Props {
   title: string;
   description?: string;
+  image?: string;
+  author?: string;
+  geoPosition?: string; // "lat;long"
+  geoPlacename?: string;
+  geoRegion?: string;
 }
 
-const { title, description } = Astro.props;
+const { 
+  title, 
+  description, 
+  image = '/og-image-default.jpg',
+  author,
+  geoPosition,
+  geoPlacename,
+  geoRegion,
+} = Astro.props;
+
+// Get current URL for canonical and social sharing
+const canonicalUrl = Astro.url.href;
+const isHomepage = Astro.url.pathname === '/';
 ---
 
 <!DOCTYPE html>
@@ -18,11 +37,56 @@ const { title, description } = Astro.props;
     <title>{title} | Home Organization</title>
     {description && <meta name="description" content={description} />}
     <meta name="generator" content="Astro" />
-    <link rel="alternate" hrefLang="en" href="https://example.com" />
+    
+    <!-- Canonical URL (prevents duplicate content issues) -->
+    <link rel="canonical" href={canonicalUrl} />
+    
+    <!-- hreflang tags for international SEO -->
+    <link rel="alternate" hrefLang="en" href={canonicalUrl} />
+    <link rel="alternate" hrefLang="x-default" href={canonicalUrl} />
+    
+    <!-- OpenGraph Tags (Social Media Sharing) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Home Organization Blog" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description || "Real home organization solutions with measurements and photos"} />
+    <meta property="og:image" content={image} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="zh_CN" />
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description || "Real home organization solutions"} />
+    <meta name="twitter:image" content={image} />
+    <meta name="twitter:site" content="@yourhandle" />
+    
+    <!-- Geographic SEO Tags -->
+    {geoPosition && (
+      <>
+        <meta name="geo.position" content={geoPosition} />
+        <meta name="geo.placename" content={geoPlacename} />
+        <meta name="geo.region" content={geoRegion} />
+      </>
+    )}
+    {isHomepage && (
+      <>
+        <meta name="geo.position" content="40.7128;-74.0060" />
+        <meta name="geo.placename" content="New York, United States" />
+        <meta name="geo.region" content="US" />
+      </>
+    )}
+    
+    <!-- Google Site Verification (add your code) -->
+    <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE" />
     
     <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Schema.org Structured Data -->
+    <SchemaOrg type="WebSite" url={canonicalUrl} />
     
     <!-- Google Fonts - Inter (modern, clean) -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />

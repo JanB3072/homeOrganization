@@ -1,7 +1,9 @@
 ---
-// 博客文章布局
+// Article layout optimized for SEO and social sharing
 
 import BaseLayout from './BaseLayout.astro';
+import SchemaOrg from '../components/SchemaOrg.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
 
 interface Props {
   title: string;
@@ -16,7 +18,7 @@ interface Props {
 
 const { title, description, author, pubDate, updatedDate, category, tags, image } = Astro.props;
 
-// 格式化日期
+// Format date for display
 const formatDate = (date: Date) => {
   return new Intl.DateTimeFormat('en-US', {
     year: 'numeric',
@@ -24,9 +26,36 @@ const formatDate = (date: Date) => {
     day: 'numeric'
   }).format(date);
 };
+
+// Breadcrumb items
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  ...(category ? [{ name: category, url: `/${category.toLowerCase()}/` }] : []),
+  { name: title, url: Astro.url.href },
+];
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout 
+  title={title} 
+  description={description}
+  image={image}
+  author={author}
+>
+  <!-- BlogPosting Schema -->
+  <SchemaOrg 
+    type="BlogPosting"
+    title={title}
+    description={description}
+    image={image}
+    datePublished={pubDate}
+    dateModified={updatedDate}
+    author={author}
+    category={category}
+    tags={tags}
+  />
+  
+  <!-- Breadcrumb Navigation -->
+  <Breadcrumbs items={breadcrumbs} />
   <article>
     {image && <img src={image} alt={title} />}
     

@@ -1,8 +1,8 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  // Site configuration for SEO
-  site: 'https://yourblogdomain.com', // Change to your actual domain
+  // Site configuration for SEO - IMPORTANT: Update to your actual domain
+  site: 'https://yourblogdomain.com',
   base: '/',
   
   // Build settings
@@ -10,13 +10,12 @@ export default defineConfig({
     assets: 'assets',
   },
   
-  // Output as static HTML for SEO and fast performance
+  // Output as static HTML - best for SEO and fast performance
   output: 'static',
   
-  // Optional: Internationalization setup (if you expand to multiple languages later)
-  // i18n: {
-  //   defaultLocale: 'en',
-  //   locales: ['en', 'es', 'fr'],
-  //   routing: 'prefix-other-locales',
-  // }
+  // Note: i18n can be enabled when you have full Chinese version of content
+  // For now, focus on perfecting English version with complete SEO optimization
+  
+  // Prefetch optimization
+  prefetch: true,
 });

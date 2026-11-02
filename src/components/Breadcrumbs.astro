@@ -1,0 +1,56 @@
+---
+// Breadcrumb navigation with Schema.org structured data
+
+export interface Breadcrumb {
+  name: string;
+  url: string;
+}
+
+interface Props {
+  items: Breadcrumb[];
+}
+
+const { items } = Astro.props;
+
+// Generate BreadcrumbList Schema
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: item.name,
+    item: item.url,
+  })),
+};
+---
+
+<nav aria-label="Breadcrumb navigation">
+  <ol style="display: flex; gap: 0.5rem; flex-wrap: wrap; list-style: none; margin: 0; padding: 0;">
+    {items.map((item, index) => (
+      <li style="display: flex; align-items: center; gap: 0.5rem;">
+        <a 
+          href={item.url}
+          style="color: var(--color-primary); text-decoration: none;"
+          onmouseover="this.style.textDecoration='underline'"
+          onmouseout="this.style.textDecoration='none'"
+        >
+          {item.name}
+        </a>
+        {index < items.length - 1 && (
+          <span style="color: var(--color-border);">/</span>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>
+
+<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+<style>
+  nav {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+</style>
