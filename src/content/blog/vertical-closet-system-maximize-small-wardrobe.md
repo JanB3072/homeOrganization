@@ -18,6 +18,8 @@ My bedroom closet measures 4 feet wide × 5 feet deep × 7 feet tall (1.2m × 1.
 
 The problem wasn't space—it was **organization structure**. After implementing a vertical system, I fit 200+ items and find anything in 30 seconds. Here's exactly how.
 
+> **Note**: This system works best for wardrobes with hanging items (shirts, pants, dresses). Adapt measurements and categories to your climate, work environment, and personal style. The principles apply globally, though seasonal considerations may differ by location.
+
 ## Why Horizontal Storage Fails
 
 Most closet organization advice focuses on horizontal space: using every inch of floor, stacking shelf units, adding shelves to walls. These solutions look good on Instagram. They fail in real apartments.
@@ -51,12 +53,12 @@ My closet:
 
 Here's how I optimized it:
 
-### Layer 1: Premium Real Estate (Eye Level – 48-65 inches)
+### Layer 1: Premium Real Estate (Eye Level – 48-65 inches / 122-165 cm)
 
 This is the "sweet spot"—eye-level, most accessible. I hang:
-- **Work clothes:** 12-15 items (blazers, structured blouses, dress pants)
-- **Frequently worn casual:** 8-10 items (jeans I wear 2x/week, favorite sweaters)
-- **Seasonal pieces:** 10-15 items (lightweight cardigans in summer, heavy sweaters in winter)
+- **Work/professional items:** 12-15 items (structured pieces, blazers if applicable, formal pants, etc.)
+- **Frequently worn casual:** 8-10 items (everyday jeans, favorite basics, go-to sweaters)
+- **Seasonal pieces:** 10-15 items (lightweight layers in summer, warm pieces in winter)
 
 **System:** I use a single rod with wooden dividers (creates visual sections).
 
@@ -207,18 +209,20 @@ I tracked this for 12 weeks:
 
 I upgraded my closet setup gradually. Here's what I actually spent:
 
-| Item | Cost | When | Purpose |
+| Item | Cost Range | When | Purpose |
 |---|---|---|---|
-| Wooden dividers (2) | $8 | Month 1 | Organize main rod |
-| Second rod + brackets | $25 | Month 1 | Utilize upper space |
-| IKEA drawer unit | $35 | Month 2 | Organized small items |
-| Metal shelving (3 shelf) | $28 | Month 2 | Store folded items |
-| Velvet hangers (30) | $20 | Month 1 | Non-slip hanging |
-| Shelf liners | $12 | Month 2 | Protect from dust |
-| Absorbent mat | $8 | Month 2 | Moisture detection |
-| **Total investment** | **$136** | **2 months** | **Organized 200+ items** |
+| Wooden dividers (2) | $5-15 | Month 1 | Organize main rod |
+| Second rod + brackets | $15-35 | Month 1 | Utilize upper space |
+| Drawer unit (small) | $25-50 | Month 2 | Organized small items |
+| Metal shelving (3 shelf) | $20-40 | Month 2 | Store folded items |
+| Velvet hangers (30) | $15-30 | Month 1 | Non-slip hanging |
+| Shelf liners | $8-15 | Month 2 | Protect from dust |
+| Absorbent mat | $5-12 | Month 2 | Moisture detection |
+| **Total investment** | **$93-197** | **2 months** | **Organized 200+ items** |
 
-**Cost per item stored:** $136 ÷ 200 = **$0.68 per item**
+**Cost per item stored:** $93-197 ÷ 200 = **$0.47-0.99 per item**
+
+(Actual costs vary by location, retailer, and available alternatives)
 
 For context, I used to rent a small storage unit ($50/month) for seasonal items. This system cost $136 one-time and eliminated that storage fee entirely.
 

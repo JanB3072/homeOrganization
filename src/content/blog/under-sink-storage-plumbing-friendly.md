@@ -212,10 +212,12 @@ I tracked this system for 6 months across two apartments (one bathroom, one kitc
 
 ## Cost Comparison: What I Spent vs. Alternatives
 
-### My System (6 months)
-- Initial setup: $45
-- Replacements/additions: $0
-- **Total: $45**
+### My System (6 months, approximate US retail prices)
+- Initial setup: $57-65
+- Replacements/additions: $0-10
+- **Total: $57-75**
+
+(Prices vary significantly by region, local retailers, and currency)
 
 ### Popular Alternative 1: Designer Organizers
 - Initial setup: $120 (premium brand)
