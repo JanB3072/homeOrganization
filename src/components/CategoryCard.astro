@@ -1,0 +1,210 @@
+---
+// Beautiful Category Card with 3D hover effect
+
+interface Props {
+  name: string;
+  icon: string;
+  slug: string;
+  description: string;
+  articleCount?: number;
+}
+
+const { name, icon, slug, description, articleCount = 0 } = Astro.props;
+---
+
+<a href={slug} class="category-card" data-name={name}>
+  <div class="category-card-background"></div>
+  
+  <div class="category-card-content">
+    <div class="category-card-icon">{icon}</div>
+    
+    <h3 class="category-card-title">{name}</h3>
+    
+    <p class="category-card-description">{description}</p>
+    
+    {articleCount > 0 && (
+      <p class="category-card-count">📊 {articleCount} articles</p>
+    )}
+    
+    <div class="category-card-arrow">
+      <span>Explore →</span>
+    </div>
+  </div>
+
+  <div class="category-card-gradient"></div>
+</a>
+
+<style>
+  .category-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem 2rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    background: var(--color-bg);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .category-card-background {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--color-bg-light) 0%, var(--color-bg) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .category-card-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .category-card-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .category-card-title {
+    margin: 0.5rem 0;
+    font-size: 1.25rem;
+    color: var(--color-text);
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+
+  .category-card-description {
+    margin: 0.75rem 0;
+    font-size: 0.95rem;
+    color: var(--color-text-light);
+    line-height: 1.6;
+    transition: color 0.3s ease;
+  }
+
+  .category-card-count {
+    margin: 0.5rem 0;
+    font-size: 0.85rem;
+    color: var(--color-secondary);
+    font-weight: 500;
+  }
+
+  .category-card-arrow {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-primary);
+    transition: all 0.3s ease;
+    display: inline-block;
+  }
+
+  .category-card-gradient {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at var(--mouse-x, 50%) var(--mouse-y, 50%), var(--color-primary-light) 0%, transparent 80%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+  }
+
+  /* Hover Effects */
+  .category-card:hover {
+    transform: translateY(-12px);
+    border-color: var(--color-primary);
+    box-shadow: var(--shadow-xl);
+  }
+
+  .category-card:hover .category-card-background {
+    opacity: 1;
+  }
+
+  .category-card:hover .category-card-icon {
+    transform: scale(1.15) rotate(5deg);
+  }
+
+  .category-card:hover .category-card-title {
+    color: var(--color-primary);
+  }
+
+  .category-card:hover .category-card-description {
+    color: var(--color-text);
+  }
+
+  .category-card:hover .category-card-arrow {
+    transform: translateX(4px);
+  }
+
+  /* Active state */
+  .category-card:active {
+    transform: translateY(-8px);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .category-card {
+      padding: 2rem 1.5rem;
+    }
+
+    .category-card-icon {
+      font-size: 3rem;
+    }
+
+    .category-card-title {
+      font-size: 1.1rem;
+    }
+
+    .category-card-description {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .category-card {
+      padding: 1.5rem 1rem;
+    }
+
+    .category-card-icon {
+      font-size: 2.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .category-card-title {
+      font-size: 1rem;
+    }
+
+    .category-card-description {
+      font-size: 0.85rem;
+      margin: 0.5rem 0;
+    }
+
+    .category-card-arrow {
+      margin-top: 0.75rem;
+      font-size: 0.85rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .category-card,
+    .category-card-background,
+    .category-card-icon,
+    .category-card-title,
+    .category-card-description,
+    .category-card-arrow,
+    .category-card-gradient {
+      transition: none;
+    }
+
+    .category-card:hover .category-card-icon {
+      transform: scale(1.05);
+    }
+  }
+</style>

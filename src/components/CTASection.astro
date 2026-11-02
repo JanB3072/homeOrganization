@@ -1,0 +1,264 @@
+---
+// Call-to-Action Section with beautiful gradient and animation
+
+interface Props {
+  title?: string;
+  subtitle?: string;
+  placeholder?: string;
+  buttonText?: string;
+}
+
+const {
+  title = "Get Real Home Organization Tips",
+  subtitle = "Subscribe to receive the latest articles with real measurements, costs, and honest reviews.",
+  placeholder = "Your email address",
+  buttonText = "Subscribe"
+} = Astro.props;
+---
+
+<section class="cta-section">
+  <div class="cta-background"></div>
+  <div class="cta-content">
+    <h2 class="cta-title">{title}</h2>
+    <p class="cta-subtitle">{subtitle}</p>
+    
+    <form class="cta-form" onsubmit="return handleSubscribe(event)">
+      <input 
+        type="email" 
+        placeholder={placeholder}
+        required
+        class="cta-input"
+        aria-label="Email address"
+      />
+      <button type="submit" class="cta-button">
+        {buttonText}
+      </button>
+    </form>
+    
+    <p class="cta-privacy">
+      We respect your privacy. Unsubscribe at any time.
+    </p>
+  </div>
+
+  <div class="cta-decoration"></div>
+</section>
+
+<style>
+  .cta-section {
+    position: relative;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+    color: white;
+    padding: 4rem 2rem;
+    border-radius: var(--radius-xl);
+    text-align: center;
+    margin-top: 4rem;
+    overflow: hidden;
+    box-shadow: var(--shadow-xl);
+  }
+
+  .cta-background {
+    position: absolute;
+    inset: 0;
+    background: 
+      radial-gradient(circle at 20% 50%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 80%, rgba(255, 255, 255, 0.05) 0%, transparent 50%);
+    pointer-events: none;
+  }
+
+  .cta-content {
+    position: relative;
+    z-index: 2;
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .cta-title {
+    color: white;
+    margin: 0 0 1rem 0;
+    font-size: clamp(1.5rem, 4vw, 2.25rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .cta-subtitle {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 0 0 2rem 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.05rem;
+    line-height: 1.8;
+  }
+
+  .cta-form {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    animation: slideUp 0.6s ease-out 0.2s both;
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .cta-input {
+    padding: 0.875rem 1.25rem;
+    border: none;
+    border-radius: var(--radius-md);
+    min-width: 280px;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    background: white;
+    color: var(--color-text);
+    transition: all 0.3s ease;
+  }
+
+  .cta-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+    transform: scale(1.02);
+  }
+
+  .cta-input::placeholder {
+    color: var(--color-text-light);
+  }
+
+  .cta-button {
+    padding: 0.875rem 2.5rem;
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    border: 1.5px solid rgba(255, 255, 255, 0.5);
+    border-radius: var(--radius-md);
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: var(--font-primary);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cta-button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+
+  .cta-button:hover {
+    background: rgba(255, 255, 255, 0.35);
+    border-color: rgba(255, 255, 255, 0.8);
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3);
+  }
+
+  .cta-button:hover::before {
+    transform: translateX(0);
+  }
+
+  .cta-button:active {
+    transform: translateY(0);
+  }
+
+  .cta-privacy {
+    margin: 0;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.3s ease;
+  }
+
+  .cta-decoration {
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .cta-section {
+      padding: 3rem 1.5rem;
+    }
+
+    .cta-form {
+      flex-direction: column;
+    }
+
+    .cta-input {
+      min-width: 100%;
+    }
+
+    .cta-button {
+      width: 100%;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .cta-content,
+    .cta-form,
+    .cta-input,
+    .cta-button,
+    .cta-decoration {
+      animation: none;
+    }
+
+    .cta-input:focus {
+      transform: none;
+    }
+
+    .cta-button:hover {
+      transform: none;
+    }
+  }
+</style>
+
+<script>
+  function handleSubscribe(event: Event) {
+    event.preventDefault();
+    const form = event.target as HTMLFormElement;
+    const input = form.querySelector('input[type="email"]') as HTMLInputElement;
+    const button = form.querySelector('button') as HTMLButtonElement;
+    
+    // Simple validation
+    if (!input.value) return false;
+    
+    // Show success message (replace with actual API call)
+    const originalText = button.textContent;
+    button.textContent = '✓ Subscribed!';
+    button.style.background = 'rgba(16, 185, 129, 0.9)';
+    
+    setTimeout(() => {
+      button.textContent = originalText;
+      button.style.background = '';
+      input.value = '';
+    }, 3000);
+    
+    return false;
+  }
+
+  // Make handleSubscribe globally available
+  (window as any).handleSubscribe = handleSubscribe;
+</script>

@@ -2,10 +2,14 @@
 // Modern and beautiful homepage
 
 import BaseLayout from '../layouts/BaseLayout.astro';
+import CategoryCard from '../components/CategoryCard.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import CTASection from '../components/CTASection.astro';
+import BackToTop from '../components/BackToTop.astro';
 import { getAllPosts } from '../utils/content';
 
 const allPosts = await getAllPosts();
-const recentPosts = allPosts.slice(0, 5);
+const recentPosts = allPosts.slice(0, 6);
 
 const categories = [
   {
@@ -13,30 +17,35 @@ const categories = [
     icon: '🍳',
     slug: '/kitchen/',
     description: 'Pantry, fridge & cabinet organization',
+    articleCount: allPosts.filter(p => p.data.category === 'Kitchen').length,
   },
   {
     name: 'Closet & Bedroom',
     icon: '👕',
     slug: '/closet/',
     description: 'Wardrobe storage & under-bed solutions',
+    articleCount: allPosts.filter(p => p.data.category === 'Closet').length,
   },
   {
     name: 'Bathroom',
     icon: '🚿',
     slug: '/bathroom/',
     description: 'Small bathroom hacks & storage',
+    articleCount: allPosts.filter(p => p.data.category === 'Bathroom').length,
   },
   {
     name: 'Small Space',
     icon: '🏠',
     slug: '/small-space/',
     description: 'Apartment living & rental solutions',
+    articleCount: allPosts.filter(p => p.data.category === 'Small Space').length,
   },
   {
     name: 'Declutter',
     icon: '✨',
     slug: '/declutter/',
     description: 'Methods, routines & moving tips',
+    articleCount: allPosts.filter(p => p.data.category === 'Declutter').length,
   },
 ];
 ---
@@ -46,143 +55,220 @@ const categories = [
   description="A personal home organization blog with real solutions, before-and-after transformations, and practical storage ideas for small spaces."
 >
   <!-- Hero Section -->
-  <section style="text-align: center; margin-bottom: 4rem; padding: 2rem 0;">
-    <h1 style="margin-bottom: 1rem; background: linear-gradient(135deg, #2563eb, #1e40af); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
-      Real Home Organization Stories
-    </h1>
-    <p style="font-size: 1.1rem; color: var(--color-text-light); max-width: 600px; margin: 0 auto; line-height: 1.8;">
-      I'm sharing my real experience organizing a small apartment. Every article is tested, measured, and photographed in my own home—no stock photos, just what actually works.
-    </p>
-    <div style="margin-top: 2rem;">
-      <a href="#categories" style="display: inline-block; background: var(--color-primary); color: white; padding: 0.75rem 2rem; border-radius: 0.5rem; font-weight: 600; transition: all 0.3s ease;">
-        Explore by Room →
-      </a>
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Real Home Organization Stories
+      </h1>
+      <p class="hero-subtitle">
+        I'm sharing my real experience organizing a small apartment. Every article is tested, measured, and photographed in my own home—no stock photos, just what actually works.
+      </p>
+      <div class="hero-cta">
+        <a href="#categories" class="hero-button">
+          Explore by Room →
+        </a>
+      </div>
     </div>
+    <div class="hero-decoration"></div>
   </section>
 
   <!-- Categories Grid -->
-  <section id="categories" style="margin-bottom: 4rem;">
-    <h2 style="text-align: center; margin-bottom: 3rem; font-size: 2rem;">Browse by Room</h2>
+  <section id="categories" class="categories-section">
+    <h2 class="section-title">Browse by Room</h2>
     
-    <div style="
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1.5rem;
-      margin-bottom: 2rem;
-    ">
+    <div class="categories-grid">
       {categories.map((cat) => (
-        <a href={cat.slug} style="
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-          padding: 2rem 1.5rem;
-          background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
-          border: 1px solid var(--color-border);
-          border-radius: 1rem;
-          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-          text-decoration: none;
-          cursor: pointer;
-          position: relative;
-          overflow: hidden;
-        " onmouseenter="this.style.transform='translateY(-8px)'; this.style.boxShadow='0 20px 25px -5px rgba(0, 0, 0, 0.1)'; this.style.borderColor='var(--color-primary)';" 
-           onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 2px 0 rgba(0, 0, 0, 0.05)'; this.style.borderColor='var(--color-border)';">
-          
-          <div style="font-size: 3rem; margin-bottom: 1rem;">{cat.icon}</div>
-          <h3 style="margin: 0.5rem 0; color: var(--color-text); font-size: 1.1rem;">{cat.name}</h3>
-          <p style="font-size: 0.9rem; color: var(--color-text-light); margin: 0; line-height: 1.5;">
-            {cat.description}
-          </p>
-        </a>
+        <CategoryCard
+          name={cat.name}
+          icon={cat.icon}
+          slug={cat.slug}
+          description={cat.description}
+          articleCount={cat.articleCount}
+        />
       ))}
     </div>
   </section>
 
   <!-- Latest Posts Section -->
-  <section style="margin-bottom: 4rem;">
-    <h2 style="margin-bottom: 2rem; font-size: 1.8rem;">Latest Articles</h2>
+  <section class="latest-section">
+    <h2 class="section-title">Latest Articles</h2>
     
     {recentPosts.length > 0 ? (
-      <div style="
-        display: grid;
-        gap: 1.5rem;
-      ">
-        {recentPosts.map((post) => (
-          <article style="
-            padding: 1.5rem;
-            border: 1px solid var(--color-border);
-            border-radius: 0.75rem;
-            transition: all 0.3s ease;
-            cursor: pointer;
-          " onmouseenter="this.style.boxShadow='0 10px 15px -3px rgba(0, 0, 0, 0.1)'; this.style.borderColor='var(--color-primary)';"
-             onmouseleave="this.style.boxShadow='0 1px 2px 0 rgba(0, 0, 0, 0.05)'; this.style.borderColor='var(--color-border)';">
-            <a href={post.url} style="color: var(--color-text);">
-              <h3 style="margin: 0 0 0.5rem 0; font-size: 1.2rem;">{post.title}</h3>
-            </a>
-            <p style="margin: 0; color: var(--color-text-light); font-size: 0.95rem;">{post.description}</p>
-          </article>
+      <div class="articles-grid">
+        {recentPosts.map((post, index) => (
+          <div class="article-wrapper" style={`animation-delay: ${index * 50}ms`}>
+            <ArticleCard
+              title={post.data.title}
+              description={post.data.description}
+              url={post.url}
+              tags={post.data.tags}
+              category={post.data.category}
+              date={post.data.pubDate}
+              readingTime={post.data.readingTime || 5}
+            />
+          </div>
         ))}
       </div>
     ) : (
-      <div style="
-        padding: 3rem 2rem;
-        text-align: center;
-        background: var(--color-bg-light);
-        border-radius: 1rem;
-        border: 1px dashed var(--color-border);
-      ">
-        <p style="margin: 0; color: var(--color-text-light); font-size: 1.05rem;">
-          ✍️ New articles coming soon. Check back regularly for updates!
-        </p>
+      <div class="empty-state">
+        <p>✍️ New articles coming soon. Check back regularly for updates!</p>
       </div>
     )}
   </section>
 
   <!-- CTA Section -->
-  <section style="
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
-    color: white;
-    padding: 3rem 2rem;
-    border-radius: 1rem;
-    text-align: center;
-    margin-top: 4rem;
-  ">
-    <h2 style="color: white; margin-bottom: 1rem;">Get Real Home Organization Tips</h2>
-    <p style="color: rgba(255, 255, 255, 0.9); margin-bottom: 1.5rem; max-width: 500px; margin-left: auto; margin-right: auto;">
-      Subscribe to receive the latest articles with real measurements, costs, and honest reviews.
-    </p>
-    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-      <input 
-        type="email" 
-        placeholder="Your email address" 
-        style="
-          padding: 0.75rem 1rem;
-          border: none;
-          border-radius: 0.5rem;
-          min-width: 250px;
-          font-family: var(--font-primary);
-        "
-      />
-      <button style="
-        padding: 0.75rem 2rem;
-        background: rgba(255, 255, 255, 0.2);
-        color: white;
-        border: 1px solid rgba(255, 255, 255, 0.5);
-        border-radius: 0.5rem;
-        font-weight: 600;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        font-family: var(--font-primary);
-      " onmouseover="this.style.background='rgba(255, 255, 255, 0.3)'; this.style.transform='scale(1.05)';"
-        onmouseout="this.style.background='rgba(255, 255, 255, 0.2)'; this.style.transform='scale(1)';">
-        Subscribe
-      </button>
-    </div>
-  </section>
+  <CTASection />
+
+  <!-- Back to Top Button -->
+  <BackToTop />
 </BaseLayout>
 
 <style>
-  /* Additional animations */
+  /* Hero Section */
+  .hero-section {
+    position: relative;
+    text-align: center;
+    margin-bottom: 4rem;
+    padding: 3rem 0;
+    overflow: hidden;
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    animation: fadeInUp 0.8s ease-out;
+  }
+
+  .hero-title {
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: clamp(2.25rem, 6vw, 3.5rem);
+  }
+
+  .hero-subtitle {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    color: var(--color-text-light);
+    max-width: 650px;
+    margin: 0 auto 2rem;
+    line-height: 1.8;
+    letter-spacing: 0.3px;
+  }
+
+  .hero-cta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .hero-button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+    color: white;
+    border-radius: var(--radius-lg);
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, var(--color-primary-light), var(--color-primary));
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+  }
+
+  .hero-button:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-xl);
+  }
+
+  .hero-button:hover::before {
+    transform: translateX(0);
+  }
+
+  .hero-decoration {
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, var(--color-primary-light) 0%, transparent 70%);
+    opacity: 0.1;
+    border-radius: 50%;
+    pointer-events: none;
+  }
+
+  /* Section Styles */
+  .categories-section,
+  .latest-section {
+    margin-bottom: 4rem;
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+    position: relative;
+    padding-bottom: 1rem;
+  }
+
+  .section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--color-primary), transparent);
+    transform: translateX(-50%);
+  }
+
+  /* Categories Grid */
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Articles Grid */
+  .articles-grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .article-wrapper {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  /* Empty State */
+  .empty-state {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: var(--color-bg-light);
+    border-radius: var(--radius-xl);
+    border: 1px dashed var(--color-border);
+  }
+
+  .empty-state p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 1.1rem;
+  }
+
+  /* Keyframes */
   @keyframes fadeInUp {
     from {
       opacity: 0;
@@ -194,7 +280,67 @@ const categories = [
     }
   }
 
-  section {
-    animation: fadeInUp 0.6s ease-out;
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 2rem 0 3rem;
+    }
+
+    .hero-title {
+      font-size: 2rem;
+    }
+
+    .hero-subtitle {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .categories-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .articles-grid {
+      gap: 1.25rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero-section {
+      padding: 1.5rem 0 2.5rem;
+    }
+
+    .hero-title {
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero-subtitle {
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .categories-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .section-title {
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero-content,
+    .categories-section,
+    .latest-section,
+    .hero-button,
+    .article-wrapper {
+      animation: none;
+    }
+
+    .hero-button:hover {
+      transform: none;
+    }
   }
 </style>
