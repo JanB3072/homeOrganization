@@ -25,7 +25,7 @@ const declutterPosts = await getPostsByCategory('Declutter');
   <section>
     <h2 style="margin-bottom: 2rem;">📝 Latest Articles</h2>
     {declutterPosts.length > 0 ? (
-      <div style="display: grid; gap: 1.5rem;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem;">
         {declutterPosts.map(post => (
           <article style="
             padding: 1.5rem;

@@ -1,8 +1,9 @@
 import { getCollection } from 'astro:content';
+import astroConfig from '../../astro.config.mjs';
 
 export async function GET() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
-  const domain = 'https://yourblogdomain.com';
+  const domain = astroConfig.site ?? 'https://yourblogdomain.com';
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -17,6 +18,24 @@ export async function GET() {
     <loc>${domain}/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>${domain}/now/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>${domain}/privacy/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
+  <url>
+    <loc>${domain}/affiliate-disclosure/</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
   
   <url>
@@ -68,6 +87,25 @@ export async function GET() {
     <loc>${domain}/declutter/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <!-- Subcategory pages -->
+  <url>
+    <loc>${domain}/bathroom/storage/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>${domain}/bathroom/vanity/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>${domain}/closet/clothing/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>`;
 

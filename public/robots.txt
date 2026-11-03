@@ -14,6 +14,3 @@ Crawl-delay: 1
 
 # Sitemap location - Astro generates this automatically
 Sitemap: https://yourblogdomain.com/sitemap.xml
-
-# Additional sitemap for Chinese version (if implemented)
-Sitemap: https://yourblogdomain.com/zh/sitemap.xml

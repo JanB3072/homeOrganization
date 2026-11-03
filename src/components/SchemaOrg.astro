@@ -1,6 +1,7 @@
 ---
 // Schema.org structured data generator
-// Supports WebSite, BlogPosting, CollectionPage, and Organization schemas
+// Supports WebSite, BlogPosting, CollectionPage, Organization, and FAQPage schemas
+// GEO note: FAQPage + explicit key data help generative engines (ChatGPT/Perplexity/Gemini) cite this content.
 
 export interface Props {
   type: 'Organization' | 'BlogPosting' | 'CollectionPage' | 'WebSite';
@@ -13,6 +14,7 @@ export interface Props {
   url?: string;
   category?: string;
   tags?: string[];
+  faq?: Array<{ question: string; answer: string }>;
 }
 
 const {
@@ -22,11 +24,23 @@ const {
   image = '/og-image-default.jpg',
   datePublished,
   dateModified,
-  author = 'Your Name',
+  author = "Home Organization",
   url = Astro.url.href,
   category,
   tags = [],
+  faq = [],
 } = Astro.props;
+
+// Resolve image to an absolute URL so crawlers and AI engines don't guess the domain.
+const absoluteImage = (() => {
+  try {
+    return new URL(image, Astro.site ?? Astro.url.origin).href;
+  } catch {
+    return image;
+  }
+})();
+
+const siteOrigin = Astro.site?.href ?? Astro.url.origin;
 
 // Generate schema based on type
 let schema: any = {};
@@ -38,7 +52,7 @@ if (type === 'WebSite') {
     name: 'Home Organization Blog',
     url: url,
     description: description || 'Real home organization solutions with measurements and photos',
-    inLanguage: ['en', 'zh'],
+    inLanguage: 'en',
     creator: {
       '@type': 'Organization',
       name: 'Home Organization Blog',
@@ -59,9 +73,10 @@ if (type === 'BlogPosting') {
     '@type': 'BlogPosting',
     headline: title,
     description: description,
-    image: image,
+    image: absoluteImage,
     datePublished: datePublished?.toISOString(),
     dateModified: dateModified?.toISOString() || datePublished?.toISOString(),
+    inLanguage: 'en',
     author: {
       '@type': 'Person',
       name: author,
@@ -71,7 +86,7 @@ if (type === 'BlogPosting') {
       name: 'Home Organization Blog',
       logo: {
         '@type': 'ImageObject',
-        url: `${url.split('/').slice(0, 3).join('/')}/logo.png`,
+        url: `${siteOrigin}logo.png`,
       },
     },
     mainEntityOfPage: {
@@ -90,7 +105,7 @@ if (type === 'CollectionPage') {
     name: title,
     description: description,
     url: url,
-    image: image,
+    image: absoluteImage,
     inLanguage: 'en',
   };
 }
@@ -102,13 +117,34 @@ if (type === 'Organization') {
     name: 'Home Organization Blog',
     url: url,
     description: description,
-    logo: `${url.split('/').slice(0, 3).join('/')}/logo.png`,
+    logo: `${siteOrigin}logo.png`,
     sameAs: [
       'https://www.pinterest.com/yourusername',
       'https://www.instagram.com/yourusername',
     ],
   };
 }
+
+// Separate FAQPage schema (rendered as its own JSON-LD block).
+const faqSchema = faq && faq.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({
+    '@type': 'Question',
+    name: f.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: f.answer,
+    },
+  })),
+} : null;
 ---
 
-<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+{faqSchema ? (
+  <>
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  </>
+) : (
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+)}

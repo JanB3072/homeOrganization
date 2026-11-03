@@ -20,7 +20,7 @@ interface Props {
   currentSlug?: string;
 }
 
-const { title, description, author, pubDate, updatedDate, category, subcategory, tags, image, relatedPosts, currentSlug } = Astro.props;
+const { title, description, author, pubDate, updatedDate, category, subcategory, tags, image, relatedPosts, currentSlug, takeaways, faq } = Astro.props;
 
 // Format date for display
 const formatDate = (date: Date) => {
@@ -37,6 +37,12 @@ const formatDate = (date: Date) => {
   description={description}
   image={image}
   author={author}
+  ogType="article"
+  articleSection={category}
+  articlePublished={pubDate?.toISOString()}
+  articleModified={updatedDate?.toISOString() || pubDate?.toISOString()}
+  articleTags={tags}
+  wide
 >
   <!-- BlogPosting Schema -->
   <SchemaOrg 
@@ -49,6 +55,7 @@ const formatDate = (date: Date) => {
     author={author}
     category={category}
     tags={tags}
+    faq={faq}
   />
   
   <div class="post-container">
@@ -60,15 +67,39 @@ const formatDate = (date: Date) => {
         <h1>{title}</h1>
         
         <div class="post-meta">
+          {author && <span class="author">{author}</span>}
           {pubDate && <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>}
           {category && <span class="category">{category}</span>}
           {subcategory && <span class="subcategory">{subcategory}</span>}
         </div>
       </div>
 
+      {takeaways && takeaways.length > 0 && (
+        <aside class="key-takeaways" aria-label="Key takeaways">
+          <h2>Key Takeaways</h2>
+          <ul>
+            {takeaways.map((point) => (
+              <li>{point}</li>
+            ))}
+          </ul>
+        </aside>
+      )}
+
       <div class="post-content">
         <slot />
       </div>
+
+      {faq && faq.length > 0 && (
+        <section class="faq-section" aria-label="Frequently asked questions">
+          <h2>Frequently Asked Questions</h2>
+          {faq.map((item) => (
+            <div class="faq-item">
+              <h3>{item.question}</h3>
+              <p>{item.answer}</p>
+            </div>
+          ))}
+        </section>
+      )}
 
       {tags && tags.length > 0 && (
         <footer class="post-footer">
@@ -148,7 +179,8 @@ const formatDate = (date: Date) => {
     }
 
     .category,
-    .subcategory {
+    .subcategory,
+    .author {
       display: inline-block;
       background-color: transparent;
       color: var(--color-text-light, #6b7280);
@@ -264,6 +296,63 @@ const formatDate = (date: Date) => {
       .post-content {
         font-size: 1rem;
       }
+    }
+    /* Key Takeaways (GEO-optimized extractable summary) */
+    .key-takeaways {
+      background: var(--color-bg-light, #f9fafb);
+      border: 1px solid var(--color-border, #e5e7eb);
+      border-left: 4px solid var(--color-primary, #3b82f6);
+      border-radius: var(--radius-md, 0.5rem);
+      padding: 1.25rem 1.5rem;
+      margin: 1.5rem 0 2rem;
+    }
+
+    .key-takeaways h2 {
+      font-size: 1.3rem;
+      margin: 0 0 0.75rem;
+      color: var(--color-primary, #3b82f6);
+    }
+
+    .key-takeaways ul {
+      margin: 0;
+      padding-left: 1.25rem;
+    }
+
+    .key-takeaways li {
+      margin-bottom: 0.4rem;
+      color: var(--color-text, #1f2937);
+    }
+
+    /* FAQ section (PAA + generative engine citations) */
+    .faq-section {
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--color-border, #e5e7eb);
+    }
+
+    .faq-section h2 {
+      font-size: 1.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .faq-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .faq-item h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin: 0 0 0.5rem;
+      color: var(--color-text, #1f2937);
+    }
+
+    .faq-item p {
+      margin: 0;
+      color: var(--color-text-light, #6b7280);
+    }
+
+    :global(.dark) .key-takeaways {
+      background: var(--color-bg-light, #1e293b);
     }
   </style>
 </BaseLayout>
