@@ -1,0 +1,8 @@
+{
+  // 纯静态站点：直接部署 dist 目录，禁用 wrangler 的框架自动配置（避免误加 @astrojs/cloudflare SSR 适配器）
+  "name": "home-organization-blog",
+  "compatibility_date": "2026-01-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}
