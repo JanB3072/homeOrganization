@@ -27,3 +27,5 @@ Thumbs.db
 # 开发
 .test-cache/
 coverage/
+
+.xlsx
