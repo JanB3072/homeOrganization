@@ -9,8 +9,5 @@ Disallow: /admin/
 Disallow: /api/
 Disallow: /*.json
 
-# Control crawl rate (optional)
-Crawl-delay: 1
-
-# Sitemap location - Astro generates this automatically
+# Sitemap location
 Sitemap: https://organizingsmall.com/sitemap.xml
