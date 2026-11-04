@@ -1,8 +1,8 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  // Site configuration for SEO - IMPORTANT: Update to your actual domain
-  site: 'https://yourblogdomain.com',
+  // Site configuration for SEO
+  site: 'https://organizingsmall.com',
   base: '/',
   
   // Build settings

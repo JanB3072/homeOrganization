@@ -1,8 +1,9 @@
 import { getCollection } from 'astro:content';
+import astroConfig from '../../astro.config.mjs';
 
 export async function GET() {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
-  const domain = 'https://yourblogdomain.com'; // Replace with actual domain
+  const domain = astroConfig.site ?? 'https://yourblogdomain.com';
   const latestPosts = posts
     .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime())
     .slice(0, 30);

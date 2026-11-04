@@ -7,14 +7,14 @@ subcategory: "Methods"
 tags: ["declutter", "decluttering-methods", "minimalism", "life-organization"]
 keywords: ["swedish death cleaning method checklist", "swedish death cleaning", "dostadning", "death cleaning checklist"]
 takeaways:
-  - "Swedish death cleaning (döstädning) is not about dying. It's a recurring practice of keeping only what serves your life, done correctly at any age."
+  - "Swedish death cleaning (döstädning) is a recurring practice of keeping only what serves your life, done correctly at any age, not a rehearsal for dying."
   - "The method's core test is not 'does this spark joy' but 'would my family have to wonder about this.' You decide now so no one else has to guess later."
   - "Work in small, shallow passes (one drawer, one shelf) on a recurring rhythm; the method is a practice, not a weekend project."
   - "Papers, wardrobe, kitchen, books, photos, and sentimental items, six categories in that order, from easiest to hardest."
   - "The conversations are the point: telling family where documents live and what you'd like kept turns an estate into a gift."
 faq:
   - question: "What is the Swedish death cleaning method?"
-    answer: "Döstädning, popularized by Margareta Magnusson's book, is the practice of gradually downsizing possessions so that, whenever the time comes, your loved ones aren't left sorting a house full of decisions you could have made yourself. Despite the name, it's a life-clarity practice meant for any age, ideally done in small passes on a recurring rhythm."
+    answer: "Döstädning, popularized by Margareta Magnusson's book, is the practice of gradually downsizing possessions so that, whenever the time comes, your loved ones inherit decisions already made rather than a house left to sort. Despite the name, the practice clarifies life at any age and works best in small recurring passes."
   - question: "At what age should you start Swedish death cleaning?"
     answer: "Any age. Magnusson suggests starting once you feel life is getting shorter than it once was, but the mechanics work in your 30s as a quarterly practice. Younger practitioners treat it as annual downsizing; the stakes and the sentiment simply grow with time."
   - question: "What order should you declutter in for death cleaning?"
@@ -40,7 +40,7 @@ featured: false
 draft: false
 ---
 
-The name is doing the method no favors in English. "Swedish death cleaning" sounds like something you do once, at the end, in a black sweater, and that misreading keeps people from the most humane decluttering framework there is. Döstädning, as Margareta Magnusson laid it out in her book *The Gentle Art of Swedish Death Cleaning*. Is not a project for the dying. It's a standing practice of editing your possessions so that your life stays legible, to you now, and later to the people who would otherwise inherit a house full of questions.
+The name is doing the method no favors in English. "Swedish death cleaning" sounds like something you do once, at the end, in a black sweater, and that misreading keeps people from the most humane decluttering framework there is. Döstädning, as Margareta Magnusson laid it out in her book *The Gentle Art of Swedish Death Cleaning*, is a standing practice of editing your possessions for the living, so your life stays legible now and later to the people who would otherwise inherit a house full of questions.
 
 Done properly. it's less about what you throw away than about what you decide on purpose, while you're around to decide it. This is the full checklist version: what the method actually is, the six categories in working order, the conversations that make it a gift rather than a grim chore, and the pacing that keeps it from becoming another overwhelming weekend.
 
@@ -308,6 +308,6 @@ The three things that actually changed: the vital-documents folder exists, label
 
 The emotional forecast, for the record: the paper and kitchen sessions were boring and satisfying; the wardrobe was easy; the photos took three tries; the sentimental core took two tissues and went better than feared. The heaviest part of the whole year was scheduling the conversations, and it's also the part I'd never give back.
 
-## The gist
+## Start with one drawer
 
 The Swedish death cleaning method checklist is six categories run in order, papers, wardrobe, kitchen, books, photos, sentimental, at a pace of one shallow session at a time, held together by four questions and three conversations. It is the only decluttering method whose end state isn't a tidy closet but a legible life: documents findable, wishes known, treasures given with warm hands, and a family who will one day find decisions already made, gently, by someone who loved them. Start with one drawer this month. The name is heavier than the work.

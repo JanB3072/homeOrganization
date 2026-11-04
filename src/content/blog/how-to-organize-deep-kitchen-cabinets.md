@@ -27,7 +27,7 @@ featured: false
 draft: false
 ---
 
-Deep kitchen cabinets are the Bermuda Triangle of the home. You put the blender in there in March. You need the blender in July. You open the door, peer into the canyon, and the blender is gone. Not lost, just buried behind three cans of beans and a stockpot you forgot you owned. The cabinet isn't too small. It's too deep, and depth is a different problem from lack of space.
+Deep kitchen cabinets are the Bermuda Triangle of the home. You put the blender in there in March. You need the blender in July. You open the door, peer into the canyon, and the blender is gone. Not lost, just buried behind three cans of beans and a stockpot you forgot you owned. The cabinet reads as too small, but the real issue is depth, a different problem from lack of space.
 
 I spent a year fighting a 24-inch-deep base cabinet that held maybe 40 percent of what I put in it. The other 60 percent lived in the back, untouched, until I rearranged and rediscovered it by accident. Here's the system that finally made the whole depth usable.
 
@@ -41,7 +41,7 @@ Three things make it worse:
 - Round and odd items roll. A can or a bottle shoved to the back migrates sideways every time you grab something, so the back becomes a random pile rather than order.
 - Out of sight, out of mind. The back row never gets seen, so duplicates get bought and the real inventory is a mystery. I once found two identical olive oil bottles, one expired, both in the back.
 
-The fix isn't more shelves. It's dividing the cabinet by distance from the door and giving each band a tool that brings it to you.
+The fix is to divide the cabinet by distance from the door and give each band a tool that brings it to you, rather than stacking on more shelves.
 
 ## The depth-zone model
 
@@ -117,4 +117,4 @@ I turntabled the back. A turntable in the dead zone still requires you to reach 
 
 ## What I'd tell a friend
 
-Organizing deep kitchen cabinets isn't about buying more containers. It's about admitting that depth past your reach is unusable, and then installing the one tool per zone that brings that depth to the door: turntables up front, full-extension pull-out baskets through the middle, a fixed bin in the back. Measure first, assign by frequency, and the lost-in-the-back problem disappears, along with the duplicate olive oil I kept buying. If you want the same pull-out logic applied somewhere else. it's the exact approach I used [under the bathroom sink](/blog/how-to-organize-under-bathroom-sink/), just with moisture-safe bins instead of kitchen ones.
+Organizing deep kitchen cabinets means admitting that depth past your reach is unusable, then installing the one tool per zone that brings that depth to the door: turntables up front, full-extension pull-out baskets through the middle, a fixed bin in the back. Measure first, assign by frequency, and the lost-in-the-back problem disappears, along with the duplicate olive oil I kept buying. If you want the same pull-out logic applied somewhere else. it's the exact approach I used [under the bathroom sink](/blog/how-to-organize-under-bathroom-sink/), just with moisture-safe bins instead of kitchen ones.

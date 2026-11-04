@@ -40,7 +40,7 @@ draft: false
 
 Here's the number that changes how you pack. Long-distance movers charge roughly $0.50 to $1.00 per pound, and local crews charge by the hour. That means every box of expired pantry goods, dead cables, and clothes you were keeping "just in case" carries a shipping cost. The average unplanned household moves 500 to 1,000 pounds of stuff it should never have boxed. At moving rates. that's $250 to $1,000 spent transporting decisions you already made years ago.
 
-Decluttering before a move isn't a wellness exercise. It's the highest-paid hour of the entire relocation. This is the countdown I've run through three moves and helped two friends through: a six-week phase plan, the four-box rule that keeps it honest, and the sell-versus-donate math that stops you from losing weekends to a $12 lamp. If you want the deeper version of this practice, the one with no deadline attached, the [Swedish death cleaning method](/blog/swedish-death-cleaning-method-checklist/) is the same editing habit run at life pace. For the wider picture, the [whole-home organization system](/blog/whole-home-organization-system/) puts this declutter phase at weeks 3 and 4 of a 12-week plan.
+Decluttering before a move is the highest-paid hour of the entire relocation, not a wellness exercise. This is the countdown I've run through three moves and helped two friends through: a six-week phase plan, the four-box rule that keeps it honest, and the sell-versus-donate math that stops you from losing weekends to a $12 lamp. If you want the deeper version of this practice, the one with no deadline attached, the [Swedish death cleaning method](/blog/swedish-death-cleaning-method-checklist/) is the same editing habit run at life pace. For the wider picture, the [whole-home organization system](/blog/whole-home-organization-system/) puts this declutter phase at weeks 3 and 4 of a 12-week plan.
 
 ## The 6-week countdown checklist
 
@@ -81,7 +81,7 @@ Work the phases in order. Each phase is a checklist you can finish in one or two
 
 ## The four-box rule (and why it only works with exit dates)
 
-Every session, every room: four boxes, Move, Sell, Donate, Trash, and every touched item gets assigned to exactly one before it goes back down. The magic isn't the sorting. It's that touch-time decisions beat someday-decisions. You decide once, at the moment your hands are already on the thing, instead of deferring the decision into a box you'll repack twice.
+Every session, every room: four boxes, Move, Sell, Donate, Trash, and every touched item gets assigned to exactly one before it goes back down. The magic is that touch-time decisions beat someday-decisions, not the sorting itself. You decide once, at the moment your hands are already on the thing, instead of deferring the decision into a box you'll repack twice.
 
 The rule has one failure mode, and it's the Sell box. A Sell box without a date is a guilt repository that quietly becomes a Move box. You'll find it at the new place, priced at "$5?" and worth less than the cubic feet it occupies. Hence the hard exit dates baked into the countdown: sell by week two, donate on Saturday, trash tonight.
 
@@ -166,6 +166,6 @@ To make the countdown concrete, here's the actual calendar from my last move:
 
 Six sessions total. Most of them 90 minutes. That's the real shape of the work, not a heroic weekend, just the countdown executed on schedule.
 
-## The gist
+## Let the countdown decide
 
 How to declutter before moving comes down to starting six weeks early, working storage-first, forcing every item through four boxes with hard exit dates, and remembering the actual exchange rate. Every pound you refuse to pack is roughly a dollar you don't pay the movers, and every hour you don't spend boxing trash is an hour the unpack doesn't grow. Measure the new place first, purge the heavy rooms second, and let the countdown, not your optimism, decide what rides the truck. The fresh-start payoff is real too: a [closet organized around what survived the four-box rule](/blog/closet-shelf-dividers-for-folded-sweaters/) needs half the boxes its predecessor did.

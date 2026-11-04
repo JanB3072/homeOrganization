@@ -191,6 +191,6 @@ Forgetting the walkway. Two zones are useless if you turn sideways to reach eith
 
 Unanchored height. Every setup above that stands over 4 feet needs a strap, bracket, or lean against the wall. Loaded furniture falls over exactly once, and that's the time it matters.
 
-## The gist
+## Measure before you divide
 
 The best studio apartment room divider ideas with storage all trade on the same insight: in one room, furniture has to do two jobs. Pick the unit that replaces something you'd own anyway, the dresser, the bookcase, the closet, anchor it, keep the light path open, and your studio stops being one room pretending to be three and starts being three rooms that happen to share a wall. Measure the wall and the walkway first; the divider is the easy part. Once the zones exist, the empty walls above your furniture are the next layer to claim, and [vertical storage with wall hangers and pegboards](/blog/small-space-vertical-storage-solutions-wall-hangers/) picks up exactly where a divider leaves off.

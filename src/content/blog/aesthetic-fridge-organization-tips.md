@@ -27,7 +27,7 @@ featured: false
 draft: false
 ---
 
-The viral fridge video is a very specific genre: shelves of clear bins in ranked heights, a glass pitcher of citrus water glowing under the LED, labels in a single tasteful font, and here's the part the video doesn't show you, the two hours it took to stage. The good news is that the look is not expensive and not fragile. It's a system, and once you can see the system, your fridge can look like that every day instead of once, for camera.
+The viral fridge video is a very specific genre: shelves of clear bins in ranked heights, a glass pitcher of citrus water glowing under the LED, labels in a single tasteful font, and here's the part the video doesn't show you, the two hours it took to stage. The good news is that the look is cheap and sturdy: a system you can run every day instead of staging once for the camera.
 
 I rebuilt my fridge this way two years ago and it has survived weeknight cooking, a household that loses track of leftovers, and one legendary berry season. Here's the system, layer by layer, including the places where the aesthetic and the actual food disagree, and which one wins. If you want the rules that connect this room to the rest of the house, the [whole-home organization system](/blog/whole-home-organization-system/) starts with the same measurements and ends with a maintenance rhythm.
 
@@ -143,7 +143,7 @@ Place the thermometer on the back of the middle shelf, close the door, and check
 
 Then audit the other zones: the door will typically read 4 to 8 degrees warmer than the back wall, and the top shelf a couple of degrees warmer than the bottom. Those two numbers confirm the zone map, and they're the honest justification for why the milk lives at the back while the aesthetic display lives in the door.
 
-One maintenance note: a fridge packed past about 85 percent full can't circulate air, and the reading drifts up across every zone. The negative space isn't only a look, it's airflow.
+One maintenance note: a fridge packed past about 85 percent full can't circulate air, and the reading drifts up across every zone. The negative space does two jobs at once, a look and the airflow it lets through.
 
 ## Seasonal rotation (the system changes clothes)
 
@@ -230,6 +230,6 @@ Binning the things with clocks. Leftovers and dairy need face-out visibility, no
 
 Packing bins to the brim. Overstuffed bins hide food as effectively as no bins at all, and the whole waste-reducing magic of transparency dies at 100 percent capacity. Three-quarters full is the ceiling, and the negative space is doing visual work anyway.
 
-## The gist
+## Camera-ready on a Tuesday
 
 Aesthetic fridge organization is one design system wearing a viral costume: uniform clear bins matched to 12-inch shelf widths, one pitcher, one label style, zones that respect the 37°F physics, and a 15-minute weekly reset that keeps the negative space negative. Start with $30 of bins and a pitcher, respect the coldest-shelf rules, and the fridge stays camera-ready on a Tuesday afternoon, which is the only day that actually matters. For the same clear-bin logic in the hardest-working cabinets in the house, the [under-sink rebuild](/blog/how-to-organize-under-bathroom-sink/) uses identical principles under worse humidity.

@@ -48,7 +48,7 @@ The P-trap is the first surprise. In a 24-inch cabinet it doesn't just take up r
 
 Then moisture. Not theoretical. I once put cleaning supplies in cardboard boxes under the kitchen sink, figured a month was fine. Two months later everything was warped and a couple of bottles had leaked inside the box. Damage already done.
 
-The real wake-up call was chemistry. I bought an airtight container, feeling clever, sealed everything up. Put a leaking ammonia bottle in there one night and went to sleep. Next morning I nearly passed out opening the cabinet. Fumes had built up with nowhere to go. Sealing things airtight under a sink isn't smart. It's dangerous.
+The real wake-up call was chemistry. I bought an airtight container, feeling clever, sealed everything up. Put a leaking ammonia bottle in there one night and went to sleep. Next morning I nearly passed out opening the cabinet. Fumes had built up with nowhere to go. Sealing things airtight under a sink is flat-out dangerous, not clever.
 
 What I actually settled on
 
@@ -110,4 +110,4 @@ Would I do it again?
 
 Yes. Three changes if I started over: drill eight holes from day one; skip the stainless; and. Most importantly, map the P-trap before buying anything. I wasted maybe $30 on containers that didn't fit because I hadn't actually drawn where that pipe sits. That one step saves hours.
 
-The basics are boring but they work: clear plastic over pretty bins, measure before buying, label everything, ventilate the baskets, and keep that mat. The real secret isn't a clever trick. It's that simple systems are the ones you actually keep. Mine isn't Instagrammable. It works, and I don't think about it. That's enough.
+The basics are boring but they work: clear plastic over pretty bins, measure before buying, label everything, ventilate the baskets, and keep that mat. The real secret is that simple systems are the ones you actually keep, not any clever trick. Mine isn't Instagrammable. It works, and I don't think about it. That's enough.
