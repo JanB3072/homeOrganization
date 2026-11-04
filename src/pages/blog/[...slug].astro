@@ -23,10 +23,8 @@ const { Content } = await post.render();
 const relatedPosts = await getRelatedPosts(post.slug, 3);
 
 const breadcrumbs = [
-  { name: 'Home', path: '/' },
   { name: post.data.category, path: `/${post.data.category.toLowerCase().replace(/\s+/g, '-')}/` },
-  { name: post.data.subcategory, path: '#' },
-  { name: post.data.title, path: '#' },
+  { name: post.data.title, path: `/blog/${post.slug}/` },
 ];
 ---
 

@@ -18,6 +18,7 @@ interface Props {
   geoPlacename?: string;
   geoRegion?: string;
   wide?: boolean; // widen the main container (used by article pages)
+  breadcrumbs?: Array<{ label: string; url: string }>; // override auto breadcrumb trail
 }
 
 const {
@@ -34,6 +35,7 @@ const {
   geoPlacename,
   geoRegion,
   wide,
+  breadcrumbs,
 } = Astro.props;
 
 // Get current URL for canonical and social sharing
@@ -694,7 +696,7 @@ const ogImage = (() => {
     </header>
 
     <main class={wide ? 'main-wide' : ''}>
-      <BreadcrumbSchema />
+      <BreadcrumbSchema items={breadcrumbs} />
       <slot />
     </main>
 

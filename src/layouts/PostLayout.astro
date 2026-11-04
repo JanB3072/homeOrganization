@@ -21,7 +21,10 @@ interface Props {
   currentSlug?: string;
 }
 
-const { title, description, author, pubDate, updatedDate, category, subcategory, tags, image, relatedPosts, currentSlug, takeaways, faq, howTo } = Astro.props;
+const { title, description, author, pubDate, updatedDate, category, subcategory, tags, image, relatedPosts, currentSlug, takeaways, faq, howTo, breadcrumbs } = Astro.props;
+
+// Forward breadcrumb trail to BaseLayout's single breadcrumb renderer
+const breadcrumbItems = breadcrumbs?.map(b => ({ label: b.name, url: b.path }));
 
 // Format date for display
 const formatDate = (date: Date) => {
@@ -44,6 +47,7 @@ const formatDate = (date: Date) => {
   articleModified={updatedDate?.toISOString() || pubDate?.toISOString()}
   articleTags={tags}
   wide
+  breadcrumbs={breadcrumbItems}
 >
   <!-- BlogPosting Schema -->
   <SchemaOrg 

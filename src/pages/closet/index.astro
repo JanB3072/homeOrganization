@@ -7,17 +7,29 @@ import { getPostsByCategory } from '../../utils/content';
 const closetPosts = await getPostsByCategory('Closet');
 
 const subcategories = [
-  { 
-    name: 'Closet Organization', 
-    slug: 'closet', 
+  {
+    name: 'Closet Organization',
+    slug: 'clothing',
     icon: '👔',
-    description: 'Hanging rods, shelving, seasonal rotation, and folding methods' 
+    description: 'Hanging rods, shelving, folding methods, and the complete closet breakdown'
   },
-  { 
-    name: 'Bedroom & Under-Bed', 
-    slug: 'bedroom', 
-    icon: '🛏️',
-    description: 'Under-bed storage, dressers, and bedside solutions' 
+  {
+    name: 'Seasonal Rotation',
+    slug: 'seasonal',
+    icon: '🔄',
+    description: 'Swapping winter and summer wardrobes without wasting closet space'
+  },
+  {
+    name: 'Shoes',
+    slug: 'shoes',
+    icon: '👟',
+    description: 'Shoe racks, door organizers, and storing pairs you actually wear'
+  },
+  {
+    name: 'Accessories',
+    slug: 'accessories',
+    icon: '🧣',
+    description: 'Belts, bags, and scarves organized so everything stays visible'
   }
 ];
 ---
