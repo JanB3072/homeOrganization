@@ -18,4 +18,9 @@ export default defineConfig({
   
   // Prefetch optimization
   prefetch: true,
+
+  // Disable the Astro dev toolbar overlay
+  devToolbar: {
+    enabled: false,
+  },
 });
