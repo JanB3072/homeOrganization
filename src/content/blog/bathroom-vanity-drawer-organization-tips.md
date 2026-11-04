@@ -177,7 +177,7 @@ Each of these cost me either money or a month of re-breaking the system:
 
 ## The 60-second monthly reset
 
-Systems drift. Products migrate toward the front,expired things linger, and once a quarter the layout no longer matches the routine. Once a month, per vanity:
+Systems drift. Products migrate toward the front, expired things linger, and once a quarter the layout no longer matches the routine. Once a month, per vanity:
 
 1. Open each drawer and pull anything you have not touched in 30 days toward the back or out entirely.
 2. Toss expired items; sunscreen and SPF moisturizers are the usual offenders, and most people are running at least one.
