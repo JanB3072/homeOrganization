@@ -15,6 +15,7 @@ export interface Props {
   category?: string;
   tags?: string[];
   faq?: Array<{ question: string; answer: string }>;
+  howTo?: Array<{ name: string; text: string }>;
 }
 
 const {
@@ -29,6 +30,7 @@ const {
   category,
   tags = [],
   faq = [],
+  howTo = [],
 } = Astro.props;
 
 // Resolve image to an absolute URL so crawlers and AI engines don't guess the domain.
@@ -138,13 +140,22 @@ const faqSchema = faq && faq.length > 0 ? {
     },
   })),
 } : null;
+
+// Separate HowTo schema (for step-by-step guides; helps rich results + AI citations).
+const howToSchema = howTo && howTo.length > 0 ? {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: title,
+  description: description,
+  step: howTo.map((s, i) => ({
+    '@type': 'HowToStep',
+    position: i + 1,
+    name: s.name,
+    text: s.text,
+  })),
+} : null;
 ---
 
-{faqSchema ? (
-  <>
-    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
-    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
-  </>
-) : (
-  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
-)}
+{([schema, faqSchema, howToSchema].filter(Boolean).map((block) => (
+  <script type="application/ld+json" set:html={JSON.stringify(block)} />
+)))}

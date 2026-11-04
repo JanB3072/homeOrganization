@@ -2,12 +2,12 @@ import { z, defineCollection } from 'astro:content';
 
 const blogCollection = defineCollection({
   type: 'content',
-  schema: z.object({
+  schema: ({ image }) => z.object({
     title: z.string(),
     description: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    author: z.string().default("A guest in one's eyes"),
+    author: z.string().default("Home Organization"),
     category: z.enum([
       'Kitchen',
       'Closet',
@@ -24,7 +24,11 @@ const blogCollection = defineCollection({
       question: z.string(),
       answer: z.string(),
     })).optional(),
-    image: z.string().optional(),
+    howTo: z.array(z.object({
+      name: z.string(),
+      text: z.string(),
+    })).optional(),
+    image: image().optional(),
     imageAlt: z.string().optional(),
     featured: z.boolean().default(false),
     draft: z.boolean().default(false),

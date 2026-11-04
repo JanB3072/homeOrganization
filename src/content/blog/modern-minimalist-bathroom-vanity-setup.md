@@ -6,7 +6,7 @@ category: "Bathroom"
 subcategory: "Vanity"
 tags: ["bathroom-organization", "storage-solutions", "minimalist-bathroom", "vanity-organization", "small-bathroom"]
 keywords: ["modern minimalist bathroom vanity setup", "hide bathroom counter clutter", "minimalist vanity organization", "clutter-free bathroom counter", "bathroom vanity storage ideas"]
-image: "/images/bathroom-vanity.jpg"
+image: ./images/bathroom-vanity.jpg
 imageAlt: "Minimalist bathroom vanity with a nearly empty counter and a soap pump"
 takeaways:
   - Counter went from 23 items to 3; total cost about $115 with no new vanity.
@@ -29,11 +29,11 @@ featured: false
 draft: false
 ---
 
-My vanity counter held 23 things in October. It holds three now. The whole thing cost about $115 in trays, dividers, and pump bottles — the vanity stayed, the countertop stayed, nothing got renovated.
+My vanity counter held 23 things in October. It holds three now. The whole thing cost about $115 in trays, dividers, and pump bottles, the vanity stayed, the countertop stayed, nothing got renovated.
 
 The look people call a "minimalist bathroom" is mostly a storage problem in disguise. You don't need a new vanity or a stone top. You need every product to have a home that isn't the counter. Here's what actually changed.
 
-![Minimalist bathroom vanity with a nearly empty counter and a soap pump](/images/bathroom-vanity.jpg)
+![Minimalist bathroom vanity with a nearly empty counter and a soap pump](./images/bathroom-vanity.jpg)
 
 Before: what was really on there
 
@@ -49,19 +49,19 @@ I counted before touching anything:
 
 Twenty-three items. Every one "used often enough to leave out." None had a drawer. The single drawer below held a hair-dryer cord, old receipts, and nothing useful.
 
-The worst part wasn't the look. It was cleaning — wiping that counter meant moving eleven bottles, twice a week.
+The worst part wasn't the look. It was cleaning. Wiping that counter meant moving eleven bottles, twice a week.
 
 What I changed
 
 Cleared the counter completely. Everything into a shoebox on the bed. Empty counter, wiped down, five minutes.
 
-Sorted by honest use. One question per item: every day, or not? Twenty failed. They didn't get thrown out — they got moved. The daily few: toothbrushes, toothpaste, face wash, deodorant, soap.
+Sorted by honest use. One question per item: every day, or not? Twenty failed. They didn't get thrown out. They got moved. The daily few: toothbrushes, toothpaste, face wash, deodorant, soap.
 
 Gave the drawer a job. $18 in bamboo dividers turned the junk drawer into three zones: dental, skincare, hair. The skincare tower now stands in one row in the middle zone so I see every bottle at once.
 
-Corralled the keepers in one tray. A lidded tray ($14) holds the three daily items I want at arm's reach but not on display. Lid closed, counter looks empty. Lid open, everything's right there. This one object did more for the clean look than anything else.
+Corralled the keepers in one tray. A lidded tray ($14) holds the three daily items I want at arm's reach but not on display. Lid closed, counter looks empty. Lid open. everything's right there. This one object did more for the clean look than anything else.
 
-Decanted what shows. Pump bottles ($11 for a pair) for hand soap and lotion. Uniform pumps kill the label noise — that alone reads as "minimalist" from the door. Originals stay under the sink for refills.
+Decanted what shows. Pump bottles ($11 for a pair) for hand soap and lotion. Uniform pumps kill the label noise. That alone reads as "minimalist" from the door. Originals stay under the sink for refills.
 
 Gave hair tools a heat-safe home. A silicone-lined bin ($9) in the cabinet under the vanity. Flat iron goes in warm, cord wrapped. No more cord nest on the counter.
 
@@ -76,13 +76,13 @@ Three things:
 - One lidded tray, closed, holding the daily items
 - One hand towel on a ring beside the vanity
 
-Toothbrushes live in the tray now, not in a cup on display. The counter wipes in ten seconds because nothing moves first. Guests assume I tidied for them. I didn't — that's just where things live.
+Toothbrushes live in the tray now, not in a cup on display. The counter wipes in ten seconds because nothing moves first. Guests assume I tidied for them. I didn't. that's just where things live.
 
 What I skipped, and why
 
 A new vanity. The internet says the clean look needs a floating vanity with integrated storage. Mine's a builder-grade box from 2015. With the counter clear, nobody can tell. $800-plus saved.
 
-Countertop organizer sets. The matching acrylic sets are pretty and solve nothing — they organize products that shouldn't be on the counter in the first place.
+Countertop organizer sets. The matching acrylic sets are pretty and solve nothing. They organize products that shouldn't be on the counter in the first place.
 
 A medicine-cabinet mirror upgrade. Tempting, unnecessary. Storage behind the mirror is nice; the drawers below already held everything.
 
@@ -90,7 +90,7 @@ A label printer. Masking tape on the inside of drawer zones. Invisible closed, o
 
 Three months later
 
-The look survived, with two caveats. The lidded tray leaves water rings underneath — wipe under it weekly or the counter shows faint marks. I learned that at week five and keep a folded cloth in the cabinet for it. And the nightly reset matters: two minutes before bed, everything back in its zone, lid closed. Miss three nights running — like the week I had a deadline — and the counter creeps back toward a dozen items. It recovers in one reset. That's the difference between a system and a binge.
+The look survived, with two caveats. The lidded tray leaves water rings underneath (wipe under it weekly or the counter shows faint marks. I learned that at week five and keep a folded cloth in the cabinet for it. And the nightly reset matters: two minutes before bed. Everything back in its zone, lid closed. Miss three nights running) like the week I had a deadline, and the counter creeps back toward a dozen items. It recovers in one reset. That's the difference between a system and a binge.
 
 One honest failure: the "one row, see every bottle" skincare zone didn't last. Ten bottles don't fit one row in a shallow drawer. Six do; the other four live in a second-row bin. Fine.
 
@@ -103,6 +103,6 @@ The rules that actually produced it:
 4. Every product needs an off-counter home before it enters the bathroom. No home, no entry.
 5. Two-minute nightly reset. Cheaper than a bigger vanity.
 
-If the vanity drawers are full before you start, clear those first with the same method I use under the sink — my [step-by-step under-sink process](/blog/how-to-organize-under-bathroom-sink/) works one shelf over. And if the bathroom's small enough that the toilet area does storage duty too, my [over-the-toilet storage test](/blog/over-the-toilet-storage-ideas/) covers the only other vertical surface in the room.
+If the vanity drawers are full before you start, clear those first with the same method I use under the sink, my [step-by-step under-sink process](/blog/how-to-organize-under-bathroom-sink/) works one shelf over. And if the bathroom's small enough that the toilet area does storage duty too, my [over-the-toilet storage test](/blog/over-the-toilet-storage-ideas/) covers the only other vertical surface in the room.
 
-I'm watching whether the cheap pump seals hold past six months — they sometimes weep at the neck. I'll report back with what survived.
+I'm watching whether the cheap pump seals hold past six months. They sometimes weep at the neck. I'll report back with what survived.

@@ -24,26 +24,28 @@ faq:
     answer: "About a weekend for the first build, then roughly 90 seconds a day to get dressed. I track items on a simple list so nothing stays buried."
   - question: "What should you not keep in a small closet?"
     answer: "Off-season items in the daily zone, anything unworn in a year, and bulky hangers that eat rod space. Move those out first to free the most room."
-image: "/images/vertical-closet.jpg"
+image: ./images/vertical-closet.jpg
 imageAlt: "Small closet organized vertically with double hanging rods and fabric bins"
 featured: true
 draft: false
 ---
 
-![Small closet organized vertically with double hanging rods and fabric bins](/images/vertical-closet.jpg)
+![Small closet organized vertically with double hanging rods and fabric bins](./images/vertical-closet.jpg)
 
-My closet is 4 feet wide, 5 deep, 7 tall. For the first year I used it the standard way — one rod, a shelf above, shoes wherever they landed. Getting dressed took ten to fifteen minutes, and I bought duplicates because I couldn't see what I owned.
+My closet is 4 feet wide, 5 deep, 7 tall. For the first year I used it the standard way: one rod, a shelf above, shoes wherever they landed. Getting dressed took ten to fifteen minutes, and I bought duplicates because I couldn't see what I owned.
 
-The fix wasn't a bigger closet. It was going vertical: three zones instead of one rod.
+The fix wasn't a bigger closet. I went vertical and built three zones out of that one rod. The same rod-to-shelf measurement shows up as one of the eleven numbers in the [whole-home organization system](/blog/whole-home-organization-system/), where this room is one chapter of a twelve-week plan.
 
-Eye level gets the rod I touch every day, about 40 items sorted by type. Above it, 19 inches up, a second rod holds the clothes I wear less — seasonal pieces, occasional formalwear, work-from-home things. Below: a shoe rack, a three-drawer unit for socks and accessories, and shelves for folded clothes. Each spot has one job, and nothing shares.
+Eye level holds the rod I touch every day, about 40 items sorted by type. Nineteen inches above it, a second rod takes the clothes I wear less. Seasonal pieces, occasional formalwear, work-from-home things. The heaviest seasonal gear that won't fit up there spends summer in storage instead, handled with a proper wash-and-pack routine ([how to store winter clothes the right way](/blog/how-to-store-winter-clothes-in-summer/)).
 
-Two habits keep it working. The first is folding. I file sweaters and jeans upright instead of stacking, so every edge shows and nothing gets buried — that's how a cashmere sweater once sat forgotten with its tag on for months. The fold itself is nothing fancy: lay flat, fold in half lengthwise, fold again to about 6 inches wide, once more, stand it up. Same for pants, in thirds. Open the drawer and you see every item at once.
+Below, a shoe rack, a three-drawer unit for socks and accessories (the belts live there too, [rolled the leather-safe way](/blog/how-to-store-belts-in-closet/)), and shelves for folded clothes. Each spot has one job. The pairs worth showing rather than wearing moved off the rack into [clear stackable shoe boxes](/blog/clear-plastic-shoe-boxes-stackable-design/) beside the dresser. Same visibility rule, dust-proof execution.
 
-The second habit is rotation. Every two weeks I swap the main rod — pull what I haven't worn, bring in pieces from the second rod and shelves. Clothes I'd forgotten feel new again. And anything that sits through several rotations is telling me something; that's how the donation pile forms without a painful audit.
+Two habits keep it working. The first is folding. I file sweaters and jeans upright instead of stacking, so every edge shows and nothing gets buried. That matters more than it sounds: a cashmere sweater once sat in a stack with its tag on for months, forgotten. The fold is nothing fancy. Lay flat, fold in half lengthwise, fold again to about 6 inches wide, once more, stand it up. Pants go in thirds. Open the drawer and you see every item at once. For the stacks that do live on a shelf, [shelf dividers keep them standing](/blog/closet-shelf-dividers-for-folded-sweaters/) instead of leaning.
 
-The whole setup cost $93–197 spread over a few months: a second rod and brackets, wooden dividers, the drawer unit, shelving, velvet hangers. It also killed my $50-a-month storage unit rental, so it paid for itself within a season. I fit 200-plus items now and still keep some space deliberately empty — a closet with air in it is easier to keep tidy than a full one.
+The second habit is rotation. Every two weeks I swap the main rod, pulling what I haven't worn and bringing in pieces from the second rod and shelves. Clothes I'd forgotten feel new again. Anything that sits through several rotations is telling me something, and that's how the donation pile forms without a painful audit.
 
-The measurable part, six months in: dressing went from 12–15 minutes to about 90 seconds, and seasonal swaps went from a renovation day to half an hour. The quieter result matters more — I stopped buying things I already own.
+The whole setup cost $93 to $197 over a few months: a second rod and brackets, wooden dividers, the drawer unit, shelving, velvet hangers. It also killed my $50-a-month storage rental, so it paid for itself in a season. I fit 200-plus items now and still leave some space empty on purpose. A closet with air in it is easier to keep tidy than a packed one.
 
-If you're starting from a single-rod closet: measure first, empty it and sort hard, add the second rod if you have the height, learn the vertical fold, and set a 14-day rotation reminder. Then adjust from what you actually wear, not what you wish you wore.
+Six months in, the measurable part: dressing went from 12 to 15 minutes to about 90 seconds, and seasonal swaps went from a renovation day to half an hour. The quieter result matters more. I stopped buying things I already own.
+
+If you're starting from a single-rod closet, measure first, empty it and sort hard, add the second rod if you have the height, learn the vertical fold, and set a 14-day rotation reminder. Then adjust from what you actually wear, not what you wish you wore.

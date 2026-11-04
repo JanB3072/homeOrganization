@@ -8,9 +8,13 @@ export async function getAllPosts() {
   const posts = await getCollection('blog', 
     ({ data }) => !data.draft
   );
-  return posts.sort((a, b) => 
-    b.data.pubDate.getTime() - a.data.pubDate.getTime()
-  );
+  // CollectionEntry has no `url` field. List pages and cards need a canonical
+  // link, so derive it here once instead of at every call site.
+  return posts
+    .map(post => ({ ...post, url: `/blog/${post.slug}/` }))
+    .sort((a, b) => 
+      b.data.pubDate.getTime() - a.data.pubDate.getTime()
+    );
 }
 
 // 按分类查询

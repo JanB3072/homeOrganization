@@ -4,6 +4,7 @@
 import BaseLayout from './BaseLayout.astro';
 import SchemaOrg from '../components/SchemaOrg.astro';
 import PostSidebar from '../components/PostSidebar.astro';
+import { Image } from 'astro:assets';
 
 interface Props {
   title: string;
@@ -20,7 +21,7 @@ interface Props {
   currentSlug?: string;
 }
 
-const { title, description, author, pubDate, updatedDate, category, subcategory, tags, image, relatedPosts, currentSlug, takeaways, faq } = Astro.props;
+const { title, description, author, pubDate, updatedDate, category, subcategory, tags, image, relatedPosts, currentSlug, takeaways, faq, howTo } = Astro.props;
 
 // Format date for display
 const formatDate = (date: Date) => {
@@ -35,7 +36,7 @@ const formatDate = (date: Date) => {
 <BaseLayout 
   title={title} 
   description={description}
-  image={image}
+  image={image?.src}
   author={author}
   ogType="article"
   articleSection={category}
@@ -49,19 +50,20 @@ const formatDate = (date: Date) => {
     type="BlogPosting"
     title={title}
     description={description}
-    image={image}
+    image={image?.src}
     datePublished={pubDate}
     dateModified={updatedDate}
     author={author}
     category={category}
     tags={tags}
     faq={faq}
+    howTo={howTo}
   />
   
   <div class="post-container">
     <!-- Main Article Content -->
     <article class="post-main">
-      {image && <img src={image} alt={title} class="post-hero-image" />}
+      {image && <Image src={image} alt={title} class="post-hero-image" />}
       
       <div class="article-header">
         <h1>{title}</h1>
