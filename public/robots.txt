@@ -13,4 +13,4 @@ Disallow: /*.json
 Crawl-delay: 1
 
 # Sitemap location - Astro generates this automatically
-Sitemap: https://organizingsmall.com/sitemap.xml
+Sitemap: https://organizingsmall.com/sitemap-index.xml

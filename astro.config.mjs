@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   // Site configuration for SEO
@@ -23,4 +24,11 @@ export default defineConfig({
   devToolbar: {
     enabled: false,
   },
+
+  // Auto-generate sitemap from all routes (posts, categories, tags, pagination)
+  integrations: [
+    sitemap({
+      filter: (page) => !page.includes('/404'),
+    }),
+  ],
 });
