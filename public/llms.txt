@@ -1,0 +1,23 @@
+# Organizing Small
+
+> Organizing Small (organizingsmall.com) is a home organization blog sharing real, tested solutions for small homes: room-by-room organization, decluttering methods, small-space and rental-friendly storage, with measurements, photos and practical checklists. Content is original, human-written English articles.
+
+Main sections:
+
+- [Home](https://organizingsmall.com/): Latest articles and featured topics
+- [Guides](https://organizingsmall.com/guides/): In-depth systems and complete how-to guides, including the whole-home organization system
+- [Kitchen](https://organizingsmall.com/kitchen/): Kitchen organization ideas, cabinet and pantry setups
+- [Bathroom](https://organizingsmall.com/bathroom/): Small bathroom storage hacks and before-and-after examples
+- [Small Space](https://organizingsmall.com/small-space/): Apartment living and rental-friendly storage solutions
+- [Closet](https://organizingsmall.com/closet/): Closet organization and wardrobe systems
+- [Declutter](https://organizingsmall.com/declutter/): Decluttering methods, checklists and decision frameworks
+- [Popular](https://organizingsmall.com/popular/): Most-read and featured articles
+- [Archive](https://organizingsmall.com/archive/): Complete article archive
+- [Tags](https://organizingsmall.com/tags/): All topics browsable by tag
+- [About](https://organizingsmall.com/about/): Who writes this site and how it is tested
+- [RSS Feed](https://organizingsmall.com/feed.xml): Full-text feed of new articles
+
+Usage notes:
+
+- Articles are markdown-rendered static HTML; each page includes canonical URL, sitemap at https://organizingsmall.com/sitemap.xml and JSON-LD structured data (Article, HowTo, FAQ, Breadcrumb).
+- Quoting, summarizing and linking back to the original article URLs is permitted and appreciated.
