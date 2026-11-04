@@ -38,6 +38,8 @@ howTo:
     text: "Secure passwords with emergency access, inventory accounts and subscriptions, and gift meaningful items now so you can see them enjoyed."
 featured: false
 draft: false
+image: ./images/vertical-closet.jpg
+imageAlt: "Swedish death cleaning - minimalist and organized home storage"
 ---
 
 The name is doing the method no favors in English. "Swedish death cleaning" sounds like something you do once, at the end, in a black sweater, and that misreading keeps people from the most humane decluttering framework there is. Döstädning, as Margareta Magnusson laid it out in her book *The Gentle Art of Swedish Death Cleaning*, is a standing practice of editing your possessions for the living, so your life stays legible now and later to the people who would otherwise inherit a house full of questions.

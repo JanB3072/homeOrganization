@@ -23,6 +23,8 @@ faq:
     answer: "Roll each belt with the buckle facing outward, use a divided organizer so coils don't press against each other, or give metal-buckled belts their own compartment. Buckles are what scratch; the leather rarely damages itself."
 featured: false
 draft: false
+image: ./images/belt-storage.jpg
+imageAlt: "Organized belt storage on rings and hangers in closet"
 ---
 
 Belts are the accessories that live everywhere they shouldn't: curled in a drawer, draped over a doorknob, hung over a hanger bar where they slide off at the slightest touch. The fix takes one decision and about $15. Belt storage really comes down to three options, rack, ring, or roll, and the right one depends on how often you actually reach for each belt.

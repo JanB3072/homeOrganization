@@ -25,6 +25,8 @@ faq:
     answer: "Use adhesive hooks and rails within their 3-to-5-pound limits, tension poles between floor and ceiling, and over-door organizers. For heavier needs, a freestanding unit pushed against the wall does the same job without holes."
 featured: false
 draft: false
+image: ./images/vertical-closet.jpg
+imageAlt: "Small space with wall-mounted pegboard and vertical storage solutions"
 ---
 
 When floor area runs out. Most people start downsizing their belongings. The better first move is downsizing your footprint, and there's a whole layer of the apartment that already has a footprint of zero: the walls. A small home's walls are usually 90 percent empty at exactly the heights where hands work, and filling even a few strategic strips of them changes how much the floor has to carry.

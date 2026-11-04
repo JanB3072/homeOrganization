@@ -25,6 +25,8 @@ faq:
     answer: "A 15-minute weekly reset before the grocery run: check bins, pull anything dying, wipe one shelf, and restock the drink station. The look survives on rhythm, not on perpetual perfection."
 featured: false
 draft: false
+image: ./images/aesthetic-fridge-organization.jpg
+imageAlt: "Refrigerator organized with clear bins, glass pitcher, and labeled containers"
 ---
 
 The viral fridge video is a very specific genre: shelves of clear bins in ranked heights, a glass pitcher of citrus water glowing under the LED, labels in a single tasteful font, and here's the part the video doesn't show you, the two hours it took to stage. The good news is that the look is cheap and sturdy: a system you can run every day instead of staging once for the camera.

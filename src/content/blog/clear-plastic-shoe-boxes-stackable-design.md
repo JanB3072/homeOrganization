@@ -25,6 +25,8 @@ faq:
     answer: "Yes, if ventilated and stored away from sunlight and heat. Sealed shoe boxes trap humidity and can age glue and midsoles. Boxes with vent holes or a cracked-open corner are the safer long-term choice for collectible pairs."
 featured: false
 draft: false
+image: ./images/clear-shoe-boxes.jpg
+imageAlt: "Clear stackable shoe boxes organized in rows showing sneaker collection"
 ---
 
 The sneaker wall looks simple: rows of clear boxes, every pair visible. Nothing toppling. Then you buy a set of cheap clear boxes, stack them, and discover why the wall in the photos never leans. The stackable design is a real engineering question, and most boxes answer it badly. After two years and four brands' worth of boxes holding about 30 pairs, here's what actually separates the tiers.

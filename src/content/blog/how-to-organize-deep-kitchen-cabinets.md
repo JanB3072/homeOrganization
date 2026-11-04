@@ -25,6 +25,8 @@ faq:
     answer: "Give every item a front-facing home and a depth rule: nothing taller than the basket, nothing stacked behind something you reach for weekly. A monthly 10-minute reset and a one-in-one-out rule keep the back from becoming a graveyard."
 featured: false
 draft: false
+image: ./images/kitchen-cabinet-organization.jpg
+imageAlt: "Deep kitchen cabinet organized with pull-out baskets and lazy Susan"
 ---
 
 Deep kitchen cabinets are the Bermuda Triangle of the home. You put the blender in there in March. You need the blender in July. You open the door, peer into the canyon, and the blender is gone. Not lost, just buried behind three cans of beans and a stockpot you forgot you owned. The cabinet reads as too small, but the real issue is depth, a different problem from lack of space.

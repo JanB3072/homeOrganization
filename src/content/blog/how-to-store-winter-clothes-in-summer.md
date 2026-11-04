@@ -38,6 +38,8 @@ howTo:
     text: "Open each container in fall, air everything, check for moth activity or must, sand or replace cedar blocks, and refold long-folded knits."
 featured: false
 draft: false
+image: ./images/winter-clothes-storage.jpg
+imageAlt: "Neatly folded winter clothes in storage containers"
 ---
 
 Every October, someone opens a box of winter clothes and finds a smell, a stain, or a hole that wasn't there in April. The gear didn't fail over winter. It failed over the four months it sat in a hot attic in a sealed plastic bag. Learning how to store winter clothes in summer is mostly about understanding what actually damages fabric in storage, because the damage is done by five specific enemies, and each has a specific countermeasure.

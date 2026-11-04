@@ -45,6 +45,8 @@ howTo:
     text: "Add a five-minute daily return path and a 15-minute weekly reset, then audit with the relapse decision tree after one month."
 featured: true
 draft: false
+image: ./images/kitchen-cabinet-organization.jpg
+imageAlt: "Whole home organization system overview with organized storage across different rooms"
 ---
 
 The tape measure lives in the kitchen drawer, second from the left, wedged behind a bag of twist ties. I bought it after the first time I tried to organize my whole apartment in a weekend. That attempt cost about $280 in matching baskets, produced eleven photos I was very proud of, and had fully reverted by the third week. The baskets were fine. The problem was that I had organized six surfaces and zero systems, and I had never once measured a shelf.

@@ -36,6 +36,8 @@ howTo:
     text: "Walk the empty rooms once more, get trash out before the movers arrive, and keep the paperwork box and open-me-first boxes in your car, never on the truck."
 featured: false
 draft: false
+image: ./images/decluttering-moving-boxes.jpg
+imageAlt: "Moving boxes and packing materials organized for a move"
 ---
 
 Here's the number that changes how you pack. Long-distance movers charge roughly $0.50 to $1.00 per pound, and local crews charge by the hour. That means every box of expired pantry goods, dead cables, and clothes you were keeping "just in case" carries a shipping cost. The average unplanned household moves 500 to 1,000 pounds of stuff it should never have boxed. At moving rates. that's $250 to $1,000 spent transporting decisions you already made years ago.

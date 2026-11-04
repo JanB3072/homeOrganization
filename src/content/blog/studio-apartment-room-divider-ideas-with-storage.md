@@ -25,6 +25,8 @@ faq:
     answer: "Choose an open-back or cubby-style unit instead of a solid panel, keep it under about 6 feet tall, and leave a clear 30 to 36 inch walkway. Open shelving divides the floor plan without dividing the light."
 featured: false
 draft: false
+image: ./images/vertical-closet.jpg
+imageAlt: "Studio apartment with room divider storage unit separating living and sleeping areas"
 ---
 
 A studio apartment gives you one room and asks you to live three lives in it. The bed needs to feel like a bedroom, the sofa needs to feel like a living room, and the desk needs to not stare at you while you eat dinner. A room divider fixes the zoning, but in a studio every square foot is a fight, and a divider that only divides is a luxury you can't afford. The answer is a divider that also stores things, so it earns its footprint twice.

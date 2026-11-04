@@ -30,6 +30,8 @@ howTo:
     text: "Put daily items in the middle slot, backups on top, and folded hand towels in the bottom slot."
 featured: false
 draft: false
+image: ./images/diy-wood-shelf.jpg
+imageAlt: "DIY wooden wall shelf organizer with rustic finish in bathroom"
 ---
 
 A bathroom wall organizer is the project I hand to anyone who wants their first taste of building things. Two hours, about $12, and a piece that replaces the wire rack you were embarrassed by. This one is a three-slot wall shelf from a single reclaimed fence picket. The rustic look comes free with the old wood.
