@@ -16,16 +16,16 @@ faq:
   - question: "What is the best over-the-toilet storage for a small bathroom?"
     answer: "A freestanding space-saver etagere. In my two-year test it held the most, needed no drilling, and never tipped. Wall-mounted shelves are the runner-up if your lease allows a couple of small anchored holes."
   - question: "How high is the space above a toilet tank?"
-    answer: "Standard tanks sit about 30 inches off the floor, so in a typical 8-foot (96-inch) room you have roughly 60–66 inches of wall above the tank to work with. My own alcove is shorter at about 32 inches, which is exactly why I measured mine before buying. Always check your tank-top-to-ceiling distance, because tanks and ceilings vary."
+    answer: "Standard tanks sit about 30 inches off the floor, so in a typical 8-foot (96-inch) room you have roughly 60�?6 inches of wall above the tank to work with. My own alcove is shorter at about 32 inches, which is exactly why I measured mine before buying. Always check your tank-top-to-ceiling distance, because tanks and ceilings vary."
   - question: "Can you put a shelf above the toilet?"
     answer: "Yes. One wall-mounted shelf above tank height is safe for hand towels and tissues. Keep it off the tank itself and clear of the flush lever."
   - question: "Is over-the-toilet storage safe for renters?"
     answer: "Freestanding units and over-tank trays are fully drill-free. Avoid tension pole caddies, which rust and wobble, and adhesive shelves, which fail under weight."
   - question: "What should you not store above a toilet?"
     answer: "Medication, electronics, cardboard, and open toilet paper at tank level, which absorbs steam. Heavy glass jars also belong lower so they cannot fall on someone."
+draft: false
 image: ./images/bathroom-over-toilet.jpg
 imageAlt: "Freestanding over-the-toilet storage etagere with towels and baskets in a small bathroom"
-draft: false
 ---
 
 The space over the toilet is the best storage you've got in a small bathroom, and almost everyone wastes it. I ran four different setups through my 40-square-foot bathroom over roughly two years, spending somewhere between $18 and $110, and ended up on the cheapest option: a freestanding etagere plus one small wall shelf.

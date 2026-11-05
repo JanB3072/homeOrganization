@@ -1,5 +1,5 @@
 ---
-title: "Under-Sink Storage That Won't Break Your Plumbing – Layout & Materials I Tested"
+title: "Under-Sink Storage That Won't Break Your Plumbing �?Layout & Materials I Tested"
 description: "Under-sink cabinet organization guide with measurements, materials tested, and cost breakdown. Covers P-trap safety, ventilation, and 6-month performance data."
 pubDate: 2024-03-10
 updatedDate: 2024-03-25
@@ -23,11 +23,11 @@ faq:
   - question: "How do I stop under-sink moisture damage?"
     answer: "Choose clear plastic over wood, leave the door ajar after steamy showers, and place an absorbent mat on the floor. The mat reveals leaks early and should be replaced every six months."
   - question: "How much does under-sink organization cost?"
-    answer: "About $57–65 for a full bathroom setup and roughly $38 for a kitchen sink. Designer systems cost $120 or more and tend to warp faster than basic clear plastic."
-image: ./images/under-sink-materials.jpg
-imageAlt: "Under-sink storage with visible P-trap pipes and ventilated plastic containers"
+    answer: "About $57�?5 for a full bathroom setup and roughly $38 for a kitchen sink. Designer systems cost $120 or more and tend to warp faster than basic clear plastic."
 featured: true
 draft: false
+image: ./images/under-sink-materials.jpg
+imageAlt: "Under-sink storage with visible P-trap pipes and ventilated plastic containers"
 ---
 
 > **Note**: This guide is written for North American plumbing with P-traps. If you're elsewhere, your under-sink layout may differ. Adapt to your local setup.
@@ -62,11 +62,11 @@ Clear plastic bins are the answer. I tried metal, bamboo, wood, fancy containers
 
 | Container | Cost | Verdict |
 |---|---|---|
-| Clear plastic bins (unlidded) | $4–8 | The workhorse. See-through, cheap. They do pick up odors after about six months |
-| Ventilated pull-out baskets | $12–20 | The key piece. I can reach the back without dislocating a shoulder. Must be ventilated; I drill holes |
-| Metal shelving | $25–40 | Solid, except water pools in the corners |
-| Bamboo or wood | $15–35 | Avoid. Swells, warps, grows mold |
-| Stainless | $20–50 | Fine, but overkill unless you just hate money |
+| Clear plastic bins (unlidded) | $4�? | The workhorse. See-through, cheap. They do pick up odors after about six months |
+| Ventilated pull-out baskets | $12�?0 | The key piece. I can reach the back without dislocating a shoulder. Must be ventilated; I drill holes |
+| Metal shelving | $25�?0 | Solid, except water pools in the corners |
+| Bamboo or wood | $15�?5 | Avoid. Swells, warps, grows mold |
+| Stainless | $20�?0 | Fine, but overkill unless you just hate money |
 
 My setup is clear bins plus ventilated pull-out baskets. I drilled holes in the baskets immediately. Six at first, then eight after the first month when I noticed a stale smell.
 
@@ -90,7 +90,7 @@ One thing I learned by burning myself: the hot-water pipe gets hot. I touched on
 
 Six months in
 
-I tracked this across two apartments. Bathroom setup ran $57–65 (two baskets at $16, a large clear bin $12, a small bin $8, shelf liner $5, plus $5–8 in install supplies). Kitchen was about $38. Over six months I replaced nothing except refreshing the mat once.
+I tracked this across two apartments. Bathroom setup ran $57�?5 (two baskets at $16, a large clear bin $12, a small bin $8, shelf liner $5, plus $5�? in install supplies). Kitchen was about $38. Over six months I replaced nothing except refreshing the mat once.
 
 What held up: no moisture damage, no odors (the holes), pull-outs still work, and the mat caught one small drip at month four. One basket warped slightly but still works.
 
@@ -98,7 +98,7 @@ The lesson that stuck: drill eight holes, not six. And skip the expensive contai
 
 Leaks, and when to actually worry
 
-I'm leak-paranoid now, probably because of the $200 one. Watch for water stains or puddles under the cabinet, discoloration on the floor, drips during or after use, musty smells, or soft/swollen wood. A minor drip (a drop or two a day): monitor it with the mat, check the connections. A steady stream: call a plumber. Mold or structural damage: that's an emergency. Diagnosis runs $150–400; add $200–800 if water damage is already done.
+I'm leak-paranoid now, probably because of the $200 one. Watch for water stains or puddles under the cabinet, discoloration on the floor, drips during or after use, musty smells, or soft/swollen wood. A minor drip (a drop or two a day): monitor it with the mat, check the connections. A steady stream: call a plumber. Mold or structural damage: that's an emergency. Diagnosis runs $150�?00; add $200�?00 if water damage is already done.
 
 A monthly mat check heads off most of that. Not complicated. Check the mat, wipe things down, listen for normal drainage.
 

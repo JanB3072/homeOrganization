@@ -36,9 +36,9 @@ howTo:
     text: "Put daily items in a front pull-out basket (the same pull-out logic that rescues [deep kitchen cabinets](/blog/how-to-organize-deep-kitchen-cabinets/)), backups at the back, light items above the trap, and keep the area in front of the trap clear."
   - name: "Label every bin and set a monthly reminder"
     text: "Label each container and schedule a repeating five-minute check to glance at the mat and push items back into their zones."
+draft: false
 image: ./images/under-bathroom-sink.jpg
 imageAlt: "Inside of a bathroom sink cabinet organized with clear bins and pull-out drawers"
-draft: false
 ---
 
 You can get under your bathroom sink organized in one sitting, about 40 minutes, and keep it that way with a five-minute check each month. This is the exact order I use, now tested across three apartments and two different plumbing setups.
@@ -56,7 +56,7 @@ The order, roughly
 5. Zone. Daily stuff in front, backups in back, nothing in front of the trap.
 6. Label and set a monthly reminder.
 
-First run is 40–60 minutes. If you're redoing an already-organized cabinet after a busy season, about 15.
+First run is 40�?0 minutes. If you're redoing an already-organized cabinet after a busy season, about 15.
 
 Step 1: empty it completely (10 min)
 
@@ -113,9 +113,9 @@ The system bends; it doesn't have to break. When it collapses, and a busy week w
 What to buy, and what to skip
 
 Total for my current setup: about $35.
-- 2 clear pull-out baskets, $12–16 each
+- 2 clear pull-out baskets, $12�?6 each
 - 1 shallow lidded bin for backups, $8
-- 1 absorbent mat, $5–6
+- 1 absorbent mat, $5�?
 - masking tape + marker for labels, already owned
 
 Skip: multi-tier sliding drawer units (unless your clearance number says otherwise (they rarely fit above the trap), bamboo anything in this humidity, and any bin you buy before measuring. Good news) this is one of the cheapest organizing projects in the house. The hardware matters far less than the order you do it in.

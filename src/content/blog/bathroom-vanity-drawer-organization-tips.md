@@ -36,13 +36,15 @@ howTo:
     text: "Once a month, dump untouched items toward the back, toss expired products, and check that the layout still matches the sequence."
 featured: false
 draft: false
+image: ./images/bathroom-vanity-drawer.jpg
+imageAlt: "Organized bathroom vanity drawer with dividers and storage solutions"
 ---
 
 Two vanities, same manufacturer, same size. In the first one, finding the serum takes about forty seconds because it stands in the front row of a divided drawer. In the second, the same serum lives somewhere under a hairbrush and two lotions, and the average dig takes four times as long. The products are identical. The layout is not.
 
 Most drawer advice sorts things by category: skincare here, dental there, hair stuff somewhere. That is how stores shelve things. Mornings do not run by category, they run by sequence, and a drawer that ignores sequence gets destroyed by 7 a.m. every day no matter how many dividers you buy.
 
-This is a layout guide. It comes from two real vanities I set up this year, one single-sink and one shared double-sink, with the measurements, the prices, and the purchases I regretted written in. No renovation involved. If you want the counter-minimalism version of this topic, that is a separate article; drawers are a different problem.
+This is a layout guide. It comes from two real vanities I set up this year, one single-sink and one shared double-sink, with the measurements, the prices, and the purchases I regretted written in. No renovation involved. If you want the counter-minimalism version of this topic, that is a separate article on [styling a floating vanity](/blog/how-to-style-a-floating-vanity/) for the spa look; drawers are a different problem, and they follow the same measure-first logic as the [whole-home organization system](/blog/whole-home-organization-system/).
 
 ## Start with the box, not the "drawer"
 
@@ -68,9 +70,9 @@ Write the numbers on a strip of masking tape stuck inside the drawer face. It su
 
 ## Organize by sequence, not category
 
-Write down the actual order you touch things between waking up and walking out. Mine runs like this:
+Write down the actual order you touch things between waking up and walking out, the same sequence-first thinking the [vertical closet build](/blog/vertical-closet-system-maximize-small-wardrobe/) uses for a wardrobe. Mine runs like this:
 
-**Water on → brush and floss → wash face → treat and moisturize → deodorant → style hair → grab and go.**
+**Water on �?brush and floss �?wash face �?treat and moisturize �?deodorant �?style hair �?grab and go.**
 
 Each step gets a zone, and the prime real estate goes to the earliest, most frequent steps. The drawer nearest where I stand gets dental and cleanse. The drawer below gets skincare and deodorant. The deep drawer lowest down takes hair tools, which I use once a day and could reach sideways for.
 
@@ -96,7 +98,7 @@ Under three inches of height, you are storing papers, essentially. The mistake h
 What works:
 
 - Trays and inserts under 2 inches tall
-- Makeup slotted trays with 6 to 12 compartments for pencils and brushes laid flat
+- Makeup slotted trays with 6 to 12 compartments for pencils and brushes laid flat, the same [jewelry armoire approach](/blog/how-to-organize-jewelry-in-a-small-closet-armoire/) to small flat items
 - Lidless everything; a lid adds height and a step you will skip
 - Drawer-style tea bag organizers for razor refills and toothbrush heads, which is a $9 trick that works embarrassingly well
 
@@ -104,14 +106,14 @@ What does not: pump bottles, anything standing, and "just one more row." Shallow
 
 ### Standard drawers: the one-row rule
 
-The 3-to-6-inch drawer is the workhorse, and it runs on one rule: everything stands in one visible row. If you need a second row, either the drawer is over capacity or the items belong somewhere else. Two-deep storage in a standard drawer is where products go to expire unnoticed.
+The 3-to-6-inch drawer is the workhorse, and it runs on one rule: everything stands in one visible row, the same [one-visible-row logic](/blog/closet-shelf-dividers-for-folded-sweaters/) that keeps folded stacks honest. If you need a second row, either the drawer is over capacity or the items belong somewhere else. Two-deep storage in a standard drawer is where products go to expire unnoticed.
 
 Bamboo versus acrylic, briefly, because I have bought both:
 
 - **Bamboo dividers** look better, cost less, and slide if your drawer box is even slightly uneven. My set ($18 for eight pieces) needed one cork shim.
-- **Acrylic dividers** grip better with rubber feet and let you see the drawer bottom, which matters for small items. They cost about 40 percent more for the same count.
+- **Acrylic dividers** grip better with rubber feet and let you see the drawer bottom, which matters for small items. They cost about 40 percent more for the same count, and the same [5 mm thickness rule](/blog/acrylic-purse-dividers-for-closet-shelves-organizer/) that keeps bag compartments rigid applies to drawer dividers too.
 
-Either is fine. Pick one material for the whole house so the drawers look related.
+Either is fine. Pick one material for the whole house so the drawers look related, the same [real-estate logic a lit makeup vanity](/blog/best-makeup-vanity-table-with-lights-storage/) applies to a bathroom drawer.
 
 ### Deep drawers: the graveyard problem
 
@@ -156,10 +158,10 @@ One shallow (2.75 in), one standard (5.25 in), one deep (8 in). One user, five-m
 
 ### Setup B: shared 60-inch double-sink, four standard drawers
 
-Two users with overlapping products, which is the harder problem. The fix is territory, not sharing:
+Two users with overlapping products, which is the harder problem in a [small bathroom where vertical space carries the load](/blog/small-space-vertical-storage-solutions-wall-hangers/). The fix is territory, not sharing:
 
 - Left two drawers are hers, right two are his, and duplicates are allowed. Two razors, two deodorants, two toothpaste tubes. Sharing sounds efficient and costs a fight every morning; duplicates cost $11 a month and cost nothing in patience.
-- Shared items (floss picks, cotton rounds, the hair clip basket) live in the bottom drawer in labeled open bins.
+- Shared items (floss picks, cotton rounds, the hair clip basket) live in the bottom drawer in labeled open bins, the same see-through logic as [stackable shoe boxes](/blog/clear-plastic-shoe-boxes-stackable-design/).
 - Each person's top drawer follows their own sequence. Hers: skincare first. His: dental first, shaving second.
 
 **Total: $138** for dividers, risers, interlocking bins, and a lid organizer. The first version of this setup failed because I built it category-style for "the household" instead of sequence-style per person. It survived eleven days before the complaints started, and the redesign after territory assignment has held for months.
@@ -172,12 +174,12 @@ Each of these cost me either money or a month of re-breaking the system:
 - One long divider across a deep drawer. It creates hidden space, and hidden space breeds duplicates.
 - Two-deep loose stacking in standard drawers. The back row expires unseen.
 - Buying organizers before measuring the box. The most expensive-looking mistake is also the most common.
-- Keeping backup stock in prime drawers. Refills live in the deep drawer or under the sink, in the cheapest storage you own, not at the front of the morning line.
+- Keeping backup stock in prime drawers. Refills live in the deep drawer or under the sink, in the cheapest storage you own, not at the front of the morning line. The under-sink reality is covered in the [plumbing-friendly plan](/blog/under-sink-storage-plumbing-friendly/) and the [under-sink zone map](/blog/how-to-organize-under-bathroom-sink/).
 - Buying matched sets for aesthetics. Mismatched-but-fitting beats matched-but-wrong. Looks are what the counter is for.
 
 ## The 60-second monthly reset
 
-Systems drift. Products migrate toward the front, expired things linger, and once a quarter the layout no longer matches the routine. Once a month, per vanity:
+Systems drift. Products migrate toward the front, expired things linger, and once a quarter the layout no longer matches the routine. Once a month, per vanity, using the same [edit-down discipline](/blog/swedish-death-cleaning-method-checklist/) that clears closets:
 
 1. Open each drawer and pull anything you have not touched in 30 days toward the back or out entirely.
 2. Toss expired items; sunscreen and SPF moisturizers are the usual offenders, and most people are running at least one.

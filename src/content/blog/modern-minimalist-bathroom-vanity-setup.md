@@ -6,8 +6,6 @@ category: "Bathroom"
 subcategory: "Vanity"
 tags: ["bathroom-organization", "storage-solutions", "minimalist-bathroom", "vanity-organization", "small-bathroom"]
 keywords: ["modern minimalist bathroom vanity setup", "hide bathroom counter clutter", "minimalist vanity organization", "clutter-free bathroom counter", "bathroom vanity storage ideas"]
-image: ./images/bathroom-vanity.jpg
-imageAlt: "Minimalist bathroom vanity with a nearly empty counter and a soap pump"
 takeaways:
   - Counter went from 23 items to 3; total cost about $115 with no new vanity.
   - Nothing lives on the counter unless it gets used every single day.
@@ -27,6 +25,8 @@ faq:
     answer: "A two-minute nightly reset plus a one-in-one-out rule. Everything must have an off-counter home, or it does not stay."
 featured: false
 draft: false
+image: ./images/bathroom-vanity.jpg
+imageAlt: "Minimalist bathroom vanity with a nearly empty counter and a soap pump"
 ---
 
 My vanity counter held 23 things in October. It holds three now. The whole thing cost about $115 in trays, dividers, and pump bottles, the vanity stayed, the countertop stayed, nothing got renovated.

@@ -36,8 +36,8 @@ howTo:
     text: "Walk the empty rooms once more, get trash out before the movers arrive, and keep the paperwork box and open-me-first boxes in your car, never on the truck."
 featured: false
 draft: false
-image: ./images/decluttering-moving-boxes.jpg
-imageAlt: "Moving boxes and packing materials organized for a move"
+image: ./images/declutter-move.jpg
+imageAlt: "Decluttering and packing before moving house"
 ---
 
 Here's the number that changes how you pack. Long-distance movers charge roughly $0.50 to $1.00 per pound, and local crews charge by the hour. That means every box of expired pantry goods, dead cables, and clothes you were keeping "just in case" carries a shipping cost. The average unplanned household moves 500 to 1,000 pounds of stuff it should never have boxed. At moving rates. that's $250 to $1,000 spent transporting decisions you already made years ago.
@@ -160,8 +160,8 @@ Total: the declutter weeks paid for about a third of the entire move, and the un
 
 To make the countdown concrete, here's the actual calendar from my last move:
 
-- Week 1–2 (six/five weeks out): paper shred (two kitchen-bag volumes), junk drawers (four), new-place measurements taken and furniture verdicts made, one sofa and one desk condemned to Sell.
-- Week 3–2 out: garage and attic cleared in four 90-minute sessions, 180 pounds out, hazard disposal run done, sofa sold in nine days at $180.
+- Week 1�? (six/five weeks out): paper shred (two kitchen-bag volumes), junk drawers (four), new-place measurements taken and furniture verdicts made, one sofa and one desk condemned to Sell.
+- Week 3�? out: garage and attic cleared in four 90-minute sessions, 180 pounds out, hazard disposal run done, sofa sold in nine days at $180.
 - Week 1 (two weeks out): donate drop complete (six bags, two trunk runs), unsold desk dropped to Donate on the deadline, book and decor packing started.
 - Final week: kitchen and bathroom purges, open-me-first boxes built, daily-zone sweep.
 - Moving day: 40-minute final sweep found one trash bag and two donate items; paperwork box rode in the car.

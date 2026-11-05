@@ -1,5 +1,5 @@
 ---
-title: "Vertical Wardrobe System – How I Fit 200+ Items in a 4ft Closet Without Cramming"
+title: "Vertical Wardrobe System �?How I Fit 200+ Items in a 4ft Closet Without Cramming"
 description: "Small closet organization system: vertical storage, folding methods, rotation, and real metrics. Organize 200+ items, reduce dressing time to 90 seconds."
 pubDate: 2024-03-20
 updatedDate: 2024-03-25
@@ -12,7 +12,7 @@ takeaways:
   - A second hanging rod plus stacked shelves added the most usable space per dollar.
   - Folding and filing bulky items sideways cut the buy-it-again problem caused by buried clothes.
   - A seasonal rotation box keeps off-season items out of the daily path.
-  - Getting dressed dropped from 10–15 minutes to about 90 seconds.
+  - Getting dressed dropped from 10�?5 minutes to about 90 seconds.
 faq:
   - question: "How do you organize a small closet with little space?"
     answer: "Go vertical. Add a second hanging rod, stack shelves above and below, and fold bulky items to file sideways in bins. In my 4ft closet this fit 200+ items."
@@ -24,10 +24,10 @@ faq:
     answer: "About a weekend for the first build, then roughly 90 seconds a day to get dressed. I track items on a simple list so nothing stays buried."
   - question: "What should you not keep in a small closet?"
     answer: "Off-season items in the daily zone, anything unworn in a year, and bulky hangers that eat rod space. Move those out first to free the most room."
-image: ./images/vertical-closet.jpg
-imageAlt: "Small closet organized vertically with double hanging rods and fabric bins"
 featured: true
 draft: false
+image: ./images/vertical-closet.jpg
+imageAlt: "Small closet organized vertically with double hanging rods and fabric bins"
 ---
 
 ![Small closet organized vertically with double hanging rods and fabric bins](./images/vertical-closet.jpg)

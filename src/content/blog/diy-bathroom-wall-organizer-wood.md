@@ -31,7 +31,7 @@ howTo:
 featured: false
 draft: false
 image: ./images/diy-wood-shelf.jpg
-imageAlt: "DIY wooden wall shelf organizer with rustic finish in bathroom"
+imageAlt: "DIY reclaimed wood bathroom wall organizer with shelves and hooks"
 ---
 
 A bathroom wall organizer is the project I hand to anyone who wants their first taste of building things. Two hours, about $12, and a piece that replaces the wire rack you were embarrassed by. This one is a three-slot wall shelf from a single reclaimed fence picket. The rustic look comes free with the old wood.
@@ -39,7 +39,7 @@ A bathroom wall organizer is the project I hand to anyone who wants their first 
 ## What you need
 
 - One reclaimed fence picket or pallet board, about 4 feet (free to $4)
-- A short offcut for the bottom lips ($0–2)
+- A short offcut for the bottom lips ($0�?)
 - Wood glue, 6 finish nails or screws, sandpaper (120 and 220 grit)
 - Water-based polyurethane ($8, covers several projects)
 - Stud finder and a drill

@@ -25,8 +25,8 @@ faq:
     answer: "Use adhesive hooks and rails within their 3-to-5-pound limits, tension poles between floor and ceiling, and over-door organizers. For heavier needs, a freestanding unit pushed against the wall does the same job without holes."
 featured: false
 draft: false
-image: ./images/vertical-closet.jpg
-imageAlt: "Small space with wall-mounted pegboard and vertical storage solutions"
+image: ./images/vertical-storage-wall.jpg
+imageAlt: "Vertical storage solutions and wall hangers for small spaces"
 ---
 
 When floor area runs out. Most people start downsizing their belongings. The better first move is downsizing your footprint, and there's a whole layer of the apartment that already has a footprint of zero: the walls. A small home's walls are usually 90 percent empty at exactly the heights where hands work, and filling even a few strategic strips of them changes how much the floor has to carry.
@@ -39,9 +39,9 @@ Before any product, internalize one idea: walls have zones, and the zone decides
 
 | Height off floor | Zone | What belongs there |
 |---|---|---|
-| 0–24 in | Crouch zone | Heavy, rarely moved: bins, the vacuum dock, shoe trays |
-| 24–48 in | Working zone | Everyday items: hooks for keys and bags, rail for utensils, pegboard tools |
-| 48–60 in | Stretch zone | Weekly items: spare towels, cleaning caddies, backup toiletries |
+| 0�?4 in | Crouch zone | Heavy, rarely moved: bins, the vacuum dock, shoe trays |
+| 24�?8 in | Working zone | Everyday items: hooks for keys and bags, rail for utensils, pegboard tools |
+| 48�?0 in | Stretch zone | Weekly items: spare towels, cleaning caddies, backup toiletries |
 | 60 in + | Stool zone | Seasonal and decorative: luggage, holiday linens, plants that like height |
 | Above door | Dead zone | Flat bins for the things you touch twice a year |
 
@@ -125,7 +125,7 @@ Each tier stands on its own, and nothing gets thrown away as you climb.
 
 ## The vertical pass, a four-step method
 
-1. Inventory your walls. Walk the home and list every strip of empty wall at working height (24–48 inches) plus every door back and above-door strip. Most small homes find four or five usable surfaces in ten minutes.
+1. Inventory your walls. Walk the home and list every strip of empty wall at working height (24�?8 inches) plus every door back and above-door strip. Most small homes find four or five usable surfaces in ten minutes.
 2. Assign by weight, not by room. Heavy items (cast iron, loaded bins) go where a stud is, or onto rails anchored into studs. Light daily items get the adhesive-friendly spots.
 3. Mount by the height zones. Working zone for daily, stretch zone for weekly, stool zone for seasonal. Mark heights with painter's tape before drilling anything.
 4. Give every hook a job. A hook without a named item becomes a hook for the thing you just dropped. Name them, keys, bag, towel, brush, and the system survives.

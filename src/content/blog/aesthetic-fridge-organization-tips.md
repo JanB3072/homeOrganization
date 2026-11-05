@@ -10,7 +10,7 @@ takeaways:
   - "The viral fridge look is a design system, not a shopping haul: uniform transparent containers, one label style, and deliberate negative space."
   - "Clear bins earn the aesthetic twice. They look calm and they expose food, which is why the look halves food waste in practice."
   - "Match bin width to shelf depth: most fridge shelves run 13 to 15 inches deep, so 12-inch-wide bins leave a working gap at the front."
-  - "Fridge physics still decides freshness. The door is the warmest zone at 40°F+, so milk and eggs belong at the back, not in the aesthetic door display."
+  - "Fridge physics still decides freshness. The door is the warmest zone at 40掳F+, so milk and eggs belong at the back, not in the aesthetic door display."
   - "The whole starter system costs $40 to $80 in bins and one $10 label maker, not the $300 hauls the videos imply."
 faq:
   - question: "What do I need for aesthetic fridge organization?"
@@ -20,13 +20,13 @@ faq:
   - question: "Are clear bins actually better for food, or just for looks?"
     answer: "Both, if you use them honestly. Clear containers expose food at a glance, which is why they reduce waste, but an overstuffed bin buries food as effectively as a cluttered shelf. Keep bins under about three-quarters full."
   - question: "Where should milk go in an organized fridge?"
-    answer: "At the back of the coldest shelf, around 37°F, not in the door. The door is the warmest zone of the fridge and swings toward 40°F or higher every time it opens, no matter how good the milk looks displayed there."
+    answer: "At the back of the coldest shelf, around 37掳F, not in the door. The door is the warmest zone of the fridge and swings toward 40掳F or higher every time it opens, no matter how good the milk looks displayed there."
   - question: "How do I keep an aesthetic fridge organized long-term?"
     answer: "A 15-minute weekly reset before the grocery run: check bins, pull anything dying, wipe one shelf, and restock the drink station. The look survives on rhythm, not on perpetual perfection."
 featured: false
 draft: false
 image: ./images/aesthetic-fridge-organization.jpg
-imageAlt: "Refrigerator organized with clear bins, glass pitcher, and labeled containers"
+imageAlt: "Organized refrigerator with clear bins and aesthetic organization"
 ---
 
 The viral fridge video is a very specific genre: shelves of clear bins in ranked heights, a glass pitcher of citrus water glowing under the LED, labels in a single tasteful font, and here's the part the video doesn't show you, the two hours it took to stage. The good news is that the look is cheap and sturdy: a system you can run every day instead of staging once for the camera.
@@ -48,9 +48,9 @@ Notice what's not there: 30 different bin sizes, matching everything, or food hi
 
 The bins are the foundation, so buy them against your shelves, not against the video. Most fridge shelves run 13 to 15 inches deep and 18 to 24 inches wide, which means:
 
-- Workhorse bin: 12 × 6 × 3.5 inches. Two fit side by side in a standard shelf column with a gap for reach. Holds berries, cheese, snack bags, small produce.
-- Deep bin: 12 × 9 × 5 inches. Same 12-inch width, taller for yogurt tubs, sauce jars, meal-prep boxes.
-- Long bin: 12 × 15 × 3 inches. One per shelf for the full-length runs, condiment packets, herbs, flat items.
+- Workhorse bin: 12 �?6 �?3.5 inches. Two fit side by side in a standard shelf column with a gap for reach. Holds berries, cheese, snack bags, small produce.
+- Deep bin: 12 �?9 �?5 inches. Same 12-inch width, taller for yogurt tubs, sauce jars, meal-prep boxes.
+- Long bin: 12 �?15 �?3 inches. One per shelf for the full-length runs, condiment packets, herbs, flat items.
 
 That's it. Six to ten bins total, two or three sizes, one brand or one clear design language. The 12-inch width is the trick: it means every bin in the fridge fits every shelf the same way, and no bin ever hides the one behind it.
 
@@ -103,8 +103,8 @@ The honest failure mode: labeling a bin whose contents change weekly. The label 
 
 Here's where the aesthetic and the food science collide, and where the honest version of this guide pays its rent. Your fridge has temperature zones, and the camera-friendly arrangement ignores all of them:
 
-- Door: warmest zone, 40°F or higher with every opening. Condiments, juices, butter, things engineered to survive. Not milk, not eggs, no matter how lovely the door display looks.
-- Back of the middle and bottom shelves: coldest, ~37°F. Dairy, raw meat (bottom, on a tray), leftovers.
+- Door: warmest zone, 40掳F or higher with every opening. Condiments, juices, butter, things engineered to survive. Not milk, not eggs, no matter how lovely the door display looks.
+- Back of the middle and bottom shelves: coldest, ~37掳F. Dairy, raw meat (bottom, on a tray), leftovers.
 - Crisper drawers: humidity-controlled. Vegetables high humidity, fruits low. They stay in the drawers, because the drawer is doing a job a clear bin cannot.
 - Top shelf: ready-to-eat. Drinks, the pitcher, leftovers on their way to being lunch.
 
@@ -141,7 +141,7 @@ Once the system exists, these are the details that push it from "tidy" to "that 
 
 Everything in the zones section is verifiable for the price of a $5 fridge thermometer, and ten minutes of checking will tell you more about your food's lifespan than any bin ever will.
 
-Place the thermometer on the back of the middle shelf, close the door, and check after two hours. The safe band is 33 to 40°F, and the food-danger zone starts at 40. The USDA's guidance is blunt about perishables spending more than two cumulative hours up there. If your back-shelf reading is above 40, adjust the dial one setting colder and re-check the next day, because the dial numbers are not temperatures. they're vibes, and the thermometer is the translator.
+Place the thermometer on the back of the middle shelf, close the door, and check after two hours. The safe band is 33 to 40掳F, and the food-danger zone starts at 40. The USDA's guidance is blunt about perishables spending more than two cumulative hours up there. If your back-shelf reading is above 40, adjust the dial one setting colder and re-check the next day, because the dial numbers are not temperatures. they're vibes, and the thermometer is the translator.
 
 Then audit the other zones: the door will typically read 4 to 8 degrees warmer than the back wall, and the top shelf a couple of degrees warmer than the bottom. Those two numbers confirm the zone map, and they're the honest justification for why the milk lives at the back while the aesthetic display lives in the door.
 
@@ -203,12 +203,12 @@ The videos imply a $300 haul. The real numbers for a standard 24-inch-wide fridg
 
 | Item | Qty | Cost |
 |---|---|---|
-| Workhorse bins (12 × 6) | 4–6 | $20–30 |
-| Deep bins (12 × 9) | 2–3 | $10–18 |
-| Clear pitcher | 1 | $8–15 |
-| Label maker or label set | 1 | $8–12 |
-| Shelf liner (optional) | 1 roll | $4–6 |
-| Total | | $40–80 |
+| Workhorse bins (12 �?6) | 4�? | $20�?0 |
+| Deep bins (12 �?9) | 2�? | $10�?8 |
+| Clear pitcher | 1 | $8�?5 |
+| Label maker or label set | 1 | $8�?2 |
+| Shelf liner (optional) | 1 roll | $4�? |
+| Total | | $40�?0 |
 
 Start with four workhorse bins and the pitcher, about $30, and live with it for two weeks before buying anything else. You'll discover your fridge's actual habits (what rolls, what leaks, what disappears) and buy the second round against reality instead of against the video.
 
@@ -234,4 +234,4 @@ Packing bins to the brim. Overstuffed bins hide food as effectively as no bins a
 
 ## Camera-ready on a Tuesday
 
-Aesthetic fridge organization is one design system wearing a viral costume: uniform clear bins matched to 12-inch shelf widths, one pitcher, one label style, zones that respect the 37°F physics, and a 15-minute weekly reset that keeps the negative space negative. Start with $30 of bins and a pitcher, respect the coldest-shelf rules, and the fridge stays camera-ready on a Tuesday afternoon, which is the only day that actually matters. For the same clear-bin logic in the hardest-working cabinets in the house, the [under-sink rebuild](/blog/how-to-organize-under-bathroom-sink/) uses identical principles under worse humidity.
+Aesthetic fridge organization is one design system wearing a viral costume: uniform clear bins matched to 12-inch shelf widths, one pitcher, one label style, zones that respect the 37掳F physics, and a 15-minute weekly reset that keeps the negative space negative. Start with $30 of bins and a pitcher, respect the coldest-shelf rules, and the fridge stays camera-ready on a Tuesday afternoon, which is the only day that actually matters. For the same clear-bin logic in the hardest-working cabinets in the house, the [under-sink rebuild](/blog/how-to-organize-under-bathroom-sink/) uses identical principles under worse humidity.

@@ -25,8 +25,8 @@ faq:
     answer: "Give every item a front-facing home and a depth rule: nothing taller than the basket, nothing stacked behind something you reach for weekly. A monthly 10-minute reset and a one-in-one-out rule keep the back from becoming a graveyard."
 featured: false
 draft: false
-image: ./images/kitchen-cabinet-organization.jpg
-imageAlt: "Deep kitchen cabinet organized with pull-out baskets and lazy Susan"
+image: ./images/deep-cabinet-organizer.jpg
+imageAlt: "Organizing deep kitchen cabinets with pull-out baskets"
 ---
 
 Deep kitchen cabinets are the Bermuda Triangle of the home. You put the blender in there in March. You need the blender in July. You open the door, peer into the canyon, and the blender is gone. Not lost, just buried behind three cans of beans and a stockpot you forgot you owned. The cabinet reads as too small, but the real issue is depth, a different problem from lack of space.
@@ -51,8 +51,8 @@ Stop thinking "what product goes here" and start thinking "how far back is this,
 
 | Band | Distance from door | Problem | Tool that fixes it |
 |---|---|---|---|
-| Door zone | 0–6 in | Items get knocked when the door swings; small things fall through gaps | Shallow turntable or front rail bin |
-| Middle zone | 6–14 in | The reach limit (most stuff stalls here) | Full-extension pull-out basket |
+| Door zone | 0�? in | Items get knocked when the door swings; small things fall through gaps | Shallow turntable or front rail bin |
+| Middle zone | 6�?4 in | The reach limit (most stuff stalls here) | Full-extension pull-out basket |
 | Back zone | 14 in+ | You can't reach without emptying the front | Fixed deep bin you refill from the front, or a full pull-out drawer |
 
 The trick is that you don't need a perfect product in every band. You need the middle and back to come to you, and the door zone to stay tidy despite the swing.
@@ -84,8 +84,8 @@ Vertical, risers and shelf doublers. A 24-inch-deep cabinet often has only one s
 
 A lazy Susan is the lowest-effort upgrade here, and for round items nothing beats it. Three types:
 
-- Single round (9–12 in). Best in a shallow door zone or a corner. Cheap, no install, but it only uses the bottom plane.
-- Two-tier (10–12 in, stacked). Recovers the vertical space above the bottom shelf, so you get two levels of spices in the footprint of one. This is the one I'd buy first for a 24-inch cabinet.
+- Single round (9�?2 in). Best in a shallow door zone or a corner. Cheap, no install, but it only uses the bottom plane.
+- Two-tier (10�?2 in, stacked). Recovers the vertical space above the bottom shelf, so you get two levels of spices in the footprint of one. This is the one I'd buy first for a 24-inch cabinet.
 - D-shaped or pie-cut. Designed for corner cabinets where a full circle can't sit. If you have a blind corner. This is the only turntable that fits the wedge.
 
 What not to put on a turntable: heavy cast-iron pans (they tip the whole thing) and tall bottles that exceed the clearance above the door. Keep those for the pull-outs.

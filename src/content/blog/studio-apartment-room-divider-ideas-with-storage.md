@@ -25,8 +25,8 @@ faq:
     answer: "Choose an open-back or cubby-style unit instead of a solid panel, keep it under about 6 feet tall, and leave a clear 30 to 36 inch walkway. Open shelving divides the floor plan without dividing the light."
 featured: false
 draft: false
-image: ./images/vertical-closet.jpg
-imageAlt: "Studio apartment with room divider storage unit separating living and sleeping areas"
+image: ./images/room-divider-storage.jpg
+imageAlt: "Studio apartment room divider with storage"
 ---
 
 A studio apartment gives you one room and asks you to live three lives in it. The bed needs to feel like a bedroom, the sofa needs to feel like a living room, and the desk needs to not stare at you while you eat dinner. A room divider fixes the zoning, but in a studio every square foot is a fight, and a divider that only divides is a luxury you can't afford. The answer is a divider that also stores things, so it earns its footprint twice.
@@ -37,16 +37,16 @@ I've lived in two studios and helped friends set up three more. The dividers tha
 
 | Idea | Storage capacity | Typical cost | Renter-friendly | Best for |
 |---|---|---|---|---|
-| Open-back bookshelf | 150–300+ items | $60–200 | Yes, with anti-tip strap | The all-rounder |
-| Cube organizer wall | 8–16 cubbies of bins | $70–250 | Yes | Clothes + clutter in bins |
-| Freestanding wardrobe | 40–80 hanging items | $100–350 | Yes | No-closet studios |
-| Leaning ladder shelf | 30–60 items | $50–150 | Yes | Narrow walkways |
-| Shelf + hanging rod hybrid | Folded + 15–25 hanging | $80–220 | Mostly | Mini dressing zone |
-| Console table + shelves | 40–80 items | $90–250 | Yes | Behind-the-sofa dividers |
-| Modular cubby pass-through | 12–24 cubbies | $150–400 | Semi | Longer walls, heavier storage |
-| Storage curtain + rod | 20–40 pocket items | $30–90 | Yes | Tightest budgets, softest look |
+| Open-back bookshelf | 150�?00+ items | $60�?00 | Yes, with anti-tip strap | The all-rounder |
+| Cube organizer wall | 8�?6 cubbies of bins | $70�?50 | Yes | Clothes + clutter in bins |
+| Freestanding wardrobe | 40�?0 hanging items | $100�?50 | Yes | No-closet studios |
+| Leaning ladder shelf | 30�?0 items | $50�?50 | Yes | Narrow walkways |
+| Shelf + hanging rod hybrid | Folded + 15�?5 hanging | $80�?20 | Mostly | Mini dressing zone |
+| Console table + shelves | 40�?0 items | $90�?50 | Yes | Behind-the-sofa dividers |
+| Modular cubby pass-through | 12�?4 cubbies | $150�?00 | Semi | Longer walls, heavier storage |
+| Storage curtain + rod | 20�?0 pocket items | $30�?0 | Yes | Tightest budgets, softest look |
 
-Costs are what I actually paid or saw in 2023–2024, US retail, and they move around, so treat them as a range, not a quote. The door swing and walkway numbers both come from the measurement pass in the [whole-home organization system](/blog/whole-home-organization-system/), which is where this room fits into a full-house plan.
+Costs are what I actually paid or saw in 2023�?024, US retail, and they move around, so treat them as a range, not a quote. The door swing and walkway numbers both come from the measurement pass in the [whole-home organization system](/blog/whole-home-organization-system/), which is where this room fits into a full-house plan.
 
 ## Where the divider goes: the floor-plan math
 
@@ -76,7 +76,7 @@ Where it fails: it doesn't hide anything. If your sleeping zone is visually mess
 
 Cube organizers (the 2x4, 2x6, or 3x6 cubby units) are the bookshelf's tidier cousin. Every cube takes a fabric bin or a stack of folded clothes, which means the divider can look perfectly calm even when your life isn't. Mine held eight bins of clothes, four cubbies of open books and baskets, and a row of vinyl records, and the whole thing read as "intentional furniture" from the sofa.
 
-Do the bin math before you buy. A 2x6 unit is 12 cubbies; at $5–15 per bin, outfitting it fully runs $60–180 on top of the unit itself. That surprises people. My compromise: bins on the bed-facing rows where mess hides, open cubbies on the sofa-facing rows where books and baskets look deliberate. You end up buying half the bins you thought you needed.
+Do the bin math before you buy. A 2x6 unit is 12 cubbies; at $5�?5 per bin, outfitting it fully runs $60�?80 on top of the unit itself. That surprises people. My compromise: bins on the bed-facing rows where mess hides, open cubbies on the sofa-facing rows where books and baskets look deliberate. You end up buying half the bins you thought you needed.
 
 Why choose it over a plain bookshelf: bins hide chaos, and the grid structure is rigid enough that a 2x6 unit feels like built-in furniture. Why not: cubbies eat items faster than you think, and a fully-binned wall can start to feel like an office supply closet if every bin is the same color. Mix in two or three open cubbies for relief.
 
@@ -128,7 +128,7 @@ Two warnings. It's semi-permanent in practice: filling, anchoring, and moving a 
 
 ## 8. The storage curtain (the soft, cheap finish)
 
-A ceiling- or tension-mounted curtain track with a curtain that has hanging organizer pockets is the lightest divider here: $30–90, no shelving, and it stores 20 to 40 flat items in pockets, shoes, chargers, toiletries, craft supplies. On the bed side it doubles as a blackout layer, which in a studio is a genuine quality-of-life upgrade.
+A ceiling- or tension-mounted curtain track with a curtain that has hanging organizer pockets is the lightest divider here: $30�?0, no shelving, and it stores 20 to 40 flat items in pockets, shoes, chargers, toiletries, craft supplies. On the bed side it doubles as a blackout layer, which in a studio is a genuine quality-of-life upgrade.
 
 Track options, from least to most permanent: a tension rod fits a doorway-width opening with zero screws; an adhesive-backed track holds light curtains on smooth ceilings; a proper ceiling-mounted track needs anchors but carries real weight and slides smoothly for years. I ran a tension rod with a pocketed curtain across my sleeping nook for a year, the pockets held shoes and every cable I owned, and pulling it shut at night made the bed feel like an actual room.
 

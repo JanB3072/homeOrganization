@@ -38,8 +38,8 @@ howTo:
     text: "Secure passwords with emergency access, inventory accounts and subscriptions, and gift meaningful items now so you can see them enjoyed."
 featured: false
 draft: false
-image: ./images/vertical-closet.jpg
-imageAlt: "Swedish death cleaning - minimalist and organized home storage"
+image: ./images/death-cleaning-minimal.jpg
+imageAlt: "Swedish death cleaning method for minimalist living"
 ---
 
 The name is doing the method no favors in English. "Swedish death cleaning" sounds like something you do once, at the end, in a black sweater, and that misreading keeps people from the most humane decluttering framework there is. Döstädning, as Margareta Magnusson laid it out in her book *The Gentle Art of Swedish Death Cleaning*, is a standing practice of editing your possessions for the living, so your life stays legible now and later to the people who would otherwise inherit a house full of questions.
@@ -191,7 +191,7 @@ Everything above was training for this. The method's guidance:
 - [ ] Sort the sentimental collection into tiers: the irreplaceable (a few items), the representative (one item per memory), the bulk (the rest)
 - [ ] One memory box per person, one box, sized before sorting. The quota forces ranking, which is the entire skill.
 - [ ] Gift the living inheritance now: the watch to the nephew who admired it, the tool chest to the friend starting out. Objects given with warm hands do the work objects in an attic never will.
-- [ ] Write the one-line story on an index card for anything you keep, "Father's watch, worn daily, 1962–1998." Now it's decidable, forever.
+- [ ] Write the one-line story on an index card for anything you keep, "Father's watch, worn daily, 1962�?998." Now it's decidable, forever.
 
 ## The digital layer (the modern extension)
 
@@ -296,7 +296,7 @@ That's the method's real deliverable. The decluttered closet is almost a side ef
 
 "It's one big push at the end." It's explicitly not, the name describes the intent (decisions made so survivors aren't left holding them), and the practice is shallow passes across years. The one-weekend version is the burnout version.
 
-"It means throwing away memories." It means choosing the best carrier of each memory and labeling it. The people who fear this category haven't yet written an index card, "Father's watch, 1962–1998" keeps more memory than a box of forty unexplained items ever did.
+"It means throwing away memories." It means choosing the best carrier of each memory and labeling it. The people who fear this category haven't yet written an index card, "Father's watch, 1962�?998" keeps more memory than a box of forty unexplained items ever did.
 
 ## When it stalls
 

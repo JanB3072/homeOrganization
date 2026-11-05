@@ -45,8 +45,8 @@ howTo:
     text: "Add a five-minute daily return path and a 15-minute weekly reset, then audit with the relapse decision tree after one month."
 featured: true
 draft: false
-image: ./images/kitchen-cabinet-organization.jpg
-imageAlt: "Whole home organization system overview with organized storage across different rooms"
+image: ./images/home-organization-system.jpg
+imageAlt: "Whole home organization system overview"
 ---
 
 The tape measure lives in the kitchen drawer, second from the left, wedged behind a bag of twist ties. I bought it after the first time I tried to organize my whole apartment in a weekend. That attempt cost about $280 in matching baskets, produced eleven photos I was very proud of, and had fully reverted by the third week. The baskets were fine. The problem was that I had organized six surfaces and zero systems, and I had never once measured a shelf.
@@ -142,25 +142,25 @@ Q1: Is there a pile on a flat surface?
 
 Q2: Do you own duplicates of items in that pile?
   ├─ YES -> VISIBILITY failure.
-  │         Fix: one-deep storage, face out, transparent fronts.
-  │         Kitchen: pull-out or turntable in deep cabinets.
-  │         Fridge/pantry: clear bins, one category each.
-  │         Check: can you see every item from 3 feet away?
+  �?        Fix: one-deep storage, face out, transparent fronts.
+  �?        Kitchen: pull-out or turntable in deep cabinets.
+  �?        Fridge/pantry: clear bins, one category each.
+  �?        Check: can you see every item from 3 feet away?
   └─ NO  -> Q3
 
 Q3: Does the room have somewhere this category is supposed to live?
   ├─ NO  -> BOUNDARIES failure.
-  │         Fix: declare one home, then give it a physical limit
-  │         (bin, divider, labeled zone). Label the category,
-  │         never the contents.
+  �?        Fix: declare one home, then give it a physical limit
+  �?        (bin, divider, labeled zone). Label the category,
+  �?        never the contents.
   └─ YES -> Q4
 
 Q4: Is that declared home already full?
   ├─ YES -> CAPACITY failure.
-  │         Branch A: items unused in 12 months -> declutter pass.
-  │         Branch B: all items used -> add volume, but only
-  │         after measuring clear height and shelf depth.
-  │         Prefer vertical volume inside the reach band.
+  �?        Branch A: items unused in 12 months -> declutter pass.
+  �?        Branch B: all items used -> add volume, but only
+  �?        after measuring clear height and shelf depth.
+  �?        Prefer vertical volume inside the reach band.
   └─ NO  -> MAINTENANCE COST failure.
             The home exists and has room. Count the steps to
             put something away. More than 2 -> remove steps:
@@ -168,16 +168,16 @@ Q4: Is that declared home already full?
 
 Q5: Do you physically sidestep anything, or does a door hit it?
   ├─ YES -> TRAFFIC failure.
-  │         Fix: protect 30-36 in on the main walkway.
-  │         Move the obstruction, then re-check door swing arc.
-  │         In small rooms, go vertical on walls instead of floor.
+  �?        Fix: protect 30-36 in on the main walkway.
+  �?        Move the obstruction, then re-check door swing arc.
+  �?        In small rooms, go vertical on walls instead of floor.
   └─ NO  -> Q6
 
 Q6: Does it look tidy right after you clean and fail within a week?
   ├─ YES -> MAINTENANCE COST or no RETURN PATH.
-  │         Fix: 5-minute daily return path + 15-minute weekly
-  │         reset. Put the home where the item is dropped, not
-  │         where it looks best.
+  �?        Fix: 5-minute daily return path + 15-minute weekly
+  �?        reset. Put the home where the item is dropped, not
+  �?        where it looks best.
   └─ NO  -> The system is working. Run the monthly audit instead.
 
 ENDPOINT RULE: before buying anything, re-check Part 2 numbers
@@ -200,8 +200,8 @@ HOLDING ONE ITEM
 
 Used in the last 30 days?
   ├─ NO  -> Used in the last 12 months?
-  │         ├─ NO  -> donate / sell / discard (four-box rule)
-  │         └─ YES -> overflow zone, labeled, above 68 in or below 28 in
+  �?        ├─ NO  -> donate / sell / discard (four-box rule)
+  �?        └─ YES -> overflow zone, labeled, above 68 in or below 28 in
   └─ YES -> Daily (weekly or more) or occasional?
             ├─ Daily   -> reach band, open top, one motion, one home
             └─ Occasional -> reach band edge, behind daily items
@@ -386,18 +386,18 @@ ROOM IS SLIDING. WHEN DID IT LAST LOOK RIGHT?
 
 Within a week?
   ├─ YES -> MAINTENANCE COST. Count steps for the top 5 items.
-  │         More than 2 -> open the top, lower the shelf,
-  │         move the home to the drop point.
+  �?        More than 2 -> open the top, lower the shelf,
+  �?        move the home to the drop point.
   └─ NO  -> Q2
 
 Q2: Did something new arrive (purchase, gift, season, housemate)?
   ├─ YES -> CAPACITY. One-in-one-out was skipped.
-  │         Declutter that category, then re-declare the boundary.
+  �?        Declutter that category, then re-declare the boundary.
   └─ NO  -> Q3
 
 Q3: Is the same item in two places?
   ├─ YES -> BOUNDARIES. Two homes means neither is home.
-  │         Consolidate to one, label the category.
+  �?        Consolidate to one, label the category.
   └─ NO  -> Q4
 
 Q4: Are you buying duplicates of things you own?
