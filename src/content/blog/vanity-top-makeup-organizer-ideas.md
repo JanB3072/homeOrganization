@@ -1,11 +1,19 @@
 ---
 title: "Vanity Top Makeup Organizer Ideas, Starting From What Cosmetics Fear"
 description: "Keep your favorite skincare products close with these vanity top makeup organizer ideas. Beautiful countertop displays and trays."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Bathroom"
 subcategory: "Vanity"
-tags: ["bathroom-vanity", "makeup-organization", "vanity-styling", "skincare-storage", "counter-organization"]
-keywords: ["vanity top makeup organizer ideas", "countertop makeup organizer", "skincare vanity display"]
+tags:
+  - "bathroom-vanity"
+  - "makeup-organization"
+  - "vanity-styling"
+  - "skincare-storage"
+  - "counter-organization"
+keywords:
+  - "vanity top makeup organizer ideas"
+  - "countertop makeup organizer"
+  - "skincare vanity display"
 takeaways:
   - "Cosmetics are inventory, not decor: every product carries a PAO symbol (the open-jar icon marked 3M, 6M or 12M) and three enemies, ultraviolet light, heat and humidity. A vanity display either respects those three or it is a slow way to bin expensive things."
   - "Display in depth, not in rows. A stepped arrangement, tall bottles at the back, daily items in the front strip, keeps every label readable and every item reachable without dismantling the arrangement each morning."
@@ -20,9 +28,12 @@ faq:
     answer: "A bathroom is a humid room with sharp temperature swings, which is hard on vitamin C, retinoids, and anything in a jar you open with wet fingers. Daily items earn their spot there by being used; backups and unopened products belong in a drawer, a cabinet, or a bedroom shelf away from the shower."
   - question: "How much counter depth does a makeup display need?"
     answer: "Two rows of product plus a front tray want about 12 to 14 inches of depth, which fits most 18 to 22 inch vanities with room to work. Below about 10 inches of usable depth, a wall shelf or the mirror cabinet carries the back row better than the counter can."
+image: ./images/vanity-top-makeup-organizer-ideas.jpg
+imageAlt: "Vanity Top Makeup Organizer Ideas, Starting From What Cosmetics Fear"
 featured: false
 draft: false
 ---
+
 
 Vanity top organizer articles usually start with the organizers, as if the tray were the decision. It is the last decision. The first one is that makeup and skincare are perishable inventory, each bottle carrying a little open-jar symbol on its base, the period-after-opening mark, 3M or 6M or 12M, and each with its own opinion about light, heat and water. Arranged with those opinions in mind, a display stays both beautiful and usable for the full life of the products. Arranged without them, it is a slow, attractive way to throw money away.
 

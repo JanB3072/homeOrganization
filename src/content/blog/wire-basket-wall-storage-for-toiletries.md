@@ -22,6 +22,8 @@ faq:
     answer: "Cheap electro-galvanized ones usually do, starting at the weld dots and the caster-style sockets where water pools. Powder-coated and hot-dip versions resist for years as long as the coating is not chipped by something sharp. A monthly wipe-down and a towel-dry of the bottom tray of the basket extends the life of any of them."
   - question: "What do you actually put in wall-mounted toiletry baskets?"
     answer: "Things that tolerate being splashed and seen: shampoo and conditioner in the shower's splash zone, hand soap refills, lotions you use daily, rolled washcloths if the basket is deep and the cloth is dry when it goes in. Not cotton rounds, not electric toothbrush heads, not spare toilet paper, which all want a closed or lidded home."
+image: ./images/wire-basket-wall-storage-for-toiletries.jpg
+imageAlt: "Wire Basket Wall Storage for Toiletries: Pick the Basket, Then Read Your Wall"
 featured: false
 draft: false
 ---

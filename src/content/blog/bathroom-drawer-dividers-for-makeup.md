@@ -1,11 +1,20 @@
 ---
 title: "Bathroom Drawer Dividers for Makeup: What Two Weeks of Timing Changed"
 description: "Find the best bathroom drawer dividers for makeup and morning essentials. Stop rummaging and streamline your daily morning routine."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Bathroom"
 subcategory: "Storage"
-tags: ["bathroom-organization", "drawer-organization", "makeup-storage", "vanity-organization", "cosmetics-storage"]
-keywords: ["bathroom drawer dividers for makeup", "makeup drawer organizer", "vanity drawer dividers", "cosmetics drawer dividers"]
+tags:
+  - "bathroom-organization"
+  - "drawer-organization"
+  - "makeup-storage"
+  - "vanity-organization"
+  - "cosmetics-storage"
+keywords:
+  - "bathroom drawer dividers for makeup"
+  - "makeup drawer organizer"
+  - "vanity drawer dividers"
+  - "cosmetics drawer dividers"
 takeaways:
   - "I counted 31 items in one vanity drawer and used nine of them in a normal week. Six were past the period-after-opening symbol on the tube."
   - "Sorting by category is a retail habit. A morning routine is a fixed sequence of motions, and the drawer should be laid out in that order from front to back."
@@ -18,9 +27,12 @@ faq:
     answer: "They solve different problems. Spring-loaded bars adapt when your collection changes and work well in a wooden drawer, but they creep when humidity moves the timber and they slide on a slick metal base without a liner. A fixed moulded grid holds its shape and wipes clean, but a cell built for lipsticks will not take a 40 mm foundation bottle."
   - question: "How do I stop a makeup drawer getting dusty and greasy again?"
     answer: "Use removable, washable dividers and lift the whole set out once a month. Powder and foundation residue are oily, so a damp cloth just smears them; warm water and a little dish detergent on the tray, dried fully before it goes back, works. Keep nail-polish remover and perfume out of the drawer entirely, because solvent vapour is enough to fog clear plastic."
+image: ./images/bathroom-drawer-dividers-for-makeup.jpg
+imageAlt: "Bathroom Drawer Dividers for Makeup: What Two Weeks of Timing Changed"
 featured: false
 draft: false
 ---
+
 
 For two weeks in October I kept a cheap stopwatch on the bathroom counter. I wanted a number for something I had been complaining about for a year: a drawer that looked tidy, with matching acrylic dividers, still cost me several minutes every morning. On the first Tuesday it took 47 seconds to find a brow pencil. Wednesday, 38. Thursday I gave up and used a different one.
 

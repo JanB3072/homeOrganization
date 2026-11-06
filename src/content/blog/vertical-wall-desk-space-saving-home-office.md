@@ -1,11 +1,19 @@
 ---
 title: "Vertical Wall Desks for Space-Saving Home Offices: Floating Workstations That Fold Away"
 description: "Working from home in a tiny space? Discover vertical wall desks and floating work stations perfect for space-saving home offices."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Small Space"
 subcategory: "Apartment"
-tags: ["wall-desk", "home-office", "small-space", "space-saving-furniture", "apartment-living"]
-keywords: ["vertical wall desk space saving home office", "floating wall desk", "fold down wall desk apartment"]
+tags:
+  - "wall-desk"
+  - "home-office"
+  - "small-space"
+  - "space-saving-furniture"
+  - "apartment-living"
+keywords:
+  - "vertical wall desk space saving home office"
+  - "floating wall desk"
+  - "fold down wall desk apartment"
 takeaways:
   - "A 600 mm deep desktop with 30 kg at its front edge puts roughly 176 N·m of moment on the wall fixing. Every kilogram on the desk is multiplied by the depth, which is why the anchor spec matters more than the wood."
   - "Two 1/4-inch lag screws with 1.5 inches of thread into a stud can each resist a few hundred pounds of pull-out. A plastic drywall plug of the kind in a flat-pack kit holds perhaps 20 lb. Those are not variations of the same product."
@@ -22,9 +30,12 @@ faq:
     answer: "A freestanding ladder desk needs no holes and handles a laptop. For a real workstation, the honest route is a single rail bolted into studs with the landlord's permission; that is one line of holes, filled with spackle and touched up at move-out. Adhesive and tension products cannot safely hold a monitor, whatever their listings say."
   - question: "Do fold-down desks work for dual monitors?"
     answer: "Poorly, if the monitors sit on the folding surface. A 100 cm wide fold-down lid carrying two displays and their stands is near its load and stability limit, and the pair sway when you type. Bolt a dual monitor arm to the wall framing above the desk instead, so the displays hang on the studs and the lid carries only keyboard and notebook."
+image: ./images/vertical-wall-desk-space-saving-home-office.jpg
+imageAlt: "Vertical Wall Desks for Space-Saving Home Offices: Floating Workstations That Fold Away"
 featured: false
 draft: false
 ---
+
 
 The first one I put up pulled away from the wall by about three millimetres in six weeks. It was a fold-down cabinet desk, a 27-inch monitor on a stand, a laptop, and the usual mug. I had used the plugs that came in the box. I remember noticing a hairline crack in the paint above the top fixing before I understood what I was looking at, and taking everything off the desk that afternoon.
 

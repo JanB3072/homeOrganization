@@ -1,11 +1,19 @@
 ---
 title: "Small Bathroom Vanity With Built-In Storage: Three Vanities Taught Me What Listings Hide"
 description: "In search of a small bathroom vanity with built-in storage? Discover the top space-saving vanities for powder rooms and apartments."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Bathroom"
 subcategory: "Vanity"
-tags: ["bathroom-vanity", "small-bathroom", "vanity-storage", "bathroom-storage", "powder-room"]
-keywords: ["small bathroom vanity with built in storage", "space saving bathroom vanity", "small vanity with storage drawers"]
+tags:
+  - "bathroom-vanity"
+  - "small-bathroom"
+  - "vanity-storage"
+  - "bathroom-storage"
+  - "powder-room"
+keywords:
+  - "small bathroom vanity with built in storage"
+  - "space saving bathroom vanity"
+  - "small vanity with storage drawers"
 takeaways:
   - "In a small vanity, the drawer you see is often a drawer you cannot use. Behind the door and under the basin, the P-trap owns a block of space roughly 6 by 6 inches at the centre back, and drawers without a U-cutout for it either stop short or fail to close."
   - "Depth before width. An 18-inch-deep vanity holds a soap pump; a hair dryer wants 9 inches plus cord, a curling wand with its cord coiled wants 13. Width is what listings advertise, depth is what decides whether the storage works."
@@ -18,9 +26,12 @@ faq:
     answer: "Drawers, provided they have real full-extension slides and a U-shaped cutout that clears the trap. A door cabinet gives one deep dark shelf where everything falls behind everything; two drawers give you a front zone you can reach without kneeling. Skip any drawer on centre-mounted wooden runners, which sag and stick in humidity."
   - question: "What height should a small vanity be?"
     answer: "Standard tops sit at 30 to 32 inches, comfort height at 36. For a household of mixed heights a 34 to 35 inch top or a comfort-height box with a thinner top splits the difference. A vessel basin adds 4 to 6 inches on top of the counter height, so check the finished rim, not the listing's counter figure."
+image: ./images/small-bathroom-vanity-with-built-in-storage.jpg
+imageAlt: "Small Bathroom Vanity With Built-In Storage: Three Vanities Taught Me What Listings Hide"
 featured: false
 draft: false
 ---
+
 
 The wall that started this was 32 inches wide between the door casing and the corner, in a powder room that needed to hold everything a full bathroom holds, minus the room. Since then I have owned three small vanities with built-in storage, live with a fourth, and can report that the useful information about them is exactly the information that never appears in the listing: what the drawer actually does, where the pipe goes, and what the board is made of underneath the paint. Three vanities later, here is each lesson in the order it was learned.
 

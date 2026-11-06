@@ -36,8 +36,8 @@ howTo:
     text: "After assembly, dim to minimum and film the mirror in slow motion. Banding or strobing means a cheap driver that will annoy you on video calls and early mornings."
 featured: false
 draft: false
-image: ./images/bathroom-vanity-drawer.jpg
-imageAlt: "Makeup vanity table with built-in storage drawers and vanity lighting"
+image: ./images/best-makeup-vanity-table-with-lights-storage.jpg
+imageAlt: "Best Makeup Vanity Table With Lights and Storage"
 ---
 
 The listing called it a "Hollywood vanity with 3-color dimmable LEDs and luxurious acrylic storage." It had 4,000 reviews averaging 4.6 stars, and not one of the top reviews mentioned the word CRI. That gap is why this guide exists. Lights and storage are the two features worth paying for in a makeup vanity, and they are also the two features most often sold as decoration. What follows is the version of the shopping decision I wanted when I bought mine: specs over slogans, with the numbers I checked and the claims I would let die in the cart.

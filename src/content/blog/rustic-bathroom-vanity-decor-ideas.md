@@ -1,11 +1,19 @@
 ---
 title: "Rustic Bathroom Vanity Decor Ideas, Spent Where They Survive the Steam"
 description: "Bring warmth into your bathroom with these rustic bathroom vanity decor ideas. Tips for wooden accents, mason jars, and matte black fixtures."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Bathroom"
 subcategory: "Vanity"
-tags: ["bathroom-vanity", "rustic-decor", "vanity-styling", "farmhouse-bathroom", "bathroom-decor"]
-keywords: ["rustic bathroom vanity decor ideas", "rustic vanity decor", "farmhouse bathroom vanity ideas"]
+tags:
+  - "bathroom-vanity"
+  - "rustic-decor"
+  - "vanity-styling"
+  - "farmhouse-bathroom"
+  - "bathroom-decor"
+keywords:
+  - "rustic bathroom vanity decor ideas"
+  - "rustic vanity decor"
+  - "farmhouse bathroom vanity ideas"
 takeaways:
   - "Rustic reads through five signals, material, texture, colour temperature, shape and wear, and no room needs to buy all five. Two or three carried consistently beat a shelf of themed props, because props are what make a bathroom read as a shop display instead of a room that grew."
   - "The steam room prices every rural material differently. Glass and sealed metal live forever; sealed hardwood lives years; raw pine, wicker and jute mildew in months anywhere the shower can reach them. Match the material to the zone before matching it to the mood board."
@@ -20,9 +28,12 @@ faq:
     answer: "Zone them out of the steam. Wicker and jute belong above the towel bar's reach, near the door, or in a powder room with a real fan, and they want a monthly vacuum with the upholstery brush. In the splash zone, their sealed cousins, resin wicker or painted rattan-look, carry the texture without the fibre that feeds mildew."
   - question: "What finish protects reclaimed wood in a bathroom?"
     answer: "A hardwax oil or a satin waterborne polyurethane, two thin coats, edges sealed twice, since edges are where water enters. Penetrating oils look the most natural and need reapplying yearly in a bathroom. Avoid thick gloss polyurethane on reclaimed wood: it reads plastic under bathroom light, which cancels the weathering that made the wood worth keeping."
+image: ./images/rustic-bathroom-vanity-decor-ideas.jpg
+imageAlt: "Rustic Bathroom Vanity Decor Ideas, Spent Where They Survive the Steam"
 featured: false
 draft: false
 ---
+
 
 Rustic is the style that fails most often in bathrooms, and the reason is arithmetic rather than taste. The materials that make a room read rural, raw wood, wicker, jute, unsealed iron, are exactly the materials a wet room eats first. The Pinterest version of this room is a list of props bought in one afternoon; the version that still looks right three winters later is a shorter list, chosen by zone, and finished with materials that were honest about the humidity from the start. This guide spends the rustic budget where it survives, and it starts by naming what the style actually is, because half the props on the market are buying signals nobody needed.
 

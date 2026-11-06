@@ -1,11 +1,19 @@
 ---
 title: "Hidden Storage Solutions for Bathroom Vanities, Ranked by How Much Tool You Own"
 description: "Explore clever hidden storage solutions for bathroom vanities, including pull-out hair tool organizers and toe-kick drawers."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Bathroom"
 subcategory: "Vanity"
-tags: ["bathroom-vanity", "hidden-storage", "vanity-storage", "diy-bathroom", "bathroom-storage"]
-keywords: ["hidden storage solutions for bathroom vanity", "toe kick drawer bathroom vanity", "pull out hair tool organizer"]
+tags:
+  - "bathroom-vanity"
+  - "hidden-storage"
+  - "vanity-storage"
+  - "diy-bathroom"
+  - "bathroom-storage"
+keywords:
+  - "hidden storage solutions for bathroom vanity"
+  - "toe kick drawer bathroom vanity"
+  - "pull out hair tool organizer"
 takeaways:
   - "Hidden storage has a built-in tax: anything you cannot see is anything you will forget, expire or rebuy. Each hidden space earns its keep only for items that are backup, seasonal or dull, never for anything with a shelf life you are tracking."
   - "A vanity hides more space than its doors suggest, and most of it sits below the floor line: the toe-kick recess is typically 3 to 4 inches tall and 2 to 3 deep, a false front on door hinges converts into a tip-out tray with two hinges and a magnet, and the wall behind a surface-mounted mirror cabinet usually hides 2 to 4 inches of stud-bay cavity."
@@ -18,9 +26,12 @@ faq:
     answer: "The conversion is called a tip-out tray: detach the false front, fit it with piano-hinge or European hinges along its bottom edge, add a magnetic or roller catch at the top, and hang a shallow plastic tray behind it, deep enough for toothpaste and floss but shallow enough to clear the basin's trap. Most conversions need only a screwdriver and cost less than a takeout dinner."
   - question: "Can I recess a mirror cabinet into the wall myself?"
     answer: "Usually yes on a drywall stud wall: confirm the bay is clear of pipes and wires by checking the plumbing's vertical paths and using a stud finder's AC mode, cut between studs, and frame the opening with 1x lumber. On tile or plaster walls, or if the bay shares a wall with the shower's valve, the job moves up a tier, and the tile drilling rules that govern any wet-wall fix apply before any saw comes out."
+image: ./images/hidden-storage-solutions-for-bathroom-vanity.jpg
+imageAlt: "Hidden Storage Solutions for Bathroom Vanities, Ranked by How Much Tool You Own"
 featured: false
 draft: false
 ---
+
 
 Hidden storage is the only category in this room that has to argue against itself. Visible storage pays rent by being seen, which is the whole mechanism behind the [vanity display method](/blog/vanity-top-makeup-organizer-ideas/); hidden storage pays rent by being forgotten, and a system that works by forgetting needs to be filled with things that survive forgetting. Backups, spares, the seasonal and the boring. Every project below was graded by that test first and by tool count second, because a clever compartment that holds a serum you forget to use is worse than no compartment at all.
 

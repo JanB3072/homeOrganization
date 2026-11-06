@@ -1,11 +1,19 @@
 ---
 title: "Rolling Cart Organization for a Small Bathroom: Measure the Floor First"
 description: "A rolling cart organization guide for small bathrooms. Learn how to utilize a 3-tier utility cart for extra towels and toilet paper."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Bathroom"
 subcategory: "Storage"
-tags: ["bathroom-organization", "small-bathroom", "rolling-cart", "towel-storage", "utility-cart-storage"]
-keywords: ["rolling cart organization for small bathroom", "3 tier utility cart bathroom", "bathroom rolling storage cart"]
+tags:
+  - "bathroom-organization"
+  - "small-bathroom"
+  - "rolling-cart"
+  - "towel-storage"
+  - "utility-cart-storage"
+keywords:
+  - "rolling cart organization for small bathroom"
+  - "3 tier utility cart bathroom"
+  - "bathroom rolling storage cart"
 takeaways:
   - "A three-tier cart is typically 14 to 18 inches wide, 12 to 18 deep and 30 to 36 tall, but its real footprint includes the door swing arc and the space you stand in to reach the bottom shelf."
   - "Plumbing codes commonly require 21 inches of clear floor in front of a toilet and 15 inches from the bowl centreline to a side wall. Those two numbers eliminate most of the obvious cart positions."
@@ -19,9 +27,12 @@ faq:
     answer: "Chrome-plated or powder-coated carbon steel will eventually pit at welds, wheel sockets and basket corners where water sits. 304 stainless or a polymer shelf avoids it. You can extend the life of a cheap cart by drying the bottom tray after mopping and not leaving wet bottles standing on it."
   - question: "Are locking wheels worth paying for?"
     answer: "In a small bathroom, yes. Without brakes the cart drifts when you bump it, which happens daily in a 30-inch aisle. Look for two locking casters with TPR or rubber tyres; hard plastic wheels are noisy on tile and small ones catch on the edge of a bath mat."
+image: ./images/rolling-cart-organization-for-small-bathroom.jpg
+imageAlt: "Rolling Cart Organization for a Small Bathroom: Measure the Floor First"
 featured: false
 draft: false
 ---
+
 
 A three-tier cart is an appealing answer to a small bathroom because it looks like storage that does not need installing. It also has a footprint that moves, which is exactly why people buy one before drawing the room. The cart is not the problem. The floor around it is.
 

@@ -34,8 +34,8 @@ howTo:
     text: "Flours and sugars at arm level in the tallest containers, mix-ins and sprinkles above, backups in a labeled bin below. Label every lid, not every side, so stacked rows stay readable."
 featured: false
 draft: false
-image: ./images/deep-cabinet-organizer.jpg
-imageAlt: "Airtight flour and sugar containers stored in a deep kitchen cabinet"
+image: ./images/best-airtight-food-storage-containers-for-flour-and-sugar.jpg
+imageAlt: "Best Airtight Food Storage Containers for Flour and Sugar"
 ---
 
 The label said airtight in two fonts. The flour said otherwise: one weevil, then eleven, then a shelf that had to be emptied into the trash on a Tuesday. This article is the six-month rebuild that followed, with eleven containers tested on one pantry shelf and one job: keep flour and sugar alive past their original bags. The reviews below are what survived, arranged as chapters, because a container purchase is four decisions wearing one product listing.

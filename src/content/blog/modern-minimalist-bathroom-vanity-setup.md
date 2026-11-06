@@ -25,8 +25,8 @@ faq:
     answer: "A two-minute nightly reset plus a one-in-one-out rule. Everything must have an off-counter home, or it does not stay."
 featured: false
 draft: false
-image: ./images/bathroom-vanity.jpg
-imageAlt: "Minimalist bathroom vanity with a nearly empty counter and a soap pump"
+image: ./images/modern-minimalist-bathroom-vanity-setup.jpg
+imageAlt: "Modern Minimalist Bathroom Vanity Setup"
 ---
 
 My vanity counter held 23 things in October. It holds three now. The whole thing cost about $115 in trays, dividers, and pump bottles, the vanity stayed, the countertop stayed, nothing got renovated.

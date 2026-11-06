@@ -1,11 +1,19 @@
 ---
 title: "Double Vanity Mirror Placement Guide: Height, Spacing and Light, Derived"
 description: "Read our comprehensive double vanity mirror placement guide to ensure perfect alignment, height, and lighting for your master bathroom."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Bathroom"
 subcategory: "Vanity"
-tags: ["bathroom-vanity", "mirror-placement", "double-vanity", "bathroom-lighting", "vanity-styling"]
-keywords: ["double vanity mirror placement guide", "double vanity mirror height", "bathroom mirror spacing two sinks"]
+tags:
+  - "bathroom-vanity"
+  - "mirror-placement"
+  - "double-vanity"
+  - "bathroom-lighting"
+  - "vanity-styling"
+keywords:
+  - "double vanity mirror placement guide"
+  - "double vanity mirror height"
+  - "bathroom mirror spacing two sinks"
 takeaways:
   - "A mirror does not need to be as tall as the face it shows. At eye level, a pane covering half the distance from hairline to chin shows the whole face, because the angle you look in equals the angle you look out. Most wrongly mounted mirrors are wrong by height, not by size."
   - "Mount to the shorter user, not the average. In a shared double vanity the mirror centre belongs at the shorter person's eye height, typically 60 to 62 inches off the finished floor, with the bottom edge 5 to 8 inches above the countertop."
@@ -21,9 +29,12 @@ faq:
     answer: "Two mirrors forgive error better: each can be set to its own user, and an alignment mistake of half an inch reads as nothing. A single wide mirror shows every level difference and every gap, but it makes a narrow bathroom look wider and never suffers from the double-reflection problem. The choice is styling versus tolerance, not correctness."
   - question: "How do I hang a heavy bathroom mirror on tile?"
     answer: "Use the tile drilling routine: masking tape over the mark, carbide or diamond bit at medium speed with no hammer action until through the glaze, then hammer mode into the substrate, holes kept well clear of tile edges, silicone into the finished hole. On drywall, hit a stud or use toggles. Two D-rings on a wall rail or a French cleat take the weight more forgivingly than two fixed hooks that must be level to the millimetre."
+image: ./images/double-vanity-mirror-placement-guide.jpg
+imageAlt: "Double Vanity Mirror Placement Guide: Height, Spacing and Light, Derived"
 featured: false
 draft: false
 ---
+
 
 A mirror is the only thing in the bathroom you install once and consult twice a day, in a rush, from the same spot. That is why placement errors feel worse than they look on paper: mount it two inches high and every shave and every eyeliner session happens in the top third of the glass, for a decade. The two classic mistakes are both height errors, one mirror hung so low the glass shows the chest and the tap, one hung so high it frames the ceiling. Both are fixable on paper in five minutes, before the drill exists.
 

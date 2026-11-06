@@ -25,8 +25,8 @@ faq:
     answer: "Zone by category and frequency: heavy appliances and bulk on the lowest shelves, everyday food at eye level in clear bins, backups and paper goods up high. Keep a counter-height stretch free for staging groceries and small appliances."
 featured: false
 draft: false
-image: ./images/kitchen-cabinet-organization.jpg
-imageAlt: "Walk-in pantry layout with shelving and spacing for organization"
+image: ./images/walk-in-pantry-layout-ideas-and-spacing-blueprint.jpg
+imageAlt: "Walk-In Pantry Layout Ideas and Spacing Blueprint"
 ---
 
 Most walk-in pantries don't fail because they're too small. They fail because the shelves are the wrong depth, the wrong distance apart, and the wrong distance from each other. Those spacing failures turn 30 square feet of storage into 10 square feet of usable storage. The fix happens on paper before a single board goes up. Here's the blueprint.

@@ -1,11 +1,19 @@
 ---
 title: "A DIY Bathroom Vanity Makeover on a Budget, Starting With Whether It Deserves One"
 description: "Transform your space with a DIY bathroom vanity makeover on a budget. Easy painting techniques, hardware updates, and contact paper hacks."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Bathroom"
 subcategory: "Vanity"
-tags: ["bathroom-vanity", "diy-makeover", "budget-renovation", "vanity-painting", "bathroom-remodel"]
-keywords: ["diy bathroom vanity makeover on a budget", "paint bathroom vanity", "budget vanity makeover ideas"]
+tags:
+  - "bathroom-vanity"
+  - "diy-makeover"
+  - "budget-renovation"
+  - "vanity-painting"
+  - "bathroom-remodel"
+keywords:
+  - "diy bathroom vanity makeover on a budget"
+  - "paint bathroom vanity"
+  - "budget vanity makeover ideas"
 takeaways:
   - "Paint is a surface treatment, and it cannot rescue a wet core. Swollen particleboard, sagging shelves and hinge screws that spin in their holes are structure, and structure decides the makeover question before colour ever enters it."
   - "The paint system, not the paint, is the product: a grease-cutting wash, a 180 to 220 grit scuff that gives the primer something to bite, a bonding primer that keys into the old finish, and two thin topcoats. Skip the middle steps and any brand of cabinet paint fails in the same year."
@@ -20,9 +28,12 @@ faq:
     answer: "On a flat, intact laminate it is the cheapest legitimate transformation in the room, and the only rental-safe one. It fails where water sits: seams, the sink cut-out and the front edge. Cut with a slight recess at wet edges, seal the cut line with clear silicone, and keep hot tools on a trivet, because vinyl films deform at the temperatures hair tools hold for minutes."
   - question: "What should I replace instead of paint for the biggest impact?"
     answer: "The faucet, if the budget stretches past paint and hardware. It is the one part of a dated vanity everyone touches and looks at daily, a replacement runs sixty to a hundred and twenty dollars, and the job needs only a basin wrench, new supply lines and an hour. A new faucet on a repainted cabinet reads as a new vanity; a new vanity with the original 1997 faucet still reads as 1997."
+image: ./images/diy-bathroom-vanity-makeover-on-a-budget.jpg
+imageAlt: "A DIY Bathroom Vanity Makeover on a Budget, Starting With Whether It Deserves One"
 featured: false
 draft: false
 ---
+
 
 Budget makeover guides usually open with paint colours, which skips the only decision that matters. A vanity makeover is a bet that the box under the finish is worth keeping, and in a bathroom that bet fails more often than the guides admit, because the wet room attacks cabinets where paint cannot follow. So the project starts with a diagnosis, not a colour chart.
 

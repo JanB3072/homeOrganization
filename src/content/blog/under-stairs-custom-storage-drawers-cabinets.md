@@ -1,11 +1,19 @@
 ---
 title: "Under Stairs Custom Storage: Drawers and Pull-Out Cabinets That Use Every Inch"
 description: "Convert dead space into architectural utility. Ideas for under-stairs custom storage drawers and pull-out cabinets for shoes or coats."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Small Space"
 subcategory: "Storage"
-tags: ["under-stairs-storage", "small-space", "custom-storage", "pull-out-cabinets", "entryway-storage"]
-keywords: ["under stairs custom storage drawers cabinets", "under stairs pull out storage", "under staircase shoe storage"]
+tags:
+  - "under-stairs-storage"
+  - "small-space"
+  - "custom-storage"
+  - "pull-out-cabinets"
+  - "entryway-storage"
+keywords:
+  - "under stairs custom storage drawers cabinets"
+  - "under stairs pull out storage"
+  - "under staircase shoe storage"
 takeaways:
   - "The stringer is structural. Cut stringers have notches for the treads already, and building codes limit how much material can remain after those cuts, so there is no spare wood to notch again for a drawer."
   - "Under an 8-foot rise with a 10-foot horizontal run, the raw triangle is around 40 cubic feet at 3 feet of stair width. Framing, drywall, and clearance take roughly a third of that."
@@ -17,9 +25,12 @@ faq:
     answer: "Yes, if you fix everything to the wall framing or a standalone carcass and leave the stringer alone. The dangerous version is cutting into the stringer or trimming a tread support to make a box fit. Have somebody who knows stair framing look at it first, particularly on an older staircase or one with a winder."
   - question: "What belongs in under-stairs storage, and what does not?"
     answer: "Shoes, coats, bags, sports gear, and sealed seasonal bins near the entry end. Skip food, cardboard, and electronics. The cavity collects dust that works down between treads, sits against a cold slab near the front door, and can swing several degrees with the heating cycle."
+image: ./images/under-stairs-custom-storage-drawers-cabinets.jpg
+imageAlt: "Under Stairs Custom Storage: Drawers and Pull-Out Cabinets That Use Every Inch"
 featured: false
 draft: false
 ---
+
 
 A carpenter friend stopped me before I had finished drawing the first box. I had sketched a neat row of four drawers following the stair line, and he pointed at the diagonal member carrying the treads and asked what I intended to screw them to. I had assumed it was just a board. On this staircase it was a cut stringer, with a triangular notch sawn out of it above every tread, and the remaining strip of wood at each notch was doing real work. Cutting another notch for a drawer runner would have been a genuinely bad idea.
 

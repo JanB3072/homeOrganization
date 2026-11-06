@@ -27,7 +27,7 @@ howTo:
     text: "Roll, do not fold, into a basket beside the vanity; rolls show colors, prevent deep-stack forgetfulness, and pull out one-handed."
 featured: false
 draft: false
-image: ./images/bathroom-over-toilet.jpg
+image: ./images/small-bathroom-towel-storage-solutions.jpg
 imageAlt: "Small bathroom towel storage using over-the-toilet shelving"
 ---
 

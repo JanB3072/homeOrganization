@@ -31,7 +31,7 @@ howTo:
     text: "Check the counter under warm evening light; anything that reads as clutter in low light leaves the counter for good."
 featured: false
 draft: false
-image: ./images/bathroom-vanity.jpg
+image: ./images/how-to-style-a-floating-vanity.jpg
 imageAlt: "Floating bathroom vanity styled with storage and decor"
 ---
 

@@ -1,11 +1,19 @@
 ---
 title: "Clear Acrylic Bathroom Bins With Dividers: What to Measure Before You Buy"
 description: "Keep your cosmetics neat with clear acrylic bathroom bins with dividers. Read our guide to choosing the best leak-proof storage containers."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Bathroom"
 subcategory: "Storage"
-tags: ["bathroom-organization", "acrylic-bins", "drawer-organization", "cosmetics-storage", "divided-organizer"]
-keywords: ["clear acrylic bathroom bins with dividers", "acrylic bathroom organizer with dividers", "leak proof cosmetic storage bins"]
+tags:
+  - "bathroom-organization"
+  - "acrylic-bins"
+  - "drawer-organization"
+  - "cosmetics-storage"
+  - "divided-organizer"
+keywords:
+  - "clear acrylic bathroom bins with dividers"
+  - "acrylic bathroom organizer with dividers"
+  - "leak proof cosmetic storage bins"
 takeaways:
   - "Polystyrene and cast acrylic look identical in a listing. Under a bathroom window one yellows and embrittles within a year because its aromatic rings absorb UV, while the other is used outdoors for signage."
   - "A 30 ml spill in a shallow open tray spreads over roughly 100 square centimetres. Dividers limit where it goes; they do not contain it."
@@ -17,9 +25,12 @@ faq:
     answer: "Add 8 to 10 mm to the widest item in each category. A lipstick is about 20 mm across, a mascara tube 25 mm, a foundation bottle 35 to 45 mm, and a compact 75 mm. Cells of 2 to 3 inches handle the first two; something you use daily should not be in a cell so tight that you have to prise it out."
   - question: "Why did my clear bin go cloudy after cleaning?"
     answer: "Two different causes. Fine scratches from paper towels or abrasive sponges scatter light at the surface and look like haze. Solvent crazing from alcohol, glass cleaner with ammonia, or acetone produces a network of tiny internal cracks that looks similar but cannot be polished out. Use a microfibre cloth and mild dish soap only."
+image: ./images/clear-acrylic-bathroom-bins-with-dividers.jpg
+imageAlt: "Clear Acrylic Bathroom Bins With Dividers: What to Measure Before You Buy"
 featured: false
 draft: false
 ---
+
 
 The first one I ordered was 14 inches deep. The drawer was 13 and a quarter. I know that now because I measured it after the box arrived and I could not close the drawer. It sat on the counter for a week while I decided whether to return it, holding nothing, and I noticed something else during that week: the corner seams had already gone slightly milky where the two panels were glued.
 

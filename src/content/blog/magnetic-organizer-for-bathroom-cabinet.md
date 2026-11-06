@@ -1,11 +1,19 @@
 ---
 title: "Magnetic Organizer for Bathroom Cabinets: A Five-Minute Fix for Tiny Metal Tools"
 description: "Maximize your storage with a magnetic organizer for bathroom cabinets. Perfect for bobby pins, tweezers, and small grooming tools."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Bathroom"
 subcategory: "Storage"
-tags: ["bathroom-organization", "magnetic-storage", "cabinet-organization", "small-tools-storage", "diy-storage"]
-keywords: ["magnetic organizer for bathroom cabinet", "magnetic strip for bobby pins", "bathroom cabinet tweezers storage"]
+tags:
+  - "bathroom-organization"
+  - "magnetic-storage"
+  - "cabinet-organization"
+  - "small-tools-storage"
+  - "diy-storage"
+keywords:
+  - "magnetic organizer for bathroom cabinet"
+  - "magnetic strip for bobby pins"
+  - "bathroom cabinet tweezers storage"
 takeaways:
   - "Whether a tool sticks depends on its crystal structure, not its shine: annealed 304 stainless barely responds, while the same alloy after cold forming can hold weakly."
   - "Rated pull force assumes a thick flat steel plate and a straight pull. A tool hanging on a vertical strip resists sliding, where available force is a third or less of that number."
@@ -14,9 +22,12 @@ faq:
     answer: "Common 304 and 316 stainless are austenitic, a crystal structure that is essentially non-magnetic when annealed. Cheaper 430 and 420 grades are martensitic and magnetic. Bending, drawing, or stamping can also convert some austenite to martensite, so one pair of tweezers grips and an apparently identical pair slides. Test each tool rather than trusting the word stainless on the handle."
   - question: "Will a magnetic strip rust in a bathroom?"
     answer: "Neodymium magnets contain iron and are plated with nickel or epoxy for exactly this reason. Chloride in tap water and cleaning sprays attacks any pinhole in that plating, and the corrosion expands underneath until the coating flakes. Ferrite magnets are weaker but do not corrode. If the strip is inside a closed cabinet away from direct spray, a decent plated neodymium strip lasts for years."
+image: ./images/magnetic-organizer-for-bathroom-cabinet.jpg
+imageAlt: "Magnetic Organizer for Bathroom Cabinets: A Five-Minute Fix for Tiny Metal Tools"
 featured: false
 draft: false
 ---
+
 
 I bought the strip for bobby pins and spent the first evening testing everything else in the bathroom drawer. Of eleven small metal tools, six stuck, two clung doubtfully, and three dropped straight onto the counter. The failures included a pair of tweezers that looked exactly like the pair that held. That inconsistency is the whole subject, and it has a fairly ordinary metallurgical explanation.
 

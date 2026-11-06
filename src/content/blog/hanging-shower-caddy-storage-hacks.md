@@ -1,11 +1,19 @@
 ---
 title: "Hanging Shower Caddy Storage Hacks: Fewer Bottles, Drier Shelves"
 description: "Tired of a cluttered shower? Check out these hanging shower caddy storage hacks to keep shampoo bottles and soaps neatly organized."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Bathroom"
 subcategory: "Storage"
-tags: ["shower-storage", "bathroom-organization", "shower-caddy", "small-bathroom", "storage-hacks"]
-keywords: ["hanging shower caddy storage hacks", "shower caddy organization ideas", "organize shampoo bottles in shower"]
+tags:
+  - "shower-storage"
+  - "bathroom-organization"
+  - "shower-caddy"
+  - "small-bathroom"
+  - "storage-hacks"
+keywords:
+  - "hanging shower caddy storage hacks"
+  - "shower caddy organization ideas"
+  - "organize shampoo bottles in shower"
 takeaways:
   - "Suction cups are tested under straight-down load on dry, glossy tile. In a shower the load is a peeling force on a wet, textured surface, which is a different problem entirely."
   - "Weigh the bottles once: six 500 ml bottles plus the caddy already reach 4 to 5 kg, close to the working limit of most over-the-arm hangers."
@@ -14,9 +22,12 @@ faq:
     answer: "The cup loses its pressure differential. Steam condenses behind the seal, textured or porous tile lets air creep in at the edge, and bottles sitting on the outer edge of the shelf turn a downward load into a peeling force that lifts the cup from one side. Move to a shower-arm hanger or a tension pole, and keep heavy bottles close to the wall."
   - question: "Is the white crust on the bottom shelf limescale or soap?"
     answer: "Usually both. Soap reacts with calcium and magnesium in hard water to form insoluble stearates, and evaporated water leaves carbonate on top of that film. Citric acid or white vinegar dissolves the mineral part; a detergent and a brush handle the soap part. Never mix an acid cleaner with bleach."
+image: ./images/hanging-shower-caddy-storage-hacks.jpg
+imageAlt: "Hanging Shower Caddy Storage Hacks: Fewer Bottles, Drier Shelves"
 featured: false
 draft: false
 ---
+
 
 The caddy came down at 6:40 on a Tuesday. I remember the time because I was late for a train and had shampoo in my eye. Two suction cups, a wire basket, maybe five bottles. There was a crack, a slide, and the whole thing landed on the tap. One plastic bottle split at the shoulder. Nothing broke, but I spent ten minutes picking conditioner out of the drain cover, and I stopped trusting suction cups that morning.
 

@@ -1,11 +1,19 @@
 ---
 title: "Bathroom Vanity Lighting Placement Rules, Worked Out From the Light That Reaches Your Face"
 description: "Avoid shadows on your face with correct bathroom vanity lighting placement rules. Guidelines for sconces and overhead fixtures."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Bathroom"
 subcategory: "Vanity"
-tags: ["bathroom-vanity", "vanity-lighting", "bathroom-lighting", "sconce-placement", "led-mirror"]
-keywords: ["bathroom vanity lighting placement rules", "vanity sconce height", "bathroom vanity lighting ideas"]
+tags:
+  - "bathroom-vanity"
+  - "vanity-lighting"
+  - "bathroom-lighting"
+  - "sconce-placement"
+  - "led-mirror"
+keywords:
+  - "bathroom vanity lighting placement rules"
+  - "vanity sconce height"
+  - "bathroom vanity lighting ideas"
 takeaways:
   - "Every placement rule in vanity lighting is a consequence of two physical laws: illuminance falls with the square of distance, and only the component of light that lands square on a surface counts. Work those two out for a face and the standard advice, sconces at 60 to 66 inches flanking the mirror, stops being a convention and becomes arithmetic."
   - "A face is a mostly vertical target. Overhead light strikes it at a grazing angle, so a 1,000-lumens ceiling fixture delivers a fraction of its output to the mirror task, while the same lumens in two side sconces at 45 degrees arrive square on. Direction multiplies or divides lumens before they ever reach you."
@@ -20,9 +28,12 @@ faq:
     answer: "It is a compromise, not a disaster. It illuminates from above at a grazing angle, which deepens eye-socket and chin shadows and puts less light on the face per lumen. If wiring exists only above the mirror, pick a bar that throws light downward and forward at a steep angle, or supplement with a plug-in pair of side lights before re-plastering."
   - question: "What rating do bathroom light fittings need?"
     answer: "Anything the shower splash can reach needs a wet-rated fitting; the wider bathroom needs at least damp-rated. Every receptacle near the basin sits on a GFCI-protected circuit, which is a code fact as much as a safety one, and the fan belongs on a switch or timer so it actually runs after the light goes off."
+image: ./images/bathroom-vanity-lighting-placement-rules.jpg
+imageAlt: "Bathroom Vanity Lighting Placement Rules, Worked Out From the Light That Reaches Your Face"
 featured: false
 draft: false
 ---
+
 
 Lighting guides for vanities all converge on the same conclusions: sconces beside the mirror at around eye height, 3000 K, CRI 90 and up, a dimmer if you can. All true, all repeated, and almost none of them show the working. The conclusions come from photometry, the arithmetic of how light actually travels, and once that arithmetic is on the table, the rules stop being taste and become consequences. They also start bending usefully for rooms that do not match the assumed layout, which is where most real bathrooms live.
 

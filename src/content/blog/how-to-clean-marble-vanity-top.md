@@ -1,11 +1,20 @@
 ---
 title: "How to Clean a Marble Vanity Top: Sort the Damage First, Then Choose the Chemistry"
 description: "A complete guide on how to clean marble vanity tops without causing damage. Learn safe cleaning agents and stain removal tricks."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Bathroom"
 subcategory: "Vanity"
-tags: ["bathroom-vanity", "marble-care", "cleaning", "vanity-styling", "bathroom-maintenance"]
-keywords: ["how to clean marble vanity top", "marble vanity cleaner", "remove stains from marble vanity", "marble etching repair"]
+tags:
+  - "bathroom-vanity"
+  - "marble-care"
+  - "cleaning"
+  - "vanity-styling"
+  - "bathroom-maintenance"
+keywords:
+  - "how to clean marble vanity top"
+  - "marble vanity cleaner"
+  - "remove stains from marble vanity"
+  - "marble etching repair"
 takeaways:
   - "Everything wrong with a marble vanity top belongs to one of four families: etching, staining, soap scum and limescale. Each has different chemistry, each is confirmed by touch, and cleaning with the wrong family's method makes the damage worse, most famously by removing limescale with acid and etching the whole top in the process."
   - "Etching is a chemical burn, not a stain. Acid dissolves calcium carbonate into a dull, slightly roughened patch that no cleaner can reverse; stains live in the pores below an intact surface that still reflects light evenly. Finger the mark first: rough or dull means etch, smooth but discoloured means stain."
@@ -20,9 +29,12 @@ faq:
     answer: "Shallow etching often can, with a marble polishing powder and a damp cloth worked in with hand pressure, which re-burnishes the surface locally. Deep etch burns need honing and professional re-polishing. If the dull patch still feels smooth and just looks cloudy, polishing powder is worth the attempt; if it feels rough like fine sandpaper, call a pro."
   - question: "Is cultured marble cleaned the same way?"
     answer: "No. Cultured marble is crushed stone in a resin matrix with a gel-coat surface, so acids do not etch it and abrasive creams are the real danger, along with solvents that dull the gel coat. Warm water, pH-neutral soap and a non-abrasive sponge cover nearly everything, and body oil lifts with a dedicated gel-coat or fibreglass cleaner."
+image: ./images/how-to-clean-marble-vanity-top.jpg
+imageAlt: "How to Clean a Marble Vanity Top: Sort the Damage First, Then Choose the Chemistry"
 featured: false
 draft: false
 ---
+
 
 Marble on a bathroom vanity is calcite wearing its best clothes. The stone that makes the tops in this room so pale and dramatic is calcium carbonate, the same mineral class as chalk and eggshell, and nearly every cleaning disaster on a marble vanity is one specific reaction: calcium carbonate meeting an acid and turning into a salt and a gas. Lemon juice, vinegar, most limescale removers, a great many "natural" cleaning recipes, all of them perform that reaction on contact, in about thirty seconds, permanently.
 

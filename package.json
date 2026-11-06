@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "3.2.1",
-    "astro": "^4.11.5"
+    "astro": "^4.11.5",
+    "gray-matter": "^4.0.3"
   },
   "devDependencies": {
     "sharp": "^0.35.5"

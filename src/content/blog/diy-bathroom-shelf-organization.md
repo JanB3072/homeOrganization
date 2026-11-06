@@ -1,11 +1,19 @@
 ---
 title: "DIY Bathroom Shelf Organization: A Weekend Reset That Actually Stays Tidy"
 description: "Transform your space with these easy DIY bathroom shelf organization tips. Learn how to declutter and arrange toiletries like a pro."
-pubDate: 2026-11-05
+pubDate: "2026-11-05T00:00:00.000Z"
 category: "Bathroom"
 subcategory: "Storage"
-tags: ["bathroom-organization", "shelf-organization", "diy-storage", "toiletries-storage", "declutter"]
-keywords: ["diy bathroom shelf organization", "bathroom shelf organization ideas", "organize bathroom toiletries"]
+tags:
+  - "bathroom-organization"
+  - "shelf-organization"
+  - "diy-storage"
+  - "toiletries-storage"
+  - "declutter"
+keywords:
+  - "diy bathroom shelf organization"
+  - "bathroom shelf organization ideas"
+  - "organize bathroom toiletries"
 takeaways:
   - "When I emptied one 30-inch shelf I counted 47 items: 9 expired, 6 duplicates, 4 never opened. The mess was inventory, not a shortage of containers."
   - "A shower pushes a small bathroom to 80–100 percent relative humidity for half an hour or more. Cardboard and woven baskets reach equilibrium moisture content and stay damp long enough to grow mildew."
@@ -18,9 +26,12 @@ faq:
     answer: "Injection-moulded PP or ABS, acrylic, glass, glazed ceramic, and powder-coated steel or aluminium. Avoid uncoated cardboard, MDF with exposed edges, wicker, and fabric-lined bins. All of those hold moisture, and the paper ones lose their shape as well as growing mildew."
   - question: "How do I fix a shelf that has started to bow in the middle?"
     answer: "Shorten the span or add a support. A centre bracket into a stud, or a vertical divider that also acts as a post, removes most of the deflection. Replacing a bowed particleboard shelf with 3/4-inch plywood or a solid board is the lasting version; turning the shelf over just moves the sag to the other direction."
+image: ./images/diy-bathroom-shelf-organization.jpg
+imageAlt: "DIY Bathroom Shelf Organization: A Weekend Reset That Actually Stays Tidy"
 featured: false
 draft: false
 ---
+
 
 I did this on a Saturday in February, with the bathroom window open and a towel spread on the floor. The shelf in question is a 30-inch-wide open board above the toilet, the kind that came with the flat-pack cabinet and was never quite level. It had reached the point where putting a mug down on it required moving three other things first.
 
