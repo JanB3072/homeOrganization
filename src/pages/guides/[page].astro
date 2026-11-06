@@ -1,0 +1,207 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import Pagination from '../../components/Pagination.astro';
+import SubcategoryNav from '../../components/SubcategoryNav.astro';
+import { getPostsByCategory } from '../../utils/content';
+
+interface Props {
+  params: {
+    page: string;
+  };
+}
+
+const page = parseInt(Astro.params.page || '1', 10);
+const perPage = 12;
+
+const allPosts = await getPostsByCategory('Guides');
+const totalPages = Math.ceil(allPosts.length / perPage);
+
+if (page < 1 || page > totalPages) {
+  return Astro.redirect('/guides/');
+}
+
+const startIdx = (page - 1) * perPage;
+const posts = allPosts.slice(startIdx, startIdx + perPage);
+
+export async function getStaticPaths() {
+  const allGuidesPosts = await getPostsByCategory('Guides');
+  const totalPages = Math.ceil(allGuidesPosts.length / 12);
+
+  return Array.from({ length: totalPages }, (_, i) => ({
+    params: { page: String(i + 1) },
+  }));
+}
+
+const title = page === 1
+  ? 'Home Organization Guides | Organizing Small'
+  : `Home Organization Guides - Page ${page} | Organizing Small`;
+
+const description = page === 1
+  ? 'Whole-home organization systems and reference guides: measure first, diagnose why each room fails, follow the decision trees, and build a plan that holds for years.'
+  : `Home organization guides page ${page}. Browse our whole-home systems, decision trees, and maintenance plans.`;
+
+const canonicalUrl = page === 1
+  ? `${Astro.url.origin}/guides/`
+  : `${Astro.url.origin}/guides/${page}/`;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+>
+  <section class="category-section">
+    <div class="category-header">
+      <h1 class="category-title">📚 Home Organization Guides</h1>
+      <p class="category-description">
+        Whole-home systems, decision trees, and maintenance rhythms that connect room-by-room fixes.
+      </p>
+      <p class="category-count">
+        {allPosts.length} articles in this category
+        {totalPages > 1 && ` • Page ${page} of ${totalPages}`}
+      </p>
+    </div>
+
+    <SubcategoryNav category="Guides" />
+
+    {posts.length > 0 ? (
+      <>
+        <div class="articles-grid">
+          {posts.map((post, index) => (
+            <div class="article-wrapper" style={`animation-delay: ${index * 50}ms`}>
+              <ArticleCard
+                title={post.data.title}
+                description={post.data.description}
+                url={post.url}
+                tags={post.data.tags}
+                category={post.data.category}
+                date={post.data.pubDate}
+                readingTime={post.data.readingTime || 5}
+              />
+            </div>
+          ))}
+        </div>
+
+        {totalPages > 1 && (
+          <Pagination
+            currentPage={page}
+            totalPages={totalPages}
+            baseUrl="/guides/"
+            prevUrl={page > 1 ? `/guides/${page > 2 ? page - 1 : ''}` : undefined}
+            nextUrl={page < totalPages ? `/guides/${page + 1}` : undefined}
+          />
+        )}
+      </>
+    ) : (
+      <div class="empty-state">
+        <p>No articles found in this category yet.</p>
+      </div>
+    )}
+  </section>
+
+  <link rel="canonical" href={canonicalUrl} />
+  {page > 1 && (
+    <link rel="prev" href={page > 2 ? `/guides/${page - 1}/` : '/guides/'} />
+  )}
+  {page < totalPages && (
+    <link rel="next" href={`/guides/${page + 1}/`} />
+  )}
+</BaseLayout>
+
+<style>
+  .category-section {
+    animation: fadeInUp 0.6s ease-out;
+  }
+
+  .category-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .category-title {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    margin-bottom: 1rem;
+    color: var(--color-text);
+  }
+
+  .category-description {
+    font-size: 1.1rem;
+    color: var(--color-text-light);
+    max-width: 600px;
+    margin: 0 auto 1rem;
+    line-height: 1.8;
+  }
+
+  .category-count {
+    font-size: 0.95rem;
+    color: var(--color-secondary);
+    margin: 0;
+  }
+
+  .articles-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .article-wrapper {
+    animation: fadeInUp 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: var(--color-bg-light);
+    border-radius: var(--radius-lg);
+    border: 1px dashed var(--color-border);
+  }
+
+  .empty-state p {
+    margin: 0;
+    color: var(--color-text-light);
+    font-size: 1.05rem;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .category-header {
+      padding: 1.5rem 0;
+      margin-bottom: 2rem;
+    }
+
+    .category-title {
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .category-description {
+      font-size: 1rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .articles-grid {
+      gap: 1.25rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .category-section,
+    .article-wrapper {
+      animation: none;
+    }
+  }
+</style>

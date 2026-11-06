@@ -11,6 +11,7 @@ export interface Props {
   datePublished?: Date;
   dateModified?: Date;
   author?: string;
+  body?: string;
   url?: string;
   category?: string;
   tags?: string[];
@@ -25,13 +26,18 @@ const {
   image = '/og-image-default.jpg',
   datePublished,
   dateModified,
-  author = "Home Organization",
+  author = "Clara",
+  body,
   url = Astro.url.href,
   category,
   tags = [],
   faq = [],
   howTo = [],
 } = Astro.props;
+
+const wordCount = body
+  ? body.trim().split(/\s+/).filter(Boolean).length
+  : undefined;
 
 // Resolve image to an absolute URL so crawlers and AI engines don't guess the domain.
 const absoluteImage = (() => {
@@ -51,17 +57,17 @@ if (type === 'WebSite') {
   schema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Home Organization Blog',
-    url: url,
+    name: 'Organizing Small',
+    url: siteOrigin,
     description: description || 'Real home organization solutions with measurements and photos',
     inLanguage: 'en',
     creator: {
       '@type': 'Organization',
-      name: 'Home Organization Blog',
+      name: 'Organizing Small',
     },
     potentialAction: {
       '@type': 'SearchAction',
-      target: `${url}?s={search_term_string}`,
+      target: `${siteOrigin}search/?s={search_term_string}`,
       'query-input': 'required name=search_term_string',
     },
   };
@@ -82,10 +88,11 @@ if (type === 'BlogPosting') {
     author: {
       '@type': 'Person',
       name: author,
+      url: `${siteOrigin}about/`,
     },
     publisher: {
       '@type': 'Organization',
-      name: 'Home Organization Blog',
+      name: 'Organizing Small',
       logo: {
         '@type': 'ImageObject',
         url: `${siteOrigin}logo.png`,
@@ -97,6 +104,8 @@ if (type === 'BlogPosting') {
     },
     keywords: keywords,
     articleSection: category,
+    articleBody: body,
+    wordCount: wordCount,
   };
 }
 
@@ -116,7 +125,7 @@ if (type === 'Organization') {
   schema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Home Organization Blog',
+    name: 'Organizing Small',
     url: url,
     description: description,
     logo: `${siteOrigin}logo.png`,

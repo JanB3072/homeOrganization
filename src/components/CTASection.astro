@@ -11,8 +11,7 @@ interface Props {
 const {
   title = "Get Real Home Organization Tips",
   subtitle = "Subscribe to receive the latest articles with real measurements, costs, and honest reviews.",
-  placeholder = "Your email address",
-  buttonText = "Subscribe"
+  buttonText = "Email Me to Subscribe"
 } = Astro.props;
 ---
 
@@ -22,21 +21,15 @@ const {
     <h2 class="cta-title">{title}</h2>
     <p class="cta-subtitle">{subtitle}</p>
     
-    <form class="cta-form" onsubmit="return handleSubscribe(event)">
-      <input 
-        type="email" 
-        placeholder={placeholder}
-        required
-        class="cta-input"
-        aria-label="Email address"
-      />
-      <button type="submit" class="cta-button">
-        {buttonText}
-      </button>
-    </form>
-    
+    <a
+      class="cta-button"
+      href={`mailto:hello@organizingsmall.com?subject=${encodeURIComponent('Newsletter subscription')}`}
+    >
+      {buttonText}
+    </a>
+
     <p class="cta-privacy">
-      We respect your privacy. Unsubscribe at any time.
+      Real email, no fake forms. I answer every message myself; reply "unsubscribe" and you will hear nothing further.
     </p>
   </div>
 
@@ -89,49 +82,9 @@ const {
     line-height: 1.8;
   }
 
-  .cta-form {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-bottom: 1.5rem;
-    animation: slideUp 0.6s ease-out 0.2s both;
-  }
-
-  @keyframes slideUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .cta-input {
-    padding: 0.875rem 1.25rem;
-    border: none;
-    border-radius: var(--radius-md);
-    min-width: 280px;
-    font-family: var(--font-primary);
-    font-size: 1rem;
-    background: white;
-    color: var(--color-text);
-    transition: all 0.3s ease;
-  }
-
-  .cta-input:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
-    transform: scale(1.02);
-  }
-
-  .cta-input::placeholder {
-    color: var(--color-text-light);
-  }
-
   .cta-button {
+    display: inline-block;
+    text-decoration: none;
     padding: 0.875rem 2.5rem;
     background: rgba(255, 255, 255, 0.25);
     color: white;
@@ -203,14 +156,6 @@ const {
       padding: 3rem 1.5rem;
     }
 
-    .cta-form {
-      flex-direction: column;
-    }
-
-    .cta-input {
-      min-width: 100%;
-    }
-
     .cta-button {
       width: 100%;
     }
@@ -235,30 +180,3 @@ const {
   }
 </style>
 
-<script>
-  function handleSubscribe(event: Event) {
-    event.preventDefault();
-    const form = event.target as HTMLFormElement;
-    const input = form.querySelector('input[type="email"]') as HTMLInputElement;
-    const button = form.querySelector('button') as HTMLButtonElement;
-    
-    // Simple validation
-    if (!input.value) return false;
-    
-    // Show success message (replace with actual API call)
-    const originalText = button.textContent;
-    button.textContent = '✓ Subscribed!';
-    button.style.background = 'rgba(16, 185, 129, 0.9)';
-    
-    setTimeout(() => {
-      button.textContent = originalText;
-      button.style.background = '';
-      input.value = '';
-    }, 3000);
-    
-    return false;
-  }
-
-  // Make handleSubscribe globally available
-  (window as any).handleSubscribe = handleSubscribe;
-</script>

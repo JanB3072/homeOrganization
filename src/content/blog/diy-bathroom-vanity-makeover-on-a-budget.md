@@ -1,7 +1,7 @@
 ---
 title: "A DIY Bathroom Vanity Makeover on a Budget, Starting With Whether It Deserves One"
 description: "Transform your space with a DIY bathroom vanity makeover on a budget. Easy painting techniques, hardware updates, and contact paper hacks."
-pubDate: "2026-11-05T00:00:00.000Z"
+pubDate: 2026-10-22
 category: "Bathroom"
 subcategory: "Vanity"
 tags:

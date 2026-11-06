@@ -3,16 +3,30 @@ import type { CollectionEntry } from 'astro:content';
 
 export type BlogPost = CollectionEntry<'blog'>;
 
+// 估算阅读时间（约 200 词/分钟）。frontmatter 里的 readingTime 优先。
+function computeReadingTime(post: BlogPost): number {
+  const explicit = post.data.readingTime;
+  if (explicit && explicit > 0) return explicit;
+  const words = post.body?.trim().split(/\s+/).filter(Boolean).length ?? 0;
+  return Math.max(1, Math.round(words / 200));
+}
+
 // 获取所有发布的文章
 export async function getAllPosts() {
-  const posts = await getCollection('blog', 
+  const posts = await getCollection('blog',
     ({ data }) => !data.draft
   );
   // CollectionEntry has no `url` field. List pages and cards need a canonical
-  // link, so derive it here once instead of at every call site.
+  // link, so derive it here once instead of at every call site. Reading time
+  // is likewise computed once here so every card shows a real value instead
+  // of a hardcoded fallback.
   return posts
-    .map(post => ({ ...post, url: `/blog/${post.slug}/` }))
-    .sort((a, b) => 
+    .map(post => ({
+      ...post,
+      url: `/blog/${post.slug}/`,
+      data: { ...post.data, readingTime: computeReadingTime(post) },
+    }))
+    .sort((a, b) =>
       b.data.pubDate.getTime() - a.data.pubDate.getTime()
     );
 }

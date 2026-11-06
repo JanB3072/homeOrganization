@@ -8,7 +8,7 @@
 
 import fs from 'node:fs';
 import path from 'node:path';
-import yaml from 'js-yaml';
+import matter from 'gray-matter';
 
 const root = path.resolve('.');
 const blogDir = path.resolve('src/content/blog');
@@ -64,10 +64,10 @@ for (const file of files) {
     seen.add(key);
   }
 
-  // 2) Parse with js-yaml.
+  // 2) Parse with gray-matter (declared dependency).
   let data;
   try {
-    data = yaml.load(fm);
+    data = matter(raw).data;
   } catch (e) {
     console.log(`✗ ${file}: YAML parse error — ${e.message}`);
     failures++;
@@ -113,6 +113,8 @@ for (const file of files) {
   if (links.length === 0) {
     console.log(`✗ ${file}: no internal links at all`);
     failures++;
+  } else if (links.length < 11 || links.length > 16) {
+    warnings.push(`${file}: ${links.length} internal links (recommended 11–16)`);
   }
 }
 
@@ -155,6 +157,7 @@ if (failures > 0) {
 } else {
   console.log(`✓ All ${files.length} posts passed frontmatter, link and category checks.`);
   if (warnings.length) {
-    console.log(`  (${warnings.length} non-fatal note(s): no image or no subcategory page.)`);
+    console.log(`  (${warnings.length} non-fatal note(s) — image/subcategory gaps and internal-link count outside the 11–16 range.)`);
+    for (const w of warnings) console.log(`  • ${w}`);
   }
 }

@@ -1,7 +1,7 @@
 ---
 title: "Over-the-Toilet Storage Ideas I Tested in My Small Bathroom"
 description: "Discover clever over-the-toilet storage ideas to maximize space and keep your bathroom organized. Learn how to style shelves and cabinets efficiently."
-pubDate: 2026-11-03
+pubDate: 2026-10-14
 category: "Bathroom"
 subcategory: "Storage"
 tags: ["bathroom-organization", "storage-solutions", "small-bathroom", "rental-friendly"]

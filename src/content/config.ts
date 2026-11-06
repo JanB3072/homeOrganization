@@ -7,7 +7,7 @@ const blogCollection = defineCollection({
     description: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    author: z.string().default("Home Organization"),
+    author: z.string().default("Clara"),
     category: z.enum([
       'Kitchen',
       'Closet',

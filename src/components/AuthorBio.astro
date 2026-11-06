@@ -1,0 +1,85 @@
+---
+// Author bio block shown on the homepage and at the end of every article.
+---
+
+<section class="author-bio">
+  <div class="bio-avatar" aria-hidden="true">C</div>
+  <div class="bio-body">
+    <h3 class="bio-title">About Clara</h3>
+    <p class="bio-text">
+      I'm Clara, and yes, I'm the one stuck with a single 24-inch wide bathroom
+      vanity in my rented Chicago apartment. I started this blog because I got
+      tired of buying "viral" organization bins that turned out to be two inches
+      too wide for standard shelves. Everything you see here is bought with my
+      own money, measured with my trusty tape measure, and tested in my actual
+      messy life.
+    </p>
+    <p class="bio-contact">
+      Drop me a line at <a href="mailto:hello@organizingsmall.com">hello@organizingsmall.com</a>
+      if you're trying to fit a round peg in a square room.
+    </p>
+  </div>
+</section>
+
+<style>
+  .author-bio {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    background: var(--color-bg-light, #f9fafb);
+    border: 1px solid var(--color-border, #e5e7eb);
+    border-radius: var(--radius-lg, 0.75rem);
+    padding: 1.5rem;
+    margin-top: 2.5rem;
+  }
+
+  .bio-avatar {
+    flex-shrink: 0;
+    width: 3.25rem;
+    height: 3.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--color-primary, #3b82f6);
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  .bio-body {
+    min-width: 0;
+  }
+
+  .bio-title {
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+    color: var(--color-text, #1f2937);
+  }
+
+  .bio-text {
+    margin: 0 0 0.75rem;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--color-text-light, #6b7280);
+  }
+
+  .bio-contact {
+    margin: 0;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--color-text-light, #6b7280);
+  }
+
+  .bio-contact a {
+    color: var(--color-primary, #3b82f6);
+    font-weight: 500;
+  }
+
+  @media (max-width: 640px) {
+    .author-bio {
+      flex-direction: column;
+      padding: 1.25rem;
+    }
+  }
+</style>

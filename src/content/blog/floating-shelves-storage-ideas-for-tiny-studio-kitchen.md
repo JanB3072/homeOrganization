@@ -1,7 +1,7 @@
 ---
 title: "Floating Shelves Storage Ideas for a Tiny Studio Kitchen: Nine Walls That Gained a Job"
 description: "Maximize restricted wall spaces using industrial floating shelves storage ideas tailored specifically for micro studio kitchens."
-pubDate: 2026-11-05
+pubDate: 2026-10-20
 category: "Small Space"
 subcategory: "Storage"
 tags: ["small-space", "studio-kitchen", "floating-shelves", "wall-storage", "industrial-shelving"]

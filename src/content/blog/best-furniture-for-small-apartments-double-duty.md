@@ -1,7 +1,7 @@
 ---
 title: "Best Furniture for Small Apartments: Double-Duty Picks by Budget Tier"
 description: "Furnish wisely with the best furniture for small apartments, featuring double-duty storage ottomans, drop-leaf tables, and Murphy beds."
-pubDate: 2026-11-05
+pubDate: 2026-10-26
 category: "Small Space"
 subcategory: "Apartment"
 tags: ["small-space", "apartment-furniture", "double-duty-furniture", "storage-ottoman", "murphy-bed"]

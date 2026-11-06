@@ -1,7 +1,7 @@
 ---
 title: "How to Style a Floating Vanity: The Five-Move Countdown to a Spa Counter"
 description: "Learn how to style a floating vanity for a modern, spa-like feel. Get interior design tips on minimal decor and tray arrangements."
-pubDate: 2026-11-05
+pubDate: 2026-10-16
 category: "Bathroom"
 subcategory: "Vanity"
 tags: ["bathroom-organization", "floating-vanity", "vanity-styling", "spa-bathroom", "minimal-decor"]

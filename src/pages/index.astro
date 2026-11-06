@@ -4,6 +4,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CategoryCard from '../components/CategoryCard.astro';
 import ArticleCard from '../components/ArticleCard.astro';
+import AuthorBio from '../components/AuthorBio.astro';
 import CTASection from '../components/CTASection.astro';
 import BackToTop from '../components/BackToTop.astro';
 import { getAllPosts } from '../utils/content';
@@ -58,7 +59,7 @@ const categories = [
 ---
 
 <BaseLayout 
-  title="Home Organization Blog - Real Solutions" 
+  title="Organizing Small - Home Organization Ideas & Real Solutions"
   description="A personal home organization blog with real solutions, before-and-after transformations, and practical storage ideas for small spaces."
 >
   <!-- Hero Section -->
@@ -124,6 +125,18 @@ const categories = [
   </section>
 
   <!-- CTA Section -->
+  <AuthorBio />
+
+  <section style="margin: 3rem 0;">
+    <h2 style="text-align: center; margin-bottom: 1.5rem;">From my apartment</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 0.75rem;">
+      <img src="/images/clara-apartment-1.jpg" alt="Clara's small-apartment organization, shot on iPhone" loading="lazy" style="width: 100%; border-radius: 0.75rem; aspect-ratio: 1 / 1; object-fit: cover;" />
+      <img src="/images/clara-apartment-2.jpg" alt="Clara's small-apartment organization, shot on iPhone" loading="lazy" style="width: 100%; border-radius: 0.75rem; aspect-ratio: 1 / 1; object-fit: cover;" />
+      <img src="/images/clara-apartment-3.jpg" alt="Clara's small-apartment organization, shot on iPhone" loading="lazy" style="width: 100%; border-radius: 0.75rem; aspect-ratio: 1 / 1; object-fit: cover;" />
+      <img src="/images/clara-apartment-4.jpg" alt="Clara's small-apartment organization, shot on iPhone" loading="lazy" style="width: 100%; border-radius: 0.75rem; aspect-ratio: 1 / 1; object-fit: cover;" />
+    </div>
+  </section>
+
   <CTASection />
 
   <!-- Back to Top Button -->

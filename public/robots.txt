@@ -8,6 +8,7 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 Disallow: /*.json
+Allow: /feed.json
 
 # Sitemap location
 Sitemap: https://organizingsmall.com/sitemap.xml

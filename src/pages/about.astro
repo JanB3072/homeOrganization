@@ -1,14 +1,14 @@
 ---
-// About page - Make a connection with readers
+// About page - who is behind Organizing Small
 
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout 
-  title="About Me - Home Organization" 
-  description="Learn about this home organization blog and who's behind it"
+<BaseLayout
+  title="About Clara | Organizing Small"
+  description="Meet Clara, the renter behind Organizing Small, testing home organization ideas in a small Chicago apartment."
 >
-  <!-- About Header -->
+  <!-- Hero -->
   <section style="
     background: linear-gradient(135deg, #f0f9ff 0%, #f8fafc 100%);
     padding: 3rem 2rem;
@@ -16,140 +16,82 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     margin-bottom: 3rem;
     border-left: 4px solid var(--color-primary);
   ">
-    <h1 style="margin-top: 0;">About Me & This Blog</h1>
+    <h1 style="margin-top: 0;">Hey there, I'm Clara.</h1>
+    <p style="font-size: 1.1rem; line-height: 1.8; color: var(--color-text-light); max-width: 640px;">
+      Let's be honest: most home organization blogs look like a millionaire's
+      showroom. They show you massive walk-in closets, custom-built pantries,
+      and perfectly matched glass jars that cost more than a weekly grocery bill.
+    </p>
     <p style="font-size: 1.1rem; line-height: 1.8; color: var(--color-text-light);">
-      Welcome! This is a space for sharing real home organization stories—not just tips, but honest experiences with actual measurements, real costs, and genuine results.
+      That's not my life.
     </p>
   </section>
 
-  <!-- Two Column Section -->
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-bottom: 3rem; align-items: center;">
-    <div style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); padding: 2rem; border-radius: 1rem; aspect-ratio: 1/1; display: flex; align-items: center; justify-content: center; border: 2px dashed var(--color-border);">
-      <div style="text-align: center; color: var(--color-text-light);">
-        <div style="font-size: 4rem; margin-bottom: 1rem;">📸</div>
-        <p>Your photo will go here</p>
-      </div>
-    </div>
+  <!-- My apartment -->
+  <section style="margin-bottom: 3rem;">
+    <p style="line-height: 1.8; max-width: 700px;">
+      I live in a 580-square-foot pre-war apartment in Chicago. If you live in
+      an old rental like me, you know the drill: no drilling into the walls
+      (thanks, landlord), kitchen drawers that get stuck if you put a regular
+      silverware tray in them, and a bathroom closet that's more like a dark,
+      narrow cave.
+    </p>
+  </section>
 
-    <div>
-      <h2 style="margin-top: 0;">Who I Am</h2>
-      <p style="line-height: 1.8; color: var(--color-text-light); margin-bottom: 1rem;">
-        <strong>Author:</strong> A guest in one's eyes — [add a short bio here]
-      </p>
-      <p style="line-height: 1.8; color: var(--color-text-light); margin-bottom: 1rem;">
-        <strong>Location:</strong> [Your city, country] — currently living in a [size] sq ft apartment
-      </p>
-      <p style="line-height: 1.8; color: var(--color-text-light); margin-bottom: 1rem;">
-        <strong>Family:</strong> [Living with...: just me, partner, kids, roommates]
-      </p>
-      <p style="line-height: 1.8; color: var(--color-text-light);">
-        <strong>Background:</strong> [Your relevant background or what led you to home organization]
-      </p>
-    </div>
-  </div>
-
-  <!-- Why This Blog -->
+  <!-- Why this blog exists -->
   <section style="
     background: linear-gradient(135deg, #fef3c7 0%, #fee2e2 100%);
     padding: 3rem 2rem;
     border-radius: 1rem;
     margin-bottom: 3rem;
   ">
-    <h2 style="color: #92400e; margin-top: 0;">Why I Started This Blog</h2>
+    <h2 style="color: #92400e; margin-top: 0;">Why this blog exists</h2>
     <p style="line-height: 1.8; color: #b45309; margin-bottom: 1rem;">
-      I got tired of generic organization advice that didn't actually work in real homes. After struggling with my own space for years, I finally figured out what works—not just in theory, but through actual testing and living with the systems.
+      A few years ago, I spent about $200 on a bunch of "aesthetic" clear bins I
+      saw on TikTok. When the boxes arrived, half of them didn't fit my deep,
+      awkward cabinets, and the other half cracked within a month.
     </p>
-    <p style="line-height: 1.8; color: #b45309;">
-      This blog is my way of sharing those discoveries: the real costs, the honest "before I messed up," and what actually made a lasting difference. I want to help others avoid the mistakes I made and get straight to solutions that actually work.
+    <p style="line-height: 1.8; color: #b45309; margin-bottom: 0;">
+      I got annoyed. So I grabbed my tape measure and started doing the math myself.
     </p>
   </section>
 
-  <!-- My Approach -->
+  <!-- What you'll find here -->
   <section style="margin-bottom: 3rem;">
-    <h2>My Approach</h2>
-    
-    <div style="
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-    ">
-      <div style="
-        background: var(--color-bg-light);
-        padding: 2rem;
-        border-radius: 1rem;
-        border: 1px solid var(--color-border);
-      ">
-        <div style="font-size: 2rem; margin-bottom: 0.5rem;">📸</div>
-        <h3 style="margin: 0.5rem 0;">Real Photos</h3>
-        <p style="font-size: 0.95rem; color: var(--color-text-light); margin: 0;">
-          Every image is from my own home. No stock photos, no perfected styling—just real life.
-        </p>
-      </div>
+    <h2>What you'll find here:</h2>
+    <ul style="line-height: 1.9; max-width: 700px;">
+      <li>
+        <strong>The actual inside measurements:</strong> I don't just copy-paste
+        the box dimensions from Amazon. I measure what actually fits inside them.
+      </li>
+      <li>
+        <strong>No sponsored garbage:</strong> If a container smells like cheap
+        plastic or cracks when you drop it, I'll tell you.
+      </li>
+      <li>
+        <strong>Real photos:</strong> Every picture on this site is taken on my
+        phone, right here in my apartment. No stock photos of perfect houses I
+        don't own.
+      </li>
+    </ul>
+    <p style="line-height: 1.8; max-width: 700px; margin-top: 2rem;">
+      I'm just a normal person trying to figure out where to put my shoes so I
+      don't trip over them every morning. Thanks for stopping by!
+    </p>
+    <p style="line-height: 1.8; max-width: 700px;">&mdash; Clara</p>
+  </section>
 
-      <div style="
-        background: var(--color-bg-light);
-        padding: 2rem;
-        border-radius: 1rem;
-        border: 1px solid var(--color-border);
-      ">
-        <div style="font-size: 2rem; margin-bottom: 0.5rem;">📏</div>
-        <h3 style="margin: 0.5rem 0;">Actual Measurements</h3>
-        <p style="font-size: 0.95rem; color: var(--color-text-light); margin: 0;">
-          I measure and test everything. You get real dimensions so you can replicate or adapt.
-        </p>
-      </div>
-
-      <div style="
-        background: var(--color-bg-light);
-        padding: 2rem;
-        border-radius: 1rem;
-        border: 1px solid var(--color-border);
-      ">
-        <div style="font-size: 2rem; margin-bottom: 0.5rem;">💰</div>
-        <h3 style="margin: 0.5rem 0;">Real Costs</h3>
-        <p style="font-size: 0.95rem; color: var(--color-text-light); margin: 0;">
-          I break down the expenses so you know exactly what you're investing in.
-        </p>
-      </div>
-
-      <div style="
-        background: var(--color-bg-light);
-        padding: 2rem;
-        border-radius: 1rem;
-        border: 1px solid var(--color-border);
-      ">
-        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎯</div>
-        <h3 style="margin: 0.5rem 0;">Honest Reviews</h3>
-        <p style="font-size: 0.95rem; color: var(--color-text-light); margin: 0;">
-          I tell you what works, what doesn't, and whether I'd do it again.
-        </p>
-      </div>
-
-      <div style="
-        background: var(--color-bg-light);
-        padding: 2rem;
-        border-radius: 1rem;
-        border: 1px solid var(--color-border);
-      ">
-        <div style="font-size: 2rem; margin-bottom: 0.5rem;">⏱️</div>
-        <h3 style="margin: 0.5rem 0;">Time Investment</h3>
-        <p style="font-size: 0.95rem; color: var(--color-text-light); margin: 0;">
-          I track how long projects actually take, not how long they should take.
-        </p>
-      </div>
-
-      <div style="
-        background: var(--color-bg-light);
-        padding: 2rem;
-        border-radius: 1rem;
-        border: 1px solid var(--color-border);
-      ">
-        <div style="font-size: 2rem; margin-bottom: 0.5rem;">📈</div>
-        <h3 style="margin: 0.5rem 0;">Long-Term Results</h3>
-        <p style="font-size: 0.95rem; color: var(--color-text-light); margin: 0;">
-          I follow up on systems months later to see if they actually stick.
-        </p>
-      </div>
+  <!-- Real photos -->
+  <section style="margin-bottom: 3rem;">
+    <h2>Real photos, not stock</h2>
+    <p style="line-height: 1.8; max-width: 700px; margin-bottom: 1.5rem;">
+      Every shot here is from my phone, in this apartment. No staged houses I don't live in.
+    </p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+      <img src="/images/clara-apartment-1.jpg" alt="Clara's apartment organization, shot on iPhone" loading="lazy" style="width: 100%; border-radius: 0.75rem; aspect-ratio: 4 / 5; object-fit: cover;" />
+      <img src="/images/clara-apartment-2.jpg" alt="Clara's apartment organization, shot on iPhone" loading="lazy" style="width: 100%; border-radius: 0.75rem; aspect-ratio: 4 / 5; object-fit: cover;" />
+      <img src="/images/clara-apartment-3.jpg" alt="Clara's apartment organization, shot on iPhone" loading="lazy" style="width: 100%; border-radius: 0.75rem; aspect-ratio: 4 / 5; object-fit: cover;" />
+      <img src="/images/clara-apartment-4.jpg" alt="Clara's apartment organization, shot on iPhone" loading="lazy" style="width: 100%; border-radius: 0.75rem; aspect-ratio: 4 / 5; object-fit: cover;" />
     </div>
   </section>
 
@@ -163,10 +105,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   ">
     <h2 style="margin-top: 0; color: var(--color-primary);">Get In Touch</h2>
     <p style="font-size: 1.05rem; margin-bottom: 1.5rem; max-width: 500px; margin-left: auto; margin-right: auto;">
-      I'd love to hear from you! Have questions, suggestions, or want to share your own organizing story?
+      Have a question about one of my setups, a suggestion, or your own
+      organizing story? I read every email myself.
     </p>
     <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-      <a href="mailto:1506741250@qq.com" style="
+      <a href="mailto:hello@organizingsmall.com" style="
         display: inline-block;
         background: var(--color-primary);
         color: white;
@@ -176,11 +119,29 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         transition: all 0.3s ease;
       " onmouseover="this.style.transform='scale(1.05)'; this.style.background='var(--color-primary-dark)';"
          onmouseout="this.style.transform='scale(1)'; this.style.background='var(--color-primary)';">
-        Send me an email
+        Email me
       </a>
     </div>
     <p style="margin-top: 1rem; color: var(--color-text-light); font-size: 0.95rem;">
-      📧 1506741250@qq.com
+      📧 hello@organizingsmall.com
     </p>
   </section>
+
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Clara',
+    url: 'https://organizingsmall.com/about/',
+    email: 'mailto:hello@organizingsmall.com',
+    homeLocation: {
+      '@type': 'Place',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Chicago',
+        addressRegion: 'IL',
+        addressCountry: 'US',
+      },
+    },
+    knowsAbout: ['home organization', 'small space storage', 'decluttering', 'bathroom organization'],
+  })} />
 </BaseLayout>

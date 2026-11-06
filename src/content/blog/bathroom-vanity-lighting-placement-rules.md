@@ -1,7 +1,7 @@
 ---
 title: "Bathroom Vanity Lighting Placement Rules, Worked Out From the Light That Reaches Your Face"
 description: "Avoid shadows on your face with correct bathroom vanity lighting placement rules. Guidelines for sconces and overhead fixtures."
-pubDate: "2026-11-05T00:00:00.000Z"
+pubDate: 2026-10-29
 category: "Bathroom"
 subcategory: "Vanity"
 tags:

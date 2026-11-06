@@ -4,12 +4,14 @@
 import BaseLayout from './BaseLayout.astro';
 import SchemaOrg from '../components/SchemaOrg.astro';
 import PostSidebar from '../components/PostSidebar.astro';
+import AuthorBio from '../components/AuthorBio.astro';
 import { Image } from 'astro:assets';
 
 interface Props {
   title: string;
   description?: string;
   author?: string;
+  body?: string;
   pubDate?: Date;
   updatedDate?: Date;
   category?: string;
@@ -21,7 +23,7 @@ interface Props {
   currentSlug?: string;
 }
 
-const { title, description, author, pubDate, updatedDate, category, subcategory, tags, image, relatedPosts, currentSlug, takeaways, faq, howTo, breadcrumbs } = Astro.props;
+const { title, description, author, body, pubDate, updatedDate, category, subcategory, tags, image, relatedPosts, currentSlug, takeaways, faq, howTo, breadcrumbs } = Astro.props;
 
 // Forward breadcrumb trail to BaseLayout's single breadcrumb renderer
 const breadcrumbItems = breadcrumbs?.map(b => ({ label: b.name, url: b.path }));
@@ -50,11 +52,12 @@ const formatDate = (date: Date) => {
   breadcrumbs={breadcrumbItems}
 >
   <!-- BlogPosting Schema -->
-  <SchemaOrg 
+  <SchemaOrg
     type="BlogPosting"
     title={title}
     description={description}
     image={image?.src}
+    body={body}
     datePublished={pubDate}
     dateModified={updatedDate}
     author={author}
@@ -73,7 +76,7 @@ const formatDate = (date: Date) => {
         <h1>{title}</h1>
         
         <div class="post-meta">
-          {author && <span class="author">{author}</span>}
+          {author && <a class="author" href="/about/" rel="author">{author}</a>}
           {pubDate && <time datetime={pubDate.toISOString()}>{formatDate(pubDate)}</time>}
           {category && <span class="category">{category}</span>}
           {subcategory && <span class="subcategory">{subcategory}</span>}
@@ -121,6 +124,8 @@ const formatDate = (date: Date) => {
           )}
         </footer>
       )}
+
+      <AuthorBio />
     </article>
 
     <!-- Sidebar -->
@@ -199,7 +204,8 @@ const formatDate = (date: Date) => {
     }
 
     .category:hover,
-    .subcategory:hover {
+    .subcategory:hover,
+    .author:hover {
       color: var(--color-text, #1f2937);
       border-bottom-color: var(--color-text, #1f2937);
     }
@@ -255,10 +261,6 @@ const formatDate = (date: Date) => {
     }
 
     /* Dark Mode */
-    :global(.dark) header h1 {
-      color: var(--color-text, #f3f4f6);
-    }
-
     :global(.dark) .post-content {
       color: var(--color-text, #e5e7eb);
     }
@@ -278,10 +280,6 @@ const formatDate = (date: Date) => {
       .post-container {
         grid-template-columns: 1fr;
         gap: 1.5rem;
-      }
-
-      header h1 {
-        font-size: 2rem;
       }
 
       .post-meta {

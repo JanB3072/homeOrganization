@@ -1,0 +1,14 @@
+---
+import { getSubcategoryPaginated } from '../../utils/content';
+import SubcategoryLayout from '../../layouts/SubcategoryLayout.astro';
+
+const data = await getSubcategoryPaginated('Guides', 'Systems', 1);
+---
+
+<SubcategoryLayout 
+  category="Guides"
+  subcategory="Systems"
+  posts={data.posts}
+  currentPage={1}
+  totalPages={data.totalPages}
+/>

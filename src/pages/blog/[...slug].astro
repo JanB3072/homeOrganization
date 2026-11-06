@@ -28,10 +28,12 @@ const breadcrumbs = [
 ];
 ---
 
-<PostLayout 
+<PostLayout
   title={post.data.title}
   description={post.data.description}
+  author="Clara"
   image={post.data.image}
+  body={post.body}
   pubDate={post.data.pubDate}
   updatedDate={post.data.updatedDate}
   category={post.data.category}
