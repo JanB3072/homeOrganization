@@ -1,7 +1,7 @@
 ---
 title: "Vanity Top Makeup Organizer Ideas, Starting From What Cosmetics Fear"
 description: "Keep your favorite skincare products close with these vanity top makeup organizer ideas. Beautiful countertop displays and trays."
-pubDate: 2026-10-10
+pubDate: "2026-10-10T17:34:49-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
 tags:

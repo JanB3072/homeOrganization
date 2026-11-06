@@ -1,7 +1,7 @@
 ---
 title: "Hidden Storage Solutions for Bathroom Vanities, Ranked by How Much Tool You Own"
 description: "Explore clever hidden storage solutions for bathroom vanities, including pull-out hair tool organizers and toe-kick drawers."
-pubDate: 2026-10-19
+pubDate: "2026-10-19T07:50:02-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "Best Storage Ottomans for Small Living Spaces: Seating That Hides Your Stuff"
 description: "Hide blankets and board games inside your seating. We review the best storage ottomans for small living spaces and micro-apartments."
-pubDate: 2026-10-24
+pubDate: "2026-10-24T13:41:42-05:00"
 category: "Small Space"
 subcategory: "Storage"
 tags:

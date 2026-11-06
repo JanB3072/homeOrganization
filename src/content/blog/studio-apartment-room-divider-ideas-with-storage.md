@@ -1,7 +1,7 @@
 ---
 title: "Studio Apartment Room Divider Ideas With Storage: 8 Ways to Split Your Space"
 description: "Separate your sleeping and living zones beautifully. Explore studio apartment room divider ideas that double as functional storage book shelves."
-pubDate: 2024-05-02
+pubDate: "2024-05-02T09:07:20-05:00"
 category: "Small Space"
 subcategory: "Apartment"
 tags: ["small-space", "apartment-living", "room-divider", "storage-solutions", "studio-apartment"]

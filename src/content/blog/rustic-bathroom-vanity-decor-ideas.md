@@ -1,7 +1,7 @@
 ---
 title: "Rustic Bathroom Vanity Decor Ideas, Spent Where They Survive the Steam"
 description: "Bring warmth into your bathroom with these rustic bathroom vanity decor ideas. Tips for wooden accents, mason jars, and matte black fixtures."
-pubDate: 2026-10-12
+pubDate: "2026-10-12T07:14:15-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
 tags:

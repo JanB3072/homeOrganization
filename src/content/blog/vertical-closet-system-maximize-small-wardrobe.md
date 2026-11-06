@@ -1,8 +1,8 @@
 ---
 title: "Vertical Wardrobe System �?How I Fit 200+ Items in a 4ft Closet Without Cramming"
 description: "Small closet organization system: vertical storage, folding methods, rotation, and real metrics. Organize 200+ items, reduce dressing time to 90 seconds."
-pubDate: 2024-03-20
-updatedDate: 2024-03-25
+pubDate: "2024-03-20T10:40:50-05:00"
+updatedDate: "2024-03-25T14:28:27-05:00"
 category: "Closet"
 subcategory: "Clothing"
 tags: ["storage-solutions", "wardrobe-organization", "apartment-living", "small-space"]

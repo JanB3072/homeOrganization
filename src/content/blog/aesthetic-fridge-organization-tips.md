@@ -1,7 +1,7 @@
 ---
 title: "Aesthetic Fridge Organization Tips: The Clear Bin System Behind the Viral Look"
 description: "Turn your refrigerator into a viral video. Explore aesthetic fridge organization tips using matching clear bins, glass pitchers, and labels."
-pubDate: 2024-07-08
+pubDate: "2024-07-08T07:26:21-05:00"
 category: "Kitchen"
 subcategory: "Fridge"
 tags: ["kitchen-organization", "fridge-organization", "aesthetic-organization", "clear-bins", "food-storage"]

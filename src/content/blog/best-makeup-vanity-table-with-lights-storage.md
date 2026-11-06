@@ -1,7 +1,7 @@
 ---
 title: "Best Makeup Vanity Table With Lights and Storage: The Specs That Matter"
 description: "Get flawless morning application with the best makeup vanity table equipped with dimmable LED lights and built-in acrylic storage drawers."
-pubDate: 2026-10-26
+pubDate: "2026-10-26T15:08:07-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
 tags: ["bathroom-organization", "vanity-organization", "makeup-vanity", "vanity-lighting", "storage-furniture"]

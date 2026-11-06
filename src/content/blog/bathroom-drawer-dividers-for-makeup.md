@@ -1,7 +1,7 @@
 ---
 title: "Bathroom Drawer Dividers for Makeup: What Two Weeks of Timing Changed"
 description: "Find the best bathroom drawer dividers for makeup and morning essentials. Stop rummaging and streamline your daily morning routine."
-pubDate: 2026-11-02
+pubDate: "2026-11-02T07:40:53-06:00"
 category: "Bathroom"
 subcategory: "Storage"
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "How to Declutter Before Moving: The 6-Week Countdown Checklist"
 description: "Don't pay to pack and ship trash. Use our step-by-step 'how to declutter before moving' checklist to downsize before the movers arrive."
-pubDate: 2024-07-29
+pubDate: "2024-07-29T08:41:55-05:00"
 category: "Declutter"
 subcategory: "Moving"
 tags: ["declutter", "moving", "moving-checklist", "downsizing"]

@@ -1,7 +1,7 @@
 ---
 title: "Vertical Wall Desks for Space-Saving Home Offices: Floating Workstations That Fold Away"
 description: "Working from home in a tiny space? Discover vertical wall desks and floating work stations perfect for space-saving home offices."
-pubDate: 2026-10-09
+pubDate: "2026-10-09T08:08:23-05:00"
 category: "Small Space"
 subcategory: "Apartment"
 tags:

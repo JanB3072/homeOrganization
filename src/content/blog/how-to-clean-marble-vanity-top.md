@@ -1,7 +1,7 @@
 ---
 title: "How to Clean a Marble Vanity Top: Sort the Damage First, Then Choose the Chemistry"
 description: "A complete guide on how to clean marble vanity tops without causing damage. Learn safe cleaning agents and stain removal tricks."
-pubDate: 2026-10-18
+pubDate: "2026-10-18T10:55:39-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
 tags:

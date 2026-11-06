@@ -1,7 +1,7 @@
 ---
 title: "DIY Bathroom Wall Organizer From Reclaimed Wood: A 5-Step Build"
 description: "Create a beautiful rustic aesthetic with our step-by-step guide to building a DIY bathroom wall organizer from natural reclaimed wood."
-pubDate: 2024-06-03
+pubDate: "2024-06-03T10:47:29-05:00"
 category: "Bathroom"
 subcategory: "Storage"
 tags: ["bathroom-organization", "diy-projects", "wall-storage", "rustic-decor"]

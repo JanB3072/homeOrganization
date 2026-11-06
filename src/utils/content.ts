@@ -207,13 +207,22 @@ export async function searchPostsPaginated(
   };
 }
 
-// 按年月获取存档数据
+// 按年月获取存档数据。发布时间带芝加哥时区偏移，分组也按芝加哥月份，
+// 避免月初/月末的 UTC 换算把文章归到相邻月份。
 export async function getArchivePosts() {
   const posts = await getAllPosts();
   const archiveMap = new Map<string, BlogPost[]>();
-  
+  const chicagoMonth = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/Chicago',
+    year: 'numeric',
+    month: '2-digit',
+  });
+
   posts.forEach(post => {
-    const yearMonth = post.data.pubDate.toISOString().slice(0, 7);
+    const parts = chicagoMonth.formatToParts(post.data.pubDate);
+    const year = parts.find(p => p.type === 'year')!.value;
+    const month = parts.find(p => p.type === 'month')!.value;
+    const yearMonth = `${year}-${month}`;
     if (!archiveMap.has(yearMonth)) {
       archiveMap.set(yearMonth, []);
     }
@@ -225,7 +234,7 @@ export async function getArchivePosts() {
     .map(([yearMonth, posts]) => ({
       yearMonth,
       year: yearMonth.slice(0, 4),
-      month: new Date(yearMonth + '-01').toLocaleString('en-US', { month: 'long' }),
+      month: new Date(yearMonth + '-01T12:00:00Z').toLocaleString('en-US', { month: 'long', timeZone: 'UTC' }),
       posts,
       count: posts.length,
     }));

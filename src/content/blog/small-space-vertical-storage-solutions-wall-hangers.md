@@ -1,7 +1,7 @@
 ---
 title: "Small Space Vertical Storage Solutions: Wall Hangers and Pegboards That Work"
 description: "When floor area is limited, look up! Discover high-efficiency small space vertical storage solutions, wall hangers, and pegboards."
-pubDate: 2024-05-20
+pubDate: "2024-05-20T07:52:42-05:00"
 category: "Small Space"
 subcategory: "Storage"
 tags: ["small-space", "vertical-storage", "wall-storage", "pegboard", "storage-solutions"]

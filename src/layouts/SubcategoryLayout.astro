@@ -61,7 +61,7 @@ const subcategorySlug = subcategory.toLowerCase().replace(/\s+/g, '-');
               {post.data.description}
             </p>
             <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: 0.9rem; color: var(--color-text-light);">
-              <span>📅 {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+              <span>📅 {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'America/Chicago' })}</span>
               {post.data.tags.slice(0, 2).map(tag => (
                 <a href={`/tags/${tag}/`} style="color: var(--color-primary); text-decoration: none;">
                   #{tag}

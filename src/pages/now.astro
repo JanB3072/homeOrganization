@@ -3,12 +3,13 @@
 
 import BaseLayout from '../layouts/BaseLayout.astro';
 
-const lastUpdated = new Date('2024-01-25');
+const lastUpdated = new Date('2024-01-25T12:00:00-06:00');
 const formatDate = (date: Date) => {
   return new Intl.DateTimeFormat('en-US', {
     year: 'numeric',
     month: 'long',
-    day: 'numeric'
+    day: 'numeric',
+    timeZone: 'America/Chicago'
   }).format(date);
 };
 ---

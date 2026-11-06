@@ -1,7 +1,7 @@
 ---
 title: "How to Store Winter Clothes in Summer (Without Mold, Moths, or Creases)"
 description: "Protect your winter gear off-season. Learn how to store winter clothes in summer to avoid mold, dust, and fabric breakdown."
-pubDate: 2024-09-02
+pubDate: "2024-09-02T09:44:40-05:00"
 category: "Closet"
 subcategory: "Seasonal"
 tags: ["closet-organization", "seasonal-storage", "wardrobe-care", "wool-care"]

@@ -1,7 +1,7 @@
 ---
 title: "Hanging Shower Caddy Storage Hacks: Fewer Bottles, Drier Shelves"
 description: "Tired of a cluttered shower? Check out these hanging shower caddy storage hacks to keep shampoo bottles and soaps neatly organized."
-pubDate: 2026-10-20
+pubDate: "2026-10-20T15:05:14-05:00"
 category: "Bathroom"
 subcategory: "Storage"
 tags:

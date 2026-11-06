@@ -1,7 +1,7 @@
 ---
 title: "Clear Acrylic Bathroom Bins With Dividers: What to Measure Before You Buy"
 description: "Keep your cosmetics neat with clear acrylic bathroom bins with dividers. Read our guide to choosing the best leak-proof storage containers."
-pubDate: 2026-10-23
+pubDate: "2026-10-23T11:00:32-05:00"
 category: "Bathroom"
 subcategory: "Storage"
 tags:

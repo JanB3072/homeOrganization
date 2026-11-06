@@ -28,12 +28,17 @@ const { title, description, author, body, pubDate, updatedDate, category, subcat
 // Forward breadcrumb trail to BaseLayout's single breadcrumb renderer
 const breadcrumbItems = breadcrumbs?.map(b => ({ label: b.name, url: b.path }));
 
-// Format date for display
+// Format publication time for display. Frontmatter timestamps carry a Chicago
+// UTC offset, so render in that same zone instead of the build machine's zone.
 const formatDate = (date: Date) => {
   return new Intl.DateTimeFormat('en-US', {
     year: 'numeric',
     month: 'long',
-    day: 'numeric'
+    day: 'numeric',
+    hour: 'numeric',
+    minute: '2-digit',
+    timeZone: 'America/Chicago',
+    timeZoneName: 'short'
   }).format(date);
 };
 ---

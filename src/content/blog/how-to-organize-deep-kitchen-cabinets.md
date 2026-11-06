@@ -1,7 +1,7 @@
 ---
 title: "How to Organize Deep Kitchen Cabinets: Stop Losing Items in the Back"
 description: "Stop losing items in the back of your shelves. Learn how to organize deep kitchen cabinets using pull-out baskets and lazy Susans."
-pubDate: 2024-04-15
+pubDate: "2024-04-15T09:26:26-05:00"
 category: "Kitchen"
 subcategory: "Cabinets"
 tags: ["kitchen-organization", "cabinet-organization", "storage-solutions", "pull-out-baskets", "lazy-susan"]

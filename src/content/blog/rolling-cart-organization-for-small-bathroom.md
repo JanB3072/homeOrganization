@@ -1,7 +1,7 @@
 ---
 title: "Rolling Cart Organization for a Small Bathroom: Measure the Floor First"
 description: "A rolling cart organization guide for small bathrooms. Learn how to utilize a 3-tier utility cart for extra towels and toilet paper."
-pubDate: 2026-10-13
+pubDate: "2026-10-13T11:15:12-05:00"
 category: "Bathroom"
 subcategory: "Storage"
 tags:

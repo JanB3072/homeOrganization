@@ -1,8 +1,8 @@
 ---
 title: "Under-Sink Storage That Won't Break Your Plumbing �?Layout & Materials I Tested"
 description: "Under-sink cabinet organization guide with measurements, materials tested, and cost breakdown. Covers P-trap safety, ventilation, and 6-month performance data."
-pubDate: 2024-03-10
-updatedDate: 2024-03-25
+pubDate: "2024-03-10T07:59:02-05:00"
+updatedDate: "2024-03-25T14:39:27-05:00"
 category: "Bathroom"
 subcategory: "Storage"
 tags: ["storage-solutions", "bathroom-organization", "apartment-living", "diy-solutions"]

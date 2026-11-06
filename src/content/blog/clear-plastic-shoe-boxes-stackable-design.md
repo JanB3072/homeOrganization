@@ -1,7 +1,7 @@
 ---
 title: "Clear Plastic Shoe Boxes With Stackable Design: What's Worth Buying"
 description: "Showcase and protect your sneaker collection with clear plastic shoe boxes with a stackable design. Drop-front door options reviewed."
-pubDate: 2024-08-12
+pubDate: "2024-08-12T11:31:03-05:00"
 category: "Closet"
 subcategory: "Shoes"
 tags: ["closet-organization", "shoe-storage", "sneaker-storage", "clear-bins"]

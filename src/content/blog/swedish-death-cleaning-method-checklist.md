@@ -1,7 +1,7 @@
 ---
 title: "The Swedish Death Cleaning Method: A Checklist for Any Age"
 description: "Streamline your life with the Swedish death cleaning method checklist. Learn how to downsize possessions thoughtfully at any age."
-pubDate: 2024-10-14
+pubDate: "2024-10-14T10:47:51-05:00"
 category: "Declutter"
 subcategory: "Methods"
 tags: ["declutter", "decluttering-methods", "minimalism", "life-organization"]

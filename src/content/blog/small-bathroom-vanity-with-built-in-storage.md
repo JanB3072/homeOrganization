@@ -1,7 +1,7 @@
 ---
 title: "Small Bathroom Vanity With Built-In Storage: Three Vanities Taught Me What Listings Hide"
 description: "In search of a small bathroom vanity with built-in storage? Discover the top space-saving vanities for powder rooms and apartments."
-pubDate: 2026-10-11
+pubDate: "2026-10-11T09:07:45-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
 tags:

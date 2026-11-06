@@ -1,7 +1,7 @@
 ---
 title: "Magnetic Organizer for Bathroom Cabinets: A Five-Minute Fix for Tiny Metal Tools"
 description: "Maximize your storage with a magnetic organizer for bathroom cabinets. Perfect for bobby pins, tweezers, and small grooming tools."
-pubDate: 2026-10-15
+pubDate: "2026-10-15T09:22:16-05:00"
 category: "Bathroom"
 subcategory: "Storage"
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "Best Airtight Food Storage Containers for Flour and Sugar: A Six-Month Shelf Test"
 description: "Keep pantry pests and moisture out. Check out our reviews of the best airtight food storage containers for baking flour and sugar."
-pubDate: 2026-10-27
+pubDate: "2026-10-27T09:23:18-05:00"
 category: "Kitchen"
 subcategory: "Pantry"
 tags: ["kitchen-organization", "pantry-organization", "food-storage-containers", "airtight-containers", "baking-supplies"]

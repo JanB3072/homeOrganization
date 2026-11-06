@@ -1,7 +1,7 @@
 ---
 title: "Under Stairs Custom Storage: Drawers and Pull-Out Cabinets That Use Every Inch"
 description: "Convert dead space into architectural utility. Ideas for under-stairs custom storage drawers and pull-out cabinets for shoes or coats."
-pubDate: 2026-10-10
+pubDate: "2026-10-10T08:54:39-05:00"
 category: "Small Space"
 subcategory: "Storage"
 tags:

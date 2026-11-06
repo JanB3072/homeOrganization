@@ -1,7 +1,7 @@
 ---
 title: "Modern Minimalist Bathroom Vanity Setup: My Before & After"
 description: "Achieve a clean look with a modern minimalist bathroom vanity setup. Learn how to hide everyday clutter and maintain clean lines."
-pubDate: 2026-10-14
+pubDate: "2026-10-14T09:22:34-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
 tags: ["bathroom-organization", "storage-solutions", "minimalist-bathroom", "vanity-organization", "small-bathroom"]

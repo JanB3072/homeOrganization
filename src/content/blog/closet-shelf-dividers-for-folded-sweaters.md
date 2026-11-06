@@ -1,7 +1,7 @@
 ---
 title: "Closet Shelf Dividers for Folded Sweaters: How I Stopped My Stacks From Toppling"
 description: "Stop your sweater stacks from toppling over. Discover how closet shelf dividers for folded sweaters keep heavy knits perfectly upright."
-pubDate: 2024-04-02
+pubDate: "2024-04-02T08:25:06-05:00"
 category: "Closet"
 subcategory: "Clothing"
 tags: ["closet-organization", "wardrobe-organization", "storage-solutions", "sweater-storage"]

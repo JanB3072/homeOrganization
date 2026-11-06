@@ -1,7 +1,7 @@
 ---
 title: "Kitchen Baking Sheet Organizer Rack: The Vertical Cabinet Decision Tree"
 description: "Stop stacking heavy pans. Find the best vertical kitchen baking sheet organizer rack for cookie sheets, cutting boards, and muffin tins."
-pubDate: 2026-10-16
+pubDate: "2026-10-16T13:34:29-05:00"
 category: "Kitchen"
 subcategory: "Cabinets"
 tags: ["kitchen-organization", "cabinet-organization", "baking-sheet-organizer", "vertical-storage", "cutting-board-storage"]

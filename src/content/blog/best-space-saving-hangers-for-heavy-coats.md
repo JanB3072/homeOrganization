@@ -1,7 +1,7 @@
 ---
 title: "Best Space Saving Hangers for Heavy Coats: The Load Ratings That Decide It"
 description: "Maximize hanging space using the best space-saving hangers for heavy coats. Heavy-duty velvet and non-slip metal hanger reviews."
-pubDate: 2026-10-24
+pubDate: "2026-10-24T07:30:30-05:00"
 category: "Closet"
 subcategory: "Clothing"
 tags: ["closet-organization", "coat-storage", "space-saving-hangers", "velvet-hangers", "heavy-coats"]

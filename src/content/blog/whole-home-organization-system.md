@@ -1,7 +1,7 @@
 ---
 title: "The Whole-Home Organization System: A Room-by-Room Field Guide"
 description: "Build a whole home organization system from measurements, not purchases. Diagnose why each room fails, follow the decision trees, and run a 12-week plan that actually holds."
-pubDate: 2026-10-08
+pubDate: "2026-10-08T10:39:38-05:00"
 category: "Guides"
 subcategory: "Systems"
 tags: ["home-organization", "organization-system", "storage-solutions", "declutter", "small-space", "room-by-room"]

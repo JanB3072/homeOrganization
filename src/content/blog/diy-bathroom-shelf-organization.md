@@ -1,7 +1,7 @@
 ---
 title: "DIY Bathroom Shelf Organization: A Weekend Reset That Actually Stays Tidy"
 description: "Transform your space with these easy DIY bathroom shelf organization tips. Learn how to declutter and arrange toiletries like a pro."
-pubDate: 2026-10-22
+pubDate: "2026-10-22T09:26:48-05:00"
 category: "Bathroom"
 subcategory: "Storage"
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "Double Vanity Mirror Placement Guide: Height, Spacing and Light, Derived"
 description: "Read our comprehensive double vanity mirror placement guide to ensure perfect alignment, height, and lighting for your master bathroom."
-pubDate: 2026-10-21
+pubDate: "2026-10-21T09:39:22-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
 tags:

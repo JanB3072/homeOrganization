@@ -1,7 +1,7 @@
 ---
 title: "Walk-In Pantry Layout Ideas and Spacing Blueprint: Shelving That Fits Food"
 description: "Designing a dream kitchen storage space? Explore walk-in pantry layout ideas and optimal shelving spacing blueprints for food storage."
-pubDate: 2024-06-24
+pubDate: "2024-06-24T10:21:35-05:00"
 category: "Kitchen"
 subcategory: "Pantry"
 tags: ["kitchen-organization", "pantry-organization", "pantry-design", "food-storage"]
