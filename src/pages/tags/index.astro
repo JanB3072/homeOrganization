@@ -1,11 +1,15 @@
 ---
 import { getAllTags } from '../../utils/content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Pagination from '../../components/Pagination.astro';
 
 const tags = await getAllTags();
+const perPage = 24;
+const totalPages = Math.ceil(tags.length / perPage);
+const pageTags = tags.slice(0, perPage);
 ---
 
-<BaseLayout 
+<BaseLayout
   title="All Tags - Organizing Small"
   description="Browse all articles organized by topics and tags"
 >
@@ -13,6 +17,7 @@ const tags = await getAllTags();
     <h1 style="margin-bottom: 1rem;">🏷️ All Tags</h1>
     <p style="color: var(--color-text-light); font-size: 1.05rem; margin-bottom: 2rem;">
       Browse {tags.length} tags and explore articles by topic. Click on any tag to see all related articles.
+      {totalPages > 1 && ` Page 1 of ${totalPages}.`}
     </p>
   </section>
 
@@ -22,8 +27,8 @@ const tags = await getAllTags();
       grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
       gap: 1rem;
     ">
-      {tags.map(([tag, count]) => (
-        <a 
+      {pageTags.map(([tag, count]) => (
+        <a
           href={`/tags/${tag}/`}
           style="
             padding: 1.25rem;
@@ -47,5 +52,9 @@ const tags = await getAllTags();
         </a>
       ))}
     </div>
+
+    {totalPages > 1 && (
+      <Pagination currentPage={1} totalPages={totalPages} baseUrl="/tags/" />
+    )}
   </section>
 </BaseLayout>

@@ -28,4 +28,7 @@ Thumbs.db
 .test-cache/
 coverage/
 
+# 原图备份（大文件，仅本地保留，不提交）
+_originals_backup/
+
 .xlsx

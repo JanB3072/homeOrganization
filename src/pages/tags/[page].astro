@@ -1,0 +1,81 @@
+---
+import { getAllTags } from '../../utils/content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Pagination from '../../components/Pagination.astro';
+
+export async function getStaticPaths() {
+  const tags = await getAllTags();
+  const totalPages = Math.ceil(tags.length / 24);
+  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, i) => ({
+    params: { page: String(i + 2) },
+  }));
+}
+
+interface Props {
+  page: string;
+}
+
+const page = parseInt(Astro.params.page, 10);
+const perPage = 24;
+const tags = await getAllTags();
+const totalPages = Math.ceil(tags.length / perPage);
+
+if (page < 2 || page > totalPages) {
+  return Astro.redirect('/tags/');
+}
+
+const pageTags = tags.slice((page - 1) * perPage, page * perPage);
+const canonicalUrl = `${Astro.url.origin}/tags/${page}/`;
+---
+
+<BaseLayout
+  title={`All Tags - Page ${page} | Organizing Small`}
+  description={`Browse all articles organized by topics and tags. Page ${page} of ${totalPages}.`}
+>
+  <section style="margin-bottom: 3rem;">
+    <h1 style="margin-bottom: 1rem;">🏷️ All Tags</h1>
+    <p style="color: var(--color-text-light); font-size: 1.05rem; margin-bottom: 2rem;">
+      Browse {tags.length} tags and explore articles by topic. Page {page} of {totalPages}.
+    </p>
+  </section>
+
+  <section>
+    <div style="
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      gap: 1rem;
+    ">
+      {pageTags.map(([tag, count]) => (
+        <a
+          href={`/tags/${tag}/`}
+          style="
+            padding: 1.25rem;
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            border: 1px solid var(--color-border);
+            border-radius: 0.75rem;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+          "
+          onmouseenter="this.style.borderColor='var(--color-primary)'; this.style.backgroundColor='#f0f4ff'; this.style.transform='translateY(-4px)'; this.style.boxShadow='0 10px 15px -3px rgba(0, 0, 0, 0.1)';"
+          onmouseleave="this.style.borderColor='var(--color-border)'; this.style.backgroundColor=''; this.style.transform='translateY(0)'; this.style.boxShadow='0 1px 2px 0 rgba(0, 0, 0, 0.05)';"
+        >
+          <div style="font-weight: 600; color: var(--color-primary); font-size: 1.05rem; margin-bottom: 0.5rem;">
+            {tag}
+          </div>
+          <div style="font-size: 0.85rem; color: var(--color-text-light);">
+            {count} article{count !== 1 ? 's' : ''}
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <Pagination currentPage={page} totalPages={totalPages} baseUrl="/tags/" />
+  </section>
+
+  <link rel="canonical" href={canonicalUrl} />
+  {page > 2 && <link rel="prev" href={`/tags/${page - 1}/`} />}
+  {page === 2 && <link rel="prev" href="/tags/" />}
+  {page < totalPages && <link rel="next" href={`/tags/${page + 1}/`} />}
+</BaseLayout>

@@ -16,6 +16,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     margin-bottom: 3rem;
     border-left: 4px solid var(--color-primary);
   ">
+    <img
+      src="/images/clara-avatar.jpg"
+      alt="Clara, author of Organizing Small"
+      width="96"
+      height="96"
+      style="width: 96px; height: 96px; border-radius: 50%; object-fit: cover; margin-bottom: 1.5rem; border: 3px solid white; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);"
+    />
     <h1 style="margin-top: 0;">Hey there, I'm Clara.</h1>
     <p style="font-size: 1.1rem; line-height: 1.8; color: var(--color-text-light); max-width: 640px;">
       Let's be honest: most home organization blogs look like a millionaire's
@@ -132,6 +139,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     '@type': 'Person',
     name: 'Clara',
     url: 'https://organizingsmall.com/about/',
+    image: 'https://organizingsmall.com/images/clara-avatar.jpg',
     email: 'mailto:hello@organizingsmall.com',
     homeLocation: {
       '@type': 'Place',
