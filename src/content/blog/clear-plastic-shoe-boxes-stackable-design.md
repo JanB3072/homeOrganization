@@ -103,4 +103,4 @@ The honest wear math: a drop-front box works out to about $0.70 a month over a r
 
 ## The short version
 
-Clear plastic shoe boxes with a stackable design are worth the hype at exactly one price point: the $6�?2 drop-front tier with molded interlock channels, side hinges, and vents. The $3�? tier is honest closet storage; the magnetic tier is a grail-shelf luxury. Measure your biggest pair first, keep the towers at five and out of the sun, and the wall looks like the photos every day, including the days you actually dig through it.
+Clear plastic shoe boxes with a stackable design are worth the hype at exactly one price point: the $6�?2 drop-front tier with molded interlock channels, side hinges, and vents. The $3�? tier is honest closet storage; the magnetic tier is a grail-shelf luxury. Measure your biggest pair first, keep the towers at five and out of the sun, and the wall looks like the photos every day, including the days you actually dig through it. The same UV problem turns up in [clear acrylic bathroom bins](/blog/clear-acrylic-bathroom-bins-with-dividers/), where polystyrene and cast PMMA age very differently on a windowsill.

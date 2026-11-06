@@ -197,4 +197,4 @@ Sixty seconds, no removal of everything, no photo shoot. The point of the reset 
 
 Both assume an existing vanity in working condition. Neither requires a single new product to be bought for the drawer's contents; the money goes to structure, and the structure is what you touch every morning for years.
 
-The order of operations is the whole article in one line: measure the box, map the sequence, match tools to height, run a real week, then keep it honest with a monthly minute.
+The order of operations is the whole article in one line: measure the box, map the sequence, match tools to height, run a real week, then keep it honest with a monthly minute. For the steel bits that never suit a grid, a [magnetic strip on the cabinet door](/blog/magnetic-organizer-for-bathroom-cabinet/) is the cheaper answer. If the drawer in question is mostly cosmetics, the [makeup divider audit](/blog/bathroom-drawer-dividers-for-makeup/) picks up where the sequence rule leaves off: why a full drawer is slow to search, and what foundation residue does to the dividers themselves.
