@@ -1,12 +1,12 @@
-import { readFileSync, writeFileSync, existsSync, appendFileSync } from 'node:fs';
+import { appendFileSync, readFileSync, statSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
-import { dirname, resolve, join } from 'node:path';
+import { dirname, resolve, relative, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
-const QUEUE = join(ROOT, 'scripts', 'push-queue.json');
 const LOG = join(ROOT, 'scripts', 'scheduled-push.log');
-const TASK_NAME = 'HomeOrg-30min-Push';
+const REMOTE = 'origin';
+const BRANCH = 'main';
 
 function log(message) {
   const line = `[${new Date().toISOString()}] ${message}`;
@@ -25,98 +25,104 @@ function git(args) {
   }).trim();
 }
 
-function save(queue) {
-  writeFileSync(QUEUE, JSON.stringify(queue, null, 2) + '\n', 'utf8');
+function gitList(args) {
+  const out = git(args);
+  return out ? out.split('\n').map((s) => s.trim()).filter(Boolean) : [];
 }
 
-function disableTask() {
+function pushWithRetry() {
   try {
-    execFileSync('schtasks', ['/change', '/tn', TASK_NAME, '/disable'], { stdio: 'ignore' });
-    log('队列已清空，计划任务已自动停用');
-  } catch {
-    log(`计划任务停用失败，请手动执行: schtasks /change /tn ${TASK_NAME} /disable`);
-  }
-}
-
-function pushWithRetry(queue) {
-  const remote = queue.remote || 'origin';
-  const branch = queue.branch || 'main';
-  try {
-    git(['push', remote, branch]);
+    git(['push', REMOTE, BRANCH]);
   } catch (error) {
-    log(`push 失败，rebase 后重试一次: ${String(error.stderr || error.message).trim().slice(0, 200)}`);
-    git(['pull', '--rebase', remote, branch]);
-    git(['push', remote, branch]);
+    log(`push 失败，rebase 后重试: ${String(error.stderr || error.message).trim().slice(0, 200)}`);
+    git(['pull', '--rebase', REMOTE, BRANCH]);
+    git(['push', REMOTE, BRANCH]);
   }
 }
 
-function fail(queue, entry, index, total, message) {
-  entry.attempts = (entry.attempts || 0) + 1;
-  entry.error = String(message).slice(0, 500);
-  save(queue);
-  log(`第 ${index + 1}/${total} 篇失败（第 ${entry.attempts} 次）: ${entry.error}`);
-  process.exitCode = 1;
+function extractImages(text) {
+  const out = [];
+  let m;
+  const md = /!\[[^\]]*\]\(([^)\s]+)\)/g;
+  while ((m = md.exec(text))) out.push(m[1]);
+  const html = /<img[^>]+src=["']([^"']+)["']/gi;
+  while ((m = html.exec(text))) out.push(m[1]);
+  const fm = /^\s*(?:image|cover|thumbnail|ogImage|hero)\s*:\s*['"]?([^'"\n#]+)/gim;
+  while ((m = fm.exec(text))) out.push(m[1].trim());
+  return out;
 }
 
 function main() {
-  if (!existsSync(QUEUE)) {
-    log('队列文件不存在，跳过');
+  const preStaged = gitList(['diff', '--cached', '--name-only']);
+  if (preStaged.length) {
+    log(`暂存区已有其他改动，中止以避免误提交: ${preStaged.join(', ')}`);
+    process.exitCode = 1;
     return;
   }
 
-  const queue = JSON.parse(readFileSync(QUEUE, 'utf8'));
-  const total = queue.entries.length;
-  const index = queue.entries.findIndex((entry) => entry.status === 'pending');
+  const unpushed = Number(git(['rev-list', '--count', `${REMOTE}/${BRANCH}..HEAD`]));
+  if (unpushed > 0) {
+    log(`检测到 ${unpushed} 个未推送提交，先推送`);
+    pushWithRetry();
+    log('未推送提交已推送');
+  }
 
-  if (index === -1) {
-    log(total ? `全部 ${total} 篇已推送完毕` : '队列为空，本次不执行任何 git 操作');
-    if (total) disableTask();
+  const newMd = gitList(['ls-files', '--others', '--exclude-standard', 'src/content/blog/**/*.md']);
+  const modMd = gitList(['diff', '--name-only', '--', 'src/content/blog/**/*.md']);
+  const newImgs = gitList([
+    'ls-files', '--others', '--exclude-standard',
+    'src/content/blog/**/*.{png,jpg,jpeg,webp,gif,svg}',
+    'public/**/*.{png,jpg,jpeg,webp,gif,svg}',
+  ]);
+  const newImgsAbs = new Set(newImgs.map((f) => resolve(ROOT, f)));
+
+  const allMd = [...new Set([...modMd, ...newMd])];
+  if (allMd.length === 0) {
+    log('没有待推送文章，跳过');
     return;
   }
 
-  const entry = queue.entries[index];
-  log(`开始第 ${index + 1}/${total} 篇: ${entry.slug}`);
+  allMd.sort((a, b) => statSync(resolve(ROOT, a)).mtimeMs - statSync(resolve(ROOT, b)).mtimeMs);
+  const target = allMd[0];
+  const isNew = newMd.includes(target);
+  const slug = target.split('/').pop().replace(/\.md$/, '');
+  const mdAbs = resolve(ROOT, target);
+  const mdDir = dirname(mdAbs);
+  const content = readFileSync(mdAbs, 'utf8');
 
-  const missing = entry.files.filter((file) => !existsSync(resolve(ROOT, file)));
-  if (missing.length) {
-    fail(queue, entry, index, total, `文件缺失: ${missing.join(', ')}`);
-    return;
-  }
-
-  const preStaged = git(['diff', '--cached', '--name-only']);
-  if (preStaged) {
-    fail(queue, entry, index, total, '暂存区已有其他改动，为避免误提交而中止');
-    return;
-  }
-
-  try {
-    git(['add', '--', ...entry.files]);
-    const staged = git(['diff', '--cached', '--name-only']);
-    if (staged) {
-      git(['commit', '-m', entry.message || `新增文章: ${entry.slug}`]);
+  const pics = [];
+  for (const raw of extractImages(content)) {
+    const clean = raw.trim();
+    if (/^(https?:)?\/\//i.test(clean)) continue;
+    if (!/\.(png|jpe?g|webp|gif|svg)$/i.test(clean)) continue;
+    const base = clean.replace(/^\//, '');
+    const candidates = [
+      resolve(mdDir, clean),
+      resolve(ROOT, 'public', base),
+      resolve(ROOT, 'src/content/blog', base),
+      resolve(ROOT, base),
+    ];
+    for (const candidate of candidates) {
+      if (newImgsAbs.has(candidate)) {
+        pics.push(candidate);
+        break;
+      }
     }
+  }
+  const picsRel = [...new Set(pics)].map((p) => relative(ROOT, p));
 
-    const unpushed = Number(
-      git(['rev-list', '--count', `${queue.remote || 'origin'}/${queue.branch || 'main'}..HEAD`]),
-    );
-
-    if (staged || unpushed > 0) {
-      pushWithRetry(queue);
-    } else {
-      log('目标文件无变更，直接标记为已完成');
-    }
-
-    entry.status = 'done';
-    entry.pushedAt = new Date().toISOString();
-    entry.error = null;
-    save(queue);
-    log(`第 ${index + 1}/${total} 篇推送完成`);
-  } catch (error) {
-    fail(queue, entry, index, total, error.stderr || error.message || error);
+  const addList = [target, ...picsRel];
+  git(['add', '--', ...addList]);
+  const staged = gitList(['diff', '--cached', '--name-only']);
+  if (!staged.length) {
+    log(`文章 ${slug} 无实际变更，跳过`);
     return;
   }
 
-  if (queue.entries.every((item) => item.status === 'done')) disableTask();
+  const msg = `${isNew ? '新增文章' : '更新文章'}: ${slug}`;
+  git(['commit', '-m', msg]);
+  pushWithRetry();
+  log(`已提交并推送 1 篇（${slug}），附带 ${picsRel.length} 个图片，本次 staged=${staged.length}`);
 }
 
 main();
