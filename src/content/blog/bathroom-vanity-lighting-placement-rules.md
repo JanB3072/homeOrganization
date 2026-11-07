@@ -1,24 +1,14 @@
 ---
 title: "Bathroom Vanity Lighting Placement Rules, Worked Out From the Light That Reaches Your Face"
-description: "Avoid shadows on your face with correct bathroom vanity lighting placement rules. Guidelines for sconces and overhead fixtures."
+description: "Bathroom vanity lighting placement rules come down to one number, the sconces belong at eye level and 36 inches apart, or the mirror throws a shadow no bulb can fix."
 pubDate: "2026-10-29T11:53:14-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
-tags:
-  - "bathroom-vanity"
-  - "vanity-lighting"
-  - "bathroom-lighting"
-  - "sconce-placement"
-  - "led-mirror"
+tags: ["vanity-organization", "bathroom-organization"]
 keywords:
   - "bathroom vanity lighting placement rules"
   - "vanity sconce height"
   - "bathroom vanity lighting ideas"
-takeaways:
-  - "Every placement rule in vanity lighting is a consequence of two physical laws: illuminance falls with the square of distance, and only the component of light that lands square on a surface counts. Work those two out for a face and the standard advice, sconces at 60 to 66 inches flanking the mirror, stops being a convention and becomes arithmetic."
-  - "A face is a mostly vertical target. Overhead light strikes it at a grazing angle, so a 1,000-lumens ceiling fixture delivers a fraction of its output to the mirror task, while the same lumens in two side sconces at 45 degrees arrive square on. Direction multiplies or divides lumens before they ever reach you."
-  - "Light the face in layers: about 400 to 500 lux at the mirror for shaving and makeup, 150 to 200 for the general room, and a low warm 20 to 50 lux path for the 3 a.m. visit. One circuit doing all three jobs does all three badly."
-  - "Placement is only half the install. The other half is electrical: a dimmer that actually flickers with your LEDs, a switch placement you can reach without entering the wet zone, and damp-rated fittings anywhere the shower can see."
 faq:
   - question: "What is the correct height for bathroom vanity sconces?"
     answer: "Mount the light source at 60 to 66 inches from the finished floor, which puts it at the standing eye line of most adults, and keep it beside rather than above the mirror so light crosses the face horizontally. With a double vanity, each basin gets its own pair, or one sconce per user on the outer side plus a shared centre source."

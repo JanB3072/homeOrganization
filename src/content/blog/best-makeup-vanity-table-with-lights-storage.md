@@ -1,17 +1,11 @@
 ---
-title: "Best Makeup Vanity Table With Lights and Storage: The Specs That Matter"
-description: "Get flawless morning application with the best makeup vanity table equipped with dimmable LED lights and built-in acrylic storage drawers."
+title: "A Vanity Table Is a Light and a Drawer, Not a Pretty Top: The Specs That Matter"
+description: "A makeup vanity table with lights is only worth the footprint if the drawers are acrylic and shallow enough to see the bottom, and mine holds a year of product in the depth the mirror light actually reaches."
 pubDate: "2026-10-26T15:08:07-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
-tags: ["bathroom-organization", "vanity-organization", "makeup-vanity", "vanity-lighting", "storage-furniture"]
+tags: ["vanity-organization", "bathroom-organization"]
 keywords: ["best makeup vanity table with lights storage", "makeup vanity with lights", "vanity table with storage drawers", "dimmable LED vanity mirror", "acrylic drawer vanity"]
-takeaways:
-  - "CRI is the number listings hide: under 90, foundation shades drift away from what daylight shows you. Ask before you buy."
-  - "Light must hit your face from the front, not glow from behind mirror glass; backlit mirrors decorate, they do not illuminate."
-  - "Built-in acrylic storage hides three variables: acrylic thickness (5 mm minimum), drawer depth (one drawer over 5 inches), and runner quality."
-  - "The $150 to $300 tier is the honest sweet spot; above $600 you are paying for finish and brand, not function."
-  - "Fit beats features: 28 to 30 inches of surface height, 18-plus inches of depth for a chair, and an outlet behind the mirror line."
 faq:
   - question: "What should I look for in a makeup vanity with lights?"
     answer: "Four specs: CRI of 90 or higher, light positioned to hit your face from the front or both sides, a neutral color temperature around 4000 to 4500K (or a dimmable 3000 to 5000K range), and no visible flicker when you dim it and film it on your phone."

@@ -1,24 +1,14 @@
 ---
-title: "Small Bathroom Vanity With Built-In Storage: Three Vanities Taught Me What Listings Hide"
-description: "In search of a small bathroom vanity with built-in storage? Discover the top space-saving vanities for powder rooms and apartments."
+title: "Vanity Listings Hide the Storage: Three Vanities Taught Me What Is Real"
+description: "A small bathroom vanity with built-in storage is only small if the drawers are shallow; mine fits a hair dryer and a year of backups because the plumber routed the drain to the back."
 pubDate: "2026-10-11T09:07:45-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
-tags:
-  - "bathroom-vanity"
-  - "small-bathroom"
-  - "vanity-storage"
-  - "bathroom-storage"
-  - "powder-room"
+tags: ["vanity-organization", "bathroom-organization"]
 keywords:
   - "small bathroom vanity with built in storage"
   - "space saving bathroom vanity"
   - "small vanity with storage drawers"
-takeaways:
-  - "In a small vanity, the drawer you see is often a drawer you cannot use. Behind the door and under the basin, the P-trap owns a block of space roughly 6 by 6 inches at the centre back, and drawers without a U-cutout for it either stop short or fail to close."
-  - "Depth before width. An 18-inch-deep vanity holds a soap pump; a hair dryer wants 9 inches plus cord, a curling wand with its cord coiled wants 13. Width is what listings advertise, depth is what decides whether the storage works."
-  - "Particleboard carcasses fail at the edge banding, where water finds the raw core and the swelling starts. Plywood box, sealed MDF doors, or solid wood frames survive a bathroom; the price difference is smaller than one replacement."
-  - "Measure the route, not the room. A 30-inch vanity does not fit through a 28-inch bathroom door, and a powder room at the end of a corridor turns the delivery into geometry."
 faq:
   - question: "What size vanity works in a small bathroom?"
     answer: "A powder room copes with 18 to 24 inches wide and 18 to 21 deep; a small full bathroom takes 24 to 36 inches. Keep 21 inches of clear floor in front and 4 inches of side wall beside the door swing. Below about 18 inches of width, a wall-hung basin plus a mirror cabinet beats any vanity."

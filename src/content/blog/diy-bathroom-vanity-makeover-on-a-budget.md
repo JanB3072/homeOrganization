@@ -1,24 +1,14 @@
 ---
 title: "A DIY Bathroom Vanity Makeover on a Budget, Starting With Whether It Deserves One"
-description: "Transform your space with a DIY bathroom vanity makeover on a budget. Easy painting techniques, hardware updates, and contact paper hacks."
+description: "A DIY bathroom vanity makeover on a budget is mostly the cabinet enamel and the new pulls, and mine read as a different room for the price of a weekend and a quart of paint."
 pubDate: "2026-10-22T15:49:34-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
-tags:
-  - "bathroom-vanity"
-  - "diy-makeover"
-  - "budget-renovation"
-  - "vanity-painting"
-  - "bathroom-remodel"
+tags: ["vanity-organization", "bathroom-organization"]
 keywords:
   - "diy bathroom vanity makeover on a budget"
   - "paint bathroom vanity"
   - "budget vanity makeover ideas"
-takeaways:
-  - "Paint is a surface treatment, and it cannot rescue a wet core. Swollen particleboard, sagging shelves and hinge screws that spin in their holes are structure, and structure decides the makeover question before colour ever enters it."
-  - "The paint system, not the paint, is the product: a grease-cutting wash, a 180 to 220 grit scuff that gives the primer something to bite, a bonding primer that keys into the old finish, and two thin topcoats. Skip the middle steps and any brand of cabinet paint fails in the same year."
-  - "Hardware is the highest visual return per dollar in the whole makeover, and the only measurement that governs it is centre-to-centre hole spacing, most commonly 3 inches or 96 mm. Anything else is a filler job."
-  - "Countertop films work on flat, sealed laminates and fail at the edges, which is where water enters. Budget an hour for edge sealing or accept a peeling corner within a season; and on real stone, the makeover project is care, not coverage, which is a different guide entirely."
 faq:
   - question: "What kind of paint do you use on a bathroom vanity?"
     answer: "A bonding primer over a scuff-sanded surface, then two coats of a waterborne cabinet-and-trim enamel, satin or semi-gloss. The primer does the adhesion work; the topcoat provides the washability. Paint labelled for kitchens and baths resists moisture and mildew better than wall paint, and wall paint, however tempting, marks and swells at every wet edge."

@@ -1,15 +1,11 @@
 ---
-title: "DIY Bathroom Wall Organizer From Reclaimed Wood: A 5-Step Build"
-description: "Create a beautiful rustic aesthetic with our step-by-step guide to building a DIY bathroom wall organizer from natural reclaimed wood."
+title: "A Wall Organizer From Reclaimed Wood, Built in 5 Steps (and What I Would Redo)"
+description: "A DIY bathroom wall organizer from one reclaimed picket: a three-slot wall shelf built in two hours for about fourteen dollars, with the moisture and mounting mistakes to avoid."
 pubDate: "2024-06-03T10:47:29-05:00"
 category: "Bathroom"
 subcategory: "Storage"
-tags: ["bathroom-organization", "diy-projects", "wall-storage", "rustic-decor"]
+tags: ["bathroom-organization", "storage-solutions"]
 keywords: ["diy bathroom wall organizer wood", "reclaimed wood bathroom organizer", "bathroom wall organizer diy"]
-takeaways:
-  - "One fence-picket board makes a three-slot wall organizer: total build cost is about $12 and two hours."
-  - "Seal every surface, because bathroom humidity is the only real enemy of raw wood in this room."
-  - "Mount into studs or use toggles; a loaded organizer plus wet towels goes past what adhesive can hold."
 faq:
   - question: "What wood works best for a DIY bathroom wall organizer?"
     answer: "Reclaimed fence pickets, pallet boards, or cedar. All three are cheap and take a rustic finish well. Whatever you choose, seal it, because bathroom humidity will swell unsealed wood within a season."
@@ -34,32 +30,30 @@ image: ./images/diy-wood-shelf.jpg
 imageAlt: "DIY reclaimed wood bathroom wall organizer with shelves and hooks"
 ---
 
-A bathroom wall organizer is the project I hand to anyone who wants their first taste of building things. Two hours, about $12, and a piece that replaces the wire rack you were embarrassed by. This one is a three-slot wall shelf from a single reclaimed fence picket. The rustic look comes free with the old wood.
+A bathroom wall organizer is the build I hand to anyone who wants their first taste of making something. Two hours, about fourteen dollars, and a piece that replaces the wire rack you were embarrassed by. This one is a three-slot wall shelf cut from a single reclaimed fence picket. The rustic look comes free with the old wood, and the lesson that comes free with it is about moisture.
 
-## What you need
+## What you need, with the sizes that matter
+- One reclaimed fence picket, 5.5 inches wide, about 4 feet long (free from a demolition pile to $4 at a salvage yard). Skip pallet wood unless you can confirm it was not chemically treated; the stamp matters more than the price.
+- Three back panels cut to 12 inches, not 10. Three bottom lips cut to 10 inches and 4 inches deep, not 3. The extra inch of slot depth is the difference between a bottle that stands and one that tips when the door slams.
+- Wood glue, six #8 screws 2.5 inches long, sandpaper at 120 and 220 grit.
+- One quart of water-based polyurethane, about $8, which covers this project and four more.
+- A stud finder and a drill with a 1/16 bit for pre-drilling.
 
-- One reclaimed fence picket or pallet board, about 4 feet (free to $4)
-- A short offcut for the bottom lips ($0�?)
-- Wood glue, 6 finish nails or screws, sandpaper (120 and 220 grit)
-- Water-based polyurethane ($8, covers several projects)
-- Stud finder and a drill
+## The build, and where the first one failed
+1. Cut and sand. Rip the picket into three 12-inch back panels and three 10-inch lips. Sand to 220, but leave the nail holes and weathering; that is the rustic finish you are paying nothing for. My first version skipped pre-drilling and the weathered wood split at the top screw, so now I drill a pilot hole through every panel before it goes near a wall.
 
-## The build
+2. Assemble the slots. Glue and screw each lip across its back panel into an L, three open slots sized to your bottles and folded towels. Check square. The glue needs thirty minutes to grab, and rushing it is how a slot ends up crooked and stays crooked.
 
-1. Cut and sand. Cut three back panels at 10 inches, three bottom lips at 10 inches, and sand everything to 220 grit. Leave the nail holes and weathering; that's the rustic finish you're paying nothing for.
+3. Seal every surface. Two coats of polyurethane on every face, including the back and the cut ends, which drink moisture fastest. This step is what separates a piece that lasts a year of steam from one that cups and warps by spring. The first organizer I built I sealed only the front; the back swelled, the slots bowed, and the whole thing looked tired within four months.
 
-2. Assemble the slots. Glue and nail each lip across its back panel to form an L, creating three open slots sized to your bottles and rolled towels. Check square, then let the glue set.
+4. Mount it into something solid. Find a stud and drive two screws through the back panel. No stud lines up, use toggle bolts rated past 25 pounds, and understand the shear number: a loaded slot with wet hand towels pulls down with more force than it looks. Adhesive strips rated 3 to 5 pounds will let go, usually at 7 am. Studs or toggles, never adhesive.
 
-3. Seal everything. Two coats of water-based polyurethane on every face, including the back and the cut ends, which drink moisture fastest. This step decides whether the piece survives a year of steam.
+5. Load it by use zone. Daily items in the middle slot at eye height, backups on top, folded hand towels in the bottom. Same front-facing habit that keeps [wall storage working elsewhere](/blog/small-space-vertical-storage-solutions-wall-hangers/).
 
-4. Mount it. Find a stud and drive two screws through the back panel. If no stud lines up, toggle bolts rated past 25 pounds. A loaded organizer with wet towels is heavier than it looks.
-
-5. Load it by zone. Daily items in the middle slot, backups on top, hand towels folded in the bottom. Same front-facing habit that keeps [wall storage working elsewhere](/blog/small-space-vertical-storage-solutions-wall-hangers/).
-
-That's the whole project. About $12 and an afternoon, and one less plastic thing on the counter.
+## What I would redo
+I would build it from cedar instead of a fence picket. Cedar splits less, smells better, and the poly soaks in cleaner. I would make the slots 4 inches deep from the start instead of learning it after a tipped shampoo bottle. And I would buy a better toggle bolt; the cheap ones strip the wing when you torque them, and you discover that with the organizer half-fallen in your hand.
 
 ## Two easy variations
+Once the first one is up, the pattern scales. The wider version places two pickets side by side for a four-slot build wide enough to hang a towel bar underneath on a dowel between the bottom slot's sides. The taller version stacks a second tier for toilet-paper backups, turning a 10-inch-deep strip of wall into a full linen column. Both keep the mounting rule. Studs or toggles, never adhesive.
 
-Once the first one is up, the same pattern scales. The wider version: two pickets side by side make a four-slot build wide enough for a hand-towel bar underneath. Add a dowel between the bottom slot's sides and you've hung towels off the same footprint. The taller version stacks a second tier of slots for toilet-paper backups, giving you a full linen column on a 10-inch-deep strip of wall. Both keep the same mounting rule. Studs or toggles, never adhesive.
-
-The reclaimed look is the point, so don't over-sand or paint it flat. The weathering is the finish. What goes on the slots, and why nothing cardboard survives there, is in the [bathroom shelf reset](/blog/diy-bathroom-shelf-organization/). For the metal cousin of this build, the [wire basket wall setup](/blog/wire-basket-wall-storage-for-toiletries/) runs the same mounting rules against tile, plaster and masonry, plus what the wet room does to zinc coatings. And if the wash-and-scuff-and-primer routine here felt like a skill worth keeping, the [vanity makeover guide](/blog/diy-bathroom-vanity-makeover-on-a-budget/) runs the same paint system against a whole cabinet, where the cure week matters as much as the coats. The chemistry behind that vinegar-and-steel-wool graying, and where a weathered mirror frame survives a steam room, is in the [rustic vanity decor guide](/blog/rustic-bathroom-vanity-decor-ideas/).
+The reclaimed look is the point, so do not over-sand or paint it flat. The weathering is the finish. What earns a slot and why nothing cardboard survives there is in the [bathroom shelf reset](/blog/diy-bathroom-shelf-organization/). For the metal cousin of this build, the [wire basket wall setup](/blog/wire-basket-wall-storage-for-toiletries/) runs the same mounting rules against tile and plaster, plus what a wet room does to zinc coatings. If the wash-and-scuff routine here felt worth keeping, the [vanity makeover guide](/blog/diy-bathroom-vanity-makeover-on-a-budget/) runs the same paint system against a whole cabinet, where the cure week matters as much as the coats.

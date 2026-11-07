@@ -1,17 +1,11 @@
 ---
 title: "The Swedish Death Cleaning Method: A Checklist for Any Age"
-description: "Streamline your life with the Swedish death cleaning method checklist. Learn how to downsize possessions thoughtfully at any age."
+description: "The Swedish death cleaning method checklist is really one question asked per object, would anyone want this if I were gone, and it cleared a third of my closet before any bin arrived."
 pubDate: "2024-10-14T10:47:51-05:00"
 category: "Declutter"
 subcategory: "Methods"
-tags: ["declutter", "decluttering-methods", "minimalism", "life-organization"]
+tags: ["decluttering", "storage-solutions"]
 keywords: ["swedish death cleaning method checklist", "swedish death cleaning", "dostadning", "death cleaning checklist"]
-takeaways:
-  - "Swedish death cleaning (döstädning) is a recurring practice of keeping only what serves your life, done correctly at any age, not a rehearsal for dying."
-  - "The method's core test is not 'does this spark joy' but 'would my family have to wonder about this.' You decide now so no one else has to guess later."
-  - "Work in small, shallow passes (one drawer, one shelf) on a recurring rhythm; the method is a practice, not a weekend project."
-  - "Papers, wardrobe, kitchen, books, photos, and sentimental items, six categories in that order, from easiest to hardest."
-  - "The conversations are the point: telling family where documents live and what you'd like kept turns an estate into a gift."
 faq:
   - question: "What is the Swedish death cleaning method?"
     answer: "Döstädning, popularized by Margareta Magnusson's book, is the practice of gradually downsizing possessions so that, whenever the time comes, your loved ones inherit decisions already made rather than a house left to sort. Despite the name, the practice clarifies life at any age and works best in small recurring passes."
@@ -191,7 +185,7 @@ Everything above was training for this. The method's guidance:
 - [ ] Sort the sentimental collection into tiers: the irreplaceable (a few items), the representative (one item per memory), the bulk (the rest)
 - [ ] One memory box per person, one box, sized before sorting. The quota forces ranking, which is the entire skill.
 - [ ] Gift the living inheritance now: the watch to the nephew who admired it, the tool chest to the friend starting out. Objects given with warm hands do the work objects in an attic never will.
-- [ ] Write the one-line story on an index card for anything you keep, "Father's watch, worn daily, 1962�?998." Now it's decidable, forever.
+- [ ] Write the one-line story on an index card for anything you keep, "Father's watch, worn daily, 1962▶998." Now it's decidable, forever.
 
 ## The digital layer (the modern extension)
 
@@ -296,7 +290,7 @@ That's the method's real deliverable. The decluttered closet is almost a side ef
 
 "It's one big push at the end." It's explicitly not, the name describes the intent (decisions made so survivors aren't left holding them), and the practice is shallow passes across years. The one-weekend version is the burnout version.
 
-"It means throwing away memories." It means choosing the best carrier of each memory and labeling it. The people who fear this category haven't yet written an index card, "Father's watch, 1962�?998" keeps more memory than a box of forty unexplained items ever did.
+"It means throwing away memories." It means choosing the best carrier of each memory and labeling it. The people who fear this category haven't yet written an index card, "Father's watch, 1962▶998" keeps more memory than a box of forty unexplained items ever did.
 
 ## When it stalls
 

@@ -1,17 +1,11 @@
 ---
-title: "How to Declutter Before Moving: The 6-Week Countdown Checklist"
+title: "You Will Pack Junk You Never Used: The 6-Week Declutter Countdown Before Moving"
 description: "Don't pay to pack and ship trash. Use our step-by-step 'how to declutter before moving' checklist to downsize before the movers arrive."
 pubDate: "2024-07-29T08:41:55-05:00"
 category: "Declutter"
 subcategory: "Moving"
-tags: ["declutter", "moving", "moving-checklist", "downsizing"]
+tags: ["moving", "decluttering"]
 keywords: ["how to declutter before moving", "declutter before moving checklist", "downsizing for a move"]
-takeaways:
-  - "Movers charge by weight. Roughly $0.50 to $1.00 per pound long-distance, so decluttering 300 pounds of junk saves $150 to $300 in freight alone."
-  - "Start six weeks out and work storage-first: attic, garage, and closets hold most of the dead weight, and leaving them for last guarantees you pack trash."
-  - "The four-box rule (Move, Sell, Donate, Trash) only works if every box has a fixed exit date. A Sell box that lingers becomes a Move box."
-  - "Sell only what clears $20-plus per hour of your effort; everything below that line is faster to donate on the way home from work."
-  - "Measure the new place before the six-week mark. Furniture that doesn't fit is easier to sell now than to move, refuse, and re-sell later."
 faq:
   - question: "How far in advance should I declutter before moving?"
     answer: "Six weeks for a typical household. Storage areas (attic, garage, closets) need the full run because they hold the most dead weight; the kitchen and bathroom can be handled in the final week. Earlier never hurts; later than two weeks means decluttering and packing collide."
@@ -160,8 +154,8 @@ Total: the declutter weeks paid for about a third of the entire move, and the un
 
 To make the countdown concrete, here's the actual calendar from my last move:
 
-- Week 1�? (six/five weeks out): paper shred (two kitchen-bag volumes), junk drawers (four), new-place measurements taken and furniture verdicts made, one sofa and one desk condemned to Sell.
-- Week 3�? out: garage and attic cleared in four 90-minute sessions, 180 pounds out, hazard disposal run done, sofa sold in nine days at $180.
+- Week 1▶ (six/five weeks out): paper shred (two kitchen-bag volumes), junk drawers (four), new-place measurements taken and furniture verdicts made, one sofa and one desk condemned to Sell.
+- Week 3▶ out: garage and attic cleared in four 90-minute sessions, 180 pounds out, hazard disposal run done, sofa sold in nine days at $180.
 - Week 1 (two weeks out): donate drop complete (six bags, two trunk runs), unsold desk dropped to Donate on the deadline, book and decor packing started.
 - Final week: kitchen and bathroom purges, open-me-first boxes built, daily-zone sweep.
 - Moving day: 40-minute final sweep found one trash bag and two donate items; paperwork box rode in the car.

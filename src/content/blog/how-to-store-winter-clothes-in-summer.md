@@ -1,17 +1,11 @@
 ---
 title: "How to Store Winter Clothes in Summer (Without Mold, Moths, or Creases)"
-description: "Protect your winter gear off-season. Learn how to store winter clothes in summer to avoid mold, dust, and fabric breakdown."
+description: "How to store winter clothes in summer is mostly about the cedar and the vacuum seal, and the moth holes I found in year one are why the bags now get a silica pack each."
 pubDate: "2024-09-02T09:44:40-05:00"
 category: "Closet"
 subcategory: "Seasonal"
-tags: ["closet-organization", "seasonal-storage", "wardrobe-care", "wool-care"]
+tags: ["closet-organization", "seasonal-storage"]
 keywords: ["how to store winter clothes in summer", "storing winter clothes", "seasonal clothing storage", "protect wool clothes moths"]
-takeaways:
-  - "Everything goes in clean. Body oils and invisible stains are what clothes-moth larvae actually eat, not the wool itself."
-  - "Fabric decides the container: breathable cotton for wool and down, sealed plastic only for synthetics; vacuum bags flatten down and ruin loft."
-  - "Store cool, dark, and dry. Attics and garages hit 90°F+ and humidity swings that age fibers a decade in one summer."
-  - "Moth protection is a clean-clothes problem first: cedar repels weakly and fades, so use it as a scent layer, not a strategy."
-  - "A ten-minute June ritual (wash, repair, sort, pack, place) beats any product, and an October check catches problems while they're still small."
 faq:
   - question: "Is it better to store winter clothes in plastic bins or bags?"
     answer: "Depends on the fabric. Synthetics do fine in sealed plastic bins; wool, down, and other natural fibers need breathable cotton zip bags or lidded bins with air holes, because trapped humidity causes mildew and must. Vacuum bags are safe for synthetics but flatten down insulation and crease wool permanently."

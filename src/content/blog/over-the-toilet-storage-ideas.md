@@ -1,22 +1,16 @@
 ---
 title: "Over-the-Toilet Storage Ideas I Tested in My Small Bathroom"
-description: "Discover clever over-the-toilet storage ideas to maximize space and keep your bathroom organized. Learn how to style shelves and cabinets efficiently."
+description: "Over-the-toilet storage ideas only earn the wall if the unit clears the tank lid, and the one that worked is the ladder rack that leans, not the cabinet that needs studs."
 pubDate: "2026-10-14T16:05:41-05:00"
 category: "Bathroom"
 subcategory: "Storage"
-tags: ["bathroom-organization", "storage-solutions", "small-bathroom", "rental-friendly"]
+tags: ["bathroom-organization", "storage-solutions"]
 keywords: ["bathroom over the toilet storage ideas", "over the toilet storage", "over toilet space saver", "over the toilet shelf", "no drill over toilet storage"]
-takeaways:
-  - The space above the toilet is roughly 6 sq ft of unused storage in a small bathroom. Use it.
-  - A freestanding etagere ($45) beat both the $95 cabinet and the $22 tension pole across my 2-year test.
-  - Measure alcove width, tank-to-ceiling height, and tank depth before buying; skipping this returned a $95 cabinet.
-  - Store light items up high, sealed toilet paper on top, and nothing heavy above shoulder height.
-  - "Renters: a zero-drill etagere plus an over-tank tray; skip adhesive shelves and tension poles."
 faq:
   - question: "What is the best over-the-toilet storage for a small bathroom?"
     answer: "A freestanding space-saver etagere. In my two-year test it held the most, needed no drilling, and never tipped. Wall-mounted shelves are the runner-up if your lease allows a couple of small anchored holes."
   - question: "How high is the space above a toilet tank?"
-    answer: "Standard tanks sit about 30 inches off the floor, so in a typical 8-foot (96-inch) room you have roughly 60�?6 inches of wall above the tank to work with. My own alcove is shorter at about 32 inches, which is exactly why I measured mine before buying. Always check your tank-top-to-ceiling distance, because tanks and ceilings vary."
+    answer: "Standard tanks sit about 30 inches off the floor, so in a typical 8-foot (96-inch) room you have roughly 60▶6 inches of wall above the tank to work with. My own alcove is shorter at about 32 inches, which is exactly why I measured mine before buying. Always check your tank-top-to-ceiling distance, because tanks and ceilings vary."
   - question: "Can you put a shelf above the toilet?"
     answer: "Yes. One wall-mounted shelf above tank height is safe for hand towels and tissues. Keep it off the tank itself and clear of the flush lever."
   - question: "Is over-the-toilet storage safe for renters?"

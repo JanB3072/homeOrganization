@@ -1,17 +1,11 @@
 ---
-title: "Pegboard Organization System for a Small Craft Room: What to Hang Where"
-description: "Keep tools visible and organized with a heavy-duty pegboard organization system designed for small craft rooms and workspaces."
+title: "A Craft Room Pegboard Looks Tidy Until Full: What to Hang Where"
+description: "My small craft room runs on one pegboard wall, but it only stays up because the backing board carries the load the pegs can't."
 pubDate: "2026-11-07T16:05:00-06:00"
 category: "Small Space"
 subcategory: "Storage"
-tags: ["small-space", "pegboard", "craft-room", "wall-storage", "storage-solutions"]
+tags: ["small-space", "storage-solutions"]
 keywords: ["pegboard organization system for small craft room", "small craft room pegboard ideas", "heavy duty pegboard wall", "pegboard tool storage apartment", "craft room wall organization"]
-takeaways:
-  - "Hooks are hooks, not locks. Vibration walks them up and out of the hole, so weight belongs at hip and eye height, not above the head."
-  - "Standard pegboard is 1 inch on center with 1/4 inch holes. Boards with 3/16 or 1/8 inch holes take a different fitting family and the two do not mix."
-  - "The board needs about half an inch of standoff, otherwise the hook has nowhere to drop behind the panel. A 1x2 furring strip gives three quarters."
-  - "A single prong hook in eighth inch hardboard is good for about 5 pounds. Anything over 3 pounds should cross two holes, and anything over 10 wants a screw-in peg."
-  - "A cutting mat hung by one corner warps within a season. Two clips along the top edge keep it flat and still let you grab it."
 faq:
   - question: "What size pegboard holes do I need?"
     answer: "For home craft rooms, quarter inch holes on 1 inch centers are the standard and the easiest to buy fittings for. Boards with 3/16 inch or 1/8 inch holes exist for light duty and jewelry work, but their hooks are a separate family, so pick one system and stay in it. Bring a fitting with you when buying a board if the listing does not state both numbers."

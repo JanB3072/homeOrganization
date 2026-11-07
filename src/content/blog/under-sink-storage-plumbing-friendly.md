@@ -1,18 +1,12 @@
 ---
-title: "Under-Sink Storage That Won't Break Your Plumbing �?Layout & Materials I Tested"
+title: "Under-Sink Storage That Will Not Break Your Plumbing: Layout and Materials I Tested"
 description: "Under-sink cabinet organization guide with measurements, materials tested, and cost breakdown. Covers P-trap safety, ventilation, and 6-month performance data."
 pubDate: "2024-03-10T07:59:02-05:00"
 updatedDate: "2024-03-25T14:39:27-05:00"
 category: "Bathroom"
 subcategory: "Storage"
-tags: ["storage-solutions", "bathroom-organization", "apartment-living", "diy-solutions"]
+tags: ["bathroom-organization", "storage-solutions"]
 keywords: ["under sink storage", "bathroom cabinet organization", "under sink organization tips"]
-takeaways:
-  - Clear plastic bins and ventilated pull-out baskets beat pretty or sealed containers under a sink.
-  - Map the P-trap before buying; misjudging it wasted about $30 on misfit containers.
-  - Never store glass, sealed bottles, or paper near the sink, and keep things 3 inches from hot pipes.
-  - An absorbent floor mat is your leak early-warning system, check it monthly.
-  - Drill 8 (not 6) ventilation holes in pull-out baskets to stop stale smells.
 faq:
   - question: "What is the best container for under-sink storage?"
     answer: "Clear, unlidded plastic bins and ventilated pull-out baskets. They are cheap, visible, and survive humidity. Avoid wood or bamboo, which swells, and airtight plastic, which traps chemical fumes."
@@ -23,7 +17,7 @@ faq:
   - question: "How do I stop under-sink moisture damage?"
     answer: "Choose clear plastic over wood, leave the door ajar after steamy showers, and place an absorbent mat on the floor. The mat reveals leaks early and should be replaced every six months."
   - question: "How much does under-sink organization cost?"
-    answer: "About $57�?5 for a full bathroom setup and roughly $38 for a kitchen sink. Designer systems cost $120 or more and tend to warp faster than basic clear plastic."
+    answer: "About $57▶5 for a full bathroom setup and roughly $38 for a kitchen sink. Designer systems cost $120 or more and tend to warp faster than basic clear plastic."
 featured: true
 draft: false
 image: ./images/under-sink-materials.jpg
@@ -62,11 +56,11 @@ Clear plastic bins are the answer. I tried metal, bamboo, wood, fancy containers
 
 | Container | Cost | Verdict |
 |---|---|---|
-| Clear plastic bins (unlidded) | $4�? | The workhorse. See-through, cheap. They do pick up odors after about six months |
-| Ventilated pull-out baskets | $12�?0 | The key piece. I can reach the back without dislocating a shoulder. Must be ventilated; I drill holes |
-| Metal shelving | $25�?0 | Solid, except water pools in the corners |
-| Bamboo or wood | $15�?5 | Avoid. Swells, warps, grows mold |
-| Stainless | $20�?0 | Fine, but overkill unless you just hate money |
+| Clear plastic bins (unlidded) | $4▶ | The workhorse. See-through, cheap. They do pick up odors after about six months |
+| Ventilated pull-out baskets | $12▶0 | The key piece. I can reach the back without dislocating a shoulder. Must be ventilated; I drill holes |
+| Metal shelving | $25▶0 | Solid, except water pools in the corners |
+| Bamboo or wood | $15▶5 | Avoid. Swells, warps, grows mold |
+| Stainless | $20▶0 | Fine, but overkill unless you just hate money |
 
 My setup is clear bins plus ventilated pull-out baskets. I drilled holes in the baskets immediately. Six at first, then eight after the first month when I noticed a stale smell.
 
@@ -90,7 +84,7 @@ One thing I learned by burning myself: the hot-water pipe gets hot. I touched on
 
 Six months in
 
-I tracked this across two apartments. Bathroom setup ran $57�?5 (two baskets at $16, a large clear bin $12, a small bin $8, shelf liner $5, plus $5�? in install supplies). Kitchen was about $38. Over six months I replaced nothing except refreshing the mat once.
+I tracked this across two apartments. Bathroom setup ran $57▶5 (two baskets at $16, a large clear bin $12, a small bin $8, shelf liner $5, plus $5▶ in install supplies). Kitchen was about $38. Over six months I replaced nothing except refreshing the mat once.
 
 What held up: no moisture damage, no odors (the holes), pull-outs still work, and the mat caught one small drip at month four. One basket warped slightly but still works.
 
@@ -98,7 +92,7 @@ The lesson that stuck: drill eight holes, not six. And skip the expensive contai
 
 Leaks, and when to actually worry
 
-I'm leak-paranoid now, probably because of the $200 one. Watch for water stains or puddles under the cabinet, discoloration on the floor, drips during or after use, musty smells, or soft/swollen wood. A minor drip (a drop or two a day): monitor it with the mat, check the connections. A steady stream: call a plumber. Mold or structural damage: that's an emergency. Diagnosis runs $150�?00; add $200�?00 if water damage is already done.
+I'm leak-paranoid now, probably because of the $200 one. Watch for water stains or puddles under the cabinet, discoloration on the floor, drips during or after use, musty smells, or soft/swollen wood. A minor drip (a drop or two a day): monitor it with the mat, check the connections. A steady stream: call a plumber. Mold or structural damage: that's an emergency. Diagnosis runs $150▶00; add $200▶00 if water damage is already done.
 
 A monthly mat check heads off most of that. Not complicated. Check the mat, wipe things down, listen for normal drainage.
 

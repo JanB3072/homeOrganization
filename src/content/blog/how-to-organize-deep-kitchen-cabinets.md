@@ -1,17 +1,11 @@
 ---
-title: "How to Organize Deep Kitchen Cabinets: Stop Losing Items in the Back"
-description: "Stop losing items in the back of your shelves. Learn how to organize deep kitchen cabinets using pull-out baskets and lazy Susans."
+title: "Deep Cabinets Become a Black Hole: How to Stop Losing Items in the Back"
+description: "How to organize deep kitchen cabinets comes down to one rule, nothing stays in the back that you cannot pull to the front, and the slide-out basket ended my lost-can problem."
 pubDate: "2024-04-15T09:26:26-05:00"
 category: "Kitchen"
 subcategory: "Cabinets"
-tags: ["kitchen-organization", "cabinet-organization", "storage-solutions", "pull-out-baskets", "lazy-susan"]
+tags: ["kitchen-organization", "storage-solutions"]
 keywords: ["how to organize deep kitchen cabinets", "deep kitchen cabinet organization", "kitchen cabinet storage"]
-takeaways:
-  - Deep cabinets fail because depth exceeds comfortable reach; the back 6 to 10 inches becomes a dead zone you stop using.
-  - "Divide by depth, not by product: door zone for turntables, middle for pull-out baskets, back for rarely used items."
-  - A two-tier lazy Susan recovers the vertical space inside a 24-inch-deep cabinet better than a flat shelf.
-  - Full-extension pull-out baskets let you reach the back without crawling into the cabinet.
-  - Measure clearance above the door and the cabinet's inner depth before buying; most rails need 3/4 inch side gaps.
 faq:
   - question: "How do I organize a deep kitchen cabinet without losing things in the back?"
     answer: "Split the cabinet into depth zones and match each zone to a tool. Put turntables in the front for round items, full-extension pull-out baskets through the middle so you can drag the back to the front, and reserve the very back for things you rarely touch. Measure the inner depth and the clearance above the door first."
@@ -51,8 +45,8 @@ Stop thinking "what product goes here" and start thinking "how far back is this,
 
 | Band | Distance from door | Problem | Tool that fixes it |
 |---|---|---|---|
-| Door zone | 0�? in | Items get knocked when the door swings; small things fall through gaps | Shallow turntable or front rail bin |
-| Middle zone | 6�?4 in | The reach limit (most stuff stalls here) | Full-extension pull-out basket |
+| Door zone | 0▶ in | Items get knocked when the door swings; small things fall through gaps | Shallow turntable or front rail bin |
+| Middle zone | 6▶4 in | The reach limit (most stuff stalls here) | Full-extension pull-out basket |
 | Back zone | 14 in+ | You can't reach without emptying the front | Fixed deep bin you refill from the front, or a full pull-out drawer |
 
 The trick is that you don't need a perfect product in every band. You need the middle and back to come to you, and the door zone to stay tidy despite the swing.
@@ -84,8 +78,8 @@ Vertical, risers and shelf doublers. A 24-inch-deep cabinet often has only one s
 
 A lazy Susan is the lowest-effort upgrade here, and for round items nothing beats it. Three types:
 
-- Single round (9�?2 in). Best in a shallow door zone or a corner. Cheap, no install, but it only uses the bottom plane.
-- Two-tier (10�?2 in, stacked). Recovers the vertical space above the bottom shelf, so you get two levels of spices in the footprint of one. This is the one I'd buy first for a 24-inch cabinet.
+- Single round (9▶2 in). Best in a shallow door zone or a corner. Cheap, no install, but it only uses the bottom plane.
+- Two-tier (10▶2 in, stacked). Recovers the vertical space above the bottom shelf, so you get two levels of spices in the footprint of one. This is the one I'd buy first for a 24-inch cabinet.
 - D-shaped or pie-cut. Designed for corner cabinets where a full circle can't sit. If you have a blind corner. This is the only turntable that fits the wedge.
 
 What not to put on a turntable: heavy cast-iron pans (they tip the whole thing) and tall bottles that exceed the clearance above the door. Keep those for the pull-outs.

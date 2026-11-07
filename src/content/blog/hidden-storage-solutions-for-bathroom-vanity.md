@@ -1,24 +1,14 @@
 ---
 title: "Hidden Storage Solutions for Bathroom Vanities, Ranked by How Much Tool You Own"
-description: "Explore clever hidden storage solutions for bathroom vanities, including pull-out hair tool organizers and toe-kick drawers."
+description: "My bathroom vanity's dead space, the toe-kick and the false-front panels, became the storage I actually use once the hair tools had a heat-safe pull-out."
 pubDate: "2026-10-19T07:50:02-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
-tags:
-  - "bathroom-vanity"
-  - "hidden-storage"
-  - "vanity-storage"
-  - "diy-bathroom"
-  - "bathroom-storage"
+tags: ["vanity-organization", "bathroom-organization"]
 keywords:
   - "hidden storage solutions for bathroom vanity"
   - "toe kick drawer bathroom vanity"
   - "pull out hair tool organizer"
-takeaways:
-  - "Hidden storage has a built-in tax: anything you cannot see is anything you will forget, expire or rebuy. Each hidden space earns its keep only for items that are backup, seasonal or dull, never for anything with a shelf life you are tracking."
-  - "A vanity hides more space than its doors suggest, and most of it sits below the floor line: the toe-kick recess is typically 3 to 4 inches tall and 2 to 3 deep, a false front on door hinges converts into a tip-out tray with two hinges and a magnet, and the wall behind a surface-mounted mirror cabinet usually hides 2 to 4 inches of stud-bay cavity."
-  - "Rank the projects by tool, not by cleverness. Door-back pockets and a shelf riser need nothing; a tip-out tray needs a screwdriver; a toe-kick drawer needs a saw and slides; a recessed mirror cabinet needs a drywall cut and a plumbing check. Each tier up costs an afternoon and one new failure mode."
-  - "Hot tools are the one category where hidden storage is genuinely dangerous: a curling wand holds 150 to 200 degrees C for minutes after the light goes off, so it cools in a ventilated slot or on a trivet, never sealed in a closed drawer bin."
 faq:
   - question: "What can I store in a toe-kick drawer?"
     answer: "Flat, low-value, humidity-tolerant items: a spare toothbrush set, bar soap, cleaning sponges in a sealed bag, the toilet brush caddy's spare brushes, or a flat mop head. Nothing paper, nothing you would hate to find swollen, because the toe-kick sits in the mopping splash zone and its drawer box should be plastic or sealed plywood, never bare particleboard."

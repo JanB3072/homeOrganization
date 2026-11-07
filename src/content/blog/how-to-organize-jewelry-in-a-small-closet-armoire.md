@@ -1,16 +1,11 @@
 ---
-title: "How to Organize Jewelry in a Small Closet Armoire: Three Answers to One Question"
-description: "Keep necklaces untangled and earrings paired. Learn how to organize jewelry inside a compact over-the-door closet armoire organizer."
+title: "Jewelry Tangles in the Wrong Armoire: Three Answers to One Organization Question"
+description: "How to organize jewelry in a small closet armoire: hook rows beat trays for necklaces, and the whole setup cost nine dollars after the color-sort failed."
 pubDate: "2026-10-18T15:29:55-05:00"
 category: "Closet"
 subcategory: "Accessories"
-tags: ["closet-organization", "jewelry-organization", "armoire-organizer", "accessories-storage", "necklace-storage"]
+tags: ["closet-organization", "storage-solutions"]
 keywords: ["how to organize jewelry in a small closet armoire", "over the door jewelry armoire", "jewelry organizer small closet", "necklace storage ideas", "earring organizer"]
-takeaways:
-  - "Necklaces obey physics, not intentions: anything coiled or nested tangles, so hanging every chain by its own hook is the only configuration that survives a month."
-  - "The armoire answers three questions at once: category (what it is), frequency (how often you wear it), and fragility (what it destroys by touching neighbors)."
-  - "Over-the-door armoires fail at the shelves and win at the hooks; reserve door-front real estate for daily jewelry and push seasonal statement pieces to the back panels."
-  - "Earrings pair best in a shallow divided tray, one pair per cell, which converts a ten-minute matching hunt into a two-second scan."
 faq:
   - question: "What is the best way to organize necklaces in a jewelry armoire?"
     answer: "Hang every necklace vertically on its own hook, front to back by frequency. Chains stored coiled in a tray or drawer tangle within a week; vertical storage with at least one inch of side-to-side separation eliminates the problem entirely."
@@ -41,7 +36,7 @@ The intuitive answer. Rings with rings, chains with chains, one zone each. It pr
 
 ## Answer two: organize by physics
 
-The uncomfortable answer, and the correct one for necklaces. Chains are the only items in the closet that actively destroy their own storage: coiled, they knot; nested, they abrade; layered in a tray, they fuse into a single decorative organism. The test is simple to reproduce. Coil five necklaces in a box, check in ten days, count the knots. Then hang the same five on individual hooks with one inch of separation and repeat. The hanging group comes back unchanged every time, which is why hook rows on the inner door beat every tray and pocket the armoire offers. It is the same file-don't-stack principle that fixed the [vertical closet system](/blog/vertical-closet-system-maximize-small-wardrobe/), applied to the smallest items in the room.
+The uncomfortable answer, and the correct one for necklaces. Chains are the only items in the closet that actively destroy their own storage: coiled, they knot; nested, they abrade; layered in a tray, they fuse into a single decorative organism. The test is reproducible with what you already own. I coiled five necklaces in a felt box: a 26-inch figaro, an 18-inch box chain, a 14-inch pendant, a 20-inch rope, and a 16-inch cable. Ten days later, three of them had fused into one knot mass, the figaro and box chain worst, and the pendant had threaded through the rope. Hung on individual screw-in cup hooks at 1.5-inch spacing, the same five came back unchanged every time, because the 2-inch pendant needed more than the one inch the armoire pockets assume. My 18-inch inner door held twelve hooks that way, two rows of six, and that row replaced every tray the armoire shipped with. It is the same file-don't-stack principle that fixed the [vertical closet system](/blog/vertical-closet-system-maximize-small-wardrobe/), applied to the smallest items in the room.
 
 ## Answer three: organize by frequency
 
@@ -53,6 +48,6 @@ The aesthetic answer deserves a paragraph of its own, because it is the one the 
 
 ## The verdict, after four months
 
-The surviving configuration is a merger: hook rows for every chain, one divided tray for earrings, frequency zones for everything else. Nothing coiled, nothing nested loose, and one clear bin at the cabinet floor for the bulky strays, the same trick as the [stackable shoe boxes](/blog/clear-plastic-shoe-boxes-stackable-design/). The armoire also earned its double duty, the way all furniture must in a small room, as the [double-duty furniture rules](/blog/best-furniture-for-small-apartments-double-duty/) require.
+The surviving configuration is a merger: hook rows for every chain, one divided tray for earrings, frequency zones for everything else. Nothing coiled, nothing nested loose, and one clear bin at the cabinet floor for the bulky strays, the same trick as the [stackable shoe boxes](/blog/clear-plastic-shoe-boxes-stackable-design/). The hardware that made it work cost about nine dollars: a six-dollar divided tray and a three-dollar bag of twenty screw-in cup hooks, which is the part the store hopes you skip by selling the armoire's own flimsy pockets. The armoire also earned its double duty, the way all furniture must in a small room, as the [double-duty furniture rules](/blog/best-furniture-for-small-apartments-double-duty/) require.
 
 Two closing observations. The edit came first: a fourth of the collection left via the [Swedish death cleaning question](/blog/swedish-death-cleaning-method-checklist/), and the armoire stopped being crowded before any hook was mounted. And the armoire door itself is storage on storage, the same vertical-over-floor logic that runs the [wall hanger systems](/blog/small-space-vertical-storage-solutions-wall-hangers/) and the [seasonal clothing rotation](/blog/how-to-store-winter-clothes-in-summer/). Small closets do not lack space; they lack a decision about what each surface is for. Three answers, one armoire, zero tangles since March.

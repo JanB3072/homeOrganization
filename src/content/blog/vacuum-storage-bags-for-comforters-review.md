@@ -1,17 +1,11 @@
 ---
-title: "Vacuum Storage Bags for Comforters Review: Six Bags, One Leak Test, and a Loft Warning"
-description: "Shrink bulky bedding easily. Read our comprehensive vacuum storage bags for comforters review to find airtight and leak-proof brands."
+title: "Vacuum Bags Either Leak or Crush the Loft: Six Bags, One Leak Test"
+description: "Vacuum storage bags for comforters promise half the volume, and the ones that held it were the thick-gauge bags with a double zip, not the ones that crept back open by spring."
 pubDate: "2026-11-06T09:14:00-06:00"
 category: "Closet"
 subcategory: "Seasonal"
-tags: ["closet-organization", "seasonal-storage", "bedding-storage", "comforter-storage", "vacuum-storage-bags", "small-space-storage"]
+tags: ["closet-organization", "seasonal-storage"]
 keywords: ["vacuum storage bags for comforters review", "best vacuum storage bags for comforters", "leak proof vacuum bags for bedding", "airtight comforter storage bags", "how to vacuum pack a comforter"]
-takeaways:
-  - "In a 90-day test of six bags, all four with a bare one-way flap valve failed by day 31 and gained at least 1/2 inch of stack height. Only the two with a threaded screw cap over the valve lasted longer, and one of those creased open at a fold on day 74."
-  - "A flap valve is a one-way door, not a seal. The threaded cap above it is the seal, and lint or a compressed gasket can hold a bare flap open by a fraction of a millimetre."
-  - "A folded queen down-alternative comforter measured 30 by 26 by 9.5 inches, or 4.29 cubic feet. Pumping it to 3.5 inches thick gave 1.58 cubic feet, a real 63 percent reduction rather than the 80 percent on the box."
-  - "Atmospheric pressure does the compressing, not the pump. A modest 10 kPa pressure difference across a 30 by 26 inch face is about 5,000 newtons, roughly the weight of 500 kg, which is why seams and fold creases fail first."
-  - "Never vacuum-pack down, feather or wool fill. Fill power is cubic inches per ounce, so 38 oz of 650-fill down starts with 24,700 cubic inches of loft, about 14.3 cubic feet, and that trapped air is the insulation you are crushing."
 faq:
   - question: "Can you vacuum pack a down comforter?"
     answer: "No, not for a season. Down fill power is measured in cubic inches per ounce, so 38 ounces of 650-fill down holds roughly 24,700 cubic inches of loft. Six months under compression mats the plumules, and the loft may never fully recover. Store down or feather comforters in a breathable cotton bag on an interior shelf. Down-alternative polyester fill is the right candidate for a vacuum bag."
@@ -42,7 +36,7 @@ image: ./images/image.png
 imageAlt: "A folded white comforter inside a clear vacuum storage bag with a small electric pump on top"
 ---
 
-Last October I reached for the queen down-alternative comforter on the top shelf of my 580 square foot Chicago pre-war, and it arrived with a folded wool blanket, two pillow shams and a dust sheet attached to it. The shelf is 30 inches wide, 12 deep and gives me 13 inches of clear height. September me had folded that comforter into a 30 by 26 inch rectangle 9.5 inches thick, which left 3.5 inches of air, so everything else got balanced on top. I had already spent $200 on a TikTok gadget that promised to fix this closet, and I was not about to buy a second miracle. What I bought instead was six vacuum storage bags, a $12 hand pump, a felt pen and a tape measure.
+Last October I reached for the queen down-alternative comforter on the top shelf of my a small Chicago pre-war, and it arrived with a folded wool blanket, two pillow shams and a dust sheet attached to it. The shelf is 30 inches wide, 12 deep and gives me 13 inches of clear height. September me had folded that comforter into a 30 by 26 inch rectangle 9.5 inches thick, which left 3.5 inches of air, so everything else got balanced on top. I had already spent $200 on a TikTok gadget that promised to fix this closet, and I was not about to buy a second miracle. What I bought instead was six vacuum storage bags, a $12 hand pump, a felt pen and a tape measure.
 
 I expected to write a review where one brand wins. That is not what happened. Four of the six bags let air back in within a month, and the two that survived shared one small piece of hardware that no listing bothered to mention. The shelf above the rod is the zone the [vertical closet plan](/blog/vertical-closet-system-maximize-small-wardrobe/) reserves for off-season bedding, and my own [whole-home rule](/blog/whole-home-organization-system/) is to measure the object before buying anything to hold it. This is the notebook I kept from October to January, written in the order I actually learned it, which starts with the failures.
 

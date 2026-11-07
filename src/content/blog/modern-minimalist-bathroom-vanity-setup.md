@@ -1,17 +1,11 @@
 ---
-title: "Modern Minimalist Bathroom Vanity Setup: My Before & After"
-description: "Achieve a clean look with a modern minimalist bathroom vanity setup. Learn how to hide everyday clutter and maintain clean lines."
+title: "Minimalist Vanity Setups Look Great Until Lived In: My Before and After"
+description: "A minimalist bathroom vanity setup is a storage problem in disguise, and mine dropped from 23 counter items to 3 for $115 without touching the cabinet."
 pubDate: "2026-10-14T09:22:34-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
-tags: ["bathroom-organization", "storage-solutions", "minimalist-bathroom", "vanity-organization", "small-bathroom"]
+tags: ["vanity-organization", "bathroom-organization"]
 keywords: ["modern minimalist bathroom vanity setup", "hide bathroom counter clutter", "minimalist vanity organization", "clutter-free bathroom counter", "bathroom vanity storage ideas"]
-takeaways:
-  - Counter went from 23 items to 3; total cost about $115 with no new vanity.
-  - Nothing lives on the counter unless it gets used every single day.
-  - Drawer dividers and one lidded tray did most of the work.
-  - Decanting soap and lotion into matching pumps removes most of the visual noise.
-  - A two-minute nightly reset is what keeps the look past month three.
 faq:
   - question: "How do I make my bathroom vanity look minimalist?"
     answer: "Clear the counter to three items or fewer, decant products into matching pump bottles, and give everything else a drawer or bin home. Start by removing everything, then return only what you use daily."

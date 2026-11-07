@@ -1,25 +1,14 @@
 ---
-title: "Double Vanity Mirror Placement Guide: Height, Spacing and Light, Derived"
+title: "Double Vanity Mirrors at the Wrong Height Look Cheap: The Spacing and Light That Fix It"
 description: "Read our comprehensive double vanity mirror placement guide to ensure perfect alignment, height, and lighting for your master bathroom."
 pubDate: "2026-10-21T09:39:22-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
-tags:
-  - "bathroom-vanity"
-  - "mirror-placement"
-  - "double-vanity"
-  - "bathroom-lighting"
-  - "vanity-styling"
+tags: ["vanity-organization", "bathroom-organization"]
 keywords:
   - "double vanity mirror placement guide"
   - "double vanity mirror height"
   - "bathroom mirror spacing two sinks"
-takeaways:
-  - "A mirror does not need to be as tall as the face it shows. At eye level, a pane covering half the distance from hairline to chin shows the whole face, because the angle you look in equals the angle you look out. Most wrongly mounted mirrors are wrong by height, not by size."
-  - "Mount to the shorter user, not the average. In a shared double vanity the mirror centre belongs at the shorter person's eye height, typically 60 to 62 inches off the finished floor, with the bottom edge 5 to 8 inches above the countertop."
-  - "Two mirrors should be spaced by the basins, not the wall. Centre each mirror over its sink, 30 to 36 inches apart, and keep at least 4 inches of wall between the frames so the two users never appear in each other's glass."
-  - "A 30 by 36 inch quarter-inch mirror weighs around 30 pounds and its load is mostly shear, which makes it friendlier to drywall than a floating shelf, but the hanging hardware and its screws still want a stud or toggles, and the mirror itself wants a safety film."
-  - "Overhead light makes chin and eye-socket shadows no mirror can fix. Light belongs beside the glass at eye height, around 3000 K and CRI 90 or better, which is the geometry that makes morning faces legible."
 faq:
   - question: "What height should a double vanity mirror be mounted?"
     answer: "Set the centre of each mirror at the shorter user's standing eye height, usually 60 to 62 inches from the finished floor, with the bottom edge 5 to 8 inches above the countertop. If the household includes a seated user, plan that position separately rather than compromising both."

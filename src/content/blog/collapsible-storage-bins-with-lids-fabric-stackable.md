@@ -1,17 +1,11 @@
 ---
-title: "Collapsible Storage Bins With Lids: What Survives a Year on a Closet Shelf"
-description: "Fold them away when not in use. Discover collapsible storage bins with lids made of breathable fabric for stackable closet storage."
+title: "Collapsible Bins Either Tear or Will Not Fold Flat: What Survives a Year"
+description: "Collapsible storage bins with lids are only worth the closet if the frame holds its shape empty, and the fabric ones that sagged are the ones I stopped buying."
 pubDate: "2026-11-07T09:20:00-06:00"
 category: "Small Space"
 subcategory: "Storage"
-tags: ["small-space", "storage-bins", "fabric-storage", "stackable-storage", "closet-organization"]
+tags: ["small-space", "storage-solutions"]
 keywords: ["collapsible storage bins with lids fabric stackable", "collapsible fabric storage bins", "stackable fabric bins with lids", "foldable storage boxes for closet", "breathable storage bins"]
-takeaways:
-  - "A fabric bin is a frame with a skin. The bottom insert and the corner panels carry the load, and the fabric only holds them in place."
-  - "A nominal 13 inch cube is about 12.2 inches inside, which works out to roughly 31.8 litres, not the 36 litres the outside dimensions suggest."
-  - "Three bins of sweaters put 45 pounds on the bottom bin, which is fine. Three bins of paperbacks put 90 pounds on it, which bows the side walls and tips the stack."
-  - "Spunbond polypropylene does breathe, but many cheap bins laminate a PE film inside to resist staining, and that film seals the bin again."
-  - "A handle stitched only to the outer skin tears free within months. Look for stitching that passes through to the inner panel."
 faq:
   - question: "Are fabric storage bins actually breathable?"
     answer: "The fabric usually is, since spunbond polypropylene passes vapour. Whether the bin is breathable depends on the lining. Many budget bins laminate a thin polyethylene film to the inside so the bin resists stains and holds its shape, and that film blocks vapour. If you are storing wool or down, check for an unlined bin or turn the bin inside out in the store."

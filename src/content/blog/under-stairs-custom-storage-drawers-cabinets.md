@@ -1,23 +1,14 @@
 ---
-title: "Under Stairs Custom Storage: Drawers and Pull-Out Cabinets That Use Every Inch"
-description: "Convert dead space into architectural utility. Ideas for under-stairs custom storage drawers and pull-out cabinets for shoes or coats."
+title: "The Dead Triangle Under Your Stairs: Drawers and Pull-Outs That Use Every Inch"
+description: "Under-stairs custom storage drawers only pull out if the top one clears the sloping ceiling, and that clearance is what decides whether the dead space becomes useful or just expensive."
 pubDate: "2026-10-10T08:54:39-05:00"
 category: "Small Space"
 subcategory: "Storage"
-tags:
-  - "under-stairs-storage"
-  - "small-space"
-  - "custom-storage"
-  - "pull-out-cabinets"
-  - "entryway-storage"
+tags: ["small-space", "storage-solutions"]
 keywords:
   - "under stairs custom storage drawers cabinets"
   - "under stairs pull out storage"
   - "under staircase shoe storage"
-takeaways:
-  - "The stringer is structural. Cut stringers have notches for the treads already, and building codes limit how much material can remain after those cuts, so there is no spare wood to notch again for a drawer."
-  - "Under an 8-foot rise with a 10-foot horizontal run, the raw triangle is around 40 cubic feet at 3 feet of stair width. Framing, drywall, and clearance take roughly a third of that."
-  - "Slope is measured on two axes on any stair with a winder or a landing. A drawer built to the front-edge height will bind at the back edge."
 faq:
   - question: "How much usable storage is under a typical staircase?"
     answer: "For a straight stair rising 8 feet over a 10-foot run, at 3 feet wide, the raw triangular prism is about 40 cubic feet. After the stringer, drywall, a floor liner, and the clearance each drawer needs to slide, 22 to 28 cubic feet is realistic. That is comparable to a two-door wardrobe, which is why the carpentry is often worth it in a small house."

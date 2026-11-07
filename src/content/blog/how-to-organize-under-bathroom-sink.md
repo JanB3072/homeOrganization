@@ -1,17 +1,11 @@
 ---
-title: "How to Organize Under Your Bathroom Sink: My 6-Step Method"
-description: "Step-by-step guide on how to organize under your bathroom sink. Find the best storage bins, pull-out drawers, and organization hacks."
+title: "Under the Sink Is a Plumbing Obstacle Course: My 6-Step Method"
+description: "How to organize under a bathroom sink starts with the P-trap, not the bins; mine went from a damp tangle to a pull-out in an afternoon."
 pubDate: "2026-10-17T08:02:48-05:00"
 category: "Bathroom"
 subcategory: "Storage"
-tags: ["bathroom-organization", "storage-solutions", "small-bathroom", "diy-solutions"]
+tags: ["bathroom-organization", "storage-solutions"]
 keywords: ["how to organize under bathroom sink", "under bathroom sink organization", "under sink storage bins", "under sink organization hacks"]
-takeaways:
-  - Organize under the sink in one 40-minute session, then a 5-minute monthly check.
-  - Empty and sort before buying anything. Decluttering first cuts the pile by about a third.
-  - Map the P-trap before shopping; most usable space is above the trap, not beside it.
-  - "Zone by frequency: daily items front, backups back, nothing stored in front of the trap."
-  - When it collapses (it will), re-run only the first two steps. Do not reorganize from scratch.
 faq:
   - question: "How do you organize under a bathroom sink?"
     answer: "Empty everything out, clean and lay an absorbent mat, measure and trace the P-trap, cut duplicates and expired items, then assign zones by how often you use each thing. Budget about 40 minutes for the first run."
@@ -56,7 +50,7 @@ The order, roughly
 5. Zone. Daily stuff in front, backups in back, nothing in front of the trap.
 6. Label and set a monthly reminder.
 
-First run is 40�?0 minutes. If you're redoing an already-organized cabinet after a busy season, about 15.
+First run is 40▶0 minutes. If you're redoing an already-organized cabinet after a busy season, about 15.
 
 Step 1: empty it completely (10 min)
 
@@ -113,9 +107,9 @@ The system bends; it doesn't have to break. When it collapses, and a busy week w
 What to buy, and what to skip
 
 Total for my current setup: about $35.
-- 2 clear pull-out baskets, $12�?6 each
+- 2 clear pull-out baskets, $12▶6 each
 - 1 shallow lidded bin for backups, $8
-- 1 absorbent mat, $5�?
+- 1 absorbent mat, $5▶
 - masking tape + marker for labels, already owned
 
 Skip: multi-tier sliding drawer units (unless your clearance number says otherwise (they rarely fit above the trap), bamboo anything in this humidity, and any bin you buy before measuring. Good news) this is one of the cheapest organizing projects in the house. The hardware matters far less than the order you do it in.

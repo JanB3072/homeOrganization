@@ -1,16 +1,11 @@
 ---
-title: "Small Bathroom Towel Storage Solutions: A Tour of Six Zones That Hold a Whole Family's Towels"
-description: "Explore small bathroom towel storage solutions that look beautiful and save space. From wall racks to rolling baskets, get inspired."
+title: "Towels Take Over a Small Bathroom: Six Zones That Hold a Whole Family's"
+description: "Small bathroom towel storage solutions are a zoning problem, six zones in my four-square-foot tour, and the hook row behind the door is the one that stopped the floor pile."
 pubDate: "2026-10-12T14:36:15-05:00"
 category: "Bathroom"
 subcategory: "Storage"
-tags: ["bathroom-organization", "towel-storage", "small-bathroom", "wall-racks", "storage-baskets"]
+tags: ["bathroom-organization", "storage-solutions"]
 keywords: ["small bathroom towel storage solutions", "towel storage ideas small bathroom", "towel wall rack", "rolling basket towels", "towel ladder"]
-takeaways:
-  - "Towels are the bulkiest textiles in a bathroom and the only ones that must be reachable with wet hands, so their zones live between waist and eye level."
-  - "A hook row holds more than a bar: three hooks take three towels in the width one bar needs, and they dry faster because fabric hangs flat."
-  - "One towel in use, one towel drying, one towel in reserve per person; any more is inventory the bathroom has to warehouse."
-  - "Rolling baskets turn the dead quarter-circle beside a vanity into towel capacity, and they move wherever guests or laundry day need them."
 faq:
   - question: "Where do you put towels in a very small bathroom?"
     answer: "Between waist and eye level: a hook row behind the door for towels in use, an over-toilet rack for the drying pair, and a rolling basket for reserves. Those three zones hold a family's towels in a bathroom with no linen closet."
@@ -33,9 +28,13 @@ imageAlt: "Small bathroom towel storage using over-the-toilet shelving"
 
 Stand in the doorway. The tour takes two minutes, and it covers every towel this bathroom owns: three people, nine towels, zero linen closet. The floor plan follows the same zone-first logic as the [whole-home organization system](/blog/whole-home-organization-system/), and every zone lives between waist and eye level, because towels are grabbed with wet hands.
 
+## What the doorway looked like before
+
+The tour exists because the previous version failed out loud. Towels lived on two bars and a heap on the closed toilet lid. The bars held four folded towels that never dried, the heap grew until someone knocked it into the bowl, and a guest once opened the door to a floor of damp cotton. Nine towels in a 40-square-foot room, and none of them had an address. The six zones below are what stopped the heap, not a bigger bathroom.
+
 ## Zone 1: the hook row
 
-Behind the door, four hooks on one rail. Each person's daily towel hangs flat and dries in half the time a folded bar offers. This is the zone that replaced every towel bar in the room, on the same width-for-width math as the [wall hanger systems](/blog/small-space-vertical-storage-solutions-wall-hangers/).
+Behind the door, four hooks on one rail, 4 inches on center at 60 inches high. Each person's daily towel hangs flat and dries in half the time a folded bar offers, which matters because the old 24-inch bar held two folded towels that stayed damp and mildewed by day three. This is the zone that replaced every towel bar in the room, on the same width-for-width math as the [wall hanger systems](/blog/small-space-vertical-storage-solutions-wall-hangers/).
 
 ## Zone 2: the over-toilet rack
 

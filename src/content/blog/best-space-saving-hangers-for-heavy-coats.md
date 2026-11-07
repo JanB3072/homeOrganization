@@ -1,16 +1,11 @@
 ---
-title: "Best Space Saving Hangers for Heavy Coats: The Load Ratings That Decide It"
-description: "Maximize hanging space using the best space-saving hangers for heavy coats. Heavy-duty velvet and non-slip metal hanger reviews."
+title: "Heavy Coats Bend the Wrong Hanger by February: Load Ratings That Decide"
+description: "Best space-saving hangers for heavy coats: a 48-inch rod went from 24 wood hangers to 40 slim velvet, and the 9-pound parka got its own 20-pound metal hanger."
 pubDate: "2026-10-24T07:30:30-05:00"
 category: "Closet"
 subcategory: "Clothing"
-tags: ["closet-organization", "coat-storage", "space-saving-hangers", "velvet-hangers", "heavy-coats"]
+tags: ["closet-organization", "storage-solutions"]
 keywords: ["best space saving hangers for heavy coats", "heavy duty hangers for coats", "velvet hangers weight limit", "non-slip metal hangers", "cascading hangers"]
-takeaways:
-  - "A wool overcoat weighs 4 to 6 pounds and a parka up to 10, so any hanger rated under 10 pounds fails the coat test within a season."
-  - "Slim velvet hangers measure about 0.4 inches at the shoulder against 2 inches for wood, which converts a full coat rod into roughly 40 percent more capacity without touching the wall."
-  - "Metal non-slip hangers win the load test (15 to 20 pound ratings) but lose the grip test unless rubber-coated; bare metal drops wet wool."
-  - "Cascading hooks multiply one rod position into four garments, and they belong on light items only; a parka on a cascade overloads the hook and everything below it."
 faq:
   - question: "What is the weight limit for velvet hangers?"
     answer: "Quality slim velvet hangers carry 10 pounds per piece, which covers wool overcoats and most winter weight. Above that, parkas and loaded puffers need metal non-slip hangers rated 15 to 20 pounds. The plastic core, not the flocked surface, is the rating."

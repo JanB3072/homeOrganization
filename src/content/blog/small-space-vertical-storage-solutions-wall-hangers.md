@@ -1,17 +1,11 @@
 ---
-title: "Small Space Vertical Storage Solutions: Wall Hangers and Pegboards That Work"
-description: "When floor area is limited, look up! Discover high-efficiency small space vertical storage solutions, wall hangers, and pegboards."
+title: "Floor Space Is Gone: Wall Hangers and Pegboards That Actually Work"
+description: "Small space vertical storage solutions like wall hangers only earn the wall if the hook spacing matches the handle, and mine stopped the broom from falling every time the door opened."
 pubDate: "2024-05-20T07:52:42-05:00"
 category: "Small Space"
 subcategory: "Storage"
-tags: ["small-space", "vertical-storage", "wall-storage", "pegboard", "storage-solutions"]
+tags: ["small-space", "storage-solutions"]
 keywords: ["small space vertical storage solutions", "wall hangers for small spaces", "pegboard storage"]
-takeaways:
-  - Walls are the only storage real estate in a small home that keeps its floor footprint at zero.
-  - "Mount by zone height. Everyday items between 24 and 48 inches, occasional items up to 60, decor above the sightline."
-  - "A pegboard earns its wall twice: the board is the anchor, and the accessories rearrange as your storage needs change."
-  - Adhesive hooks hold 3 to 5 pounds, not 10; anything heavier needs a screw into a stud or a rail system.
-  - One 4-foot rail with S-hooks replaces roughly a 2-foot section of drawer space in the kitchen or bathroom.
 faq:
   - question: "What are the best vertical storage solutions for small spaces?"
     answer: "Pegboards, wall rails with S-hooks, door-back organizers, floating narrow shelves, and above-door shelving. All five take storage off the floor, and each one is adjustable, which matters more than capacity in a small home that changes seasonally."
@@ -39,9 +33,9 @@ Before any product, internalize one idea: walls have zones, and the zone decides
 
 | Height off floor | Zone | What belongs there |
 |---|---|---|
-| 0�?4 in | Crouch zone | Heavy, rarely moved: bins, the vacuum dock, shoe trays |
-| 24�?8 in | Working zone | Everyday items: hooks for keys and bags, rail for utensils, pegboard tools |
-| 48�?0 in | Stretch zone | Weekly items: spare towels, cleaning caddies, backup toiletries |
+| 0▶4 in | Crouch zone | Heavy, rarely moved: bins, the vacuum dock, shoe trays |
+| 24▶8 in | Working zone | Everyday items: hooks for keys and bags, rail for utensils, pegboard tools |
+| 48▶0 in | Stretch zone | Weekly items: spare towels, cleaning caddies, backup toiletries |
 | 60 in + | Stool zone | Seasonal and decorative: luggage, holiday linens, plants that like height |
 | Above door | Dead zone | Flat bins for the things you touch twice a year |
 
@@ -125,7 +119,7 @@ Each tier stands on its own, and nothing gets thrown away as you climb.
 
 ## The vertical pass, a four-step method
 
-1. Inventory your walls. Walk the home and list every strip of empty wall at working height (24�?8 inches) plus every door back and above-door strip. Most small homes find four or five usable surfaces in ten minutes.
+1. Inventory your walls. Walk the home and list every strip of empty wall at working height (24▶8 inches) plus every door back and above-door strip. Most small homes find four or five usable surfaces in ten minutes.
 2. Assign by weight, not by room. Heavy items (cast iron, loaded bins) go where a stud is, or onto rails anchored into studs. Light daily items get the adhesive-friendly spots.
 3. Mount by the height zones. Working zone for daily, stretch zone for weekly, stool zone for seasonal. Mark heights with painter's tape before drilling anything.
 4. Give every hook a job. A hook without a named item becomes a hook for the thing you just dropped. Name them, keys, bag, towel, brush, and the system survives.

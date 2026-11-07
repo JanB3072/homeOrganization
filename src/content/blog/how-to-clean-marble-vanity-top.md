@@ -1,25 +1,15 @@
 ---
-title: "How to Clean a Marble Vanity Top: Sort the Damage First, Then Choose the Chemistry"
-description: "A complete guide on how to clean marble vanity tops without causing damage. Learn safe cleaning agents and stain removal tricks."
+title: "Marble Vanity Tops Etch Before You Notice: Sort the Damage, Then the Chemistry"
+description: "How to clean a marble vanity top starts with one rule, nothing acidic touches it, and the etch I left with a citrus spray is why this guide is written by diagnosis."
 pubDate: "2026-10-18T10:55:39-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
-tags:
-  - "bathroom-vanity"
-  - "marble-care"
-  - "cleaning"
-  - "vanity-styling"
-  - "bathroom-maintenance"
+tags: ["vanity-organization", "bathroom-organization"]
 keywords:
   - "how to clean marble vanity top"
   - "marble vanity cleaner"
   - "remove stains from marble vanity"
   - "marble etching repair"
-takeaways:
-  - "Everything wrong with a marble vanity top belongs to one of four families: etching, staining, soap scum and limescale. Each has different chemistry, each is confirmed by touch, and cleaning with the wrong family's method makes the damage worse, most famously by removing limescale with acid and etching the whole top in the process."
-  - "Etching is a chemical burn, not a stain. Acid dissolves calcium carbonate into a dull, slightly roughened patch that no cleaner can reverse; stains live in the pores below an intact surface that still reflects light evenly. Finger the mark first: rough or dull means etch, smooth but discoloured means stain."
-  - "A penetrating sealer buys time against stains and none against acid. It fills the pores so oil and wine sit up instead of soaking in, and the water-drop test, a bead still beading after 15 minutes, tells you when it needs renewing, which in a bathroom is every one to two years."
-  - "Daily care is one damp microfibre cloth and a pH-neutral cleaner, plus coasters under the bottles that actually sit there. The damage on most marble vanities was done by a spray bottle, not by the soap."
 faq:
   - question: "What cleaning products are safe on marble vanity tops?"
     answer: "pH-neutral cleaners, plain dish soap diluted in water, and dedicated stone cleaners are safe. Anything acidic is not, including vinegar, lemon, most bathroom limescale removers, and many glass cleaners. Bleach in dilution is fine for the occasional disinfect but attacks the sealer with repeated use."

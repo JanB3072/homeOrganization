@@ -1,25 +1,15 @@
 ---
-title: "Bathroom Drawer Dividers for Makeup: What Two Weeks of Timing Changed"
-description: "Find the best bathroom drawer dividers for makeup and morning essentials. Stop rummaging and streamline your daily morning routine."
+title: "Makeup Drawers Turn Into a Junk Drawer by Week Two: Dividers That Hold the Sequence"
+description: "Bathroom drawer dividers for makeup only work if the cell is shorter than your longest brush and deeper than your palettes, and mine ended the rummage at six inches per slot."
 pubDate: "2026-11-02T07:40:53-06:00"
 category: "Bathroom"
 subcategory: "Storage"
-tags:
-  - "bathroom-organization"
-  - "drawer-organization"
-  - "makeup-storage"
-  - "vanity-organization"
-  - "cosmetics-storage"
+tags: ["vanity-organization", "bathroom-organization"]
 keywords:
   - "bathroom drawer dividers for makeup"
   - "makeup drawer organizer"
   - "vanity drawer dividers"
   - "cosmetics drawer dividers"
-takeaways:
-  - "I counted 31 items in one vanity drawer and used nine of them in a normal week. Six were past the period-after-opening symbol on the tube."
-  - "Sorting by category is a retail habit. A morning routine is a fixed sequence of motions, and the drawer should be laid out in that order from front to back."
-  - "Searching a row of near-identical lipsticks is a conjunction search: reaction time grows roughly linearly with the number of candidates. Dividing them into small groups turns it back into a fast feature search."
-  - "Foundation, silicone oils and talc attack dividers differently. Unsealed wood takes up oil, and acetone or ethyl acetate from a leaking remover cap crazes PMMA."
 faq:
   - question: "What size dividers fit a standard bathroom vanity drawer?"
     answer: "Measure the clear interior, not the drawer front. Common vanity drawers are 12, 18, 24, 30 or 36 inches wide, 14 to 21 inches deep and 2 to 5 inches of clear height. Subtract roughly an eighth of an inch from any divider system for tolerance, and keep divider tops a quarter to half an inch below the drawer side so they do not catch your knuckles or snag the runner above."

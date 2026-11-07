@@ -1,16 +1,11 @@
 ---
-title: "Wire Basket Wall Storage for Toiletries: Pick the Basket, Then Read Your Wall"
-description: "Add a rustic touch with wire basket wall storage for toiletries. Easy installation tips for hanging baskets in modern bathrooms."
+title: "Wire Baskets Rust or Sag With the Wrong Wall: Pick the Basket, Read the Wall"
+description: "Wire basket wall storage for toiletries rusts in a wet room unless it is powder-coated, and the one that survived my bathroom is the only one whose welds did not weep."
 pubDate: "2026-10-08T15:39:39-05:00"
 category: "Bathroom"
 subcategory: "Storage"
-tags: ["bathroom-organization", "wall-storage", "bathroom-storage", "toiletries-storage", "small-bathroom"]
+tags: ["bathroom-organization", "storage-solutions"]
 keywords: ["wire basket wall storage for toiletries", "wire wall baskets bathroom", "hanging wire baskets for toiletries"]
-takeaways:
-  - "Electro-galvanized wire carries a zinc coat of 5 to 8 microns, which survives a dry hallway and loses to a steamy bathroom in a year or two. Hot-dip galvanizing at 50 to 100 microns, powder coat, or 304 stainless are the realistic choices for a wet wall."
-  - "The weld joints on a wire basket hold the thinnest coating, because the wire was bent and welded after plating. Those dots are where orange bloom appears first, so inspect the welds, not the listing photo."
-  - "An empty basket three feet above the floor looks harmless. Loaded with wet shampoo bottles it weighs 3 to 4 kg and its centre of gravity hangs several inches off the wall, so the top fixings pull out rather than shear down. That is why the anchor matters more than the basket."
-  - "Open wire storage trades dust and splash-back for drainage. It suits bottles with intact labels and pump tops, and it is wrong for cotton pads, spare toothbrush heads, or anything that must stay dry."
 faq:
   - question: "Can I screw wire baskets into bathroom tile?"
     answer: "Yes, and it is the strongest fixing in most bathrooms if done patiently. Mark the hole, stick masking tape over the spot so the bit does not wander, drill through the glaze with a carbide or diamond tile bit at medium speed with no hammer action, then switch to hammer mode once you are through the tile and into the wall behind. Keep holes at least an inch and a half from tile edges and corners, and fill the finished hole with silicone before inserting the plug."

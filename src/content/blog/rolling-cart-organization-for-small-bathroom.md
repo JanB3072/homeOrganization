@@ -1,23 +1,14 @@
 ---
-title: "Rolling Cart Organization for a Small Bathroom: Measure the Floor First"
-description: "A rolling cart organization guide for small bathrooms. Learn how to utilize a 3-tier utility cart for extra towels and toilet paper."
+title: "A Bathroom Rolling Cart Blocks the Door If You Guess: Measure the Floor First"
+description: "A rolling cart in a small bathroom only earns its footprint if it clears the door swing, and the 3-tier one I kept is the one that tucks behind the door at rest."
 pubDate: "2026-10-13T11:15:12-05:00"
 category: "Bathroom"
 subcategory: "Storage"
-tags:
-  - "bathroom-organization"
-  - "small-bathroom"
-  - "rolling-cart"
-  - "towel-storage"
-  - "utility-cart-storage"
+tags: ["bathroom-organization", "storage-solutions"]
 keywords:
   - "rolling cart organization for small bathroom"
   - "3 tier utility cart bathroom"
   - "bathroom rolling storage cart"
-takeaways:
-  - "A three-tier cart is typically 14 to 18 inches wide, 12 to 18 deep and 30 to 36 tall, but its real footprint includes the door swing arc and the space you stand in to reach the bottom shelf."
-  - "Plumbing codes commonly require 21 inches of clear floor in front of a toilet and 15 inches from the bowl centreline to a side wall. Those two numbers eliminate most of the obvious cart positions."
-  - "Put the heavy rolls on the bottom shelf. A cart tips when the load's centre of gravity moves outside its wheelbase, and hanging a bag off one side is the fastest way to get there."
 faq:
   - question: "Will a 3-tier cart fit in a small bathroom?"
     answer: "Measure the clear aisle, not the empty corner. You want about 30 inches of walkway left after the cart is in place, 21 inches of clear floor in front of the toilet, and enough room for an inward-opening door to swing without hitting it. In a 5 by 8 ft bathroom that usually leaves one viable wall, not three."

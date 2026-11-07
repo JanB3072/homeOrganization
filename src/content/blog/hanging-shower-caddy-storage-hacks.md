@@ -1,22 +1,14 @@
 ---
-title: "Hanging Shower Caddy Storage Hacks: Fewer Bottles, Drier Shelves"
-description: "Tired of a cluttered shower? Check out these hanging shower caddy storage hacks to keep shampoo bottles and soaps neatly organized."
+title: "Shower Caddies Rust and Tip: Fewer Bottles, Drier Shelves"
+description: "Hanging shower caddy storage hacks collapse under a full bottle load, so the one that held was the tension-pole model with two baskets, not the suction-cup single."
 pubDate: "2026-10-20T15:05:14-05:00"
 category: "Bathroom"
 subcategory: "Storage"
-tags:
-  - "shower-storage"
-  - "bathroom-organization"
-  - "shower-caddy"
-  - "small-bathroom"
-  - "storage-hacks"
+tags: ["bathroom-organization", "storage-solutions"]
 keywords:
   - "hanging shower caddy storage hacks"
   - "shower caddy organization ideas"
   - "organize shampoo bottles in shower"
-takeaways:
-  - "Suction cups are tested under straight-down load on dry, glossy tile. In a shower the load is a peeling force on a wet, textured surface, which is a different problem entirely."
-  - "Weigh the bottles once: six 500 ml bottles plus the caddy already reach 4 to 5 kg, close to the working limit of most over-the-arm hangers."
 faq:
   - question: "Why does my shower caddy keep falling off the tile?"
     answer: "The cup loses its pressure differential. Steam condenses behind the seal, textured or porous tile lets air creep in at the edge, and bottles sitting on the outer edge of the shelf turn a downward load into a peeling force that lifts the cup from one side. Move to a shower-arm hanger or a tension pole, and keep heavy bottles close to the wall."

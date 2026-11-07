@@ -1,24 +1,14 @@
 ---
 title: "Vanity Top Makeup Organizer Ideas, Starting From What Cosmetics Fear"
-description: "Keep your favorite skincare products close with these vanity top makeup organizer ideas. Beautiful countertop displays and trays."
+description: "Vanity top makeup organizer ideas fail when they add height the mirror can't clear; mine stays at one tray and a row of pumps, and the counter still reads bare."
 pubDate: "2026-10-10T17:34:49-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
-tags:
-  - "bathroom-vanity"
-  - "makeup-organization"
-  - "vanity-styling"
-  - "skincare-storage"
-  - "counter-organization"
+tags: ["vanity-organization", "bathroom-organization"]
 keywords:
   - "vanity top makeup organizer ideas"
   - "countertop makeup organizer"
   - "skincare vanity display"
-takeaways:
-  - "Cosmetics are inventory, not decor: every product carries a PAO symbol (the open-jar icon marked 3M, 6M or 12M) and three enemies, ultraviolet light, heat and humidity. A vanity display either respects those three or it is a slow way to bin expensive things."
-  - "Display in depth, not in rows. A stepped arrangement, tall bottles at the back, daily items in the front strip, keeps every label readable and every item reachable without dismantling the arrangement each morning."
-  - "A window-adjacent vanity looks lovely and degrades exactly what it displays. Vitamin C and retinol oxidise faster in UV, lipsticks soften above their body temperature, and powder compacts cake in steam. Shade, or move them inward."
-  - "Acrylic organisers and actives argue. Benzoyl peroxide bleaches and crazes acrylic, and soaked cotton pads carried back to a tray deposit solvent where the next pad lands. Keep acids and peroxides in their own bottles, on a tray that is not the display."
 faq:
   - question: "What looks good on a vanity top for makeup?"
     answer: "Three layers work in nearly every vanity: a back row of tall skincare bottles, a middle step of jars and compacts, and a shallow front tray for the four or five products touched every single day. One or two materials, repeated, read calmer than a mix of every organiser style in the shop."

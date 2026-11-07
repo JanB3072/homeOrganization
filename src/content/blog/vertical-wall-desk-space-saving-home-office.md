@@ -1,24 +1,14 @@
 ---
-title: "Vertical Wall Desks for Space-Saving Home Offices: Floating Workstations That Fold Away"
-description: "Working from home in a tiny space? Discover vertical wall desks and floating work stations perfect for space-saving home offices."
+title: "A Wall Desk That Folds Away Is the Only Desk a Small Office Gets: Floating Workstations"
+description: "A vertical wall desk only works if the fold-down top clears your chair at full recline, and mine gave a full office to a wall that used to hold a calendar."
 pubDate: "2026-10-09T08:08:23-05:00"
 category: "Small Space"
 subcategory: "Apartment"
-tags:
-  - "wall-desk"
-  - "home-office"
-  - "small-space"
-  - "space-saving-furniture"
-  - "apartment-living"
+tags: ["small-space", "storage-solutions"]
 keywords:
   - "vertical wall desk space saving home office"
   - "floating wall desk"
   - "fold down wall desk apartment"
-takeaways:
-  - "A 600 mm deep desktop with 30 kg at its front edge puts roughly 176 N·m of moment on the wall fixing. Every kilogram on the desk is multiplied by the depth, which is why the anchor spec matters more than the wood."
-  - "Two 1/4-inch lag screws with 1.5 inches of thread into a stud can each resist a few hundred pounds of pull-out. A plastic drywall plug of the kind in a flat-pack kit holds perhaps 20 lb. Those are not variations of the same product."
-  - "A folded desk cabinet is 4 to 6 inches deep when closed, but the open lid needs the full depth in front of the wall. The space saving is real only for the hours you are not working."
-  - "Wall-mount the monitor on a separate arm bolted to the framing. The folding mechanism then carries only a keyboard, and its 40 lb rating stops being the limit on your setup."
 faq:
   - question: "Are wall-mounted desks strong enough for a full workstation?"
     answer: "They can be, if the load goes into framing. Check the mechanism rating, usually 40 to 80 lb for a decent fold-down unit, and separately check what the cabinet is fixed with. A unit lagged into two studs will carry a monitor, a laptop stand and speakers. The same unit on drywall plugs will eventually tear out, regardless of its advertised capacity."

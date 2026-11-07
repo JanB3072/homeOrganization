@@ -1,18 +1,11 @@
 ---
-title: "The Whole-Home Organization System: A Room-by-Room Field Guide"
+title: "One System for the Whole Home: A Room-by-Room Field Guide"
 description: "Build a whole home organization system from measurements, not purchases. Diagnose why each room fails, follow the decision trees, and run a 12-week plan that actually holds."
 pubDate: "2026-10-08T10:39:38-05:00"
 category: "Guides"
 subcategory: "Systems"
-tags: ["home-organization", "organization-system", "storage-solutions", "declutter", "small-space", "room-by-room"]
+tags: ["storage-solutions", "small-space"]
 keywords: ["whole home organization system", "home organization system", "how to organize your entire home", "whole home organization plan"]
-takeaways:
-  - "Organize the whole home as one system, not as five separate rooms. A fix in the kitchen that pushes overflow into the hallway has moved the problem, not solved it."
-  - "Measure before buying anything. Eleven numbers (shelf depth, clear height, door swing, reach band, P-trap offset) decide almost every container purchase."
-  - "Every room failure falls into one of five buckets: capacity, traffic, visibility, maintenance cost, or missing boundaries. Diagnose the bucket before choosing hardware."
-  - "Decision trees beat product lists. Start from the symptom you actually have, follow the if/then branch, and land on a specific fix with a specific measurement."
-  - "Expect 12 weeks for a full pass at 90 minutes a week. The first four weeks spend almost no money because decluttering and measuring come before containers."
-  - "Maintenance is designed, not willed. A five-minute daily return path and a 15-minute weekly reset keep the system from reverting within a season."
 faq:
   - question: "What is a whole home organization system?"
     answer: "A single set of rules applied to every room: measure first, declutter second, assign each category one home, keep daily items inside the reach band, and run one maintenance rhythm for the whole house. The point is that rooms share capacity instead of exporting clutter to each other."
@@ -142,25 +135,25 @@ Q1: Is there a pile on a flat surface?
 
 Q2: Do you own duplicates of items in that pile?
   ├─ YES -> VISIBILITY failure.
-  �?        Fix: one-deep storage, face out, transparent fronts.
-  �?        Kitchen: pull-out or turntable in deep cabinets.
-  �?        Fridge/pantry: clear bins, one category each.
-  �?        Check: can you see every item from 3 feet away?
+  ▶        Fix: one-deep storage, face out, transparent fronts.
+  ▶        Kitchen: pull-out or turntable in deep cabinets.
+  ▶        Fridge/pantry: clear bins, one category each.
+  ▶        Check: can you see every item from 3 feet away?
   └─ NO  -> Q3
 
 Q3: Does the room have somewhere this category is supposed to live?
   ├─ NO  -> BOUNDARIES failure.
-  �?        Fix: declare one home, then give it a physical limit
-  �?        (bin, divider, labeled zone). Label the category,
-  �?        never the contents.
+  ▶        Fix: declare one home, then give it a physical limit
+  ▶        (bin, divider, labeled zone). Label the category,
+  ▶        never the contents.
   └─ YES -> Q4
 
 Q4: Is that declared home already full?
   ├─ YES -> CAPACITY failure.
-  �?        Branch A: items unused in 12 months -> declutter pass.
-  �?        Branch B: all items used -> add volume, but only
-  �?        after measuring clear height and shelf depth.
-  �?        Prefer vertical volume inside the reach band.
+  ▶        Branch A: items unused in 12 months -> declutter pass.
+  ▶        Branch B: all items used -> add volume, but only
+  ▶        after measuring clear height and shelf depth.
+  ▶        Prefer vertical volume inside the reach band.
   └─ NO  -> MAINTENANCE COST failure.
             The home exists and has room. Count the steps to
             put something away. More than 2 -> remove steps:
@@ -168,16 +161,16 @@ Q4: Is that declared home already full?
 
 Q5: Do you physically sidestep anything, or does a door hit it?
   ├─ YES -> TRAFFIC failure.
-  �?        Fix: protect 30-36 in on the main walkway.
-  �?        Move the obstruction, then re-check door swing arc.
-  �?        In small rooms, go vertical on walls instead of floor.
+  ▶        Fix: protect 30-36 in on the main walkway.
+  ▶        Move the obstruction, then re-check door swing arc.
+  ▶        In small rooms, go vertical on walls instead of floor.
   └─ NO  -> Q6
 
 Q6: Does it look tidy right after you clean and fail within a week?
   ├─ YES -> MAINTENANCE COST or no RETURN PATH.
-  �?        Fix: 5-minute daily return path + 15-minute weekly
-  �?        reset. Put the home where the item is dropped, not
-  �?        where it looks best.
+  ▶        Fix: 5-minute daily return path + 15-minute weekly
+  ▶        reset. Put the home where the item is dropped, not
+  ▶        where it looks best.
   └─ NO  -> The system is working. Run the monthly audit instead.
 
 ENDPOINT RULE: before buying anything, re-check Part 2 numbers
@@ -200,8 +193,8 @@ HOLDING ONE ITEM
 
 Used in the last 30 days?
   ├─ NO  -> Used in the last 12 months?
-  �?        ├─ NO  -> donate / sell / discard (four-box rule)
-  �?        └─ YES -> overflow zone, labeled, above 68 in or below 28 in
+  ▶        ├─ NO  -> donate / sell / discard (four-box rule)
+  ▶        └─ YES -> overflow zone, labeled, above 68 in or below 28 in
   └─ YES -> Daily (weekly or more) or occasional?
             ├─ Daily   -> reach band, open top, one motion, one home
             └─ Occasional -> reach band edge, behind daily items
@@ -386,18 +379,18 @@ ROOM IS SLIDING. WHEN DID IT LAST LOOK RIGHT?
 
 Within a week?
   ├─ YES -> MAINTENANCE COST. Count steps for the top 5 items.
-  �?        More than 2 -> open the top, lower the shelf,
-  �?        move the home to the drop point.
+  ▶        More than 2 -> open the top, lower the shelf,
+  ▶        move the home to the drop point.
   └─ NO  -> Q2
 
 Q2: Did something new arrive (purchase, gift, season, housemate)?
   ├─ YES -> CAPACITY. One-in-one-out was skipped.
-  �?        Declutter that category, then re-declare the boundary.
+  ▶        Declutter that category, then re-declare the boundary.
   └─ NO  -> Q3
 
 Q3: Is the same item in two places?
   ├─ YES -> BOUNDARIES. Two homes means neither is home.
-  �?        Consolidate to one, label the category.
+  ▶        Consolidate to one, label the category.
   └─ NO  -> Q4
 
 Q4: Are you buying duplicates of things you own?

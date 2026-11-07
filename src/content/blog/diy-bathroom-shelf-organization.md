@@ -1,24 +1,14 @@
 ---
-title: "DIY Bathroom Shelf Organization: A Weekend Reset That Actually Stays Tidy"
-description: "Transform your space with these easy DIY bathroom shelf organization tips. Learn how to declutter and arrange toiletries like a pro."
+title: "Bathroom Shelves Relapse by Monday: A Weekend Reset That Stays Tidy"
+description: "DIY bathroom shelf organization fails when the shelf sits inside the splash line, so mine went high and narrow and the toothpaste drift stopped reaching it."
 pubDate: "2026-10-22T09:26:48-05:00"
 category: "Bathroom"
 subcategory: "Storage"
-tags:
-  - "bathroom-organization"
-  - "shelf-organization"
-  - "diy-storage"
-  - "toiletries-storage"
-  - "declutter"
+tags: ["bathroom-organization", "storage-solutions"]
 keywords:
   - "diy bathroom shelf organization"
   - "bathroom shelf organization ideas"
   - "organize bathroom toiletries"
-takeaways:
-  - "When I emptied one 30-inch shelf I counted 47 items: 9 expired, 6 duplicates, 4 never opened. The mess was inventory, not a shortage of containers."
-  - "A shower pushes a small bathroom to 80–100 percent relative humidity for half an hour or more. Cardboard and woven baskets reach equilibrium moisture content and stay damp long enough to grow mildew."
-  - "An open shelf above a toilet sits in the aerosol plume from flushing. Anything that touches your face belongs behind a door or in a lidded container."
-  - "A 36-inch span of 5/8-inch MDF sags under a row of full bottles. Shelf span and thickness decide the layout before any organiser does."
 faq:
   - question: "What is the fastest way to organise a bathroom shelf that has got out of hand?"
     answer: "Take everything off, wipe the bare shelf, check expiry dates, combine duplicates into one bottle, then put back only what you use weekly. On a single 30-inch shelf this takes about half an hour. Buy nothing until you have counted what survives, because the number is usually half of what you expected."

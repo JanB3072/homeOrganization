@@ -1,16 +1,11 @@
 ---
-title: "Floating Shelves Storage Ideas for a Tiny Studio Kitchen: Nine Walls That Gained a Job"
-description: "Maximize restricted wall spaces using industrial floating shelves storage ideas tailored specifically for micro studio kitchens."
+title: "A Tiny Studio Kitchen Has No Counter: Nine Floating-Shelf Walls That Gained a Job"
+description: "In a studio kitchen the walls are the room's second floor, and eleven bare feet of mine now hold every plate on floating shelves and boards."
 pubDate: "2026-10-20T09:11:53-05:00"
 category: "Small Space"
 subcategory: "Storage"
-tags: ["small-space", "studio-kitchen", "floating-shelves", "wall-storage", "industrial-shelving"]
+tags: ["kitchen-organization", "storage-solutions"]
 keywords: ["floating shelves storage ideas for tiny studio kitchen", "industrial floating shelves", "studio kitchen wall storage", "micro kitchen shelving", "small kitchen floating shelf ideas"]
-takeaways:
-  - "A studio kitchen wall is measured in linear feet, and eleven feet above counter height is usually bare, load-bearing, and free; that is where the storage lives."
-  - "Industrial pipe brackets carry 40-plus pounds per stud anchor, which turns one 36-inch shelf into a full dish cabinet with zero floor loss."
-  - "Depth beats length in a micro kitchen: a 10-inch-deep shelf holds dinner plates, while an 8-foot shallow ledge holds nothing you use."
-  - "Every shelf earns its place by hosting one daily-use zone; a shelf for storage you never touch is decoration that collects grease."
 faq:
   - question: "Are floating shelves good for a tiny studio kitchen?"
     answer: "They are often the only upgrade that adds storage without costing floor area. A well-anchored industrial shelf above the counter holds the dishes and glasses a whole cabinet would, and open fronts keep everything visible in a room where hidden space gets forgotten."
