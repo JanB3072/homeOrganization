@@ -74,26 +74,28 @@ const schema = {
 };
 ---
 
-<!-- Breadcrumb Navigation -->
-<nav aria-label="Breadcrumb" class="breadcrumb-bar">
-  <ol class="breadcrumb-list">
-    {breadcrumbs.map((item, index) => (
-      <li class="breadcrumb-item" key={index}>
-        {index < breadcrumbs.length - 1 ? (
-          <>
-            <a href={item.url} class="breadcrumb-link">{item.label}</a>
-            <span class="breadcrumb-separator">/</span>
-          </>
-        ) : (
-          <span class="breadcrumb-current" aria-current="page">{item.label}</span>
-        )}
-      </li>
-    ))}
-  </ol>
-</nav>
+<!-- Breadcrumb Navigation (hidden when there is nothing beyond "Home") -->
+{breadcrumbs.length > 1 && (
+  <nav aria-label="Breadcrumb" class="breadcrumb-bar">
+    <ol class="breadcrumb-list">
+      {breadcrumbs.map((item, index) => (
+        <li class="breadcrumb-item" key={index}>
+          {index < breadcrumbs.length - 1 ? (
+            <>
+              <a href={item.url} class="breadcrumb-link">{item.label}</a>
+              <span class="breadcrumb-separator">/</span>
+            </>
+          ) : (
+            <span class="breadcrumb-current" aria-current="page">{item.label}</span>
+          )}
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}
 
 <!-- Schema.org JSON-LD -->
-<script type="application/ld+json" set:html={JSON.stringify(schema)} />
+{breadcrumbs.length > 1 && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
 
 <style>
   .breadcrumb-bar {

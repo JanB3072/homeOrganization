@@ -23,7 +23,7 @@ const { name, icon, slug, description, articleCount = 0 } = Astro.props;
     <p class="category-card-description">{description}</p>
     
     {articleCount > 0 && (
-      <p class="category-card-count">📊 {articleCount} articles</p>
+      <p class="category-card-count">📊 {articleCount} {articleCount === 1 ? 'article' : 'articles'}</p>
     )}
     
     <div class="category-card-arrow">
