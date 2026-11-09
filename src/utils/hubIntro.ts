@@ -83,7 +83,7 @@ export const subcategoryIntro: Record<string, string> = {
 
   'Bathroom/Storage': `
 <p>Bathroom storage that is not the vanity has one rule I learned from a stained wall: it must survive humidity. Cardboard, unsealed wood, and backless shelves all failed within a year in my steamy bath, and the marks are still there.</p>
-<p>The posts here cover the over-the-toilet wall, the under-sink cabinet planned around the P-trap (not against it), the shower caddy that actually drains instead of growing a film, and the wire baskets that hold toiletries off the floor without trapping moisture. Measured against my own small bath. Start with <a href="/blog/over-the-toilet-storage-ideas/">over-the-toilet storage</a> or <a href="/blog/how-to-organize-under-bathroom-sink/">under-sink organization</a>.</p>
+<p>The posts here cover the over-the-toilet wall, the under-sink cabinet planned around the P-trap (not against it), the shower caddy that actually drains instead of growing a film, and the wire baskets that hold toiletries off the floor without trapping moisture. Measured against my own small bath. The two I would read first are the <a href="/blog/diy-bathroom-vanity-makeover-on-a-budget/">budget vanity makeover</a> and the <a href="/blog/bathroom-vanity-drawer-organization-tips/">drawer organization</a> that actually holds. Start with <a href="/blog/over-the-toilet-storage-ideas/">over-the-toilet storage</a> or <a href="/blog/how-to-organize-under-bathroom-sink/">under-sink organization</a>.</p>
 `,
 
   'Bathroom/Vanity': `
@@ -98,7 +98,7 @@ export const subcategoryIntro: Record<string, string> = {
 
   'Declutter/Moving': `
 <p>Moving is the one time decluttering is forced, and most people spend the move hauling things they should have left. The trick is to decide at the box, not at the new closet, because a box you debate in the new place has already cost you the lift, the truck, and the stairwell.</p>
-<p>The write-up here is the pre-move cut I wish I had tracked the first time, because the cost of moving an unused thing is always higher than the cost of replacing it later, and almost never do you replace it. See <a href="/blog/swedish-death-cleaning-method-checklist/">the Swedish method checklist</a> for the same logic applied to a whole life.</p>
+<p>The write-up here is the pre-move cut I wish I had tracked the first time, because the cost of moving an unused thing is always higher than the cost of replacing it later, and almost never do you replace it. If the move is the deadline, start with the <a href="/blog/how-to-declutter-before-moving-checklist/">pre-move decluttering checklist</a>. See <a href="/blog/swedish-death-cleaning-method-checklist/">the Swedish method checklist</a> for the same logic applied to a whole life.</p>
 `,
 
   'Guides/Systems': `
