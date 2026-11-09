@@ -26,7 +26,7 @@ The space over the toilet is the best storage you've got in a small bathroom, an
 
 Short version up front: the freestanding unit won because it needs no drilling, holds the most, and never tipped in two years. The tension-pole caddy was the disappointment, rusted and wobbled within months. The rest is detail.
 
-![Freestanding over-the-toilet storage etagere with towels and baskets in a small bathroom](./images/bathroom-over-toilet.jpg)
+<img src="./images/bathroom-over-toilet.jpg" alt="Freestanding over-the-toilet storage etagere with towels and baskets in a small bathroom" width="607" height="572" loading="lazy" decoding="async" />
 
 Why this spot is worth the trouble
 

@@ -110,8 +110,11 @@ const ogImage = (() => {
     <!-- Schema.org Structured Data -->
     <SchemaOrg type="WebSite" url={canonicalUrl} />
     
-    <!-- Google Fonts - Inter (modern, clean) -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+    <!-- Google Fonts - Inter (modern, clean). Loaded non-render-blocking so
+         the stylesheet never delays first paint / LCP; the system font stack
+         covers the brief swap, and <noscript> keeps it working without JS. -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" /></noscript>
     
     <style is:global>
       /* Light Mode (Default) */

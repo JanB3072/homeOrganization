@@ -39,7 +39,7 @@ You can get under your bathroom sink organized in one sitting, about 40 minutes,
 
 Don't just start shoving bottles around. The order matters; everything before step three is prep, and skipping the measuring step is why most people end up with bins that don't fit. If you want the two-year materials comparison behind my choices. that's a [separate post](/blog/under-sink-storage-plumbing-friendly/). This one is just the process.
 
-![Inside of a bathroom sink cabinet organized with clear bins and pull-out drawers](./images/under-bathroom-sink.jpg)
+<img src="./images/under-bathroom-sink.jpg" alt="Inside of a bathroom sink cabinet organized with clear bins and pull-out drawers" width="699" height="663" loading="lazy" decoding="async" />
 
 The order, roughly
 

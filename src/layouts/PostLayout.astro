@@ -18,12 +18,13 @@ interface Props {
   subcategory?: string;
   tags?: string[];
   image?: string;
+  imageAlt?: string;
   breadcrumbs?: Array<{ name: string; path: string }>;
   relatedPosts?: any[];
   currentSlug?: string;
 }
 
-const { title, description, author, body, pubDate, updatedDate, category, subcategory, tags, image, relatedPosts, currentSlug, takeaways, faq, howTo, breadcrumbs } = Astro.props;
+const { title, description, author, body, pubDate, updatedDate, category, subcategory, tags, image, imageAlt, relatedPosts, currentSlug, takeaways, faq, howTo, breadcrumbs } = Astro.props;
 
 // Forward breadcrumb trail to BaseLayout's single breadcrumb renderer
 const breadcrumbItems = breadcrumbs?.map(b => ({ label: b.name, url: b.path }));
@@ -75,7 +76,7 @@ const formatDate = (date: Date) => {
   <div class="post-container">
     <!-- Main Article Content -->
     <article class="post-main">
-      {image && <Image src={image} alt={title} class="post-hero-image" />}
+      {image && <Image src={image} alt={imageAlt ?? title} width={Math.min(1280, (image as any).width || 1280)} class="post-hero-image" loading="eager" decoding="async" />}
       
       <div class="article-header">
         <h1>{title}</h1>

@@ -23,7 +23,7 @@ image: ./images/closet-shelf-dividers.png
 imageAlt: "Folded sweaters standing upright between clear acrylic closet shelf dividers"
 ---
 
-![Folded sweaters standing upright between clear acrylic closet shelf dividers](./images/closet-shelf-dividers.png)
+<img src="./images/closet-shelf-dividers.png" alt="Folded sweaters standing upright between clear acrylic closet shelf dividers" width="1536" height="1024" loading="lazy" decoding="async" />
 
 Every folded sweater stack in my closet used to live on borrowed time. It would stand neatly for a day, then the weight of a chunky wool sweater on top would send the whole column sliding sideways into its neighbor. Pull one sweater from the middle and the stack falls like dominoes. By the end of the week the shelf was a landscape of collapsed towers and I was re-folding clothes that had never been worn.
 

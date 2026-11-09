@@ -26,7 +26,7 @@ imageAlt: "Under-sink storage with visible P-trap pipes and ventilated plastic c
 
 > **Note**: This guide is written for North American plumbing with P-traps. If you're elsewhere, your under-sink layout may differ. Adapt to your local setup.
 
-![Under-sink storage with visible P-trap pipes and ventilated plastic containers](./images/under-sink-materials.jpg)
+<img src="./images/under-sink-materials.jpg" alt="Under-sink storage with visible P-trap pipes and ventilated plastic containers" width="702" height="658" loading="lazy" decoding="async" />
 
 When I moved in I was excited about the under-sink space. Two doors, looked roomy. I figured I'd drop my cleaning supplies and extra stuff down there and call it done.
 

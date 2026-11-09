@@ -27,7 +27,7 @@ My vanity counter held 23 things in October. It holds three now. The whole thing
 
 The look people call a "minimalist bathroom" is mostly a storage problem in disguise. You don't need a new vanity or a stone top. You need every product to have a home that isn't the counter. Here's what actually changed.
 
-![Minimalist bathroom vanity with a nearly empty counter and a soap pump](./images/bathroom-vanity.jpg)
+<img src="./images/bathroom-vanity.jpg" alt="Minimalist bathroom vanity with a nearly empty counter and a soap pump" width="701" height="661" loading="lazy" decoding="async" />
 
 Before: what was really on there
 

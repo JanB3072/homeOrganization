@@ -24,7 +24,7 @@ image: ./images/vertical-closet.jpg
 imageAlt: "Small closet organized vertically with double hanging rods and fabric bins"
 ---
 
-![Small closet organized vertically with double hanging rods and fabric bins](./images/vertical-closet.jpg)
+<img src="./images/vertical-closet.jpg" alt="Small closet organized vertically with double hanging rods and fabric bins" width="700" height="660" loading="lazy" decoding="async" />
 
 My closet is 4 feet wide, 5 deep, 7 tall. For the first year I used it the standard way: one rod, a shelf above, shoes wherever they landed. Getting dressed took ten to fifteen minutes, and I bought duplicates because I couldn't see what I owned.
 

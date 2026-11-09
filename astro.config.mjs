@@ -13,6 +13,12 @@ export default defineConfig({
   
   // Output as static HTML - best for SEO and fast performance
   output: 'static',
+
+  // Serve optimized WebP for <Image> outputs (smaller payload, better LCP)
+  image: {
+    format: 'webp',
+    quality: 75,
+  },
   
   // Note: i18n can be enabled when you have full Chinese version of content
   // For now, focus on perfecting English version with complete SEO optimization
