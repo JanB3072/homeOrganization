@@ -1,0 +1,48 @@
+---
+import { categoryIntro, subcategoryIntro } from '../utils/hubIntro';
+
+interface Props {
+  category?: string;
+  subcategory?: string;
+}
+
+const { category, subcategory } = Astro.props;
+
+const html = subcategory
+  ? (subcategoryIntro[`${category}/${subcategory}`] ?? '')
+  : (category ? (categoryIntro[category] ?? '') : '');
+---
+
+{html && (
+  <section class="hub-intro" set:html={html} />
+)}
+
+<style>
+  .hub-intro {
+    max-width: 760px;
+    margin: 0 auto 3rem;
+    padding: 1.75rem 1.75rem 0.25rem;
+    background: var(--color-bg-light, #f8fafc);
+    border: 1px solid var(--color-border, #e2e8f0);
+    border-left: 4px solid var(--color-primary, #2563eb);
+    border-radius: 0.75rem;
+  }
+
+  .hub-intro :global(p) {
+    color: var(--color-text-light, #475569);
+    line-height: 1.8;
+    margin: 0 0 1rem;
+  }
+
+  .hub-intro :global(p:last-child) {
+    margin-bottom: 1.25rem;
+  }
+
+  .hub-intro :global(a) {
+    font-weight: 600;
+  }
+
+  .hub-intro :global(h2) {
+    margin-top: 0.5rem;
+  }
+</style>

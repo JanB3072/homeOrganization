@@ -4,6 +4,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import Pagination from '../../components/Pagination.astro';
+import HubIntro from '../../components/HubIntro.astro';
 import { getPostsByCategory } from '../../utils/content';
 
 const closetPosts = await getPostsByCategory('Closet');
@@ -109,6 +110,8 @@ const subcategories = [
 
   <!-- Articles -->
   <section>
+  <HubIntro category="Closet" />
+
     <h2 style="margin-bottom: 2rem;">📝 Latest Articles</h2>
     {firstPagePosts.length > 0 ? (
       <>

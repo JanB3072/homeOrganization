@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import Pagination from '../../components/Pagination.astro';
+import HubIntro from '../../components/HubIntro.astro';
 import { getPostsByCategory } from '../../utils/content';
 
 const guidePosts = await getPostsByCategory('Guides');
@@ -24,6 +25,8 @@ const firstPagePosts = guidePosts.slice(0, perPage);
   </section>
 
   <section>
+  <HubIntro category="Guides" />
+
     <h2 style="margin-bottom: 2rem;">Guides</h2>
     {firstPagePosts.length > 0 ? (
       <>

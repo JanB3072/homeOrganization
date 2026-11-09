@@ -4,6 +4,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import Pagination from '../../components/Pagination.astro';
+import HubIntro from '../../components/HubIntro.astro';
 import { getPostsByCategory } from '../../utils/content';
 
 const bathroomPosts = await getPostsByCategory('Bathroom');
@@ -28,6 +29,8 @@ const firstPagePosts = bathroomPosts.slice(0, perPage);
 
   <!-- Articles -->
   <section>
+  <HubIntro category="Bathroom" />
+
     <h2 style="margin-bottom: 2rem;">📝 Latest Articles</h2>
     {firstPagePosts.length > 0 ? (
       <>

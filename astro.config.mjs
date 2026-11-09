@@ -34,7 +34,7 @@ export default defineConfig({
   // Auto-generate sitemap from all routes (posts, categories, tags, pagination)
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/404'),
+      filter: (page) => !page.includes('/404') && !page.includes('/tags/'),
     }),
   ],
 });

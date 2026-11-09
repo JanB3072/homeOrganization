@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import Pagination from '../components/Pagination.astro';
+import HubIntro from '../components/HubIntro.astro';
 import type { BlogPost } from '../utils/content';
 
 interface Props {
@@ -32,6 +33,9 @@ const subcategorySlug = subcategory.toLowerCase().replace(/\s+/g, '-');
       {posts.length} of {totalPages * 12} articles about {subcategory}
     </p>
   </section>
+
+  <!-- Pillar intro (unique per subcategory, authority copy) -->
+  <HubIntro category={category} subcategory={subcategory} />
 
   <!-- Articles Grid -->
   {posts.length > 0 ? (

@@ -42,6 +42,7 @@ const canonicalUrl = page === 1
 <BaseLayout 
   title={`Articles tagged with "${tag}" - Page ${page}`}
   description={`Showing ${data.posts.length} articles tagged with ${tag}. Page ${page} of ${data.totalPages}.`}
+  robots="noindex, follow"
 >
   <section class="tag-section">
     <div class="tag-header">
