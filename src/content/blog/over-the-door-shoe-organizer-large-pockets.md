@@ -2,7 +2,7 @@
 title: "Why the Pocket Count on an Over-the-Door Shoe Organizer Is a Lie (and What to Measure Instead)"
 description: "A large-pocket over-the-door shoe organizer fits bulky sneakers and heels that 24-cell panels crush :  measure the door, run the weight math, and six pairs clear off the floor for about $20."
 pubDate: "2026-11-08T09:15:00-06:00"
-updatedDate: "2026-11-07T09:00:00-06:00"
+
 category: "Closet"
 subcategory: "Shoes"
 tags: ["closet-organization", "shoe-storage"]

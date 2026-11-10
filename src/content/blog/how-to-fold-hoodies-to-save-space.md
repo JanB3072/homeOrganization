@@ -1,12 +1,12 @@
 ---
 title: "How to Fold Hoodies to Save Space: the Hood Goes First, Always"
-description: "Learn how to fold hoodies to save space in your drawers and closet shelves. Master the military roll and square fold methods easily."
+description: "How to fold hoodies to save space starts with the hood, which domes the stack. I compared the military roll, the square fold, and the drawer depth each one needs."
 image: ./images/how-to-fold-hoodies-to-save-space.png
 imageAlt: "Woman at open closet drawers holding a stack of folded hoodies, with more hoodies rolled military-style in the drawer below and square-folded stacks on the shelf above"
 pubDate: "2026-11-14T11:00:00-06:00"
 category: "Closet"
 subcategory: "Clothing"
-tags: ["fold hoodies", "save space folding", "military roll", "drawer organization", "closet organization"]
+tags: ["fold hoodies", "save space folding", "military roll", "drawer organization", "closet-organization"]
 keywords: ["how to fold hoodies to save space", "how to fold a hoodie", "military roll hoodie", "hoodie folding hacks", "fold sweaters to save space"]
 takeaways:
   - "Every hoodie folding problem traces to three features: the hood that domes the stack, the kangaroo pocket that traps air, and the fleece loft that compresses under weight. Handle the hood first and the rest follows."

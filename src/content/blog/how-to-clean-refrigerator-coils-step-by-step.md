@@ -2,7 +2,7 @@
 title: "My Fridge Was Humming at 2 AM: The 30-Minute Coil Clean That Cut the Power Bill"
 description: "Clean refrigerator coils step by step in 30 minutes with an $8 brush :  the job can cut about a quarter off the fridge's energy use and add years to the compressor."
 pubDate: "2026-11-10T15:10:00-06:00"
-updatedDate: "2026-11-07T09:00:00-06:00"
+
 category: "Kitchen"
 subcategory: "Fridge"
 tags: ["kitchen-organization", "storage-solutions"]

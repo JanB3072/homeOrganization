@@ -2,7 +2,7 @@
 title: "Stop Stacking Your Jeans: How to Organize Jeans on Closet Shelves So They Stop Avalanching"
 description: "Organize jeans on closet shelves so they stop avalanching :  file folding fits two rows on a 14-inch shelf, and sorting by wash cycle keeps the pile honest."
 pubDate: "2026-11-09T09:10:00-06:00"
-updatedDate: "2026-11-07T09:00:00-06:00"
+
 category: "Closet"
 subcategory: "Clothing"
 tags: ["closet-organization", "storage-solutions"]

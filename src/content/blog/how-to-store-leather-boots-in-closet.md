@@ -1,12 +1,12 @@
 ---
 title: "How to Store Leather Boots in a Closet Without the Creases, the Mold, or the March Surprise"
-description: "Keep boots upright and prevent creasing. Learn how to store leather boots in a closet using boot shapers, rolled magazines, or hangers."
+description: "How to store leather boots in a closet without creases or mold: boot shapers, rolled magazines, and hangers, tested over one Chicago winter."
 image: ./images/how-to-store-leather-boots-in-closet.png
 imageAlt: "Closet boot zone with tall leather boots held upright by black boot shapers, one pair hanging from boot clips, and rolled magazines supporting a shorter pair, with shoes on the shelf above"
 pubDate: "2026-11-13T09:15:00-06:00"
 category: "Closet"
 subcategory: "Shoes"
-tags: ["boot storage", "leather boot care", "closet organization", "shoe storage", "seasonal storage"]
+tags: ["boot storage", "leather boot care", "closet-organization", "shoe-storage", "seasonal-storage"]
 keywords: ["how to store leather boots in closet", "boot storage ideas for closet", "boot shapers vs rolled magazines", "hanging boots in closet", "leather boot care storage"]
 takeaways:
   - "Stored leather has four enemies: the crease, trapped moisture, dust, and being forgotten. Every storage decision maps to one of them."

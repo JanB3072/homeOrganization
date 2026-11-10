@@ -2,7 +2,7 @@
 title: "Is That Dead Corner Behind the Sofa the Cheapest Storage You're Not Using?"
 description: "Corner space for storage is the cheapest square footage in a small apartment :  a walking tour of five corners, what fit, what failed, and the 14-inch depth rule that decides it all."
 pubDate: "2026-11-11T09:20:00-06:00"
-updatedDate: "2026-11-07T09:00:00-06:00"
+
 category: "Small Space"
 subcategory: "Storage"
 tags: ["small-space", "storage-solutions"]

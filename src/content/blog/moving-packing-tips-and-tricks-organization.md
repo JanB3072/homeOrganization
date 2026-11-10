@@ -2,7 +2,7 @@
 title: "My First Move Ended in Tears Over a Can Opener: The Moving Packing Tips That Fixed the Second One"
 description: "These moving packing tips turned a 34-box move into a system: a three-line label code, a 30-second box ledger, plates on edge, and a first-night box that saves the first morning."
 pubDate: "2026-11-10T09:30:00-06:00"
-updatedDate: "2026-11-07T09:00:00-06:00"
+
 category: "Declutter"
 subcategory: "Moving"
 tags: ["moving", "decluttering"]

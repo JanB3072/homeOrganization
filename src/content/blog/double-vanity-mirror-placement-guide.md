@@ -1,6 +1,6 @@
 ---
 title: "Double Vanity Mirrors at the Wrong Height Look Cheap: The Spacing and Light That Fix It"
-description: "Read our comprehensive double vanity mirror placement guide to ensure perfect alignment, height, and lighting for your master bathroom."
+description: "Double vanity mirror placement guide: the height, spacing, and lighting measurements I used on a 60-inch vanity, including the gap that makes mirrors look cheap."
 pubDate: "2026-10-21T09:39:22-05:00"
 category: "Bathroom"
 subcategory: "Vanity"

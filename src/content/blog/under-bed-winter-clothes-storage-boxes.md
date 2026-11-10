@@ -2,7 +2,7 @@
 title: "The 33 Square Feet Under Your Bed Is Wasted: Picking Under Bed Winter Clothes Storage Boxes That Fit"
 description: "Under-bed storage turns 33 square feet of dead floor into seasonal closet space :  here are the gap measurements and the fabric-vs-plastic call that decide whether boxes actually fit."
 pubDate: "2026-11-08T14:30:00-06:00"
-updatedDate: "2026-11-07T09:00:00-06:00"
+
 category: "Closet"
 subcategory: "Seasonal"
 tags: ["closet-organization", "seasonal-storage"]

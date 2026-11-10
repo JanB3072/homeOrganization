@@ -2,7 +2,7 @@
 title: "I Spent $200 on Bins and the Mess Didn't Budge: How to Start Decluttering When Overwhelmed"
 description: "Too overwhelmed to declutter? Start with a 5-minute habit, not a weekend :  this guide breaks the mess into a triage pass and a first-week plan that actually finishes."
 pubDate: "2026-11-09T15:20:00-06:00"
-updatedDate: "2026-11-07T09:00:00-06:00"
+
 category: "Declutter"
 subcategory: "Methods"
 tags: ["decluttering", "storage-solutions"]
