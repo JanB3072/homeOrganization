@@ -14,7 +14,7 @@ faq:
   - question: "What depth should floating shelves be above a kitchen counter?"
     answer: "Ten to twelve inches. That depth fits dinner plates upright, mixing bowls, and standard canisters. Anything over 13 inches starts colliding with heads and faucet clearance; anything under 8 inches only holds spices and ends up underused."
   - question: "How do I keep open shelves from looking cluttered in a studio?"
-    answer: "Give every shelf a single job and a color or material rule, keep the top 20 percent of each shelf visually empty, and store the messy category, food bags and Tools, in closed zones below the counter instead. Open shelves show curated items, not overflow."
+    answer: "Give every shelf a single job and a color or material rule, keep the top 20 percent of each shelf visually empty, and store the messy category, food bags and Tools, in closed zones below the counter instead. Open shelves show chosen items, not overflow."
 howTo:
   - name: "Map the wall and find the studs"
     text: "Run a stud finder across the full kitchen wall and mark every stud line with painter's tape. Stud spacing decides where shelves can anchor; stud-free stretches get the short or decorative zones."

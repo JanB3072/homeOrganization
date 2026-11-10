@@ -87,7 +87,7 @@ The test is simple: run one real morning after loading. Every time you reach ove
 
 ### Shallow drawers: the flat-file system
 
-Under three inches of height, you are storing papers, essentially. The mistake here is buying standard-height organizers and losing a third of the drawer to air.
+Under three inches of height, what you are really storing is paper. The mistake here is buying standard-height organizers and losing a third of the drawer to air.
 
 What works:
 

@@ -91,7 +91,7 @@ The system has boundaries. Daily beaters belong on a rack or a mat, because the 
 
 ## One year later: how the tiers actually aged
 
-The follow-up nobody writes, from my own set. The drop-front tier came through 12 months essentially untouched: two hairline stress marks at two door hinges that get daily use, channels intact, clarity barely changed. The snap-lid tier aged fastest: three lids warped from being stacked under load, and the bluish cast on the cheapest boxes is now permanent. The magnetic tier looks new, which at $18 a box it should.
+The follow-up nobody writes, from my own set. The drop-front tier came through 12 months nearly untouched: two hairline stress marks at two door hinges that get daily use, channels intact, clarity barely changed. The snap-lid tier aged fastest: three lids warped from being stacked under load, and the bluish cast on the cheapest boxes is now permanent. The magnetic tier looks new, which at $18 a box it should.
 
 The honest wear math: a drop-front box works out to about $0.70 a month over a realistic three-to-four-year life, and it's the only tier whose failure mode (a hinge, not the body) is non-fatal. A cracked corner in a snap-lid stack retires the whole box; a tired drop-front door is still a sealed box that stacks. Buy the middle tier once instead of the cheap tier twice, and that's the whole durability argument in one line.
 

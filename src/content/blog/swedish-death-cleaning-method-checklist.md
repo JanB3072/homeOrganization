@@ -14,7 +14,7 @@ faq:
   - question: "What order should you declutter in for death cleaning?"
     answer: "Start with the easy, impersonal categories, papers, expired goods, duplicate household items, then wardrobe, books, and media, and leave photos and sentimental items for last. The method builds decision-making confidence on low-stakes objects before touching the ones that carry memory."
   - question: "How is death cleaning different from regular decluttering?"
-    answer: "Regular decluttering optimizes your space; death cleaning considers your survivors. The extra questions are unique: would my family want this, will they have to guess what it meant, and have I told anyone what I'd like kept, plus the paperwork layer (wishes, accounts, passwords) most decluttering methods skip entirely."
+    answer: "Regular decluttering makes the best use of your space; death cleaning considers your survivors. The extra questions are unique: would my family want this, will they have to guess what it meant, and have I told anyone what I'd like kept, plus the paperwork layer (wishes, accounts, passwords) most decluttering methods skip entirely."
   - question: "How do I start Swedish death cleaning without getting overwhelmed?"
     answer: "One drawer or one shelf per session, on a rhythm, monthly, not marathon. Set a timer for 30 minutes, sort into keep, gift, donate, and discard, and stop while it still feels easy. The method explicitly warns against the heroic weekend purge; shallowness and repetition are the design."
 howTo:
@@ -48,7 +48,7 @@ Three things distinguish it from every other decluttering method.
 
 It's recurring, not episodic. Not a weekend, not a January. A rhythm of small passes across months or years, designed so nobody burns out and nothing gets shredded in a regrettable sprint.
 
-It optimizes for survivors. Marie Kondo asks whether an item sparks joy for you. Döstädning adds the second audience: will this item force my family to wonder what it meant, what it's worth, whether to keep it? You answer those questions now, on your own schedule, instead of leaving them to people who are grieving.
+It is built around the people who come after you. Marie Kondo asks whether an item sparks joy for you. Döstädning adds the second audience: will this item force my family to wonder what it meant, what it's worth, whether to keep it? You answer those questions now, on your own schedule, instead of leaving them to people who are grieving.
 
 It includes the invisible estate. Documents, accounts, passwords, wishes for specific objects. Regular decluttering stops at the closet; death cleaning continues into the filing cabinet and the password manager, because that's where survivors actually drown.
 
