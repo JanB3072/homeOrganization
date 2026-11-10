@@ -3,20 +3,18 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import Pagination from '../../components/Pagination.astro';
 import { getTagPaginatedEnhanced, getAllTags } from '../../utils/content';
+import { slugify } from '../../utils/slugs';
 
 export async function getStaticPaths() {
   const allTags = await getAllTags();
   const paths = [];
 
   for (const [tag] of allTags) {
+    const tagSlug = slugify(tag);
     const data = await getTagPaginatedEnhanced(tag, 1);
     for (let page = 1; page <= data.totalPages; page++) {
       paths.push({
-        params: {
-          slug: page === 1 
-            ? tag.toLowerCase().replace(/\s+/g, '-')
-            : `${tag.toLowerCase().replace(/\s+/g, '-')}/${page}`,
-        },
+        params: { slug: page === 1 ? tagSlug : `${tagSlug}/${page}` },
         props: { tag, page },
       });
     }
@@ -33,16 +31,17 @@ interface Props {
 const { tag, page = 1 } = Astro.props as Props;
 const data = await getTagPaginatedEnhanced(tag, page);
 
-const tagSlug = tag.toLowerCase().replace(/\s+/g, '-');
-const canonicalUrl = page === 1
-  ? `${Astro.url.origin}/tags/${tagSlug}/`
-  : `${Astro.url.origin}/tags/${tagSlug}/${page}/`;
+const tagSlug = slugify(tag);
+const prevUrl = page > 1 ? (page > 2 ? `/tags/${tagSlug}/${page - 1}/` : `/tags/${tagSlug}/`) : undefined;
+const nextUrl = page < data.totalPages ? `/tags/${tagSlug}/${page + 1}/` : undefined;
 ---
 
 <BaseLayout 
-  title={`Articles tagged with "${tag}" - Page ${page}`}
-  description={`Showing ${data.posts.length} articles tagged with ${tag}. Page ${page} of ${data.totalPages}.`}
+  title={page === 1 ? `Articles on ${tag}` : `Articles on ${tag} - Page ${page}`}
+  description={`${data.total} articles on ${tag}, each written after measuring something in my own apartment. Page ${page} of ${data.totalPages}.`}
   robots="noindex, follow"
+  prevUrl={prevUrl}
+  nextUrl={nextUrl}
 >
   <section class="tag-section">
     <div class="tag-header">
@@ -83,18 +82,10 @@ const canonicalUrl = page === 1
       </>
     ) : (
       <div class="empty-state">
-        <p>No articles found with this tag.</p>
+        <p>Nothing filed under {tag} yet.</p>
       </div>
     )}
   </section>
-
-  <link rel="canonical" href={canonicalUrl} />
-  {page > 1 && (
-    <link rel="prev" href={page > 2 ? `/tags/${tagSlug}/${page - 1}/` : `/tags/${tagSlug}/`} />
-  )}
-  {page < data.totalPages && (
-    <link rel="next" href={`/tags/${tagSlug}/${page + 1}/`} />
-  )}
 </BaseLayout>
 
 <style>

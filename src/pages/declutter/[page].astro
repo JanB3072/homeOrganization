@@ -14,8 +14,8 @@ if (page < 1 || page > data.totalPages) {
 
 export async function getStaticPaths() {
   const d = await getCategoryPaginated('Declutter', 1);
-  return Array.from({ length: d.totalPages }, (_, i) => ({
-    params: { page: String(i + 1) },
+  return Array.from({ length: Math.max(0, d.totalPages - 1) }, (_, i) => ({
+    params: { page: String(i + 2) },
   }));
 }
 
@@ -23,12 +23,11 @@ const title = page === 1
   ? 'Decluttering Methods & Moving Tips | Organizing Small'
   : `Decluttering - Page ${page} | Organizing Small`;
 
-const canonicalUrl = page === 1 
-  ? `${Astro.url.origin}/declutter/`
-  : `${Astro.url.origin}/declutter/${page}/`;
+const prevUrl = page > 2 ? `/declutter/${page - 1}/` : '/declutter/';
+const nextUrl = page < data.totalPages ? `/declutter/${page + 1}/` : undefined;
 ---
 
-<BaseLayout title={title} description="Decluttering methods, routines & moving tips with tested strategies from personal experience.">
+<BaseLayout title={title} description="Decluttering and moving notes from my own last move, including the boxes I paid to carry and never opened." prevUrl={prevUrl} nextUrl={nextUrl}>
   <section class="category-section">
     <div class="category-header">
       <h1 class="category-title">✨ Decluttering & Moving</h1>
@@ -51,12 +50,9 @@ const canonicalUrl = page === 1
         {data.totalPages > 1 && <Pagination currentPage={page} totalPages={data.totalPages} baseUrl="/declutter/" />}
       </>
     ) : (
-      <p style="text-align: center; color: var(--color-text-light);">No articles found</p>
+      <p style="text-align: center; color: var(--color-text-light);">Nothing filed here yet.</p>
     )}
   </section>
-  <link rel="canonical" href={canonicalUrl} />
-  {page > 1 && <link rel="prev" href={page > 2 ? `/declutter/${page - 1}/` : '/declutter/'} />}
-  {page < data.totalPages && <link rel="next" href={`/declutter/${page + 1}/`} />}
 </BaseLayout>
 
 <style>

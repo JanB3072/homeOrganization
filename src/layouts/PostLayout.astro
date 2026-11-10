@@ -1,10 +1,11 @@
 ---
-// Article layout optimized for SEO and social sharing
+// 文章页外壳：正文、要点、FAQ、作者信息与侧栏。
 
 import BaseLayout from './BaseLayout.astro';
 import SchemaOrg from '../components/SchemaOrg.astro';
 import PostSidebar from '../components/PostSidebar.astro';
 import AuthorBio from '../components/AuthorBio.astro';
+import { tagUrl } from '../utils/slugs';
 import { Image } from 'astro:assets';
 
 interface Props {
@@ -17,11 +18,14 @@ interface Props {
   category?: string;
   subcategory?: string;
   tags?: string[];
-  image?: string;
+  image?: any;
   imageAlt?: string;
   breadcrumbs?: Array<{ name: string; path: string }>;
   relatedPosts?: any[];
   currentSlug?: string;
+  takeaways?: string[];
+  faq?: Array<{ question: string; answer: string }>;
+  howTo?: Array<{ name: string; text: string }>;
 }
 
 const { title, description, author, body, pubDate, updatedDate, category, subcategory, tags, image, imageAlt, relatedPosts, currentSlug, takeaways, faq, howTo, breadcrumbs } = Astro.props;
@@ -120,7 +124,7 @@ const formatDate = (date: Date) => {
         <footer class="post-footer">
           <div class="tags">
             {tags.map(tag => (
-              <a href={`/tags/${tag}/`} class="tag">{tag}</a>
+              <a href={tagUrl(tag)} class="tag">{tag}</a>
             ))}
           </div>
           {updatedDate && (
@@ -267,17 +271,17 @@ const formatDate = (date: Date) => {
     }
 
     /* Dark Mode */
-    :global(.dark) .post-content {
+    :global(body.theme-dark) .post-content {
       color: var(--color-text, #e5e7eb);
     }
 
-    :global(.dark) .category,
-    :global(.dark) .subcategory {
+    :global(body.theme-dark) .category,
+    :global(body.theme-dark) .subcategory {
       background-color: rgba(59, 130, 246, 0.1);
       color: #60a5fa;
     }
 
-    :global(.dark) .post-hero-image {
+    :global(body.theme-dark) .post-hero-image {
       box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     }
 
@@ -361,7 +365,7 @@ const formatDate = (date: Date) => {
       color: var(--color-text-light, #6b7280);
     }
 
-    :global(.dark) .key-takeaways {
+    :global(body.theme-dark) .key-takeaways {
       background: var(--color-bg-light, #1e293b);
     }
   </style>

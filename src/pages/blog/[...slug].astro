@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { getRelatedPosts } from '../../utils/content';
+import { categoryUrl, postUrl } from '../../utils/slugs';
 import PostLayout from '../../layouts/PostLayout.astro';
 import type { CollectionEntry } from 'astro:content';
 
@@ -23,8 +24,8 @@ const { Content } = await post.render();
 const relatedPosts = await getRelatedPosts(post.slug, 3);
 
 const breadcrumbs = [
-  { name: post.data.category, path: `/${post.data.category.toLowerCase().replace(/\s+/g, '-')}/` },
-  { name: post.data.title, path: `/blog/${post.slug}/` },
+  { name: post.data.category, path: categoryUrl(post.data.category) },
+  { name: post.data.title, path: postUrl(post.slug) },
 ];
 ---
 

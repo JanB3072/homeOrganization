@@ -28,8 +28,8 @@ export async function getStaticPaths() {
   const allGuidesPosts = await getPostsByCategory('Guides');
   const totalPages = Math.ceil(allGuidesPosts.length / 12);
 
-  return Array.from({ length: totalPages }, (_, i) => ({
-    params: { page: String(i + 1) },
+  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, i) => ({
+    params: { page: String(i + 2) },
   }));
 }
 
@@ -39,16 +39,17 @@ const title = page === 1
 
 const description = page === 1
   ? 'Whole-home organization systems and reference guides: measure first, diagnose why each room fails, follow the decision trees, and build a plan that holds for years.'
-  : `Home organization guides page ${page}. Browse our whole-home systems, decision trees, and maintenance plans.`;
+  : `More whole-home systems, decision trees, and maintenance notes, page ${page}.`;
 
-const canonicalUrl = page === 1
-  ? `${Astro.url.origin}/guides/`
-  : `${Astro.url.origin}/guides/${page}/`;
+const prevUrl = page > 2 ? `/guides/${page - 1}/` : '/guides/';
+const nextUrl = page < totalPages ? `/guides/${page + 1}/` : undefined;
 ---
 
 <BaseLayout
   title={title}
   description={description}
+  prevUrl={prevUrl}
+  nextUrl={nextUrl}
 >
   <section class="category-section">
     <div class="category-header">
@@ -87,25 +88,15 @@ const canonicalUrl = page === 1
             currentPage={page}
             totalPages={totalPages}
             baseUrl="/guides/"
-            prevUrl={page > 1 ? `/guides/${page > 2 ? page - 1 : ''}` : undefined}
-            nextUrl={page < totalPages ? `/guides/${page + 1}` : undefined}
           />
         )}
       </>
     ) : (
       <div class="empty-state">
-        <p>No articles found in this category yet.</p>
+        <p>Nothing filed under Guides yet.</p>
       </div>
     )}
   </section>
-
-  <link rel="canonical" href={canonicalUrl} />
-  {page > 1 && (
-    <link rel="prev" href={page > 2 ? `/guides/${page - 1}/` : '/guides/'} />
-  )}
-  {page < totalPages && (
-    <link rel="next" href={`/guides/${page + 1}/`} />
-  )}
 </BaseLayout>
 
 <style>

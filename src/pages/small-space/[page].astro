@@ -14,8 +14,8 @@ if (page < 1 || page > data.totalPages) {
 
 export async function getStaticPaths() {
   const d = await getCategoryPaginated('Small Space', 1);
-  return Array.from({ length: d.totalPages }, (_, i) => ({
-    params: { page: String(i + 1) },
+  return Array.from({ length: Math.max(0, d.totalPages - 1) }, (_, i) => ({
+    params: { page: String(i + 2) },
   }));
 }
 
@@ -23,12 +23,11 @@ const title = page === 1
   ? 'Small Space Organization - Apartment Living'
   : `Small Space Organization - Page ${page}`;
 
-const canonicalUrl = page === 1 
-  ? `${Astro.url.origin}/small-space/`
-  : `${Astro.url.origin}/small-space/${page}/`;
+const prevUrl = page > 2 ? `/small-space/${page - 1}/` : '/small-space/';
+const nextUrl = page < data.totalPages ? `/small-space/${page + 1}/` : undefined;
 ---
 
-<BaseLayout title={title} description="Apartment living & rental-friendly storage solutions with real examples from my small space.">
+<BaseLayout title={title} description="Rental-friendly storage worked out in a 580-square-foot Chicago apartment, with the measurements I took before buying anything." prevUrl={prevUrl} nextUrl={nextUrl}>
   <section class="category-section">
     <div class="category-header">
       <h1 class="category-title">🏠 Small Space Organization</h1>
@@ -51,12 +50,9 @@ const canonicalUrl = page === 1
         {data.totalPages > 1 && <Pagination currentPage={page} totalPages={data.totalPages} baseUrl="/small-space/" />}
       </>
     ) : (
-      <p style="text-align: center; color: var(--color-text-light);">No articles found</p>
+      <p style="text-align: center; color: var(--color-text-light);">Nothing filed here yet.</p>
     )}
   </section>
-  <link rel="canonical" href={canonicalUrl} />
-  {page > 1 && <link rel="prev" href={page > 2 ? `/small-space/${page - 1}/` : '/small-space/'} />}
-  {page < data.totalPages && <link rel="next" href={`/small-space/${page + 1}/`} />}
 </BaseLayout>
 
 <style>

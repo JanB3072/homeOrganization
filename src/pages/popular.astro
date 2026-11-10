@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import { getFeaturedPosts, getAllTags } from '../utils/content';
+import { tagUrl } from '../utils/slugs';
 
 // Get featured posts
 const featured = await getFeaturedPosts(12);
@@ -13,13 +14,13 @@ const topTags = allTags.slice(0, 5);
 
 <BaseLayout 
   title="Popular & Featured Articles"
-  description="Browse the most popular and featured articles from our home organization blog."
+  description="The articles readers come back to most, from the 580-square-foot apartment where I test every shelf and bin."
 >
   <section class="popular-section">
     <div class="popular-header">
       <h1 class="popular-title">⭐ Popular Articles</h1>
       <p class="popular-description">
-        The best home organization tips and trends
+        The projects I keep getting email about
       </p>
     </div>
 
@@ -53,7 +54,7 @@ const topTags = allTags.slice(0, 5);
         <div class="tags-cloud">
           {topTags.map(([tag, count]) => (
             <a 
-              href={`/tags/${tag.toLowerCase().replace(/\s+/g, '-')}/`}
+              href={tagUrl(tag)}
               class="tag-bubble"
               style={`
                 --tag-size: ${Math.min(1.5, 0.8 + count * 0.1)}rem;
@@ -68,15 +69,15 @@ const topTags = allTags.slice(0, 5);
         </div>
 
         <div class="trending-articles">
-          {topTags.slice(0, 3).map(([tag]) => (
+          {topTags.slice(0, 3).map(([tag, count]) => (
             <div key={tag} class="trending-category">
               <h3 style="color: var(--color-primary); margin-bottom: 1rem; font-size: 1.1rem;">
                 About #{tag}
               </h3>
               <p style="color: var(--color-text-light); margin-bottom: 1rem; font-size: 0.95rem;">
-                Popular tips and ideas for {tag.toLowerCase()}. Browse all {tag} articles for detailed guides and real-world examples.
+                I have written {count} {count === 1 ? 'article' : 'articles'} on {tag} so far.
               </p>
-              <a href={`/tags/${tag.toLowerCase().replace(/\s+/g, '-')}/`} style="
+              <a href={tagUrl(tag)} style="
                 display: inline-block;
                 padding: 0.5rem 1rem;
                 background: var(--color-primary);

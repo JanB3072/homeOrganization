@@ -1,5 +1,6 @@
 ---
 import { getAllTags } from '../../utils/content';
+import { tagUrl } from '../../utils/slugs';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Pagination from '../../components/Pagination.astro';
 
@@ -25,18 +26,21 @@ if (page < 2 || page > totalPages) {
 }
 
 const pageTags = tags.slice((page - 1) * perPage, page * perPage);
-const canonicalUrl = `${Astro.url.origin}/tags/${page}/`;
+const prevUrl = page > 2 ? `/tags/${page - 1}/` : '/tags/';
+const nextUrl = page < totalPages ? `/tags/${page + 1}/` : undefined;
 ---
 
 <BaseLayout
-  title={`All Tags - Page ${page} | Organizing Small`}
-  description={`Browse all articles organized by topics and tags. Page ${page} of ${totalPages}.`}
+  title={`All Tags - Page ${page}`}
+  description={`Every topic I have written about, page ${page} of ${totalPages}.`}
   robots="noindex, follow"
+  prevUrl={prevUrl}
+  nextUrl={nextUrl}
 >
   <section style="margin-bottom: 3rem;">
     <h1 style="margin-bottom: 1rem;">🏷️ All Tags</h1>
     <p style="color: var(--color-text-light); font-size: 1.05rem; margin-bottom: 2rem;">
-      Browse {tags.length} tags and explore articles by topic. Page {page} of {totalPages}.
+      {tags.length} topics so far. Page {page} of {totalPages}.
     </p>
   </section>
 
@@ -48,7 +52,7 @@ const canonicalUrl = `${Astro.url.origin}/tags/${page}/`;
     ">
       {pageTags.map(([tag, count]) => (
         <a
-          href={`/tags/${tag}/`}
+          href={tagUrl(tag)}
           style="
             padding: 1.25rem;
             background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
@@ -75,8 +79,4 @@ const canonicalUrl = `${Astro.url.origin}/tags/${page}/`;
     <Pagination currentPage={page} totalPages={totalPages} baseUrl="/tags/" />
   </section>
 
-  <link rel="canonical" href={canonicalUrl} />
-  {page > 2 && <link rel="prev" href={`/tags/${page - 1}/`} />}
-  {page === 2 && <link rel="prev" href="/tags/" />}
-  {page < totalPages && <link rel="next" href={`/tags/${page + 1}/`} />}
 </BaseLayout>

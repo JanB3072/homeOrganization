@@ -1,7 +1,8 @@
 ---
-// Elegant subcategory navigation component
+// 分类页里的子分类跳转。
 
 import { getPostsByCategory } from '../utils/content';
+import { slugify } from '../utils/slugs';
 
 interface Props {
   category: string;
@@ -28,7 +29,7 @@ posts.forEach(post => {
 const subcategories = Array.from(subcategoryMap.entries())
   .sort((a, b) => b[1] - a[1]);
 
-const categorySlug = category.toLowerCase().replace(/\s+/g, '-');
+const categorySlug = slugify(category);
 ---
 
 <nav class="subcategory-nav">
@@ -49,7 +50,7 @@ const categorySlug = category.toLowerCase().replace(/\s+/g, '-');
     {subcategories.map(([subcategory, count]) => (
       <li>
         <a 
-          href={`/${categorySlug}/#${subcategory.toLowerCase().replace(/\s+/g, '-')}`}
+          href={`/${categorySlug}/#${slugify(subcategory)}`}
           class={`nav-link ${currentSubcategory === subcategory ? 'active' : ''}`}
         >
           <span class="link-text">{subcategory}</span>
@@ -134,24 +135,24 @@ const categorySlug = category.toLowerCase().replace(/\s+/g, '-');
   }
 
   /* Dark Mode */
-  :global(.dark) .nav-title {
+  :global(body.theme-dark) .nav-title {
     color: var(--color-text-light, #9ca3af);
     border-bottom-color: var(--color-border, #374151);
   }
 
-  :global(.dark) .nav-link {
+  :global(body.theme-dark) .nav-link {
     background: rgba(107, 114, 128, 0.1);
     color: var(--color-text, #e5e7eb);
     border-color: var(--color-border, #374151);
   }
 
-  :global(.dark) .nav-link:hover {
+  :global(body.theme-dark) .nav-link:hover {
     background: rgba(59, 130, 246, 0.2);
     color: #60a5fa;
     border-color: rgba(96, 165, 250, 0.5);
   }
 
-  :global(.dark) .nav-link.active {
+  :global(body.theme-dark) .nav-link.active {
     background: var(--color-primary, #3b82f6);
     color: white;
     border-color: var(--color-primary, #3b82f6);

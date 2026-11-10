@@ -1,7 +1,8 @@
 ---
-// Elegant sidebar component for post pages
+// 文章页侧栏：热门、相关文章、话题、分类。
 
 import { getAllTags, getFeaturedPosts } from '../utils/content';
+import { tagUrl, categoryUrl } from '../utils/slugs';
 import type { CollectionEntry } from 'astro:content';
 
 interface Props {
@@ -66,7 +67,7 @@ const sidebarFeaturedPosts = featuredPosts
       <h3 class="block-title">Topics</h3>
       <div class="tags">
         {topTags.map(([tag, count]) => (
-          <a href={`/tags/${tag}/`} class="tag" title={`${count} articles`}>
+          <a href={tagUrl(tag)} class="tag" title={`${count} articles`}>
             {tag}
           </a>
         ))}
@@ -78,7 +79,7 @@ const sidebarFeaturedPosts = featuredPosts
   {category && (
     <section class="sidebar-block">
       <h3 class="block-title">Category</h3>
-      <a href={`/${category.toLowerCase().replace(/\s+/g, '-')}/`} class="category-link">
+      <a href={categoryUrl(category)} class="category-link">
         {category}
         <span class="arrow">→</span>
       </a>
@@ -235,53 +236,53 @@ const sidebarFeaturedPosts = featuredPosts
   }
 
   /* Dark Mode */
-  :global(.dark) .block-title {
+  :global(body.theme-dark) .block-title {
     color: var(--color-text-light, #9ca3af);
     border-bottom-color: var(--color-border, #374151);
   }
 
-  :global(.dark) .article-title {
+  :global(body.theme-dark) .article-title {
     color: var(--color-text, #e5e7eb);
   }
 
-  :global(.dark) .article-title:hover {
+  :global(body.theme-dark) .article-title:hover {
     color: #60a5fa;
   }
 
-  :global(.dark) .number {
+  :global(body.theme-dark) .number {
     background: rgba(96, 165, 250, 0.1);
     color: #60a5fa;
   }
 
-  :global(.dark) .article-link {
+  :global(body.theme-dark) .article-link {
     color: var(--color-text, #e5e7eb);
   }
 
-  :global(.dark) .article-link:hover {
+  :global(body.theme-dark) .article-link:hover {
     color: #60a5fa;
     border-left-color: #60a5fa;
     background: rgba(96, 165, 250, 0.1);
   }
 
-  :global(.dark) .tag {
+  :global(body.theme-dark) .tag {
     background: rgba(107, 114, 128, 0.2);
     color: var(--color-text, #e5e7eb);
     border-color: var(--color-border, #374151);
   }
 
-  :global(.dark) .tag:hover {
+  :global(body.theme-dark) .tag:hover {
     background: #3b82f6;
     border-color: #3b82f6;
     color: white;
   }
 
-  :global(.dark) .category-link {
+  :global(body.theme-dark) .category-link {
     background: rgba(59, 130, 246, 0.1);
     color: #60a5fa;
     border-color: rgba(96, 165, 250, 0.3);
   }
 
-  :global(.dark) .category-link:hover {
+  :global(body.theme-dark) .category-link:hover {
     background: #3b82f6;
     color: white;
     border-color: #3b82f6;

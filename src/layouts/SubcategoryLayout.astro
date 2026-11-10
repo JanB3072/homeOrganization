@@ -2,6 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Pagination from '../components/Pagination.astro';
 import HubIntro from '../components/HubIntro.astro';
+import { slugify, tagUrl } from '../utils/slugs';
 import type { BlogPost } from '../utils/content';
 
 interface Props {
@@ -14,8 +15,8 @@ interface Props {
 
 const { category, subcategory, posts, currentPage, totalPages } = Astro.props;
 
-const categorySlug = category.toLowerCase().replace(/\s+/g, '-');
-const subcategorySlug = subcategory.toLowerCase().replace(/\s+/g, '-');
+const categorySlug = slugify(category);
+const subcategorySlug = slugify(subcategory);
 ---
 
 <BaseLayout
@@ -30,7 +31,7 @@ const subcategorySlug = subcategory.toLowerCase().replace(/\s+/g, '-');
   <section style="margin-bottom: 3rem;">
     <h1 style="margin-bottom: 0.5rem;">{subcategory}</h1>
     <p style="color: var(--color-text-light); font-size: 1.05rem; margin: 0;">
-      {posts.length} of {totalPages * 12} articles about {subcategory}
+      Showing {posts.length} {posts.length === 1 ? 'article' : 'articles'} about {subcategory}
     </p>
   </section>
 
@@ -67,7 +68,7 @@ const subcategorySlug = subcategory.toLowerCase().replace(/\s+/g, '-');
             <div style="display: flex; gap: 1.5rem; flex-wrap: wrap; font-size: 0.9rem; color: var(--color-text-light);">
               <span>📅 {post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'America/Chicago' })}</span>
               {post.data.tags.slice(0, 2).map(tag => (
-                <a href={`/tags/${tag}/`} style="color: var(--color-primary); text-decoration: none;">
+                <a href={tagUrl(tag)} style="color: var(--color-primary); text-decoration: none;">
                   #{tag}
                 </a>
               ))}
@@ -97,7 +98,7 @@ const subcategorySlug = subcategory.toLowerCase().replace(/\s+/g, '-');
       border: 1px dashed var(--color-border);
     ">
       <p style="margin: 0; color: var(--color-text-light); font-size: 1.05rem;">
-        No articles found in this category yet. Check back soon!
+        Nothing filed under {subcategory} yet.
       </p>
     </div>
   )}

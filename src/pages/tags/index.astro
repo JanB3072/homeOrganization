@@ -1,5 +1,6 @@
 ---
 import { getAllTags } from '../../utils/content';
+import { tagUrl } from '../../utils/slugs';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Pagination from '../../components/Pagination.astro';
 
@@ -10,14 +11,14 @@ const pageTags = tags.slice(0, perPage);
 ---
 
 <BaseLayout
-  title="All Tags - Organizing Small"
-  description="Browse all articles organized by topics and tags"
+  title="All Tags"
+  description="Every topic I have written about, from fridge bins to under-bed boxes."
   robots="noindex, follow"
 >
   <section style="margin-bottom: 3rem;">
     <h1 style="margin-bottom: 1rem;">🏷️ All Tags</h1>
     <p style="color: var(--color-text-light); font-size: 1.05rem; margin-bottom: 2rem;">
-      Browse {tags.length} tags and explore articles by topic. Click on any tag to see all related articles.
+      {tags.length} topics so far, one for each thing I have measured, bought, or sent back.
       {totalPages > 1 && ` Page 1 of ${totalPages}.`}
     </p>
   </section>
@@ -30,7 +31,7 @@ const pageTags = tags.slice(0, perPage);
     ">
       {pageTags.map(([tag, count]) => (
         <a
-          href={`/tags/${tag}/`}
+          href={tagUrl(tag)}
           style="
             padding: 1.25rem;
             background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);

@@ -25,8 +25,8 @@ if (page < 1 || page > data.totalPages) {
 // Generate static paths
 export async function getStaticPaths() {
   const closetData = await getCategoryPaginated('Closet', 1);
-  return Array.from({ length: closetData.totalPages }, (_, i) => ({
-    params: { page: String(i + 1) },
+  return Array.from({ length: Math.max(0, closetData.totalPages - 1) }, (_, i) => ({
+    params: { page: String(i + 2) },
   }));
 }
 
@@ -36,17 +36,18 @@ const title = page === 1
   : `Closet Organization - Page ${page} | Organizing Small`;
 
 const description = page === 1
-  ? 'Explore our closet and bedroom organization ideas. Clothing, shoe, and seasonal storage tips with real before-and-after photos.'
-  : `Closet organization articles page ${page}. Browse all our wardrobe storage and organization solutions.`;
+  ? 'Closet and bedroom storage I measured and rebuilt in my own apartment: clothing, shoes, seasonal bins, and before-and-after photos.'
+  : `More closet and wardrobe projects from my apartment, page ${page}.`;
 
-const canonicalUrl = page === 1 
-  ? `${Astro.url.origin}/closet/`
-  : `${Astro.url.origin}/closet/${page}/`;
+const prevUrl = page > 2 ? `/closet/${page - 1}/` : '/closet/';
+const nextUrl = page < data.totalPages ? `/closet/${page + 1}/` : undefined;
 ---
 
 <BaseLayout 
   title={title}
   description={description}
+  prevUrl={prevUrl}
+  nextUrl={nextUrl}
 >
   <section class="category-section">
     <div class="category-header">
@@ -91,18 +92,11 @@ const canonicalUrl = page === 1
       </>
     ) : (
       <div class="empty-state">
-        <p>No articles found in this category yet.</p>
+        <p>Nothing filed under Closet yet.</p>
       </div>
     )}
   </section>
 
-  <link rel="canonical" href={canonicalUrl} />
-  {page > 1 && (
-    <link rel="prev" href={page > 2 ? `/closet/${page - 1}/` : '/closet/'} />
-  )}
-  {page < data.totalPages && (
-    <link rel="next" href={`/closet/${page + 1}/`} />
-  )}
 </BaseLayout>
 
 <style>

@@ -1,7 +1,5 @@
 ---
-// Schema.org structured data generator
-// Supports WebSite, BlogPosting, CollectionPage, Organization, and FAQPage schemas
-// GEO note: FAQPage + explicit key data help generative engines (ChatGPT/Perplexity/Gemini) cite this content.
+// 生成 WebSite / BlogPosting / FAQPage / HowTo 等结构化数据。
 
 export interface Props {
   type: 'Organization' | 'BlogPosting' | 'CollectionPage' | 'WebSite';
@@ -62,12 +60,13 @@ if (type === 'WebSite') {
     description: description || 'Real home organization solutions with measurements and photos',
     inLanguage: 'en',
     creator: {
-      '@type': 'Organization',
-      name: 'Organizing Small',
+      '@type': 'Person',
+      name: 'Clara',
+      url: `${siteOrigin}about/`,
     },
     potentialAction: {
       '@type': 'SearchAction',
-      target: `${siteOrigin}search/?s={search_term_string}`,
+      target: `${siteOrigin}search/?q={search_term_string}`,
       'query-input': 'required name=search_term_string',
     },
   };

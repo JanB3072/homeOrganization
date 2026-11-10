@@ -1,5 +1,7 @@
 ---
-// Beautiful Article Card Component with animations and hover effects
+// 列表页共用的文章卡片。
+
+import { categoryUrl } from '../utils/slugs';
 
 interface Props {
   title: string;
@@ -7,17 +9,17 @@ interface Props {
   url: string;
   tags?: string[];
   category?: string;
-  date?: string;
+  date?: Date | string;
   readingTime?: number;
 }
 
-const { title, description, url, tags = [], category, date, readingTime } = Astro.props;
+const { title, description, url, category, date, readingTime } = Astro.props;
 
-// Format date
-function formatDate(dateStr: string) {
+function formatDate(dateStr: Date | string) {
   if (!dateStr) return '';
   try {
-    return new Date(dateStr).toLocaleDateString('en-US', {
+    const date = dateStr instanceof Date ? dateStr : new Date(dateStr);
+    return date.toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'short',
       day: 'numeric',
@@ -39,7 +41,7 @@ function formatDate(dateStr: string) {
     
     <div class="article-card-meta">
       {category && (
-        <a href={`/${category.toLowerCase()}/`} class="article-card-category">📁 {category}</a>
+        <a href={categoryUrl(category)} class="article-card-category">📁 {category}</a>
       )}
       {date && (
         <span class="article-card-date">📅 {formatDate(date)}</span>

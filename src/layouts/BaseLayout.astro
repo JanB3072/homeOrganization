@@ -1,5 +1,5 @@
 ---
-// Professional base layout with modern design, great UX, and complete SEO optimization
+// 全站外壳：head 元数据、导航、页脚、主题切换。
 
 import SchemaOrg from '../components/SchemaOrg.astro';
 import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
@@ -14,17 +14,17 @@ interface Props {
   articlePublished?: string;
   articleModified?: string;
   articleTags?: string[];
-  geoPosition?: string; // "lat;long"
-  geoPlacename?: string;
-  geoRegion?: string;
-  wide?: boolean; // widen the main container (used by article pages)
-  breadcrumbs?: Array<{ label: string; url: string }>; // override auto breadcrumb trail
-  robots?: string; // e.g. "noindex, follow" for thin/duplicate hub pages like tags
+  wide?: boolean;
+  breadcrumbs?: Array<{ label: string; url: string }>;
+  robots?: string;
+  canonicalUrl?: string;
+  prevUrl?: string;
+  nextUrl?: string;
 }
 
 const {
-  title, 
-  description, 
+  title,
+  description,
   image = '/og-image-default.jpg',
   author,
   ogType = 'website',
@@ -32,17 +32,16 @@ const {
   articlePublished,
   articleModified,
   articleTags = [],
-  geoPosition,
-  geoPlacename,
-  geoRegion,
   wide,
   breadcrumbs,
   robots,
+  canonicalUrl: canonicalOverride,
+  prevUrl,
+  nextUrl,
 } = Astro.props;
 
-// Get current URL for canonical and social sharing
-const canonicalUrl = Astro.url.href;
-const isHomepage = Astro.url.pathname === '/';
+const canonicalUrl = canonicalOverride ?? Astro.url.href;
+const pageTitle = /organizing small/i.test(title) ? title : `${title} | Organizing Small`;
 const year = new Date().getFullYear();
 
 // Resolve social images to absolute URLs so AI crawlers and social scrapers
@@ -62,17 +61,15 @@ const ogImage = (() => {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="language" content="English" />
-    <title>{title} | Organizing Small</title>
+    <title>{pageTitle}</title>
     {description && <meta name="description" content={description} />}
     <meta name="generator" content="Astro" />
-    
-    <!-- Canonical URL (prevents duplicate content issues) -->
     <link rel="canonical" href={canonicalUrl} />
     {robots && <meta name="robots" content={robots} />}
-    
-    <!-- hreflang tags for international SEO -->
-    <link rel="alternate" hrefLang="en" href={canonicalUrl} />
-    <link rel="alternate" hrefLang="x-default" href={canonicalUrl} />
+    {prevUrl && <link rel="prev" href={prevUrl} />}
+    {nextUrl && <link rel="next" href={nextUrl} />}
+    <link rel="alternate" hreflang="en" href={canonicalUrl} />
+    <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
     
     <!-- OpenGraph Tags (Social Media Sharing) -->
     {ogType === 'article' ? (
@@ -172,7 +169,7 @@ const ogImage = (() => {
         --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
       }
 
-      /* Dark Mode — system preference */
+      /* Dark Mode: system preference */
       @media (prefers-color-scheme: dark) {
         :root {
           color-scheme: dark;
@@ -201,7 +198,7 @@ const ogImage = (() => {
         }
       }
 
-      /* Manual dark override — must stay outside the media query so the
+      /* Manual dark override: must stay outside the media query so the
          toggle works on light-OS users */
       body.theme-dark {
         color-scheme: dark;
@@ -445,7 +442,7 @@ const ogImage = (() => {
         white-space: nowrap;
       }
 
-      /* Hamburger toggle — hidden on desktop, shown on mobile */
+      /* Hamburger toggle: hidden on desktop, shown on mobile */
       .nav-toggle {
         display: none;
         align-items: center;
@@ -462,7 +459,7 @@ const ogImage = (() => {
         color: var(--color-text);
       }
 
-      /* Menu container — horizontal on desktop */
+      /* Menu container: horizontal on desktop */
       .nav-menu {
         display: flex;
         gap: 0.25rem;
@@ -621,7 +618,7 @@ const ogImage = (() => {
   <body>
     <header>
       <nav id="primary-nav">
-        <a href="/" style="font-weight: 700; font-size: 1rem; color: var(--color-primary); white-space: nowrap;">Home Org</a>
+        <a href="/" style="font-weight: 700; font-size: 0.95rem; color: var(--color-primary); white-space: nowrap;">Organizing Small</a>
         <button id="nav-toggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">☰</button>
         <div id="nav-menu" class="nav-menu">
           <a href="/">Home</a>

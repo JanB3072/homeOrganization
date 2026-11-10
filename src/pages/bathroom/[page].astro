@@ -14,8 +14,8 @@ if (page < 1 || page > data.totalPages) {
 
 export async function getStaticPaths() {
   const d = await getCategoryPaginated('Bathroom', 1);
-  return Array.from({ length: d.totalPages }, (_, i) => ({
-    params: { page: String(i + 1) },
+  return Array.from({ length: Math.max(0, d.totalPages - 1) }, (_, i) => ({
+    params: { page: String(i + 2) },
   }));
 }
 
@@ -23,12 +23,11 @@ const title = page === 1
   ? 'Bathroom Organization | Organizing Small'
   : `Bathroom Organization - Page ${page}`;
 
-const canonicalUrl = page === 1 
-  ? `${Astro.url.origin}/bathroom/`
-  : `${Astro.url.origin}/bathroom/${page}/`;
+const prevUrl = page > 2 ? `/bathroom/${page - 1}/` : '/bathroom/';
+const nextUrl = page < data.totalPages ? `/bathroom/${page + 1}/` : undefined;
 ---
 
-<BaseLayout title={title} description="Small bathroom organization hacks and storage solutions with real before-and-after photos.">
+<BaseLayout title={title} description="Small bathroom storage measured around a 24-inch vanity and a rental shower, with before-and-after photos." prevUrl={prevUrl} nextUrl={nextUrl}>
   <section class="category-section">
     <div class="category-header">
       <h1 class="category-title">🚿 Bathroom Organization</h1>
@@ -48,12 +47,9 @@ const canonicalUrl = page === 1
         {data.totalPages > 1 && <Pagination currentPage={page} totalPages={data.totalPages} baseUrl="/bathroom/" />}
       </>
     ) : (
-      <p style="text-align: center; color: var(--color-text-light);">No articles found</p>
+      <p style="text-align: center; color: var(--color-text-light);">Nothing filed here yet.</p>
     )}
   </section>
-  <link rel="canonical" href={canonicalUrl} />
-  {page > 1 && <link rel="prev" href={page > 2 ? `/bathroom/${page - 1}/` : '/bathroom/'} />}
-  {page < data.totalPages && <link rel="next" href={`/bathroom/${page + 1}/`} />}
 </BaseLayout>
 
 <style>

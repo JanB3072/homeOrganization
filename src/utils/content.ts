@@ -3,15 +3,14 @@ import type { CollectionEntry } from 'astro:content';
 
 export type BlogPost = CollectionEntry<'blog'>;
 
-// 估算阅读时间（约 200 词/分钟）。frontmatter 里的 readingTime 优先。
+// 估算阅读时间（约 200 词/分钟）。
 function computeReadingTime(post: BlogPost): number {
-  const explicit = post.data.readingTime;
-  if (explicit && explicit > 0) return explicit;
   const words = post.body?.trim().split(/\s+/).filter(Boolean).length ?? 0;
   return Math.max(1, Math.round(words / 200));
 }
 
-// 获取所有发布的文章
+// 获取所有文章。pubDate 只是内容元数据，发布由 draft 和定时推送控制；
+// 站内的跨文内链依赖全部文章同时存在，按日期过滤会打断这些链接。
 export async function getAllPosts() {
   const posts = await getCollection('blog',
     ({ data }) => !data.draft

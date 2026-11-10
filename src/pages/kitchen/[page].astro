@@ -31,8 +31,8 @@ export async function getStaticPaths() {
   const allKitchenPosts = await getPostsByCategory('Kitchen');
   const totalPages = Math.ceil(allKitchenPosts.length / 12);
 
-  return Array.from({ length: totalPages }, (_, i) => ({
-    params: { page: String(i + 1) },
+  return Array.from({ length: Math.max(0, totalPages - 1) }, (_, i) => ({
+    params: { page: String(i + 2) },
   }));
 }
 
@@ -42,17 +42,18 @@ const title = page === 1
   : `Kitchen Organization - Page ${page} | Organizing Small`;
 
 const description = page === 1
-  ? 'Explore our collection of kitchen organization ideas. Pantry, fridge, and cabinet organization tips with real measurements.'
-  : `Kitchen organization articles page ${page}. Browse all our kitchen storage and organization solutions.`;
+  ? 'Kitchen organization measured in my own rental: pantry depths, fridge zones, and cabinet openings with the numbers I actually used.'
+  : `More kitchen storage projects from my own kitchen, page ${page}.`;
 
-const canonicalUrl = page === 1 
-  ? `${Astro.url.origin}/kitchen/`
-  : `${Astro.url.origin}/kitchen/${page}/`;
+const prevUrl = page > 2 ? `/kitchen/${page - 1}/` : '/kitchen/';
+const nextUrl = page < totalPages ? `/kitchen/${page + 1}/` : undefined;
 ---
 
 <BaseLayout 
   title={title}
   description={description}
+  prevUrl={prevUrl}
+  nextUrl={nextUrl}
 >
   <section class="category-section">
     <div class="category-header">
@@ -92,28 +93,15 @@ const canonicalUrl = page === 1
             currentPage={page}
             totalPages={totalPages}
             baseUrl="/kitchen/"
-            prevUrl={page > 1 ? `/kitchen/${page > 2 ? page - 1 : ''}` : undefined}
-            nextUrl={page < totalPages ? `/kitchen/${page + 1}` : undefined}
           />
         )}
       </>
     ) : (
       <div class="empty-state">
-        <p>No articles found in this category yet.</p>
+        <p>Nothing filed under Kitchen yet.</p>
       </div>
     )}
   </section>
-
-  <!-- Canonical URL for pagination -->
-  <link rel="canonical" href={canonicalUrl} />
-  
-  <!-- Pagination rel tags for Google -->
-  {page > 1 && (
-    <link rel="prev" href={page > 2 ? `/kitchen/${page - 1}/` : '/kitchen/'} />
-  )}
-  {page < totalPages && (
-    <link rel="next" href={`/kitchen/${page + 1}/`} />
-  )}
 </BaseLayout>
 
 <style>

@@ -1,0 +1,22 @@
+---
+import { getSubcategoryPaginated } from '../../../utils/content';
+import SubcategoryLayout from '../../../layouts/SubcategoryLayout.astro';
+
+export async function getStaticPaths() {
+  const first = await getSubcategoryPaginated('Bathroom', 'Storage', 1);
+  return Array.from({ length: Math.max(0, first.totalPages - 1) }, (_, i) => ({
+    params: { page: String(i + 2) },
+  }));
+}
+
+const page = parseInt(Astro.params.page || '2', 10);
+const data = await getSubcategoryPaginated('Bathroom', 'Storage', page);
+---
+
+<SubcategoryLayout
+  category="Bathroom"
+  subcategory="Storage"
+  posts={data.posts}
+  currentPage={data.currentPage}
+  totalPages={data.totalPages}
+/>

@@ -1,5 +1,5 @@
 ---
-// Kitchen category page - Beautiful and modern with pagination
+// 厨房分类页
 
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
@@ -45,7 +45,7 @@ const subcategories = [
     <div style="background: linear-gradient(135deg, #fef3c7 0%, #fee2e2 100%); padding: 3rem 2rem; border-radius: 1rem; text-align: center;">
       <h1 style="color: #92400e; margin-bottom: 1rem;">🍳 Kitchen Organization</h1>
       <p style="color: #b45309; font-size: 1.1rem; max-width: 600px; margin: 0 auto; line-height: 1.8;">
-        The kitchen is where the most chaos happens. Here's my complete breakdown of how I organized my pantry, fridge, and cabinets—with real photos and measurements.
+        The kitchen is where the most chaos happens. Here's how I organized my pantry, fridge, and cabinets. The photos and measurements are all from my own kitchen.
       </p>
       {kitchenPosts.length > 0 && (
         <p style="color: #b45309; margin-top: 1rem; font-size: 0.95rem;">
@@ -119,7 +119,6 @@ const subcategories = [
           currentPage={1}
           totalPages={totalPages}
           baseUrl="/kitchen/"
-          nextUrl="/kitchen/2"
         />
       )}
     </section>

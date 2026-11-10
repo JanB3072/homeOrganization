@@ -9,7 +9,7 @@ const totalArticles = archive.reduce((sum, group) => sum + group.count, 0);
 
 <BaseLayout 
   title="Article Archive - Organized by Date"
-  description={`Browse all ${totalArticles} articles organized by month and year. Find content by publication date.`}
+  description={`${totalArticles} articles, grouped by the month I published them.`}
 >
   <section class="archive-section">
     <div class="archive-header">
