@@ -1,177 +1,101 @@
-# 居家收纳个人博客
+# Organizing Small
 
-一个用 Astro 搭建的个人博客，记录真实的居家收纳故事。
-
-## 项目结构
-
-```
-├── src/
-│   ├── layouts/          # 页面布局组件
-│   │   ├── BaseLayout.astro      # 基础布局
-│   │   └── PostLayout.astro      # 文章布局
-│   ├── pages/            # 页面（自动路由）
-│   │   ├── index.astro           # 首页
-│   │   ├── about.astro           # 关于页
-│   │   ├── kitchen/              # 厨房分类
-│   │   ├── closet/               # 衣柜分类
-│   │   ├── bathroom/             # 浴室分类
-│   │   ├── small-space/          # 小空间分类
-│   │   └── declutter/            # 断舍离分类
-│   └── content/          # Markdown 内容
-│       ├── blog/                 # 博客文章
-│       ├── resources/            # 资源（尺寸表等）
-│       └── now.md                # Now 页面内容
-├── public/               # 静态资源
-├── astro.config.mjs      # Astro 配置
-├── tsconfig.json         # TypeScript 配置
-└── package.json          # 项目依赖
-```
+一个 Astro 4 静态博客，写小户型收纳。文章基于芝加哥一间 580 平方英尺的战前公寓实测，配尺寸、花费和照片。站点域名 `https://organizingsmall.com`，作者署名 Clara。
 
 ## 快速开始
 
-### 1. 安装依赖
 ```bash
 npm install
+npm run dev        # http://localhost:4321
+npm run check      # 只跑内容校验
+npm run build      # 构建 + sitemap 重命名 + 内容/产物校验
+npm run preview    # 预览 dist/
 ```
 
-### 2. 本地开发
-```bash
-npm run dev
+`npm run build` 结束会自动执行 `scripts/check-content.mjs`，校验失败会让构建以非零状态退出。
+
+## 目录
+
 ```
-访问 `http://localhost:3000` 查看网站
-
-### 3. 构建生产版本
-```bash
-npm run build
+src/
+├── content/
+│   ├── config.ts          # frontmatter 的 zod schema
+│   └── blog/              # 文章 .md 与 images/ 配图
+├── layouts/               # BaseLayout / PostLayout / SubcategoryLayout
+├── components/            # 卡片、分页、面包屑、作者信息等
+├── pages/                 # 文件路由；分类、标签、分页、feed 端点
+└── utils/
+    ├── content.ts         # 文章查询、分页、相关文章、归档
+    ├── slugs.ts           # 所有 URL 片段与链接的唯一生成入口
+    └── hubIntro.ts        # 子分类页导语
+scripts/
+├── check-content.mjs      # frontmatter / 内链 / 去 AI 化 / dist 产物校验
+├── postbuild-sitemap.mjs  # sitemap-index.xml → sitemap.xml + sitemap-N.xml
+├── scheduled-push.mjs     # 定时提交并推送一篇待发布文章
+└── install-scheduled-push.ps1
+public/                    # robots.txt、_headers、llms.txt、logo、实拍图
+astro.config.mjs
+wrangler.jsonc             # Cloudflare 静态部署，发布目录 ./dist
 ```
 
-### 4. 预览构建结果
-```bash
-npm run preview
-```
+## 新增文章
 
-## 文章写作规范
+在 `src/content/blog/` 里放 `<slug>.md`，配图放 `src/content/blog/images/`。`slug` 就是目标关键词，文件名决定 `/blog/<slug>/`。
 
-### 新建文章
-
-1. 在 `src/content/blog/` 目录创建 `.md` 文件
-2. 使用以下 frontmatter 格式：
-
-```markdown
+```yaml
 ---
 title: "文章标题"
-description: "简短描述（SEO 用）"
-pubDate: 2024-01-15
-category: "Kitchen"    # 分类名
-tags: ["tag1", "tag2"]
-image: "/assets/images/example.jpg"
+description: "带具体数字或实测信息的描述"
+pubDate: "2026-11-10T09:00:00-06:00"
+category: "Kitchen"
+subcategory: "Pantry"
+tags: ["pantry organization", "kitchen-organization"]
+keywords: ["主关键词", "长尾词"]
+image: ./images/pantry-organization.png
+imageAlt: "图片内容描述"
+takeaways:
+  - "可被引用的结论"
+faq:
+  - question: "读者会问什么？"
+    answer: "直接回答。"
+howTo:
+  - name: "步骤名"
+    text: "步骤说明。"
+featured: false
+draft: false
 ---
-
-# 文章内容从这里开始
-
-...
 ```
 
-### 文章长度建议
+含冒号的值必须整串加引号。`category` 只能是 `Kitchen`、`Closet`、`Bathroom`、`Small Space`、`Declutter`、`Guides`。
 
-- 记录型/改造型：900-1500 字
-- 清单型/方法型：700-1200 字
+`pubDate` 会原样写进页面、schema 和 feed，它只是内容元数据，不控制上线。上线由 `draft` 和 `scheduled-push.mjs` 的提交节奏决定；晚于构建时刻的 `pubDate` 会在校验里作为提醒列出。
 
-### 每篇文章必须包含
+## 校验会拦下什么
 
-- [ ] 具体、个人化的 H1 标题
-- [ ] 首段结论（2-4 句）
-- [ ] 1 张主图
-- [ ] 3-8 张过程照片
-- [ ] 实测数据（尺寸、花费、时长）
-- [ ] 内链（相关文章、分类、资源）
-- [ ] 更新日期
+`scripts/check-content.mjs` 的失败项：
 
-## 分类说明
+- frontmatter 无法解析、重复顶层 key、`draft`/`featured` 非布尔、必填字段缺失
+- 标题或描述与其他文章重复
+- `updatedDate` 早于 `pubDate`
+- 正文出现破折号 `—`，或出现 AI 套话词表里的表达（delve / seamless / in conclusion / bottom line / read our comprehensive 等）
+- 图片路径格式错误、文件缺失、孤立的图片路径行
+- 正文没有任何内链，或链接指向不存在的文章、标签、页面
+- 不同标签写法撞到同一个 `/tags/<slug>/` 路由
+- `dist/` 里出现打不开的站内 `href`、多余的 canonical、body 内的 canonical、重复的 `| Organizing Small` 标题后缀
+- `feed.json` 泄漏本地绝对路径、sitemap 收录 `/<category>/1/` 重复页
 
-### 五大分类
+非致命提醒：内链数不在 11–16 区间、缺 `takeaways`/`howTo`、正文不足 900 词、缺配图、子分类没有落地页、`pubDate` 属于排期。
 
-| 分类 | 路由 | 子分类 |
-|-----|------|--------|
-| 厨房 | `/kitchen/` | Pantry, Fridge, Cabinets |
-| 衣柜 | `/closet/` | Closet, Bedroom |
-| 浴室 | `/bathroom/` | Vanity, Small Bathroom |
-| 小空间 | `/small-space/` | Apartment, Rental-Friendly |
-| 断舍离 | `/declutter/` | Declutter, Routines, Moving |
+## URL 规则
 
-### Series（系列）
+路由和链接一律走 `src/utils/slugs.ts` 的 `slugify()`、`tagUrl()`、`categoryUrl()`、`postUrl()`。规则是小写加空白转连字符，改它等于改已发布的 URL，需要同步做重定向。
 
-正在规划的系列内容：
-- My Home, Room by Room
-- One Shelf at a Time
-- The 12-Month Reset
-- Renter Diaries（可选）
-
-## SEO 优化
-
-- [x] 自动生成 `sitemap.xml`
-- [x] Canonical 标签
-- [x] 结构化数据（Schema.org）
-- [ ] 图片懒加载（待实现）
-- [ ] WebP 转换（待实现）
+分页从第 2 页开始，第 1 页由各分类的 `index.astro` 承担；canonical、prev、next 只由 `BaseLayout` 在 `<head>` 里输出一次。`Pagination` 只接受 `currentPage`、`totalPages`、`baseUrl`。
 
 ## 部署
 
-### 推荐平台
+静态输出 `dist/`，`wrangler.jsonc` 指向该目录；也可用于任意静态托管。构建命令 `npm run build`，发布目录 `dist`。`public/_headers` 提供 HSTS、CSP 等响应头，`public/robots.txt` 指向 `/sitemap.xml`。
 
-- **Netlify**：免费、自动 CI/CD、自定义域名
-- **Vercel**：快速、集成良好
-- **GitHub Pages**：完全免费
+## 联系
 
-### 部署步骤（以 Netlify 为例）
-
-1. 推送代码到 GitHub
-2. 在 Netlify 连接 GitHub 仓库
-3. 设置构建命令：`npm run build`
-4. 设置发布目录：`dist`
-5. 自动部署完成
-
-## 变现计划
-
-### 第一年目标
-- 建立 3-5 个核心读者社群
-- 发布 30-35 篇高质量文章
-- 测试 Amazon Associates 联盟链接
-
-### 第二年目标
-- Pinterest 引流优化
-- 邮件订阅达 500+
-- 月 PV 达 5,000+
-
-### 第三年目标
-- 品牌合作机会
-- 月均收入 $100+
-
-## 常见问题
-
-### Q: 如何添加新的分类？
-A: 在 `src/pages/` 创建新文件夹，添加 `index.astro`
-
-### Q: 如何修改网站标题和描述？
-A: 编辑 `BaseLayout.astro` 和 `astro.config.mjs`
-
-### Q: 图片应该放在哪里？
-A: 放在 `public/assets/images/` 目录，引用时用 `/assets/images/filename.jpg`
-
-### Q: 如何添加 Google Analytics？
-A: 在 `BaseLayout.astro` 的 `<head>` 中添加 GA 脚本
-
-## 许可证
-
-MIT
-
-## 更新日志
-
-### v0.1.0 (2024-01)
-- 初始项目结构
-- 5 个主分类页面
-- 基础布局和样式
-
-## 联系方式
-
-Email: [your-email@example.com](mailto:your-email@example.com)
+hello@organizingsmall.com

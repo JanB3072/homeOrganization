@@ -1,8 +1,5 @@
-// Post-build step: rename @astrojs/sitemap output into the conventional
-// sitemap.xml (index) + sitemap-1.xml, sitemap-2.xml ... (1-based chunks).
-// The integration always emits sitemap-index.xml + sitemap-0.xml; we shift
-// the chunk numbering by +1 and promote the index to sitemap.xml so the
-// filenames match what's expected, while keeping automatic route discovery.
+// 把 @astrojs/sitemap 输出的 sitemap-index.xml + sitemap-0.xml ... 改成
+// 约定的 sitemap.xml（索引）+ sitemap-1.xml ...（分块从 1 开始）。
 import { readFileSync, writeFileSync, renameSync, unlinkSync, existsSync } from 'node:fs';
 import path from 'node:path';
 
@@ -16,25 +13,30 @@ if (!existsSync(indexPath)) {
 
 let index = readFileSync(indexPath, 'utf8');
 
-// Find chunk references like <loc>https://.../sitemap-0.xml</loc>
-const chunkRefs = [
-  ...index.matchAll(/<loc>[^<]*\/(sitemap-\d+\.xml)<\/loc>/g),
-].map((m) => m[1]);
+const chunkRefs = [...new Set(
+  [...index.matchAll(/<loc>[^<]*\/(sitemap-\d+\.xml)<\/loc>/g)].map((m) => m[1])
+)];
 
-for (const ref of chunkRefs) {
-  const m = ref.match(/sitemap-(\d+)\.xml$/);
-  if (!m) continue;
-  const oldNum = parseInt(m[1], 10);
-  const newRef = `sitemap-${oldNum + 1}.xml`;
-  const oldPath = path.join(distDir, ref);
-  const newPath = path.join(distDir, newRef);
-  if (existsSync(oldPath)) {
-    renameSync(oldPath, newPath);
-    index = index.split(ref).join(newRef);
-  }
-}
+const renames = chunkRefs
+  .map((ref) => {
+    const m = ref.match(/sitemap-(\d+)\.xml$/);
+    if (!m) return null;
+    const oldPath = path.join(distDir, ref);
+    if (!existsSync(oldPath)) return null;
+    return { ref, oldPath, newRef: `sitemap-${parseInt(m[1], 10) + 1}.xml` };
+  })
+  .filter(Boolean);
+
+// 两阶段重命名：先全部挪到临时名，否则 0→1 会覆盖原本的 sitemap-1.xml。
+const temps = renames.map((_, i) => path.join(distDir, `sitemap.tmp-${i}.xml`));
+renames.forEach((r, i) => renameSync(r.oldPath, temps[i]));
+renames.forEach((r, i) => renameSync(temps[i], path.join(distDir, r.newRef)));
+
+// 一次性替换索引里的引用，避免串行替换把刚生成的新名字又改一遍。
+const refMap = new Map(renames.map((r) => [r.ref, r.newRef]));
+index = index.replace(/sitemap-\d+\.xml/g, (m) => refMap.get(m) ?? m);
 
 writeFileSync(path.join(distDir, 'sitemap.xml'), index, 'utf8');
 unlinkSync(indexPath);
 
-console.log('[sitemap] wrote sitemap.xml (index) + sitemap-1.xml (chunk)');
+console.log(`[sitemap] wrote sitemap.xml (index) + ${renames.length} chunk(s)`);

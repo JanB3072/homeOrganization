@@ -25,7 +25,7 @@ switch ($Action) {
             -LogonType Interactive -RunLevel Limited
         Register-ScheduledTask -TaskName $taskName -Action $taskAction -Trigger $trigger `
             -Settings $settings -Principal $principal `
-            -Description "Push one homeOrganization article every $IntervalMinutes minutes; auto-disable when queue is empty" `
+            -Description "Commit and push one untracked article every $IntervalMinutes minutes; skip when nothing is staged" `
             -Force | Out-Null
         Write-Host "Registered task: $taskName"
         Write-Host "First run: $startAt | interval: $IntervalMinutes min | 20 articles take about $(20 * $IntervalMinutes / 60) hours"
