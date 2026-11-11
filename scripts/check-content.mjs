@@ -66,7 +66,7 @@ for (const file of files) {
     data = parsed.data;
     body = parsed.content;
   } catch (e) {
-    fail(`${file}: YAML parse error — ${e.message}`);
+    fail(`${file}: YAML parse error: ${e.message}`);
     continue;
   }
 
@@ -112,8 +112,8 @@ for (const file of files) {
   // 8) 图片路径与文件。
   if (data.image !== undefined) {
     const v = String(data.image);
-    if (!imagePathRe.test(v)) fail(`${file}: image path malformed — "${v}"`);
-    else if (!fs.existsSync(path.resolve(blogDir, v))) fail(`${file}: image file missing — ${v}`);
+    if (!imagePathRe.test(v)) fail(`${file}: image path malformed: "${v}"`);
+    else if (!fs.existsSync(path.resolve(blogDir, v))) fail(`${file}: image file missing: ${v}`);
   } else {
     warn(`${file}: no image configured`);
   }
@@ -142,9 +142,11 @@ for (const [slug, names] of tagSlugs) {
   if (names.size > 1) fail(`tag slug collision: /tags/${slug}/ <- ${[...names].join(' + ')}`);
 }
 
-// 12) 每条内链都要落到真实文章、标签或页面。
+// 12) 每条内链都要落到真实文章、标签或页面；顺带记下谁被别的文章指到。
 let linkCount = 0;
+const inbound = new Map([...slugs].map((s) => [s, 0]));
 for (const [file, links] of linksByFile) {
+  const from = file.replace(/\.md$/, '');
   for (const url of links) {
     linkCount++;
     const blogMatch = url.match(/^\/blog\/([^/]+)\/?$/);
@@ -154,8 +156,12 @@ for (const [file, links] of linksByFile) {
     else if (tagMatch) ok = tagSlugs.has(tagMatch[1]);
     else ok = pageExists(url);
     if (!ok) fail(`${file}: broken link -> ${url}`);
+    if (blogMatch && ok && blogMatch[1] !== from && inbound.has(blogMatch[1])) {
+      inbound.set(blogMatch[1], inbound.get(blogMatch[1]) + 1);
+    }
   }
 }
+const orphans = [...inbound].filter(([, n]) => n === 0).map(([s]) => `${s}.md`).sort();
 
 // 13) 分类与子分类落地页。
 for (const [file, data] of categoryByFile) {
@@ -175,10 +181,17 @@ const walkAstro = (dir) => {
   }
 };
 walkAstro(path.resolve('src'));
+// 词表写在 check-content.mjs 里，跳过它，否则会匹配到自己。
+const scriptsDir = path.resolve('scripts');
+for (const name of fs.readdirSync(scriptsDir)) {
+  if (name.endsWith('.mjs') && name !== 'check-content.mjs') {
+    uiFiles.push(path.join(scriptsDir, name));
+  }
+}
 const uiBoilerplateRe = /—|Check back soon|Browse all|Explore our|Try searching for|No articles found|No results found|Read our comprehensive|Discover exactly|Explore these|Bottom line/i;
 for (const abs of uiFiles) {
   if (uiBoilerplateRe.test(fs.readFileSync(abs, 'utf8'))) {
-    fail(`${path.relative('.', abs).replace(/\\/g, '/')}: UI boilerplate or em dash`);
+    fail(`${path.relative('.', abs).replace(/\\/g, '/')}: boilerplate or em dash`);
   }
 }
 
@@ -232,6 +245,14 @@ if (fs.existsSync(distDir)) {
     if (/organizingsmall\.com\/(?:bathroom|closet|declutter|guides|kitchen|small-space)\/1\//.test(locs)) {
       fail('dist/sitemap-1.xml contains duplicate /<category>/1/ pages');
     }
+    if (/organizingsmall\.com\/search\//.test(locs)) {
+      fail('dist/sitemap-1.xml lists the empty search page');
+    }
+    const lastmods = [...locs.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].map((m) => m[1]);
+    if (lastmods.length === 0) fail('dist/sitemap-1.xml has no lastmod');
+    if (lastmods.some((d) => new Date(d).getTime() > Date.now())) {
+      fail('dist/sitemap-1.xml has a lastmod in the future');
+    }
   }
 }
 
@@ -242,6 +263,10 @@ if (failures > 0) {
   process.exit(1);
 }
 console.log(`✓ All ${files.length} posts passed content, link and build-output checks.`);
+if (orphans.length) {
+  console.log(`  No other article links to these ${orphans.length}: ${orphans.join(', ')}`);
+  warn(`${orphans.length} posts have no inbound article link`);
+}
 if (warnings.length) {
   console.log(`  (${warnings.length} non-fatal note(s))`);
   for (const w of warnings) console.log(`  • ${w}`);

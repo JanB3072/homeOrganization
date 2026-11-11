@@ -58,7 +58,7 @@ The moisture rules are short. Dry boots a full day before they touch storage, aw
 
 Dust is not just ugly on leather, it is abrasive, it settles into the grain, and it wicks the oils out of the finish where it sits all season. The closet floor is the worst address in the room: coldest, dustiest, and the first place a leak or a mop swipe reaches. My boot zone moved off the floor onto the shallow shelf above the shoe row, upright, in a row where every shaft gets support and every pair gets air.
 
-Placement also decides wear. Off-season pairs go deepest, in-season pairs go front, at the height where your hand lands without looking. This is the same address logic that runs the rest of my closet, the one the [jeans on closet shelves guide](/blog/how-to-organize-jeans-on-closet-shelves/) and the [heavy-coat hangers setup](/blog/best-space-saving-hangers-for-heavy-coats/) both follow, and the [shoes subcategory hub](/closet/shoes/) collects the rest of the footwear systems if the row outgrows the shelf.
+Placement also decides wear. Off-season pairs go deepest, in-season pairs go front, at the height where your hand lands without looking. This is the same address logic that runs the rest of my closet, the one the [jeans on closet shelves guide](/blog/how-to-organize-jeans-on-closet-shelves/) and the [heavy-coat hangers setup](/blog/best-space-saving-hangers-for-heavy-coats/) both follow, and the [shoes subcategory hub](/closet/shoes/) collects the rest, including the [DIY rack I built for a walk-in](/blog/diy-shoe-rack-for-walk-in-closet/) when a row outgrows the shelf.
 
 ## Enemy four: being forgotten, and the salt nobody mentions
 

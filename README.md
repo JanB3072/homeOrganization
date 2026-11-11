@@ -70,6 +70,8 @@ draft: false
 
 `pubDate` 会原样写进页面、schema 和 feed，它只是内容元数据，不控制上线。上线由 `draft` 和 `scheduled-push.mjs` 的提交节奏决定；晚于构建时刻的 `pubDate` 会在校验里作为提醒列出。
 
+sitemap 只给 `/blog/<slug>/` 写 `lastmod`，取 `updatedDate || pubDate`，晚于构建时刻的按构建时刻算。首页和列表页没有可信的变更时间，留空，不跟着每次部署跳到当天。空的 `/search/` 页不进 sitemap。
+
 ## 校验会拦下什么
 
 `scripts/check-content.mjs` 的失败项：
@@ -78,13 +80,15 @@ draft: false
 - 标题或描述与其他文章重复
 - `updatedDate` 早于 `pubDate`
 - 正文出现破折号 `—`，或出现 AI 套话词表里的表达（delve / seamless / in conclusion / bottom line / read our comprehensive 等）
+- `.astro` 模板和 `scripts` 里的提示文案出现破折号或机械套话
 - 图片路径格式错误、文件缺失、孤立的图片路径行
 - 正文没有任何内链，或链接指向不存在的文章、标签、页面
 - 不同标签写法撞到同一个 `/tags/<slug>/` 路由
 - `dist/` 里出现打不开的站内 `href`、多余的 canonical、body 内的 canonical、重复的 `| Organizing Small` 标题后缀
-- `feed.json` 泄漏本地绝对路径、sitemap 收录 `/<category>/1/` 重复页
+- `feed.json` 泄漏本地绝对路径、sitemap 收录 `/<category>/1/` 重复页或空的 `/search/` 页
+- sitemap 完全没有 `lastmod`，或出现晚于构建时刻的 `lastmod`
 
-非致命提醒：内链数不在 11–16 区间、缺 `takeaways`/`howTo`、正文不足 900 词、缺配图、子分类没有落地页、`pubDate` 属于排期。
+非致命提醒：内链数不在 11–16 区间、缺 `takeaways`/`howTo`、正文不足 900 词、缺配图、子分类没有落地页、`pubDate` 属于排期、没有其他文章链过来的孤岛页（会打印文件名清单）。
 
 ## URL 规则
 

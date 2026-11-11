@@ -67,13 +67,16 @@ function main() {
     log('未推送提交已推送');
   }
 
-  const newMd = gitList(['ls-files', '--others', '--exclude-standard', 'src/content/blog/**/*.md']);
-  const modMd = gitList(['diff', '--name-only', '--', 'src/content/blog/**/*.md']);
-  const newImgs = gitList([
-    'ls-files', '--others', '--exclude-standard',
-    'src/content/blog/**/*.{png,jpg,jpeg,webp,gif,svg}',
-    'public/**/*.{png,jpg,jpeg,webp,gif,svg}',
+  // git 在 Windows 上不把 **/ 当成可匹配零层目录，改列目录再按扩展名筛。
+  const untracked = gitList([
+    'ls-files', '--others', '--exclude-standard', '--',
+    'src/content/blog/', 'public/',
   ]);
+  const changed = gitList(['diff', '--name-only', '--', 'src/content/blog/', 'public/']);
+  const imageExtRe = /\.(png|jpe?g|webp|gif|svg)$/i;
+  const newMd = untracked.filter((f) => f.endsWith('.md'));
+  const modMd = changed.filter((f) => f.endsWith('.md'));
+  const newImgs = untracked.filter((f) => imageExtRe.test(f));
   const newImgsAbs = new Set(newImgs.map((f) => resolve(ROOT, f)));
 
   const allMd = [...new Set([...modMd, ...newMd])];

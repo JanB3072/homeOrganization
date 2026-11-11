@@ -115,7 +115,7 @@ Sequence is the difference between a calm pack and a panic pack. The order that 
 - **Three weeks out:** heavy non-dailies. Books into small boxes, twenty paperbacks each, under 40 pounds per box, tested with a one hand lift. The weight rule is simple and repeated on every box: heavy things in small boxes, light things in large ones, and a medium box of books at 50 pounds is how seams fail on stairs and backs fail on trucks.
 - **Two weeks out:** the kitchen's back bench, the appliances you use monthly, extra towels, the guest bedding. Daily plates and one pan stay out and travel on the last morning in their own box.
 - **One week out:** clothes on hangers get the wardrobe treatment, kept on their hangers and bagged in groups of ten, which works for everything down to the [heavy coats](/blog/best-space-saving-hangers-for-heavy-coats/), and saves two full days of re-hanging at the destination. Bedding beyond tonight's set goes in, and the linen closet empties enough to start feeling like the move is real.
-- **Two days out:** everything in the bathroom that is not the daily kit. Everything in the fridge gets eaten or tossed, because a cooler of condiments is a lie you tell yourself.
+- **Two days out:** everything in the bathroom that is not the daily kit. Everything in the fridge gets eaten or tossed, because a cooler of condiments is a lie you tell yourself. The [list of what to leave behind](/blog/what-to-throw-away-when-moving-house/) is what I use to keep that call short.
 - **Last morning:** beds stripped, sheets into the first night box, daily plates and the coffee kit boxed and labeled in blue, and the box that never leaves your sight.
 
 ## Fragile things: plates on edge, H tape, no voids

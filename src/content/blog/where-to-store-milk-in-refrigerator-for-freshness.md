@@ -71,7 +71,7 @@ The line is 40°F. That is the standard food safety ceiling for the whole box, a
 
 There is a design hint hiding in plain sight here. The little butter compartment sits in the door because butter is the one dairy product built to tolerate it. The compartment is named after the only thing that belongs in it. Everything else you have been parking in there is paying rent in spoilage.
 
-Zones are what fixed my box, and the same thinking rebuilt the rest of the shelves. I wrote up the bin-and-zone version of the whole fridge separately, including what goes in the door on purpose, in the [aesthetic fridge setup guide](/blog/aesthetic-fridge-organization-tips/). And if your back shelves run warm for no obvious reason, check the machine itself, because weak airflow behind the panels shows up as warm shelves first. The [refrigerator coil cleaning walkthrough](/blog/how-to-clean-refrigerator-coils-step-by-step/) covers the thirty minutes that fixed mine.
+Zones are what fixed my box, and the same thinking rebuilt the rest of the shelves. I wrote up the bin-and-zone version of the whole fridge separately, including what goes in the door on purpose, in the [aesthetic fridge setup guide](/blog/aesthetic-fridge-organization-tips/). The [clear bins I measured for leftovers](/blog/best-clear-plastic-bins-for-fridge-storage/) are what keep the middle shelf from turning back into a pile. And if your back shelves run warm for no obvious reason, check the machine itself, because weak airflow behind the panels shows up as warm shelves first. The [refrigerator coil cleaning walkthrough](/blog/how-to-clean-refrigerator-coils-step-by-step/) covers the thirty minutes that fixed mine.
 
 ## The light problem nobody mentions
 
