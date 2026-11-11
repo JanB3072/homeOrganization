@@ -6,6 +6,10 @@ category: "Closet"
 subcategory: "Accessories"
 tags: ["closet-organization", "storage-solutions"]
 keywords: ["how to organize jewelry in a small closet armoire", "over the door jewelry armoire", "jewelry organizer small closet", "necklace storage ideas", "earring organizer"]
+takeaways:
+  - "Five necklaces in one felt box: 26, 18, 14, 20, and 16 inches. They came out knotted."
+  - "Cup hooks at 1.5-inch spacing brought the same five back straight. The 2-inch pendant needed more than the 1-inch pocket the armoire shipped with."
+  - "An 18-inch inner door took twelve hooks, two rows of six. That replaced every tray, and the hardware was about nine dollars."
 faq:
   - question: "What is the best way to organize necklaces in a jewelry armoire?"
     answer: "Hang every necklace vertically on its own hook, front to back by frequency. Chains stored coiled in a tray or drawer tangle within a week; vertical storage with at least one inch of side-to-side separation eliminates the problem entirely."

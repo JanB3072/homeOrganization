@@ -6,6 +6,10 @@ category: "Closet"
 subcategory: "Shoes"
 tags: ["closet-organization", "shoe-storage"]
 keywords: ["clear plastic shoe boxes stackable design", "drop front shoe boxes", "stackable shoe storage boxes"]
+takeaways:
+  - "Four brands and about 30 pairs. The boxes that failed either fogged or toppled once the stack passed four high."
+  - "A 5.5-inch box fits low-tops up to about men's 10. High-tops and size 13 need the 7 to 8.5 inch box, and an 8.5-inch listing is often 7.5 inside once the lid channel is counted."
+  - "14.5 by 10.5 inches is the footprint that actually matched the sneakers. The drop-front has to clear the box behind it."
 faq:
   - question: "What size clear shoe box fits most sneakers?"
     answer: "A box around 14.5 by 10.5 by 8.5 inches fits men's sizes up to about 13, including most high-tops. Standard 5.5-inch-tall boxes fit up to men's 10 or so, anything bigger crushes the collar. Measure the biggest pair you own before ordering."

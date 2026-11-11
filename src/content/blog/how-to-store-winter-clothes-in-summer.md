@@ -6,6 +6,10 @@ category: "Closet"
 subcategory: "Seasonal"
 tags: ["closet-organization", "seasonal-storage"]
 keywords: ["how to store winter clothes in summer", "storing winter clothes", "seasonal clothing storage", "protect wool clothes moths"]
+takeaways:
+  - "Humidity above about 60 percent, held against wool, grew mildew in weeks. The smell did not wash out."
+  - "The attic hit past 90 F. Elastic went stiff and a stain I had not seen set for good."
+  - "Year one left moth holes. The bags now get a silica pack, and anything that might have larvae goes in the freezer for 72 hours before it shares a bin."
 faq:
   - question: "Is it better to store winter clothes in plastic bins or bags?"
     answer: "Depends on the fabric. Synthetics do fine in sealed plastic bins; wool, down, and other natural fibers need breathable cotton zip bags or lidded bins with air holes, because trapped humidity causes mildew and must. Vacuum bags are safe for synthetics but flatten down insulation and crease wool permanently."

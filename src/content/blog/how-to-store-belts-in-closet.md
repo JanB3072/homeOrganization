@@ -6,6 +6,10 @@ category: "Closet"
 subcategory: "Accessories"
 tags: ["closet-organization", "storage-solutions"]
 keywords: ["how to store belts in closet", "belt rack for closet", "belt hanger ring", "store belts rolled or hung"]
+takeaways:
+  - "The whole fix was one decision and about $15."
+  - "Daily belts went on rounded hooks, one per hook, $10 to $25 for a rack of 10 to 15."
+  - "The rest hang by the buckle on a ring, 15 or more in the width of one hanger. Overflow gets rolled in a 4- to 5-inch coil so the leather does not take a sharp crease."
 faq:
   - question: "Is it better to hang or roll belts?"
     answer: "Hang the belts you wear weekly, a rack or ring hanger keeps them flat, uncreased, and visible. Roll the occasional-wear collection into drawers at a 4-to-5-inch coil diameter. Leather prefers hanging; a packed drawer is the space-efficient compromise for everything else."

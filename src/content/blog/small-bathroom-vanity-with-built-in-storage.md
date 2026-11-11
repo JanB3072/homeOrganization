@@ -9,6 +9,10 @@ keywords:
   - "small bathroom vanity with built in storage"
   - "space saving bathroom vanity"
   - "small vanity with storage drawers"
+takeaways:
+  - "The powder-room wall is 32 inches between the casing and the corner. The first '24-inch vanity with drawers' had a fake drawer front over the trap."
+  - "The trap occupies about a 6 by 6 inch block at the centre back. A drawer sold as 6 inches with a 3-inch notch holds a 3-inch layer, which is a washcloth, not a hair dryer."
+  - "The vanity I kept routes the drain to the back so the drawer is actually a drawer. That is the line I now look for in the listing photos, under the sink, not at the shaker doors."
 faq:
   - question: "What size vanity works in a small bathroom?"
     answer: "A powder room copes with 18 to 24 inches wide and 18 to 21 deep; a small full bathroom takes 24 to 36 inches. Keep 21 inches of clear floor in front and 4 inches of side wall beside the door swing. Below about 18 inches of width, a wall-hung basin plus a mirror cabinet beats any vanity."

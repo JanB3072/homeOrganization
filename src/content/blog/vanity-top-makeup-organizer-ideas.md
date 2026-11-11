@@ -9,6 +9,10 @@ keywords:
   - "vanity top makeup organizer ideas"
   - "countertop makeup organizer"
   - "skincare vanity display"
+takeaways:
+  - "The working strip is 4 to 6 inches deep at the front, where my hand already knows the order."
+  - "A riser step of 3 to 4 inches lets a 5-inch bottle show over a 3-inch jar. The whole stack sits behind a line about 10 inches from the front edge, or I cannot put a brush down."
+  - "Lipstick is about 0.8 inches across. Brushes run from 0.3 to 1 inch. A grid of one cell size became a vase. One tray and a row of pumps is what the mirror can still clear."
 faq:
   - question: "What looks good on a vanity top for makeup?"
     answer: "Three layers work in nearly every vanity: a back row of tall skincare bottles, a middle step of jars and compacts, and a shallow front tray for the four or five products touched every single day. One or two materials, repeated, read calmer than a mix of every organiser style in the shop."

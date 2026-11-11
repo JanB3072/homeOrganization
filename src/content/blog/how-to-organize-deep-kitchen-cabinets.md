@@ -6,6 +6,10 @@ category: "Kitchen"
 subcategory: "Cabinets"
 tags: ["kitchen-organization", "storage-solutions"]
 keywords: ["how to organize deep kitchen cabinets", "deep kitchen cabinet organization", "kitchen cabinet storage"]
+takeaways:
+  - "A year with a 24-inch base cabinet, and about 40 percent of what I put in was what I could actually use."
+  - "My arm reaches about 14 to 16 inches past the frame before my shoulder hits the face. The back 10 inches is where cans go to disappear."
+  - "The slide-out basket is the rule: if I cannot pull it to the front, it does not live in that cabinet."
 faq:
   - question: "How do I organize a deep kitchen cabinet without losing things in the back?"
     answer: "Split the cabinet into depth zones and match each zone to a tool. Put turntables in the front for round items, full-extension pull-out baskets through the middle so you can drag the back to the front, and reserve the very back for things you rarely touch. Measure the inner depth and the clearance above the door first."

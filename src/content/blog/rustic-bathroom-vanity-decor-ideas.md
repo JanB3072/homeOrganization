@@ -9,6 +9,9 @@ keywords:
   - "rustic bathroom vanity decor ideas"
   - "rustic vanity decor"
   - "farmhouse bathroom vanity ideas"
+takeaways:
+  - "A mason jar on the wet side of the vanity rusted its lid. The wood now stops at the mirror frame. Glass takes the steam."
+  - "Edison filaments sit around 2200 K and throw a fraction of a task bulb. They are the decoration. The sconce is what I put makeup on under."
 faq:
   - question: "What makes a bathroom vanity look rustic?"
     answer: "Wood with visible grain or saw marks, metal that looks hand-finished rather than chrome-polished, warm low colour temperature, rounded or irregular shapes, and evidence of use. Any two of these, repeated across a few objects, is enough; a room that hits all five in every item reads as a themed display, which is the opposite of rustic."

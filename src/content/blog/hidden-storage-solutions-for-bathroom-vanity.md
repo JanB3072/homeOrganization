@@ -9,6 +9,10 @@ keywords:
   - "hidden storage solutions for bathroom vanity"
   - "toe kick drawer bathroom vanity"
   - "pull out hair tool organizer"
+takeaways:
+  - "The toe-kick is 3 to 4 inches tall and 2 to 3 deep. That is a tray for flat spares, not a drawer for anything that stands."
+  - "A curling wand is still 150 to 200 C minutes after it is off. It cools on a trivet before it goes in the pull-out."
+  - "The hair tools got a heat-safe pull-out in the false front. Cutting between studs for a deeper bay is a different job, and on tile I would not do it myself."
 faq:
   - question: "What can I store in a toe-kick drawer?"
     answer: "Flat, low-value, humidity-tolerant items: a spare toothbrush set, bar soap, cleaning sponges in a sealed bag, the toilet brush caddy's spare brushes, or a flat mop head. Nothing paper, nothing you would hate to find swollen, because the toe-kick sits in the mopping splash zone and its drawer box should be plastic or sealed plywood, never bare particleboard."

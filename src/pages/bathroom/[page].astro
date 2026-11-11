@@ -27,7 +27,7 @@ const prevUrl = page > 2 ? `/bathroom/${page - 1}/` : '/bathroom/';
 const nextUrl = page < data.totalPages ? `/bathroom/${page + 1}/` : undefined;
 ---
 
-<BaseLayout title={title} description="Small bathroom storage measured around a 24-inch vanity and a rental shower, with before-and-after photos." prevUrl={prevUrl} nextUrl={nextUrl}>
+<BaseLayout title={title} description="Small bathroom storage measured around a 24-inch vanity and a rental shower, with before-and-after photos." prevUrl={prevUrl} nextUrl={nextUrl} robots={page > 1 ? 'noindex, follow' : undefined}>
   <section class="category-section">
     <div class="category-header">
       <h1 class="category-title">🚿 Bathroom Organization</h1>

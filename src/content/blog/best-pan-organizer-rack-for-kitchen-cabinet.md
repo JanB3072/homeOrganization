@@ -6,6 +6,10 @@ category: "Kitchen"
 subcategory: "Cabinets"
 tags: ["kitchen-organization", "storage-solutions"]
 keywords: ["best pan organizer rack for kitchen cabinet", "pan organizer rack", "pot and pan organizer for cabinet", "vertical pan rack cabinet", "pan rack for kitchen cabinet"]
+takeaways:
+  - "The base cabinet is 21.75 inches inside, but the hinge eats about an inch and a half, so a rack gets closer to 20 inches."
+  - "The door opening is 20.5 inches. A rack that clears the interior can still stop the door from closing flush."
+  - "Six racks went through. Two stayed, about forty-five dollars together. The Dutch oven stays on the shelf: no wire should hold 15 pounds on two contact points."
 faq:
   - question: "What size pan organizer rack fits a standard kitchen cabinet?"
     answer: "Measure the cabinet interior, not the door opening, and subtract the hinge side. A typical base cabinet interior runs 21 to 22 inches wide with a shelf opening around 12 inches high, and the hinge arms project an inch and a half into that width. The rack plus its tallest pan must clear the hinges by about two inches or the door will never close flush."

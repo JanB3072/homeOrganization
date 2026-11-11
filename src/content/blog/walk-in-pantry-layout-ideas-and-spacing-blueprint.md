@@ -6,6 +6,10 @@ category: "Kitchen"
 subcategory: "Pantry"
 tags: ["kitchen-organization", "storage-solutions"]
 keywords: ["walk in pantry layout ideas", "pantry shelving spacing", "pantry blueprint", "walk-in pantry design"]
+takeaways:
+  - "Bad spacing turned about 30 square feet of pantry into 10 I could reach."
+  - "16-inch shelves rebuilt the deep-cabinet problem at eye level. I lose the back 4 inches. 12 to 14 inches deep, with an aisle around 18, is what kept the back row from going stale."
+  - "One 24- to 30-inch run at 36 inches high is the landing strip for groceries. In a room under 5 feet wide, one wall of shelves and the rest of the floor left open."
 faq:
   - question: "What is the best layout for a walk-in pantry?"
     answer: "A galley layout (two parallel runs of shelves with a 36 to 42 inch aisle between them) is the most efficient for rooms 6 feet wide or more. Smaller rooms do better with a single-wall layout at 42 inches deep, which needs no aisle at all."

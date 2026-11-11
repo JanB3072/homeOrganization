@@ -6,6 +6,10 @@ category: "Kitchen"
 subcategory: "Cabinets"
 tags: ["kitchen-organization", "storage-solutions"]
 keywords: ["kitchen baking sheet organizer rack vertical cabinet", "baking sheet organizer rack", "vertical bakeware organizer", "cutting board rack cabinet", "muffin tin storage"]
+takeaways:
+  - "Four sheet pans in a stack, and the one I needed was always on the bottom."
+  - "The cabinet had to be at least 12 inches wide inside before a vertical rack was even a candidate. Half-sheets are about 13 by 18."
+  - "The rack that stayed is fixed steel, seven slots, installed 1.5 inches short on every side, about twenty dollars. I swung the door five times before I called it done."
 faq:
   - question: "How do you store baking sheets vertically in a cabinet?"
     answer: "Use a rack with slots that hold each pan on its edge, standing up like files in a drawer. Steel racks with fixed seven slots suit standard half-sheet pans; adjustable wire tension racks handle mixed widths. Mount or place the rack so every slot is reachable from the front of the cabinet."
@@ -87,6 +91,8 @@ Count your pans first. Most kitchens own three pans that work and four pans that
 ## Where it goes
 
 The base cabinet nearest the oven. Bakeware travels two steps from rack to oven and nothing crosses the kitchen, the same reach-zone logic as the [pantry spacing blueprint](/blog/walk-in-pantry-layout-ideas-and-spacing-blueprint/). If that cabinet is narrow, the tree above already answered: door mount or the toe-kick, and the overflow question goes to the [under-sink zone plan](/blog/under-sink-storage-plumbing-friendly/) instead.
+
+A corner cabinet is the exception. Mine sits beside the oven, and the round pots that would not stand on edge went onto a [lazy susan measured from the pivot](/blog/corner-kitchen-cabinet-storage-ideas-lazy-susan/), where a 22-inch reach line decides what stays rather than a slot count.
 
 Vertical is the whole principle. Files stand in the [small closet system](/blog/vertical-closet-system-maximize-small-wardrobe/), plates stand in the fridge plan that matches bins to [12-inch shelf widths](/blog/aesthetic-fridge-organization-tips/), and pans stand here. The same rule wearing three outfits. Flat storage hides, vertical storage shows, and shown pans get used.
 

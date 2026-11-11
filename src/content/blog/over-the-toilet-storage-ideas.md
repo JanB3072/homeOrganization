@@ -6,6 +6,10 @@ category: "Bathroom"
 subcategory: "Storage"
 tags: ["bathroom-organization", "storage-solutions"]
 keywords: ["bathroom over the toilet storage ideas", "over the toilet storage", "over toilet space saver", "over the toilet shelf", "no drill over toilet storage"]
+takeaways:
+  - "Four setups in a 40-square-foot bathroom, between $18 and $110, over about two years."
+  - "The alcove is 30 inches wall to wall, with about 32 inches of usable height above the tank. A 25-inch unit fits. One that needs the tank lid for support does not."
+  - "What stayed was the leaning ladder, the cheap end of that range, plus one 24-inch shelf on the side wall for the towels guests actually use."
 faq:
   - question: "What is the best over-the-toilet storage for a small bathroom?"
     answer: "A freestanding space-saver etagere. In my two-year test it held the most, needed no drilling, and never tipped. Wall-mounted shelves are the runner-up if your lease allows a couple of small anchored holes."

@@ -6,6 +6,10 @@ category: "Bathroom"
 subcategory: "Storage"
 tags: ["bathroom-organization", "storage-solutions"]
 keywords: ["wire basket wall storage for toiletries", "wire wall baskets bathroom", "hanging wire baskets for toiletries"]
+takeaways:
+  - "Tile runs to about 55 inches, then painted plaster. The patched drywall behind the toilet is a different fastener than the tile."
+  - "Electro-galvanized wire is about 5 to 8 microns of zinc, which is why it photographs bright and why the welds wept. Hot-dip is 50 to 100 microns."
+  - "304 stainless needs no coating and costs like it. The basket that survived this bathroom is powder-coated, and it is the only one whose welds stayed dry."
 faq:
   - question: "Can I screw wire baskets into bathroom tile?"
     answer: "Yes, and it is the strongest fixing in most bathrooms if done patiently. Mark the hole, stick masking tape over the spot so the bit does not wander, drill through the glaze with a carbide or diamond tile bit at medium speed with no hammer action, then switch to hammer mode once you are through the tile and into the wall behind. Keep holes at least an inch and a half from tile edges and corners, and fill the finished hole with silicone before inserting the plug."

@@ -7,6 +7,10 @@ category: "Closet"
 subcategory: "Clothing"
 tags: ["closet-organization", "storage-solutions"]
 keywords: ["small closet organization", "closet storage system", "wardrobe organization"]
+takeaways:
+  - "A 4-foot closet. The daily rod is at about 60 inches, roughly 40 items. A second rod at 79 inches, nineteen inches above, takes what I wear less."
+  - "The first double rod at 68 inches put dress hems on the floor, so the lower rod went unused."
+  - "Tube hangers about half an inch thick, forty of them, ate three more inches of rod than slim velvet at about a fifth of an inch. Folded piles stand at about 6 inches wide."
 faq:
   - question: "How do you organize a small closet with little space?"
     answer: "Go vertical. Add a second hanging rod, stack shelves above and below, and fold bulky items to file sideways in bins. In my 4ft closet this fit 200+ items."

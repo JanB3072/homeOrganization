@@ -9,6 +9,10 @@ keywords:
   - "rolling cart organization for small bathroom"
   - "3 tier utility cart bathroom"
   - "bathroom rolling storage cart"
+takeaways:
+  - "The room is 5 by 8. The shower is 32 by 32. The vanity is 24 inches deep. The door is 30 and opens inward."
+  - "Codes around here want about 21 inches clear in front of the toilet and a walkway nearer 30. A cart in the arc of that door fails on day one."
+  - "The three-tier cart that stayed is about 16 by 12 and lives behind the door at rest. The ones in the 14-to-18-inch-wide range only worked after I taped the footprint on the floor first."
 faq:
   - question: "Will a 3-tier cart fit in a small bathroom?"
     answer: "Measure the clear aisle, not the empty corner. You want about 30 inches of walkway left after the cart is in place, 21 inches of clear floor in front of the toilet, and enough room for an inward-opening door to swing without hitting it. In a 5 by 8 ft bathroom that usually leaves one viable wall, not three."

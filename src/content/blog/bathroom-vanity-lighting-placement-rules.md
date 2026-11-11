@@ -9,6 +9,10 @@ keywords:
   - "bathroom vanity lighting placement rules"
   - "vanity sconce height"
   - "bathroom vanity lighting ideas"
+takeaways:
+  - "A face stands about 20 to 24 inches from the glass. Sconces at 60 to 66 inches are where eye line and a near-square beam meet for a standing adult."
+  - "Most vanity mirrors top out around 75 to 80 inches, so a light above the glass starts acting like a small ceiling fixture."
+  - "An 800-lumen bulb spread evenly is only about 64 candela. CRI 90 and 3000 K mattered more than adding another bulb."
 faq:
   - question: "What is the correct height for bathroom vanity sconces?"
     answer: "Mount the light source at 60 to 66 inches from the finished floor, which puts it at the standing eye line of most adults, and keep it beside rather than above the mirror so light crosses the face horizontally. With a double vanity, each basin gets its own pair, or one sconce per user on the outer side plus a shared centre source."

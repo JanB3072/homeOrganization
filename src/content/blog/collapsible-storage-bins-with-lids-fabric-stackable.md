@@ -6,6 +6,10 @@ category: "Small Space"
 subcategory: "Storage"
 tags: ["small-space", "storage-solutions"]
 keywords: ["collapsible storage bins with lids fabric stackable", "collapsible fabric storage bins", "stackable fabric bins with lids", "foldable storage boxes for closet", "breathable storage bins"]
+takeaways:
+  - "A bin sold as 13 inches cubed is closer to 12.2 inches inside. Usable volume landed near 31.8 litres, while the listing said 36 from the outside."
+  - "Three bins of sweaters at about 15 pounds each put 45 pounds on the bottom one. A hinged panel took it. The sagging fabric ones did not."
+  - "Density board around 2.5 mm swells when the closet gets damp. A 3 mm hollow polypropylene sheet is the panel I kept."
 faq:
   - question: "Are fabric storage bins actually breathable?"
     answer: "The fabric usually is, since spunbond polypropylene passes vapour. Whether the bin is breathable depends on the lining. Many budget bins laminate a thin polyethylene film to the inside so the bin resists stains and holds its shape, and that film blocks vapour. If you are storing wool or down, check for an unlined bin or turn the bin inside out in the store."

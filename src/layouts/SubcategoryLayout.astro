@@ -26,6 +26,7 @@ const subcategorySlug = slugify(subcategory);
     { label: category, url: `/${categorySlug}/` },
     { label: subcategory, url: `/${categorySlug}/${subcategorySlug}/` },
   ]}
+  robots={currentPage > 1 ? 'noindex, follow' : undefined}
 >
   <!-- Header -->
   <section style="margin-bottom: 3rem;">

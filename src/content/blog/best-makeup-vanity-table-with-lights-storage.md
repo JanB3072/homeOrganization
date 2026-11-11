@@ -6,6 +6,10 @@ category: "Bathroom"
 subcategory: "Vanity"
 tags: ["vanity-organization", "bathroom-organization"]
 keywords: ["best makeup vanity table with lights storage", "makeup vanity with lights", "vanity table with storage drawers", "dimmable LED vanity mirror", "acrylic drawer vanity"]
+takeaways:
+  - "The Hollywood vanity had 4,000 reviews at 4.6 stars. None of the top ones mentioned CRI."
+  - "At 82 CRI the foundation I matched in the bathroom was a different shade at noon. I want 90 or above, and 4000 to 4500 K for the work light."
+  - "Acrylic under about 5 mm flexes once the drawer is loaded. The storage only counts in the depth the mirror light actually reaches."
 faq:
   - question: "What should I look for in a makeup vanity with lights?"
     answer: "Four specs: CRI of 90 or higher, light positioned to hit your face from the front or both sides, a neutral color temperature around 4000 to 4500K (or a dimmable 3000 to 5000K range), and no visible flicker when you dim it and film it on your phone."

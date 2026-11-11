@@ -9,6 +9,10 @@ keywords:
   - "diy bathroom shelf organization"
   - "bathroom shelf organization ideas"
   - "organize bathroom toiletries"
+takeaways:
+  - "The board is 30 inches, open, above the toilet, and it was never quite level. Nineteen things fit before it became a pile."
+  - "It sits at about 62 inches, inside the easy reach between 24 and 70, which is why everything landed there."
+  - "Wicker held soap residue, and the room spends time above about 60 percent humidity. The shelf that stayed is high enough to miss the splash and not a basket."
 faq:
   - question: "What is the fastest way to organise a bathroom shelf that has got out of hand?"
     answer: "Take everything off, wipe the bare shelf, check expiry dates, combine duplicates into one bottle, then put back only what you use weekly. On a single 30-inch shelf this takes about half an hour. Buy nothing until you have counted what survives, because the number is usually half of what you expected."

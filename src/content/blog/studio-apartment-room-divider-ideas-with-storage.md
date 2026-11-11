@@ -6,6 +6,10 @@ category: "Small Space"
 subcategory: "Apartment"
 tags: ["small-space", "storage-solutions"]
 keywords: ["studio apartment room divider ideas with storage", "room divider with storage", "bookshelf room divider"]
+takeaways:
+  - "The door sweeps a 30- to 36-inch arc. Anything in that circle, including a pretty divider, gets walked into."
+  - "In 350 square feet the bed is in the far corner and the divider stands about 4 feet off the window wall, leaving a 34-inch walkway."
+  - "Over about 6 feet tall it kills the light. The one that stayed is a low bookshelf on casters, open enough that the window still reaches the bed."
 faq:
   - question: "How do I divide a studio apartment without building a wall?"
     answer: "Use a tall freestanding storage unit, an open-back bookshelf, a cube organizer, or a wardrobe, placed perpendicular to the wall. It creates two zones while storing clothes, books, or kitchen gear, and you can take it with you when you move."

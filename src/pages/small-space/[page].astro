@@ -27,7 +27,7 @@ const prevUrl = page > 2 ? `/small-space/${page - 1}/` : '/small-space/';
 const nextUrl = page < data.totalPages ? `/small-space/${page + 1}/` : undefined;
 ---
 
-<BaseLayout title={title} description="Rental-friendly storage worked out in a 580-square-foot Chicago apartment, with the measurements I took before buying anything." prevUrl={prevUrl} nextUrl={nextUrl}>
+<BaseLayout title={title} description="Rental-friendly storage worked out in a 580-square-foot Chicago apartment, with the measurements I took before buying anything." prevUrl={prevUrl} nextUrl={nextUrl} robots={page > 1 ? 'noindex, follow' : undefined}>
   <section class="category-section">
     <div class="category-header">
       <h1 class="category-title">🏠 Small Space Organization</h1>

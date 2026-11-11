@@ -6,6 +6,10 @@ category: "Bathroom"
 subcategory: "Storage"
 tags: ["bathroom-organization", "storage-solutions"]
 keywords: ["diy bathroom wall organizer wood", "reclaimed wood bathroom organizer", "bathroom wall organizer diy"]
+takeaways:
+  - "One reclaimed picket, 5.5 inches wide and about 4 feet long. The wood was free to about $4."
+  - "Back panels are 12 inches, not the 10 I cut first. Bottom lips are 10 inches long and 4 inches deep, not 3."
+  - "Six 2.5-inch screws, glue, 120 then 220 grit, and one quart of water-based polyurethane, about $8. The quart covered this and four later jobs. Build time was about two hours."
 faq:
   - question: "What wood works best for a DIY bathroom wall organizer?"
     answer: "Reclaimed fence pickets, pallet boards, or cedar. All three are cheap and take a rustic finish well. Whatever you choose, seal it, because bathroom humidity will swell unsealed wood within a season."

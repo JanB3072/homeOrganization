@@ -9,6 +9,10 @@ keywords:
   - "diy bathroom vanity makeover on a budget"
   - "paint bathroom vanity"
   - "budget vanity makeover ideas"
+takeaways:
+  - "The cabinet and the top stayed. A weekend and a quart of paint is what made the room read as a different one."
+  - "180 to 220 grit killed the gloss. Two thin coats, with 320 grit between them, beat one thick coat the first time someone leaned on it."
+  - "Surface dry is hours. Full hardness is 7 to 30 days. I painted with humidity under about 70 percent and a fan that did not blow across the wet film."
 faq:
   - question: "What kind of paint do you use on a bathroom vanity?"
     answer: "A bonding primer over a scuff-sanded surface, then two coats of a waterborne cabinet-and-trim enamel, satin or semi-gloss. The primer does the adhesion work; the topcoat provides the washability. Paint labelled for kitchens and baths resists moisture and mildew better than wall paint, and wall paint, however tempting, marks and swells at every wet edge."

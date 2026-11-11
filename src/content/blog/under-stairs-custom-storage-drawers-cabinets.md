@@ -9,6 +9,10 @@ keywords:
   - "under stairs custom storage drawers cabinets"
   - "under stairs pull out storage"
   - "under staircase shoe storage"
+takeaways:
+  - "An 8-foot rise at 7.5-inch risers is about 13 risers and 10 feet of run. The triangle under it is 40 square feet of section, 120 cubic feet at a 3-foot width, and most of that air is up inside the stair, not in a usable closet."
+  - "Notching the stringer is limited, often to leaving about 3.5 inches of wood uncut. That is the beam. The drawers do not get to eat it."
+  - "The top drawer only works if it clears the sloping ceiling on the way out. That measurement decided the stack, not the catalog of 'under-stair solutions.'"
 faq:
   - question: "How much usable storage is under a typical staircase?"
     answer: "For a straight stair rising 8 feet over a 10-foot run, at 3 feet wide, the raw triangular prism is about 40 cubic feet. After the stringer, drywall, a floor liner, and the clearance each drawer needs to slide, 22 to 28 cubic feet is realistic. That is comparable to a two-door wardrobe, which is why the carpentry is often worth it in a small house."

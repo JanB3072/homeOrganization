@@ -1,11 +1,16 @@
 ---
-title: "You Will Pack Junk You Never Used: The 6-Week Declutter Countdown Before Moving"
-description: "Don't pay to pack and ship trash. Use our step-by-step 'how to declutter before moving' checklist to downsize before the movers arrive."
+title: "How to Declutter Before Moving: Six Weeks, Four Boxes"
+description: "How to declutter before a move, for me, was six weeks and four boxes so I would stop paying to ship clothes I had not worn."
+updatedDate: "2026-11-11T09:00:00-06:00"
 pubDate: "2024-07-29T08:41:55-05:00"
 category: "Declutter"
 subcategory: "Moving"
 tags: ["moving", "decluttering"]
 keywords: ["how to declutter before moving", "declutter before moving checklist", "downsizing for a move"]
+takeaways:
+  - "Long-distance movers were $0.50 to $1.00 a pound on my moves. An unplanned household can ship 500 to 1,000 pounds it should have left."
+  - "That freight was $250 to $1,000 for decisions already made. A $12 lamp was not worth a Saturday of marketplace messages."
+  - "Six weeks, four boxes, from three moves of my own and two I did with friends. Sell has a hard end date. Donate is Saturday. Trash leaves the same night."
 faq:
   - question: "How far in advance should I declutter before moving?"
     answer: "Six weeks for a typical household. Storage areas (attic, garage, closets) need the full run because they hold the most dead weight; the kitchen and bathroom can be handled in the final week. Earlier never hurts; later than two weeks means decluttering and packing collide."
@@ -34,9 +39,9 @@ image: ./images/declutter-move.jpg
 imageAlt: "Decluttering and packing before moving house"
 ---
 
-Here's the number that changes how you pack. Long-distance movers charge roughly $0.50 to $1.00 per pound, and local crews charge by the hour. That means every box of expired pantry goods, dead cables, and clothes you were keeping "just in case" carries a shipping cost. The average unplanned household moves 500 to 1,000 pounds of stuff it should never have boxed. At moving rates. that's $250 to $1,000 spent transporting decisions you already made years ago.
+How to declutter before moving is a freight bill. Long-distance movers charge roughly $0.50 to $1.00 per pound, and local crews charge by the hour. Expired pantry goods, dead cables, and clothes kept "just in case" all ride along. An unplanned household can move 500 to 1,000 pounds it never needed to box. At those rates that is $250 to $1,000 spent moving decisions that were already made.
 
-Decluttering before a move is the highest-paid hour of the entire relocation, not a wellness exercise. This is the countdown I've run through three moves and helped two friends through: a six-week phase plan, the four-box rule that keeps it honest, and the sell-versus-donate math that stops you from losing weekends to a $12 lamp. If you want the deeper version of this practice, the one with no deadline attached, the [Swedish death cleaning method](/blog/swedish-death-cleaning-method-checklist/) is the same editing habit run at life pace. For the wider picture, the [whole-home organization system](/blog/whole-home-organization-system/) puts this declutter phase at weeks 3 and 4 of a 12-week plan.
+This countdown is from three moves of my own and two I did with friends: six weeks, four boxes, and a sell-versus-donate line so a $12 lamp does not eat a Saturday. The same habit with no truck date is the [Swedish death cleaning method](/blog/swedish-death-cleaning-method-checklist/). The [whole-home organization system](/blog/whole-home-organization-system/) puts this phase at weeks 3 and 4 of a 12-week plan.
 
 ## The 6-week countdown checklist
 

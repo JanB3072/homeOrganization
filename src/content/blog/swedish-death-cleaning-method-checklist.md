@@ -1,11 +1,16 @@
 ---
-title: "The Swedish Death Cleaning Method: A Checklist for Any Age"
-description: "The Swedish death cleaning method checklist is really one question asked per object, would anyone want this if I were gone, and it cleared a third of my closet before any bin arrived."
+title: "Swedish Death Cleaning Checklist: One Drawer, Then I Stop"
+description: "A Swedish death cleaning checklist I can finish is one question per object: would anyone want this if I were gone. That pass cleared about a third of my closet."
+updatedDate: "2026-11-11T09:00:00-06:00"
 pubDate: "2024-10-14T10:47:51-05:00"
 category: "Declutter"
 subcategory: "Methods"
 tags: ["decluttering", "storage-solutions"]
 keywords: ["swedish death cleaning method checklist", "swedish death cleaning", "dostadning", "death cleaning checklist"]
+takeaways:
+  - "One question per object, on a card in the junk drawer: would anyone want this if I were gone. That pass cleared about a third of a closet before I bought a bin."
+  - "Papers first, then wardrobe, kitchen, books, photos, sentimental last. A full pass at one drawer and 30 minutes took most of 3 to 6 months."
+  - "Magnusson wrote it somewhere between 80 and 100. The pace is one shelf, then stop, which is the part I actually kept."
 faq:
   - question: "What is the Swedish death cleaning method?"
     answer: "Döstädning, popularized by Margareta Magnusson's book, is the practice of gradually downsizing possessions so that, whenever the time comes, your loved ones inherit decisions already made rather than a house left to sort. Despite the name, the practice clarifies life at any age and works best in small recurring passes."
@@ -36,9 +41,30 @@ image: ./images/death-cleaning-minimal.jpg
 imageAlt: "Swedish death cleaning method for minimalist living"
 ---
 
-The name is doing the method no favors in English. "Swedish death cleaning" sounds like something you do once, at the end, in a black sweater, and that misreading keeps people from the most humane decluttering framework there is. Döstädning, as Margareta Magnusson laid it out in her book *The Gentle Art of Swedish Death Cleaning*, is a standing practice of editing your possessions for the living, so your life stays legible now and later to the people who would otherwise inherit a house full of questions.
+A Swedish death cleaning checklist fits on an index card. The English name makes it sound like one grim weekend in a black sweater. Döstädning, as Margareta Magnusson wrote it in *The Gentle Art of Swedish Death Cleaning*, is a habit of editing what you own while you can still say what each thing is.
 
-Done properly. it's less about what you throw away than about what you decide on purpose, while you're around to decide it. This is the full checklist version: what the method actually is, the six categories in working order, the conversations that make it a gift rather than a grim chore, and the pacing that keeps it from becoming another overwhelming weekend.
+I cleared about a third of a closet with the questions below before I bought a bin. The sections after the card are the same list, with the pacing and the paperwork filled in.
+
+## The checklist, on one card
+
+I keep this in the junk drawer. It is the whole method.
+
+Ask every object:
+
+1. Would I buy this again, at this age?
+2. Would my family have to guess what it meant?
+3. Is this the object, or only the memory?
+4. Am I keeping it because I feel guilty?
+
+Then one drawer or one shelf, 30 minutes, and stop while it is still easy:
+
+- [ ] Papers: shred what has expired, one folder for what is still in force, one page that says where the folder is
+- [ ] Wardrobe: it fits the life I have now, or it goes
+- [ ] Kitchen: duplicates, and anything I have not cooked with in a year
+- [ ] Books and media: keep what I would actually open again
+- [ ] Photos: one or two things that carry a person, not the whole box
+- [ ] Sentimental: label it, give it to someone, or let it go
+- [ ] Once a year: passwords, accounts, and thirty minutes with the person who would have to sort this
 
 ## What döstädning actually is
 
@@ -294,7 +320,7 @@ That's the method's real deliverable. The decluttered closet is almost a side ef
 
 ## When it stalls
 
-It will stall, usually at photos or the sentimental core, sometimes after a loss. The method's own answers: shrink the session (one box, ten minutes), borrow a witness (a friend or family member makes decisions easier and more fun), and permit keeping. The goal was never an empty house; it's a house where everything that remains is chosen. If a category stays stalled for months. that's information too, it usually means the conversation needs to happen before the sorting can.
+It will stall, usually at photos or the sentimental core, sometimes after a loss. The method's own answers: shrink the session (one box, ten minutes), borrow a witness (a friend or family member makes decisions easier and more fun), and permit keeping. The goal was never an empty house; it's a house where everything that remains is chosen. If a category stays stalled for months, that is information too. It usually means the conversation has to happen before the sorting can.
 
 ## A year at my own house (the honest field report)
 

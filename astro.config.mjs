@@ -39,13 +39,20 @@ export default defineConfig({
 
   integrations: [
     sitemap({
-      filter: (page) =>
-        !page.includes('/404') &&
-        !page.includes('/tags/') &&
-        !page.includes('/search/') &&
-        !page.includes('/now/') &&
-        !page.includes('/privacy/') &&
-        !page.includes('/affiliate-disclosure/'),
+      filter: (page) => {
+        const path = page.replace(/^https?:\/\/[^/]+/, '') || '/';
+        return (
+          !path.includes('/404') &&
+          !path.includes('/tags/') &&
+          !path.includes('/search') &&
+          !path.includes('/now/') &&
+          !path.includes('/privacy/') &&
+          !path.includes('/affiliate-disclosure/') &&
+          !path.includes('/archive') &&
+          !path.includes('/popular') &&
+          !/\/\d+\/?$/.test(path)
+        );
+      },
       serialize: (item) => {
         const pathname = item.url.replace(/^https?:\/\/[^/]+/, '') || '/';
         const lastmod = postLastmod.get(pathname);

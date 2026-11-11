@@ -7,6 +7,10 @@ category: "Kitchen"
 subcategory: "Fridge"
 tags: ["kitchen-organization", "storage-solutions"]
 keywords: ["how to clean refrigerator coils step by step", "clean fridge condenser coils", "refrigerator coil cleaning brush", "how often to clean refrigerator coils", "fridge running loud cycling"]
+takeaways:
+  - "The fridge runs all 8,760 hours. Everything else in the apartment gets to sleep."
+  - "The compressor started announcing itself at 2 a.m. A coil brush was $8 and the job took about 30 minutes."
+  - "Clogged coils can waste up to about a quarter of that draw, on the order of 20 to 30 dollars a year, and the compressor is what ends a fridge that otherwise lasts about 13."
 faq:
   - question: "How often should you clean refrigerator coils?"
     answer: "Twice a year for a normal household, and every three months if a dog or cat sheds near the kitchen, which is also the interval manufacturers like GE suggest for pet homes. A light monthly vacuum of the front grille stretches the deep clean further, but the twice a year pass is the one that actually reaches under the cabinet."

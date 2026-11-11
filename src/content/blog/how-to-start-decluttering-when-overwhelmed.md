@@ -7,6 +7,10 @@ category: "Declutter"
 subcategory: "Methods"
 tags: ["decluttering", "storage-solutions"]
 keywords: ["how to start decluttering when overwhelmed", "decluttering when overwhelmed", "5 minute decluttering", "how to start cleaning when overwhelmed by mess", "decluttering paralysis"]
+takeaways:
+  - "March 2021, on the bedroom floor. About $200 of bins, dividers, a label maker, and matching hangers, and the pile did not move."
+  - "The figure I kept seeing was 300,000 objects in an average American house. A small apartment might be a tenth of that, and 30,000 decisions is still too many to start."
+  - "What finished was a five-minute pass, then a first week, not a weekend with the new bins."
 faq:
   - question: "How do I start decluttering when I feel paralyzed by the mess?"
     answer: "Shrink the decision until it is too small to refuse. Do not 'declutter the bedroom.' Pick up the nearest ten objects and sort them into one trash bag and one relocate box, timed to five minutes. The point is not progress on the room, it is proof to your brain that the pile is touchable. Paralysis breaks on contact, never on planning."

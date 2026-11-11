@@ -6,6 +6,10 @@ category: "Guides"
 subcategory: "Systems"
 tags: ["storage-solutions", "small-space"]
 keywords: ["whole home organization system", "home organization system", "how to organize your entire home", "whole home organization plan"]
+takeaways:
+  - "Matching baskets, about $280, eleven photos, fully reverted by the third week."
+  - "The measurements come from a 620-square-foot apartment, then a 1,100-square-foot house, plus three friends' places."
+  - "Bins are 12 inches wide because the shelves were 13 to 15 deep. Two of those bins fill a column, with a finger gap at the front. The plan is 12 weeks, and week 3 is when the basket version had already failed."
 faq:
   - question: "What is a whole home organization system?"
     answer: "A single set of rules applied to every room: measure first, declutter second, assign each category one home, keep daily items inside the reach band, and run one maintenance rhythm for the whole house. The point is that rooms share capacity instead of exporting clutter to each other."

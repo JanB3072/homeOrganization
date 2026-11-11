@@ -7,6 +7,10 @@ category: "Declutter"
 subcategory: "Moving"
 tags: ["moving", "decluttering"]
 keywords: ["moving packing tips and tricks organization", "color coded moving boxes", "box tracking system moving", "how to pack plates for moving", "first night box moving"]
+takeaways:
+  - "34 boxes. The sheets turned up on day three in a box labeled MISC 2."
+  - "Numbers run 1 through 34 for the whole move. 'Kitchen 1 of 11' made four different boxes called 1, and a helper stacked the bathroom one where the kitchen label told him to."
+  - "A three-line note per box, about 30 seconds, was under twenty minutes across the week. Plates went in on edge. The first-night box never saw the truck."
 faq:
   - question: "What is the best labeling system for moving boxes?"
     answer: "Number every box and write the number plus the destination room plus a one line contents summary on two sides and the top. Color tape per room speeds sorting at the door, but the number is what makes the system searchable: box 23 of 34 is findable in your ledger instantly, while 'kitchen, miscellaneous' describes forty boxes equally well."

@@ -6,6 +6,10 @@ category: "Bathroom"
 subcategory: "Storage"
 tags: ["bathroom-organization", "storage-solutions"]
 keywords: ["small bathroom towel storage solutions", "towel storage ideas small bathroom", "towel wall rack", "rolling basket towels", "towel ladder"]
+takeaways:
+  - "Nine towels in 40 square feet, and none of them had a spot. The floor pile was the symptom."
+  - "Four hooks on one rail, 4 inches on center, 60 inches high, behind the door. A towel hung flat dried in about half the time of the old 24-inch bar, which kept two folded towels damp into day three."
+  - "A three-tier ladder over the tank and a seagrass basket on casters in the dead quarter-circle by the vanity took the rest. Six zones, and the hook row is the one I would install first."
 faq:
   - question: "Where do you put towels in a very small bathroom?"
     answer: "Between waist and eye level: a hook row behind the door for towels in use, an over-toilet rack for the drying pair, and a rolling basket for reserves. Those three zones hold a family's towels in a bathroom with no linen closet."

@@ -1,11 +1,16 @@
 ---
-title: "Under the Sink Is a Plumbing Obstacle Course: My 6-Step Method"
-description: "How to organize under a bathroom sink starts with the P-trap, not the bins; mine went from a damp tangle to a pull-out in an afternoon."
+title: "How to Organize Under a Bathroom Sink: I Started at the P-Trap"
+description: "How to organize under a bathroom sink starts with the P-trap. Mine went from a damp tangle to a pull-out in one afternoon, about 40 minutes."
+updatedDate: "2026-11-11T09:00:00-06:00"
 pubDate: "2026-10-17T08:02:48-05:00"
 category: "Bathroom"
 subcategory: "Storage"
 tags: ["bathroom-organization", "storage-solutions"]
 keywords: ["how to organize under bathroom sink", "under bathroom sink organization", "under sink storage bins", "under sink organization hacks"]
+takeaways:
+  - "One sitting, about 40 minutes, then a five-minute look once a month. I have done it in three apartments."
+  - "The thing that had rolled to the back in 2022 came out before any bin was measured. A redo after guests is closer to 15 minutes."
+  - "Bins got bought after the P-trap was traced. The ones I bought first, before measuring, did not fit."
 faq:
   - question: "How do you organize under a bathroom sink?"
     answer: "Empty everything out, clean and lay an absorbent mat, measure and trace the P-trap, cut duplicates and expired items, then assign zones by how often you use each thing. Budget about 40 minutes for the first run."
@@ -35,9 +40,9 @@ image: ./images/under-bathroom-sink.jpg
 imageAlt: "Inside of a bathroom sink cabinet organized with clear bins and pull-out drawers"
 ---
 
-You can get under your bathroom sink organized in one sitting, about 40 minutes, and keep it that way with a five-minute check each month. This is the exact order I use, now tested across three apartments and two different plumbing setups.
+How to organize under a bathroom sink, the way I do it now, is one sitting of about 40 minutes and a five-minute look each month. I have run it in three apartments, with two different plumbing layouts.
 
-Don't just start shoving bottles around. The order matters; everything before step three is prep, and skipping the measuring step is why most people end up with bins that don't fit. If you want the two-year materials comparison behind my choices. that's a [separate post](/blog/under-sink-storage-plumbing-friendly/). This one is just the process.
+The order matters. Everything before the measuring step is prep, and skipping that step is how I ended up with bins that did not fit. The two-year materials comparison is a [separate post](/blog/under-sink-storage-plumbing-friendly/). This page is only the process.
 
 <img src="./images/under-bathroom-sink.jpg" alt="Inside of a bathroom sink cabinet organized with clear bins and pull-out drawers" width="699" height="663" loading="lazy" decoding="async" />
 

@@ -9,6 +9,10 @@ keywords:
   - "hanging shower caddy storage hacks"
   - "shower caddy organization ideas"
   - "organize shampoo bottles in shower"
+takeaways:
+  - "The suction-cup caddy came down at 6:40 on a Tuesday. A 'holds 5 kg' rating was measured dry, straight down, close to the wall."
+  - "In the shower the bottles sit on the outer edge of a basket that sticks out 4 or 5 inches. That is a different load."
+  - "The one that stayed is a tension pole with two baskets. I keep the whole thing under about 10 to 15 pounds, which a full set of bottles will pass."
 faq:
   - question: "Why does my shower caddy keep falling off the tile?"
     answer: "The cup loses its pressure differential. Steam condenses behind the seal, textured or porous tile lets air creep in at the edge, and bottles sitting on the outer edge of the shelf turn a downward load into a peeling force that lifts the cup from one side. Move to a shower-arm hanger or a tension pole, and keep heavy bottles close to the wall."

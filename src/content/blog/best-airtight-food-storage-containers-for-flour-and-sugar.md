@@ -6,6 +6,10 @@ category: "Kitchen"
 subcategory: "Pantry"
 tags: ["kitchen-organization", "storage-solutions"]
 keywords: ["best airtight food storage containers for flour and sugar", "flour storage containers airtight", "sugar container pantry", "pantry pest proof containers", "flour and sugar canister sets"]
+takeaways:
+  - "Weevils got into flour that I had called sealed. The gasket was the only part that mattered."
+  - "Five pounds of flour wants 4 liters. Four pounds of sugar fills 3. The 1.4 liter squares took brown sugar and powdered sugar."
+  - "Eleven designs came home. Four kept a shelf. Buying to the weighed list, not a 10-piece set, left every jar about 80 percent full."
 faq:
   - question: "What size container holds a 5-pound bag of flour?"
     answer: "Four liters. A 5-pound flour bag is roughly 2.3 kilograms, which displaces about 3.2 liters, leaving the 20 percent headroom a gasket needs to actually seal. Sugar is denser; a 4-pound bag fits a 3-liter container."

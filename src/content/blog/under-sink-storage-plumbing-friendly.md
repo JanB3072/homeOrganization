@@ -7,6 +7,10 @@ category: "Bathroom"
 subcategory: "Storage"
 tags: ["bathroom-organization", "storage-solutions"]
 keywords: ["under sink storage", "bathroom cabinet organization", "under sink organization tips"]
+takeaways:
+  - "One leak from a bad layout cost about $200. The experiments around it took four months."
+  - "The bathroom cabinet is 30 inches wide, 18 deep, 20 tall, with 8 inches of clearance over the trap."
+  - "The kitchen one is 36 wide, 15 deep, 24 tall, with 6 inches over the trap. A bin that ignores that gap is what leans on the pipe."
 faq:
   - question: "What is the best container for under-sink storage?"
     answer: "Clear, unlidded plastic bins and ventilated pull-out baskets. They are cheap, visible, and survive humidity. Avoid wood or bamboo, which swells, and airtight plastic, which traps chemical fumes."

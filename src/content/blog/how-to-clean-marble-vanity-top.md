@@ -10,6 +10,10 @@ keywords:
   - "marble vanity cleaner"
   - "remove stains from marble vanity"
   - "marble etching repair"
+takeaways:
+  - "A citrus spray etched the top before I noticed a stain. Acid is off the counter, including the 'natural' ones."
+  - "The poultice goes on about half an inch thick, filmed and taped, for 24 to 48 hours, then scraped."
+  - "Coffee and tea get the same absorbent with 12 percent hydrogen peroxide. The colour comes out of the pore. The etch does not."
 faq:
   - question: "What cleaning products are safe on marble vanity tops?"
     answer: "pH-neutral cleaners, plain dish soap diluted in water, and dedicated stone cleaners are safe. Anything acidic is not, including vinegar, lemon, most bathroom limescale removers, and many glass cleaners. Bleach in dilution is fine for the occasional disinfect but attacks the sealer with repeated use."

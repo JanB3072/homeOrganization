@@ -9,6 +9,10 @@ keywords:
   - "clear acrylic bathroom bins with dividers"
   - "acrylic bathroom organizer with dividers"
   - "leak proof cosmetic storage bins"
+takeaways:
+  - "The first bin I ordered was 14 inches deep and still could not hold a foundation bottle upright, because every cell was 2 inches."
+  - "Foundation bottles run 35 to 45 mm. A round compact can be 75 mm. I add 8 to 10 mm so a finger can get in."
+  - "Cells of 2 to 3 inches take the narrow things. A 4-inch cell takes a compact. The divider has to come out, or the morning rush has nowhere wide."
 faq:
   - question: "Are divided acrylic bins actually leak-proof?"
     answer: "An open bin cannot be. It holds bottles upright and stops round things rolling, but a tipped liquid still flows over or under the dividers unless the dividers are sealed to the base and the walls are tall enough. Genuine containment needs a gasketed lid and a one-piece body, which turns the bin into a box you have to open every time. Split the jobs: a small sealed container for liquids, an open divided bin for dry tools."

@@ -48,6 +48,7 @@ const nextUrl = page < data.totalPages ? `/closet/${page + 1}/` : undefined;
   description={description}
   prevUrl={prevUrl}
   nextUrl={nextUrl}
+  robots={page > 1 ? 'noindex, follow' : undefined}
 >
   <section class="category-section">
     <div class="category-header">

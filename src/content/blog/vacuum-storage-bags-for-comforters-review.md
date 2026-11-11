@@ -6,6 +6,10 @@ category: "Closet"
 subcategory: "Seasonal"
 tags: ["closet-organization", "seasonal-storage"]
 keywords: ["vacuum storage bags for comforters review", "best vacuum storage bags for comforters", "leak proof vacuum bags for bedding", "airtight comforter storage bags", "how to vacuum pack a comforter"]
+takeaways:
+  - "The shelf is 30 inches wide, 12 deep, 13 inches of clear height. The folded comforter was 30 by 26 and 9.5 thick, leaving 3.5 inches."
+  - "Six bags, a $12 hand pump, the same comforter, the same 20 strokes, a felt-pen mark at three points on the zipper."
+  - "The thick-gauge bags with a double zip held the squash. The ones that crept back open by spring are the ones the listing photos never show in March."
 faq:
   - question: "Can you vacuum pack a down comforter?"
     answer: "No, not for a season. Down fill power is measured in cubic inches per ounce, so 38 ounces of 650-fill down holds roughly 24,700 cubic inches of loft. Six months under compression mats the plumules, and the loft may never fully recover. Store down or feather comforters in a breathable cotton bag on an interior shelf. Down-alternative polyester fill is the right candidate for a vacuum bag."

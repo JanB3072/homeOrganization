@@ -7,6 +7,10 @@ category: "Closet"
 subcategory: "Seasonal"
 tags: ["closet-organization", "seasonal-storage"]
 keywords: ["under bed winter clothes storage boxes", "under bed storage for winter clothes", "rolling under bed storage containers", "fabric under bed storage bags", "seasonal clothing rotation storage"]
+takeaways:
+  - "A queen covers 33 square feet, 60 by 80. On this platform the rail is 6.75 inches off the floor, closer to 7.5 where the slats arch."
+  - "Six-inch bags slide with a finger of room. Taller boxes catch."
+  - "Three fabric bags, each 30 by 18 by 6, six sweaters plus a scarf pack, eighteen sweaters out of the closet after two winters."
 faq:
   - question: "What height clearance do I need for under bed storage boxes?"
     answer: "Six inches is the practical minimum for zippered fabric bags, and most low profile boxes run 5.5 to 6 inches tall. Rolling containers need more, because wheels add an inch or more and demand extra depth to steer. Measure the gap between floor and frame rail at the tightest point, usually where the side rail meets a leg."

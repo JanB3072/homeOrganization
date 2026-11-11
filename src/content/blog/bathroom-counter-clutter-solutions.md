@@ -10,6 +10,10 @@ keywords:
   - "bathroom countertop organization"
   - "vanity counter organizer"
   - "bathroom counter trays"
+takeaways:
+  - "The counter is 36 by 22 inches. A listing would call that 792 square inches."
+  - "A tray of odds and ends had quietly taken 60 of them. Two weekly skincare bottles took another 30."
+  - "Anything used twice a month is a 20-square-inch tenant. It moved into a drawer, and the wipe dropped to about ten seconds."
 faq:
   - question: "What should stay on a bathroom counter?"
     answer: "Only what you use every single day: toothbrush, hand soap, and one or two skincare steps. Everything with a weekly or monthly rhythm, spare cotton pads, first-aid bits, backup products, belongs in a drawer, the mirror cabinet, or the under-sink zone. If an item has not been touched in five days, it is decoration."

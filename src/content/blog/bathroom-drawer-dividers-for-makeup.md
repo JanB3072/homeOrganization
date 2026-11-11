@@ -10,6 +10,10 @@ keywords:
   - "makeup drawer organizer"
   - "vanity drawer dividers"
   - "cosmetics drawer dividers"
+takeaways:
+  - "Finding a brow pencil took 47 seconds on the first Tuesday, because two identical pencils were both in the drawer."
+  - "Putting 31 objects in the 'right' order still cost me about 40 seconds. Pulling the 20 I never touched is what shortened it."
+  - "A thin pencil at the back of a 20-inch drawer is the worst case. Slots ended up about six inches, shorter than the longest brush."
 faq:
   - question: "What size dividers fit a standard bathroom vanity drawer?"
     answer: "Measure the clear interior, not the drawer front. Common vanity drawers are 12, 18, 24, 30 or 36 inches wide, 14 to 21 inches deep and 2 to 5 inches of clear height. Subtract roughly an eighth of an inch from any divider system for tolerance, and keep divider tops a quarter to half an inch below the drawer side so they do not catch your knuckles or snag the runner above."

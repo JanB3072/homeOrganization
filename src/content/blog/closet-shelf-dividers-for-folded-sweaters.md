@@ -6,6 +6,10 @@ category: "Closet"
 subcategory: "Clothing"
 tags: ["closet-organization", "storage-solutions"]
 keywords: ["closet shelf dividers for folded sweaters", "sweater shelf dividers", "closet shelf dividers", "folded sweaters storage"]
+takeaways:
+  - "A typical folded sweater lands 6 to 8 inches tall. Nine-inch cells are what stopped the stacks falling over when I pulled one."
+  - "Shelves here are 12 to 16 inches deep. A 10-inch divider on a 16-inch shelf leaves 6 inches behind the stack with nothing holding it."
+  - "Dividers in the aisle are usually 8 to 12 inches tall and 10 to 14 deep. Depth has to match the shelf or the lean starts at the back."
 faq:
   - question: "How do I keep folded sweaters from falling over on a closet shelf?"
     answer: "Use closet shelf dividers to create fixed slots, and fold sweaters into compact rectangles so each stack is wider than it is tall. Dividers plus a shorter stack height stops the domino effect."

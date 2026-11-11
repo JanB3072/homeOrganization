@@ -6,6 +6,10 @@ category: "Declutter"
 subcategory: "Methods"
 tags: ["decluttering", "storage-solutions"]
 keywords: ["the 20 20 decluttering rule explained", "20/20 rule decluttering", "just in case items declutter", "20/20 rule the minimalists", "how to declutter just in case items"]
+takeaways:
+  - "The just-in-case bin held 214 items once I counted them on the floor."
+  - "131 of those left the house over six months. The five I later had to replace cost $43 altogether."
+  - "The office drawer and the misc drawer, 33 items between them, were indecision, so the 20-20 questions never opened them."
 faq:
   - question: "What is the 20/20 rule for decluttering?"
     answer: "It is a two-gate test for anything you keep out of fear rather than use: if you could replace the item for under $20 AND within 20 minutes, you are allowed to let it go. Both conditions must pass. The rule was popularized by The Minimalists, Joshua Fields Millburn and Ryan Nicodemus, and it works because it puts a price on the vague dread of 'just in case'."

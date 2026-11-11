@@ -7,6 +7,10 @@ category: "Closet"
 subcategory: "Clothing"
 tags: ["closet-organization", "storage-solutions"]
 keywords: ["how to organize jeans on closet shelves", "jeans storage ideas closet", "fold or roll jeans for shelves", "file fold jeans", "s hook jeans storage"]
+takeaways:
+  - "Seven pairs came off the shelf at 6:40. The pair I wanted was at the bottom."
+  - "A folded pair is about 1.25 inches thick and stands 6 by 9. A rolled pair stands around 4 inches and slumps by the next day."
+  - "Denim at 12 to 14 ounces weighs 1 to 1.5 pounds a pair. Seven pairs put about 9 pounds on the bottom one. File-folding two rows on a 14-inch shelf is what stopped the avalanche."
 faq:
   - question: "Is it better to fold or roll jeans for closet shelves?"
     answer: "Fold, for denim specifically. Rolling suits thin cotton and gym wear, but jeans are cut from stiff 12 to 14 ounce twill that fights the roll and springs open. A rolled pair also stands about 4 inches tall versus 1.25 inches flat, so on the same shelf you fit a third of the pairs. Flat stacks or file folds win for jeans."

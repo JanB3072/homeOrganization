@@ -6,6 +6,10 @@ category: "Small Space"
 subcategory: "Storage"
 tags: ["small-space", "storage-solutions"]
 keywords: ["pegboard organization system for small craft room", "small craft room pegboard ideas", "heavy duty pegboard wall", "pegboard tool storage apartment", "craft room wall organization"]
+takeaways:
+  - "1 inch on center is the hook spacing that matches North American pegs. A 25 mm import board looks right and binds."
+  - "Hole diameter is 1/4 inch for the standard hook family. 3/16 and 1/8 inch boards need their own pegs, and I learned that after buying the wrong jar."
+  - "A drill spinning up can lift a hook a fraction of a millimetre. Heavy tools sit on a backing board that is screwed to studs. The pegs only hold what I can afford to find on the floor at 2 a.m."
 faq:
   - question: "What size pegboard holes do I need?"
     answer: "For home craft rooms, quarter inch holes on 1 inch centers are the standard and the easiest to buy fittings for. Boards with 3/16 inch or 1/8 inch holes exist for light duty and jewelry work, but their hooks are a separate family, so pick one system and stay in it. Bring a fitting with you when buying a board if the listing does not state both numbers."

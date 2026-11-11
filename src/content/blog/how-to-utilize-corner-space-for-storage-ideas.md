@@ -7,6 +7,10 @@ category: "Small Space"
 subcategory: "Storage"
 tags: ["small-space", "storage-solutions"]
 keywords: ["how to utilize corner space for storage ideas", "corner storage shelves", "corner floating shelves", "corner cubby storage", "wasted corner space"]
+takeaways:
+  - "The sofa gap was 18 inches. A lamp died there, then the mail, then a roller blind I meant to return, for a year."
+  - "A corner shelf with 12-inch arms along both walls is a 12 by 12 triangle, 72 square inches, and the floor stays clear."
+  - "Past about 14 inches from the wall, things slide out of sight and out of use. Five corners in the apartment, and the studs almost never line up at 45 degrees, so the second wall is anchors."
 faq:
   - question: "How much storage space is actually in an unused corner?"
     answer: "More than it looks like. A single corner shelf tier with 12 inch arms along both walls captures a 72 square inch triangle, half a square foot, while keeping the floor clear. Stack four or five tiers and one corner returns two to two and a half square feet of usable storage, comparable to a closet shelf, in the part of the room that was doing nothing."

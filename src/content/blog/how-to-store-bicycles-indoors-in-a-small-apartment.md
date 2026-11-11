@@ -6,6 +6,10 @@ category: "Small Space"
 subcategory: "Storage"
 tags: ["small-space", "storage-solutions"]
 keywords: ["how to store bicycles indoors in a small apartment", "indoor bike storage small apartment", "vertical bike wall mount apartment", "ceiling bike hoist apartment", "bike storage without drilling rental"]
+takeaways:
+  - "Axle to axle is 41.5 inches. Handlebars are 22.5. The bike is 27 pounds, under the 30-pound line where I can lift it alone."
+  - "The ceiling is 9 feet 6 inches at the spot I measured, and the hoist still lost because I could not reach it without a second person."
+  - "The wall hook is the one that stayed. The rear tire clears the door frame, with two inches past the swing."
 faq:
   - question: "Can I mount a bike on the wall in a rental apartment?"
     answer: "Usually yes, with two conditions. Check the lease for a hole size limit, since many allow nail holes up to a quarter inch and require larger ones to be patched, and put the weight into a stud rather than drywall. A hook rated for 50 pounds screwed into a stud carries a 27 pound bike with room to spare. If the lease bans holes outright, a floor stand or a tension rack does the same job with no fasteners."

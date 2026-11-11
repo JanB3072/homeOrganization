@@ -9,6 +9,10 @@ keywords:
   - "vertical wall desk space saving home office"
   - "floating wall desk"
   - "fold down wall desk apartment"
+takeaways:
+  - "The fold-down top has to clear the chair at full recline. A 27-inch monitor, a laptop, and a mug was the load I actually put on it."
+  - "A 500 mm tall cabinet with that load pulls on the order of 80 pounds horizontally at the top screws. A 30-inch-deep top doubles the moment of a 15-inch one."
+  - "A 60-pound folding bracket can still rip out of 1/2-inch plasterboard. The wall that used to hold a calendar now holds the desk, into studs."
 faq:
   - question: "Are wall-mounted desks strong enough for a full workstation?"
     answer: "They can be, if the load goes into framing. Check the mechanism rating, usually 40 to 80 lb for a decent fold-down unit, and separately check what the cabinet is fixed with. A unit lagged into two studs will carry a monitor, a laptop stand and speakers. The same unit on drywall plugs will eventually tear out, regardless of its advertised capacity."

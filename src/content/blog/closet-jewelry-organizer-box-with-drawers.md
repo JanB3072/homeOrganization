@@ -6,6 +6,10 @@ category: "Closet"
 subcategory: "Accessories"
 tags: ["closet-organization", "storage-solutions"]
 keywords: ["closet jewelry organizer box with drawers", "jewelry organizer box with drawers", "lockable jewelry box for closet", "velvet drawer jewelry organizer", "jewelry box drawer depth"]
+takeaways:
+  - "The count was eleven necklaces from 16 to 26 inches, fourteen earrings, nine rings, six bracelets, three watches."
+  - "A 26-inch rope chain in a six-cell box has to cross a wall. That crossing is where two chains weave."
+  - "Drawer height of about two inches, plus a $3 sheet of 2 mm craft felt over the factory walls, stopped the knotting. The felt cost less than replacing the box."
 faq:
   - question: "How deep do drawers need to be for necklaces in a jewelry box?"
     answer: "Two inches of clear height per drawer, with at least one run ten inches long. Chains lie flat in a drawer and stack about half an inch each, but clasps, pendants and layered chains need the taller drawer. At 1.5 inches the lid presses on the pile and every opening drags a chain across its neighbors, which is how knots start."

@@ -6,6 +6,10 @@ category: "Closet"
 subcategory: "Clothing"
 tags: ["closet-organization", "storage-solutions"]
 keywords: ["acrylic purse dividers for closet shelves organizer", "purse divider closet shelf", "handbag organizer wardrobe", "luxury bag storage", "acrylic shelf dividers"]
+takeaways:
+  - "Nine handbags on an open shelf cost me three ruined ones in six months."
+  - "5 mm acrylic cells, left at about 80 percent full, stopped the scratching. The set was about twenty-eight dollars."
+  - "Cell width is the widest bag plus half an inch, usually 10 to 12 inches, with a fifth of the shelf left empty so the leather can breathe."
 faq:
   - question: "Do acrylic dividers actually protect handbags?"
     answer: "They protect against the two mechanical threats: slouching and contact. Each bag stands upright in its own cell, so structured bags keep their shape and dark leathers never lean against light ones. They do not solve dust or humidity, which need covers and airflow."

@@ -6,6 +6,10 @@ category: "Closet"
 subcategory: "Accessories"
 tags: ["closet-organization", "storage-solutions"]
 keywords: ["best scarf organizer hanger for closet", "scarf organizer hanger", "scarf storage ideas", "silk scarf storage", "winter scarf organization"]
+takeaways:
+  - "Fourteen scarves in a 14-inch drawer meant the wool snagged the silk every time the pile shifted."
+  - "A winter scarf is about 60 by 8 inches. A silk wrap is about 35 inches square. One hanger cannot pretend those are the same object."
+  - "The one that held is velvet, eighteen loops, about 17 inches tall, with 12 inches of clearance under it. About twelve dollars."
 faq:
   - question: "What is the best type of scarf organizer hanger?"
     answer: "A multi-loop hanger with twelve to eighteen smooth, rounded loops, felt-lined or velvet-covered, hanging vertically from the closet rod. The loops hold scarves by a single drape point without snagging wool or creasing silk, and one hanger replaces a whole drawer."
@@ -44,7 +48,7 @@ I cut fourteen to twelve first, the honest [death-cleaning pass](/blog/swedish-d
 
 ## Why it reads as organized from the door
 
-Every scarf now shows its color from the closet door, visible and pullable one-handed, the same scan-logic as the [jewelry armoire zones](/blog/how-to-organize-jewelry-in-a-small-closet-armoire/) and the [clear shoe boxes](/blog/clear-plastic-shoe-boxes-stackable-design/). The drawer it came from now holds belts, divided per the [belt storage method](/blog/how-to-store-belts-in-closet/), because stiff coils survive folding where soft knits never did.
+Every scarf now shows its color from the closet door, visible and pullable one-handed, the same scan-logic as the [jewelry armoire zones](/blog/how-to-organize-jewelry-in-a-small-closet-armoire/) and the [clear shoe boxes](/blog/clear-plastic-shoe-boxes-stackable-design/). The drawer it came from now holds belts, divided per the [belt storage method](/blog/how-to-store-belts-in-closet/), because stiff coils survive folding where soft knits never did. Spacing decides one-handed access on a wall too: I later [measured 24 cm between cap hooks](/blog/how-to-organize-baseball-caps-on-wall/) before any of nine caps went up, because the gap does the work, not the hook.
 
 ## The ninety-second reset, twice a year
 

@@ -6,6 +6,10 @@ category: "Bathroom"
 subcategory: "Vanity"
 tags: ["vanity-organization", "bathroom-organization"]
 keywords: ["how to style a floating vanity", "floating vanity decor ideas", "spa bathroom vanity styling", "vanity tray arrangement", "minimal bathroom counter"]
+takeaways:
+  - "A 30-inch floating vanity, six weeks, eleven objects on the counter."
+  - "An 11-inch tray on a 22-inch-deep top overhung the sink and read as a shelf. The one that worked is 9 by 5.5, sitting 2.5 inches right of the faucet."
+  - "One pump with a 2.75-inch base, one folded towel, one vertical thing about 7 inches tall. The two drawers are 14 inches wide and 4 tall, and that is the whole inventory. Under twenty-five dollars."
 faq:
   - question: "How do you style a floating bathroom vanity?"
     answer: "Clear the counter completely, then anchor one tray on the wet side, stage no more than two display pieces at the wall side, keep the daily-use products in drawers or the shelf zone below, and check the result under evening light. Three objects or fewer on the counter is the spa threshold."

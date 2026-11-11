@@ -6,6 +6,10 @@ category: "Small Space"
 subcategory: "Storage"
 tags: ["small-space", "storage-solutions"]
 keywords: ["small space vertical storage solutions", "wall hangers for small spaces", "pegboard storage"]
+takeaways:
+  - "Comfortable reach is 24 to 48 inches off the floor. 48 to 60 is a stretch. Above 60 I need a stool, so that wall does not get daily tools."
+  - "A 6-inch-deep shelf over the desk added a row at eye height and took no desk surface. Deeper, and I hit my head, then I stack."
+  - "The broom fell every time the door opened until the hook spacing matched the handle, not the picture on the package."
 faq:
   - question: "What are the best vertical storage solutions for small spaces?"
     answer: "Pegboards, wall rails with S-hooks, door-back organizers, floating narrow shelves, and above-door shelving. All five take storage off the floor, and each one is adjustable, which matters more than capacity in a small home that changes seasonally."

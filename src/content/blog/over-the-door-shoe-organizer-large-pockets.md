@@ -7,6 +7,10 @@ category: "Closet"
 subcategory: "Shoes"
 tags: ["closet-organization", "shoe-storage"]
 keywords: ["over the door shoe organizer large pockets", "large pocket over the door shoe organizer", "over the door shoe organizer for bulky sneakers", "shoe organizer for heels over door", "closet door shoe storage"]
+takeaways:
+  - "A 24-pocket count said nothing about whether a size 12 fit. The panel that worked was the one with large pockets."
+  - "The door is 30 inches, hollow core, 1 3/8 inches thick. A common 24-pocket panel is 19 to 20 inches wide and centers. A 12-pocket wide panel is about 25, with 2.5 inches of frame left on each side."
+  - "Six pairs came off the floor. The organizer was about $20, and the hook bracket accepts up to 1 3/4 inches if the door had been solid."
 faq:
   - question: "What size pockets fit bulky sneakers?"
     answer: "Look for pockets at least 7 inches wide with a side gusset and 8 inches of drop. A men's US 13 runs about 11.6 inches long, so it enters toe first and angles down with the heel standing an inch or two above the rim. Flat 5 inch cells in standard 24 pocket panels cannot do this, which is why large pockets exist."

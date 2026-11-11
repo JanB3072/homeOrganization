@@ -6,6 +6,10 @@ category: "Small Space"
 subcategory: "Apartment"
 tags: ["small-space", "storage-solutions"]
 keywords: ["best furniture for small apartments double duty", "double duty furniture", "storage ottoman small apartment", "drop-leaf table apartment", "Murphy bed studio"]
+takeaways:
+  - "In a small apartment I get about one furniture decision per 20 square feet."
+  - "The piece I would buy first is the storage ottoman that seats two and hides the blanket pile, in the under-$150 tier."
+  - "A drop-leaf table is 6 square feet of dining with the leaves up and a 12-inch console against the wall with them down."
 faq:
   - question: "What is the best double-duty furniture for a small apartment?"
     answer: "The highest-return pieces are a storage ottoman (seating plus 40 to 60 liters of hidden storage), a drop-leaf table (dining plus desk, folding to under 12 inches deep), and a platform bed with built-in drawers (replacing a whole dresser). Together they recover roughly 20 square feet of functional storage in a 350-square-foot apartment."

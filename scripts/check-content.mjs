@@ -248,6 +248,12 @@ if (fs.existsSync(distDir)) {
     if (/organizingsmall\.com\/search\//.test(locs)) {
       fail('dist/sitemap-1.xml lists the empty search page');
     }
+    if (/organizingsmall\.com\/(?:archive|popular|now|privacy|affiliate-disclosure|tags)\//.test(locs)) {
+      fail('dist/sitemap-1.xml lists a noindex utility page');
+    }
+    if (/organizingsmall\.com\/(?:bathroom|closet|declutter|guides|kitchen|small-space)(?:\/[a-z0-9-]+)?\/\d+\//.test(locs)) {
+      fail('dist/sitemap-1.xml lists a paginated list page');
+    }
     const lastmods = [...locs.matchAll(/<lastmod>([^<]+)<\/lastmod>/g)].map((m) => m[1]);
     if (lastmods.length === 0) fail('dist/sitemap-1.xml has no lastmod');
     if (lastmods.some((d) => new Date(d).getTime() > Date.now())) {

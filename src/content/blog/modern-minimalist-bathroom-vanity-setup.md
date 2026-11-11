@@ -6,6 +6,10 @@ category: "Bathroom"
 subcategory: "Vanity"
 tags: ["vanity-organization", "bathroom-organization"]
 keywords: ["modern minimalist bathroom vanity setup", "hide bathroom counter clutter", "minimalist vanity organization", "clutter-free bathroom counter", "bathroom vanity storage ideas"]
+takeaways:
+  - "October: 23 things on the vanity counter. The cabinet and the top never changed."
+  - "Bamboo dividers, $18, split the junk drawer into dental, skincare, and hair. A lidded tray was $14. Two pump bottles were $11."
+  - "About $115 all in, and the counter kept 3 things. The other 20 had homes that were not the first surface a guest sees."
 faq:
   - question: "How do I make my bathroom vanity look minimalist?"
     answer: "Clear the counter to three items or fewer, decant products into matching pump bottles, and give everything else a drawer or bin home. Start by removing everything, then return only what you use daily."

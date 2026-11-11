@@ -9,6 +9,10 @@ keywords:
   - "double vanity mirror placement guide"
   - "double vanity mirror height"
   - "bathroom mirror spacing two sinks"
+takeaways:
+  - "Two mirrors over a 72-inch vanity. The first one sat half an inch proud of its twin, and a weekend of that was enough."
+  - "Hairline to chin is 8 to 9 inches, so a 5-inch pane can show a face. Add a haircut and glasses and the pane wants 14 to 18."
+  - "Standing eye height runs from about 56 inches to past 66. The centres I planned around were 62 for me and 66 for a taller person. Guides that stop at '5 to 10 inches above the counter' skipped all of that."
 faq:
   - question: "What height should a double vanity mirror be mounted?"
     answer: "Set the centre of each mirror at the shorter user's standing eye height, usually 60 to 62 inches from the finished floor, with the bottom edge 5 to 8 inches above the countertop. If the household includes a seated user, plan that position separately rather than compromising both."

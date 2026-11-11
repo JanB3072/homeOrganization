@@ -9,6 +9,10 @@ keywords:
   - "magnetic organizer for bathroom cabinet"
   - "magnetic strip for bobby pins"
   - "bathroom cabinet tweezers storage"
+takeaways:
+  - "The door looked like steel and was MDF with a foil skin. The strip held for a week. Then the pins were in the sink."
+  - "304 and 316 stainless are basically non-magnetic once annealed. 430 and 420 are the grades a magnet can actually hold."
+  - "Cheap tweezers are often 420, so they stick. The good corrosion-resistant ones are often 316, so they do not. The organizer only earned a spot after I checked both the door and the tools."
 faq:
   - question: "Why do some stainless tweezers stick to a magnetic strip and others fall off?"
     answer: "Common 304 and 316 stainless are austenitic, a crystal structure that is essentially non-magnetic when annealed. Cheaper 430 and 420 grades are martensitic and magnetic. Bending, drawing, or stamping can also convert some austenite to martensite, so one pair of tweezers grips and an apparently identical pair slides. Test each tool rather than trusting the word stainless on the handle."

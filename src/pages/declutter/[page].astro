@@ -27,7 +27,7 @@ const prevUrl = page > 2 ? `/declutter/${page - 1}/` : '/declutter/';
 const nextUrl = page < data.totalPages ? `/declutter/${page + 1}/` : undefined;
 ---
 
-<BaseLayout title={title} description="Decluttering and moving notes from my own last move, including the boxes I paid to carry and never opened." prevUrl={prevUrl} nextUrl={nextUrl}>
+<BaseLayout title={title} description="Decluttering and moving notes from my own last move, including the boxes I paid to carry and never opened." prevUrl={prevUrl} nextUrl={nextUrl} robots={page > 1 ? 'noindex, follow' : undefined}>
   <section class="category-section">
     <div class="category-header">
       <h1 class="category-title">✨ Decluttering & Moving</h1>
