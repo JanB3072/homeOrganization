@@ -230,7 +230,7 @@ Most sneaker cleaners are water, a mild surfactant such as sodium laureth sulfat
 
 I tested this on a canvas shoe I was about to retire. One half with a $22 kit, the other with four drops of clear dish soap in a cup of water, same brush, same twenty passes, same rinse. The kit side foamed less and rinsed slightly faster. Once dry, I could not tell them apart under the kitchen light. What was worth the money in that kit was the horsehair brush, which is still in my bowl three years later.
 
-"Instant" cleaning wipes are a different formula, usually alcohol plus surfactant. They are fine on soles and on mesh overlays, and too drying for leather uppers. Read the back of the packet rather than the front, the same way you would read a [spec sheet on a storage bin](/blog/best-plastic-storage-bins-for-garage-clothes-storage/) instead of the marketing words.
+"Instant" cleaning wipes are a different formula, usually alcohol plus surfactant. They are fine on soles and on mesh overlays, and too drying for leather uppers. Read the back of the packet rather than the front, the way you would read a spec sheet instead of the marketing words on the label.
 
 ## The troubleshooting clinic
 
