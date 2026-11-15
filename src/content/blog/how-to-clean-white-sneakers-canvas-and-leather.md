@@ -1,7 +1,7 @@
 ---
 title: "The Bleach That Turned My Canvas Ivory: A Field Guide to Cleaning White Sneakers"
 description: "Keep shoes looking brand new. Complete guide on how to clean white sneakers made of canvas, leather, or knit mesh materials."
-pubDate: "2026-11-14T20:00:00-06:00"
+pubDate: "2026-11-15T02:55:00-06:00"
 category: "Closet"
 subcategory: "Shoes"
 tags: ["closet-organization", "storage-solutions"]
