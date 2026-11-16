@@ -1,6 +1,6 @@
 ---
-title: "Where to Store Heavy Winter Coats Off Season: The Places That Quietly Ruin Them"
-description: "Running out of room? Explore practical ideas on where to store heavy winter coats off-season, from attic trunks to storage units."
+title: "How to Store Winter Coats in Summer"
+description: "How to store winter coats in summer is a temperature question, not a space question. The attic and the garage are where a coat quietly ruins."
 pubDate: "2026-12-02T09:30:00-06:00"
 category: "Closet"
 subcategory: "Seasonal"
@@ -42,7 +42,7 @@ image: ./images/where-to-store-heavy-winter-coats-off-season.png
 imageAlt: "Heavy winter coats being packed into a trunk in a storage room with plastic bins on shelves"
 ---
 
-Three winters, three different apartments, and the coats moved four times. Each move was an attempt to answer the same question, which is not "where is there space" but "which of these spaces will not quietly destroy a 400 dollar coat over seven months".
+How to store winter coats in summer took three apartments to answer. Each move was an attempt to solve the same question, which is not "where is there space" but "which of these spaces will not quietly destroy a 400 dollar coat over seven months".
 
 The answer turned out to be less about square footage than about two numbers nobody measures before loading a trunk: peak summer temperature, and how far the humidity swings in a day.
 

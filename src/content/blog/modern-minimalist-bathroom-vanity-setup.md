@@ -29,7 +29,7 @@ imageAlt: "Modern Minimalist Bathroom Vanity Setup"
 
 My vanity counter held 23 things in October. It holds three now. The whole thing cost about $115 in trays, dividers, and pump bottles, the vanity stayed, the countertop stayed, nothing got renovated.
 
-The look people call a "minimalist bathroom" is mostly a storage problem in disguise. You don't need a new vanity or a stone top. You need every product to have a home that isn't the counter. Here's what actually changed.
+The look people call a "minimalist bathroom" is mostly a storage problem in disguise. You don't need a new vanity or a stone top. You need every product to have a home that isn't the counter, and the drawer half of that is <a href="/blog/bathroom-vanity-drawer-organization-tips/">how to organize your vanity drawers</a>. Here's what actually changed.
 
 <img src="./images/bathroom-vanity.jpg" alt="Minimalist bathroom vanity with a nearly empty counter and a soap pump" width="701" height="661" loading="lazy" decoding="async" />
 

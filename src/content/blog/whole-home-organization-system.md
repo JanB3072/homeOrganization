@@ -1,6 +1,7 @@
 ---
-title: "One System for the Whole Home: A Room-by-Room Field Guide"
-description: "Build a whole home organization system from measurements, not purchases. Diagnose why each room fails, follow the decision trees, and run a 12-week plan that actually holds."
+title: "Whole Home Organization System, Room by Room"
+description: "A whole home organization system built from measurements, not purchases. Diagnose why each room fails, follow the decision trees, and run a 12-week plan that actually holds."
+updatedDate: "2026-11-16T09:00:00-06:00"
 pubDate: "2026-10-08T10:39:38-05:00"
 category: "Guides"
 subcategory: "Systems"
@@ -48,7 +49,7 @@ imageAlt: "Whole home organization system overview"
 
 The tape measure lives in the kitchen drawer, second from the left, wedged behind a bag of twist ties. I bought it after the first time I tried to organize my whole apartment in a weekend. That attempt cost about $280 in matching baskets, produced eleven photos I was very proud of, and had fully reverted by the third week. The baskets were fine. The problem was that I had organized six surfaces and zero systems, and I had never once measured a shelf.
 
-This is the guide I wish I'd had then. It treats a home as one connected system with a fixed set of rules, and it starts where a surveyor would start: with numbers. Everything below comes from a 620 square foot apartment and, later, a 1,100 square foot house, plus three friends' places I helped measure. I'll give you the decision trees I actually use, the room-by-room checklists, the budget in the order it gets spent, and the maintenance rhythm that stops the three-week rebound.
+This whole home organization system is the guide I wish I'd had then. It treats a home as one connected system with a fixed set of rules, and it starts where a surveyor would start: with numbers. Everything below comes from a 620 square foot apartment and, later, a 1,100 square foot house, plus three friends' places I helped measure. I'll give you the decision trees I actually use, the room-by-room checklists, the budget in the order it gets spent, and the maintenance rhythm that stops the three-week rebound.
 
 One promise up front: the first four weeks of this plan spend almost no money. If a home organization plan starts with a cart full of containers. It is a shopping plan with a tidy aesthetic.
 

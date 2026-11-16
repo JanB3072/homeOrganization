@@ -1,6 +1,7 @@
 ---
-title: "A DIY Bathroom Vanity Makeover on a Budget, Starting With Whether It Deserves One"
-description: "A DIY bathroom vanity makeover on a budget is mostly the cabinet enamel and the new pulls, and mine read as a different room for the price of a weekend and a quart of paint."
+title: "DIY Vanity Makeover on a Budget"
+description: "A DIY vanity makeover on a budget is mostly the cabinet enamel and the new pulls, and mine read as a different room for the price of a weekend and a quart of paint."
+updatedDate: "2026-11-16T09:00:00-06:00"
 pubDate: "2026-10-22T15:49:34-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
@@ -29,7 +30,7 @@ draft: false
 ---
 
 
-Budget makeover guides usually open with paint colours, which skips the only decision that matters. A vanity makeover is a bet that the box under the finish is worth keeping, and in a bathroom that bet fails more often than the guides admit, because the wet room attacks cabinets where paint cannot follow. So the project starts with a diagnosis, not a colour chart.
+A DIY vanity makeover on a budget is a bet that the box under the finish is worth keeping. Paint-colour guides skip that decision, and in a bathroom the bet fails more often than they admit, because the wet room attacks cabinets where paint cannot follow. So the project starts with a diagnosis, not a colour chart.
 
 ## The tree that decides the project
 

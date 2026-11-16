@@ -28,20 +28,20 @@ export const categoryIntro: Record<string, string> = {
 `,
 
   'Small Space': `
-<p>Small-space storage has one rule that took me three apartments to learn: the object has to earn its footprint twice. A bin that only stores is a liability the day it is empty. A bin that stores and also sits, or stores and divides a room, pays rent.</p>
-<p>I rent a one-bedroom, so every square foot gets reviewed quarterly whether I like it or not. The pieces here are the double-duty furniture, the wall space nobody calls a shelf until they need it, and the collapse-and-forget bins that vanish when the season ends. Written for renters, not for staging.</p>
-<p>Two angles help most: <a href="/small-space/apartment/">apartment-level furniture and layout</a>, or <a href="/small-space/storage/">storage that disappears when you do not need it</a>.</p>
+<p>How to organize a small apartment, in a rental, comes down to one test: the object has to earn its footprint twice. A bin that only stores is a liability the day it is empty. A bin that stores and also sits, or stores and divides a room, pays rent. That is small space organization as I practice it.</p>
+<p>I rent a one-bedroom of about 580 square feet, so every square foot gets reviewed quarterly whether I like it or not. The pieces here are the double-duty furniture, the wall space nobody calls a shelf until they need it, and the collapse-and-forget bins that vanish when the season ends.</p>
+<p>Start with <a href="/blog/best-furniture-for-small-apartments-double-duty/">furniture that does two jobs</a>, then <a href="/small-space/apartment/">apartment layout</a> or <a href="/small-space/storage/">storage that disappears when you do not need it</a>.</p>
 `,
 
   Declutter: `
 <p>Most decluttering advice is motivation wearing a method's clothes. I wanted the opposite: a method I could run at 9 p.m. on a Wednesday without a trash-bag epiphany, something that worked on the "just in case" drawer as cleanly as on the obvious junk.</p>
-<p>What stuck were the rules with a number attached, a starting point for the days the whole house feels too big to begin, and a plan for the move that does not become a second move of things I should have left behind. None of it asks you to become a minimalist. It asks you to be honest about what you reached for last year.</p>
-<p>Shortest version first: the <a href="/declutter/methods/">methods</a>. Packing boxes instead? Go to <a href="/declutter/moving/">decluttering for a move</a>.</p>
+<p>What stuck were the rules with a number attached, a starting point for the days the whole house feels too big to begin, and a <a href="/blog/how-to-declutter-before-moving-checklist/">declutter before moving checklist</a> that does not become a second move of things I should have left behind. None of it asks you to become a minimalist. It asks you to be honest about what you reached for last year.</p>
+<p>Shortest version first: the <a href="/declutter/methods/">methods</a>. The <a href="/blog/swedish-death-cleaning-method-checklist/">death cleaning checklist</a> is the same logic for a whole life. Packing boxes instead? Go to <a href="/declutter/moving/">decluttering for a move</a>.</p>
 `,
 
   Guides: `
 <p>These are the long ones, the system-level write-ups that tie a room to the next instead of fixing one drawer. They take more than ten minutes on purpose, because the payoff is a house that runs without you thinking about it, not a single photogenic shelf.</p>
-<p>I write them the way I organize: measure first, buy last, and assume the system has to survive a normal messy week, not a cleaning binge. The cornerstone is the whole-home map that shows how rooms hand off, so solving the kitchen does not create a hallway problem. Start with <a href="/guides/systems/">the systems overview</a>.</p>
+<p>I write them the way I organize: measure first, buy last, and assume the system has to survive a normal messy week, not a cleaning binge. The cornerstone is the <a href="/blog/whole-home-organization-system/">whole home organization system</a>, so solving the kitchen does not create a hallway problem. Start with <a href="/guides/systems/">the systems overview</a>.</p>
 `,
 };
 
@@ -53,22 +53,22 @@ export const subcategoryIntro: Record<string, string> = {
 
   'Kitchen/Fridge': `
 <p>The fridge is the only appliance you reorganize while hungry, which is why it always goes wrong. The real fix is not more bins, it is zones keyed to temperature, because the door shelf and the crisper are not the same climate.</p>
-<p>I cleaned my condenser coils on a whim and the compressor run time dropped enough that I noticed the electric bill. That told me the invisible maintenance matters as much as the visible layout. The posts here cover both: where cold food actually stays safe, and how to keep the thing from running hot while it looks tidy. See <a href="/blog/how-to-clean-refrigerator-coils-step-by-step/">coil cleaning</a> and <a href="/blog/aesthetic-fridge-organization-tips/">layout that survives a real week</a>.</p>
+<p>I cleaned my condenser coils on a whim and the compressor run time dropped enough that I noticed the electric bill. That told me the invisible maintenance matters as much as the visible layout. The posts here cover both: where cold food actually stays safe, and how to keep the thing from running hot while it looks tidy. See <a href="/blog/how-to-clean-refrigerator-coils-step-by-step/">how to clean refrigerator coils</a> and <a href="/blog/aesthetic-fridge-organization-tips/">layout that survives a real week</a>.</p>
 `,
 
   'Kitchen/Pantry': `
 <p>A pantry's job is to make you use what you buy, and most pantries fail by hiding their own back row. The trick is not more containers, it is fewer and wider categories, and a system where the oldest box surfaces before the new one instead of behind it.</p>
-<p>I keep dry goods in airtight containers sized to the shelf, not the product, and I label the things that look identical once they are frozen. This came from a bag of flour that lived next to a bag of cornstarch for a year before I grabbed the wrong one mid-recipe. The pieces here are written around a real shallow pantry, not a walk-in. Start with <a href="/blog/best-airtight-food-storage-containers-for-flour-and-sugar/">airtight containers for flour and sugar</a>.</p>
+<p>I keep dry goods in airtight containers sized to the shelf, not the product, and I label the things that look identical once they are frozen. This came from a bag of flour that lived next to a bag of cornstarch for a year before I grabbed the wrong one mid-recipe. The spacing version, for a walk-in, is the <a href="/blog/walk-in-pantry-layout-ideas-and-spacing-blueprint/">food storage layout</a>. For a shallow pantry, start with <a href="/blog/best-airtight-food-storage-containers-for-flour-and-sugar/">airtight containers for flour and sugar</a>.</p>
 `,
 
   'Closet/Clothing': `
-<p>Closet clothing storage lives or dies by two numbers: rod height and the longest thing you hang. I raised my rod and added a second one before buying a single organizer, and that alone killed half the floor pile, because the floor pile was really "things with no rod left."</p>
-<p>The folded side is its own problem: a divider that holds a stack upright at the third sweater but lets it slump at the fourth is worse than no divider, because it hides the failure. The posts here are the hanging math and the folded reality, measured in that 36-inch alcove. See <a href="/blog/vertical-closet-system-maximize-small-wardrobe/">the vertical system</a> and <a href="/blog/closet-shelf-dividers-for-folded-sweaters/">shelf dividers that actually hold</a>.</p>
+<p>Closet clothing storage lives or dies by two numbers: rod height and the longest thing you hang. I raised my rod and added a second one before buying a single organizer, and that alone killed half the floor pile, because the floor pile was really "things with no rod left." When the dress is still longer than the rail, <a href="/blog/how-to-store-long-dresses-in-short-closet/">hanging dresses in a short closet</a> is a drape, not a fold.</p>
+<p>The folded side is its own problem: a divider that holds a stack upright at the third sweater but lets it slump at the fourth is worse than no divider, because it hides the failure. The posts here are the hanging math and the folded reality, measured in that 36-inch alcove. See <a href="/blog/vertical-closet-system-maximize-small-wardrobe/">vertical closet storage</a> and <a href="/blog/closet-shelf-dividers-for-folded-sweaters/">shelf dividers that actually hold</a>.</p>
 `,
 
   'Closet/Accessories': `
 <p>Accessories are the escape artists of the closet: scarves tangle, jewelry knots, purses slump. The mistake is treating them as decoration to display instead of small inventory to contain, which is why a pretty tray becomes a junk drawer with better lighting.</p>
-<p>I keep jewelry in a box with drawers sized to the chain, not the collection, and scarves on a hanger that shows all of them at once instead of just the three on top. The two posts here came from buying the wrong thing first, so you do not have to: <a href="/blog/closet-jewelry-organizer-box-with-drawers/">jewelry box with drawers</a> and <a href="/blog/best-scarf-organizer-hanger-for-closet/">scarf hanger</a>.</p>
+<p>I keep jewelry in a box with drawers sized to the chain, not the collection, and scarves on a hanger that shows all of them at once instead of just the three on top. Belts are the one that curls if you guess: <a href="/blog/how-to-store-belts-in-closet/">how to store belts in a closet</a>. The other two posts came from buying the wrong thing first: <a href="/blog/closet-jewelry-organizer-box-with-drawers/">jewelry box with drawers</a> and <a href="/blog/best-scarf-organizer-hanger-for-closet/">scarf hanger</a>.</p>
 `,
 
   'Closet/Shoes': `
@@ -78,7 +78,7 @@ export const subcategoryIntro: Record<string, string> = {
 
   'Closet/Seasonal': `
 <p>Seasonal storage is really migration storage, and migrations go wrong at the handoff. The coat you pack in October is the coat you cannot find in a January thaw, usually because it went into a bin with no plan for October.</p>
-<p>I keep off-season items in one reachable place, labeled by the month they return, not by what they are, so the bin I open in March is the bin I need in March. The posts here are about that handoff and about not turning seasonal storage into a second closet you forgot you owned.</p>
+<p>I keep off-season items in one reachable place, labeled by the month they return, not by what they are, so the bin I open in March is the bin I need in March. The full method is <a href="/blog/how-to-store-winter-clothes-in-summer/">how to store winter clothes in summer</a>. Heavy coats have their own answer in <a href="/blog/where-to-store-heavy-winter-coats-off-season/">how to store winter coats in summer</a>.</p>
 `,
 
   'Bathroom/Storage': `
@@ -87,8 +87,8 @@ export const subcategoryIntro: Record<string, string> = {
 `,
 
   'Bathroom/Vanity': `
-<p>The vanity is the most-touched surface in the bathroom and the easiest to lose to a single soap pump. The win is not a bigger counter, it is a counter that stays empty because the drawer beneath it actually works, which means dividing by the thing you reach for most, not the thing that photographs well.</p>
-<p>I also learned the hard way that marble and an acidic cleaner do not mix: a citrus spray etched a ring into my rental's counter in one wipe, and the deposit did not cover it. The posts here run from drawer to mirror to the makeover that costs less than a dinner out. See <a href="/blog/bathroom-vanity-drawer-organization-tips/">drawer organization</a> and <a href="/blog/diy-bathroom-vanity-makeover-on-a-budget/">the budget makeover</a>.</p>
+<p>Bathroom vanity organization is three jobs, and mixing them is how a counter fills back up. Drawers are <a href="/blog/bathroom-vanity-drawer-organization-tips/">how to organize your vanity drawers</a>. Buying a new one is the <a href="/blog/best-makeup-vanity-table-with-lights-storage/">makeup vanity table with lights and storage</a>. Painting the box you already have is the <a href="/blog/diy-bathroom-vanity-makeover-on-a-budget/">DIY vanity makeover</a>.</p>
+<p>Everything else here is a side job: the counter display, the toe-kick, the light, the mirror height, and the marble. Those posts do not replace the three above.</p>
 `,
 
   'Declutter/Methods': `
@@ -108,11 +108,11 @@ export const subcategoryIntro: Record<string, string> = {
 
   'Small Space/Apartment': `
 <p>Apartment organizing has one constraint a house does not: you cannot renovate your way out of it. Every piece of furniture has to earn its footprint twice, and the layout matters more than any bin, because a wrong purchase in a one-bedroom shows up every single day.</p>
-<p>The posts here are the double-duty furniture and the layout calls I made in my own place, where a too-wide nightstand blocked the closet door for a month before I admitted the mistake. Written for renters. Start with <a href="/blog/best-furniture-for-small-apartments-double-duty/">double-duty furniture</a>.</p>
+<p>The posts here are the double-duty furniture and the layout calls I made in my own place, where a too-wide nightstand blocked the closet door for a month before I admitted the mistake. Written for renters. Start with the <a href="/blog/best-furniture-for-small-apartments-double-duty/">best furniture for small apartments</a>.</p>
 `,
 
   'Small Space/Storage': `
 <p>Storage in a small space has to disappear when you do not need it, or it becomes the clutter. Collapsible, wall-mounted, and gap-filling storage win; big rigid bins lose the moment they are empty and still in the room, taking up the floor they were meant to free.</p>
-<p>The pieces here are the floating shelves that gave my kitchen a counter it did not have, the collapsible bins that flatten to nothing in the off-season, and the vertical tricks that use the air instead of the floor. Measured against a real small footprint. See <a href="/blog/floating-shelves-storage-ideas-for-tiny-studio-kitchen/">floating shelves for a tiny kitchen</a> and <a href="/blog/collapsible-storage-bins-with-lids-fabric-stackable/">collapsible bins</a>.</p>
+<p>The pieces here are the floating shelves that gave my kitchen a counter it did not have, the collapsible bins that flatten to nothing in the off-season, and the vertical tricks that use the air instead of the floor. The awkward triangle under a staircase is <a href="/blog/under-stairs-custom-storage-drawers-cabinets/">custom under-stairs storage</a>. See also <a href="/blog/floating-shelves-storage-ideas-for-tiny-studio-kitchen/">floating shelves for a tiny kitchen</a> and <a href="/blog/collapsible-storage-bins-with-lids-fabric-stackable/">collapsible bins</a>.</p>
 `,
 };

@@ -29,7 +29,7 @@ draft: false
 ---
 
 
-Vanity top organizer articles usually start with the organizers, as if the tray were the decision. It is the last decision. The first one is that makeup and skincare are perishable inventory, each bottle carrying a little open-jar symbol on its base, the period-after-opening mark, 3M or 6M or 12M, and each with its own opinion about light, heat and water. Arranged with those opinions in mind, a display stays both beautiful and usable for the full life of the products. Arranged without them, it is a slow, attractive way to throw money away.
+Vanity top organizer articles usually start with the organizers, as if the tray were the decision. It is the last decision. Anything that cannot take the light and the steam belongs in the drawers, and that layout is <a href="/blog/bathroom-vanity-drawer-organization-tips/">how to organize your vanity drawers</a>, not another tray. The first decision on the counter is that makeup and skincare are perishable inventory, each bottle carrying a little open-jar symbol on its base, the period-after-opening mark, 3M or 6M or 12M, and each with its own opinion about light, heat and water. Arranged with those opinions in mind, a display stays both beautiful and usable for the full life of the products. Arranged without them, it is a slow, attractive way to throw money away.
 
 So this goes the other way round: what the products fear, then what arrangement respects that, then which organisers actually serve it.
 

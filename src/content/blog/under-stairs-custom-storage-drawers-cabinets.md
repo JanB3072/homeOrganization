@@ -1,6 +1,7 @@
 ---
-title: "The Dead Triangle Under Your Stairs: Drawers and Pull-Outs That Use Every Inch"
-description: "Under-stairs custom storage drawers only pull out if the top one clears the sloping ceiling, and that clearance is what decides whether the dead space becomes useful or just expensive."
+title: "Custom Under-Stairs Storage Drawers"
+description: "Custom under-stairs storage drawers only pull out if the top one clears the sloping ceiling, and that clearance is what decides whether the dead space becomes useful or just expensive."
+updatedDate: "2026-11-16T09:00:00-06:00"
 pubDate: "2026-10-10T08:54:39-05:00"
 category: "Small Space"
 subcategory: "Storage"
@@ -27,7 +28,7 @@ draft: false
 ---
 
 
-A carpenter friend stopped me before I had finished drawing the first box. I had sketched a neat row of four drawers following the stair line, and he pointed at the diagonal member carrying the treads and asked what I intended to screw them to. I had assumed it was just a board. On this staircase it was a cut stringer, with a triangular notch sawn out of it above every tread, and the remaining strip of wood at each notch was doing real work. Cutting another notch for a drawer runner would have been a genuinely bad idea.
+Custom under-stairs storage is a structure problem before it is a drawer problem. A carpenter friend stopped me before I had finished drawing the first box. I had sketched a neat row of four drawers following the stair line, and he pointed at the diagonal member carrying the treads and asked what I intended to screw them to. I had assumed it was just a board. On this staircase it was a cut stringer, with a triangular notch sawn out of it above every tread, and the remaining strip of wood at each notch was doing real work. Cutting another notch for a drawer runner would have been a genuinely bad idea.
 
 That is the first thing to know about this project. Most of the guidance about under-stairs storage is about layout. The part that can cost you money or a staircase is the structure behind the plasterboard.
 

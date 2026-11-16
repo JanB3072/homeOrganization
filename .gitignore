@@ -31,3 +31,4 @@ coverage/
 _originals_backup/
 
 .xlsx
+*.mjs

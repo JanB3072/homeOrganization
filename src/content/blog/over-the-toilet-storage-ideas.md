@@ -1,5 +1,6 @@
 ---
-title: "Over-the-Toilet Storage Ideas I Tested in My Small Bathroom"
+title: "Over the Toilet Storage Ideas for a Small Bathroom"
+updatedDate: "2026-11-16T09:00:00-06:00"
 description: "Over-the-toilet storage ideas only earn the wall if the unit clears the tank lid, and the one that worked is the ladder rack that leans, not the cabinet that needs studs."
 pubDate: "2026-10-14T16:05:41-05:00"
 category: "Bathroom"
@@ -26,7 +27,7 @@ image: ./images/bathroom-over-toilet.jpg
 imageAlt: "Freestanding over-the-toilet storage etagere with towels and baskets in a small bathroom"
 ---
 
-The space over the toilet is the best storage you've got in a small bathroom, and almost everyone wastes it. I ran four different setups through my 40-square-foot bathroom over roughly two years, spending somewhere between $18 and $110, and ended up on the cheapest option: a freestanding etagere plus one small wall shelf.
+Over the toilet storage ideas for a small bathroom only earn the wall if the unit clears the tank lid. The space above the toilet is the best storage you've got, and almost everyone wastes it. I ran four different setups through my 40-square-foot bathroom over roughly two years, spending somewhere between $18 and $110, and ended up on the cheapest option: a freestanding etagere plus one small wall shelf.
 
 Short version up front: the freestanding unit won because it needs no drilling, holds the most, and never tipped in two years. The tension-pole caddy was the disappointment, rusted and wobbled within months. The rest is detail.
 

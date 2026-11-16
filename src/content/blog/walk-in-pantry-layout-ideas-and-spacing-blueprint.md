@@ -1,6 +1,7 @@
 ---
-title: "Walk-In Pantry Shelves Waste Space If Spaced Wrong: A Layout Blueprint That Fits Food"
-description: "Walk-in pantry layout ideas collapse without a spacing rule, and mine settled at 14-inch shelf depth and 18-inch aisles so the back row stops going stale."
+title: "Food Storage Layout for a Walk-In Pantry"
+description: "A food storage layout for a walk-in pantry is shelf depth and aisle width. Mine settled at 14-inch shelves and 18-inch aisles so the back row stops going stale."
+updatedDate: "2026-11-16T09:00:00-06:00"
 pubDate: "2024-06-24T10:21:35-05:00"
 category: "Kitchen"
 subcategory: "Pantry"
@@ -27,7 +28,7 @@ image: ./images/walk-in-pantry-layout-ideas-and-spacing-blueprint.jpg
 imageAlt: "Walk-In Pantry Layout Ideas and Spacing Blueprint"
 ---
 
-Most walk-in pantries don't fail because they're too small. They fail because the shelves are the wrong depth, the wrong distance apart, and the wrong distance from each other. Those spacing failures turn 30 square feet of storage into 10 square feet of usable storage. The fix happens on paper before a single board goes up. Here's the blueprint.
+A food storage layout for a walk-in pantry fails on spacing, not on square footage. Shelves at the wrong depth, the wrong distance apart, and the wrong distance from each other turn 30 square feet of storage into 10 square feet you can actually use. The fix happens on paper before a single board goes up.
 
 ## The spacing blueprint (the numbers that decide everything)
 

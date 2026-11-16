@@ -11,17 +11,29 @@ interface Props {
   posts: BlogPost[];
   currentPage: number;
   totalPages: number;
+  pageTitle?: string;
+  pageDescription?: string;
+  heading?: string;
 }
 
-const { category, subcategory, posts, currentPage, totalPages } = Astro.props;
+const {
+  category,
+  subcategory,
+  posts,
+  currentPage,
+  totalPages,
+  pageTitle,
+  pageDescription,
+  heading,
+} = Astro.props;
 
 const categorySlug = slugify(category);
 const subcategorySlug = slugify(subcategory);
 ---
 
 <BaseLayout
-  title={`${subcategory} - ${category} Organization | Organizing Small`}
-  description={`Real ${category.toLowerCase()} organization tips focusing on ${subcategory.toLowerCase()}. See my before-and-after photos and step-by-step guides.`}
+  title={pageTitle ?? `${subcategory} - ${category} Organization | Organizing Small`}
+  description={pageDescription ?? `Real ${category.toLowerCase()} organization tips focusing on ${subcategory.toLowerCase()}. See my before-and-after photos and step-by-step guides.`}
   breadcrumbs={[
     { label: category, url: `/${categorySlug}/` },
     { label: subcategory, url: `/${categorySlug}/${subcategorySlug}/` },
@@ -30,7 +42,7 @@ const subcategorySlug = slugify(subcategory);
 >
   <!-- Header -->
   <section style="margin-bottom: 3rem;">
-    <h1 style="margin-bottom: 0.5rem;">{subcategory}</h1>
+    <h1 style="margin-bottom: 0.5rem;">{heading ?? subcategory}</h1>
     <p style="color: var(--color-text-light); font-size: 1.05rem; margin: 0;">
       Showing {posts.length} {posts.length === 1 ? 'article' : 'articles'} about {subcategory}
     </p>

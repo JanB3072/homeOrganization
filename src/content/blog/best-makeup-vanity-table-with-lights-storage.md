@@ -1,6 +1,7 @@
 ---
-title: "A Vanity Table Is a Light and a Drawer, Not a Pretty Top: The Specs That Matter"
-description: "A makeup vanity table with lights is only worth the footprint if the drawers are acrylic and shallow enough to see the bottom, and mine holds a year of product in the depth the mirror light actually reaches."
+title: "Makeup Vanity Table with Lights and Storage"
+description: "A makeup vanity table with lights and storage is only worth the footprint if the drawers are shallow enough to see the bottom, and the light actually reaches your face."
+updatedDate: "2026-11-16T09:00:00-06:00"
 pubDate: "2026-10-26T15:08:07-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
@@ -38,7 +39,7 @@ image: ./images/best-makeup-vanity-table-with-lights-storage.jpg
 imageAlt: "Best Makeup Vanity Table With Lights and Storage"
 ---
 
-The listing called it a "Hollywood vanity with 3-color dimmable LEDs and luxurious acrylic storage." It had 4,000 reviews averaging 4.6 stars, and not one of the top reviews mentioned the word CRI. That gap is why this guide exists. Lights and storage are the two features worth paying for in a makeup vanity, and they are also the two features most often sold as decoration. What follows is the version of the shopping decision I wanted when I bought mine: specs over slogans, with the numbers I checked and the claims I would let die in the cart.
+A makeup vanity table with lights and storage is worth paying for only when both features do a job. The listing called it a "Hollywood vanity with 3-color dimmable LEDs and luxurious acrylic storage." It had 4,000 reviews averaging 4.6 stars, and not one of the top reviews mentioned the word CRI. Lights and drawers are the two features most often sold as decoration. What follows is the shopping decision I wanted when I bought mine: specs over slogans, with the numbers I checked and the claims I would let die in the cart.
 
 The buying logic here is the same furniture habit I apply across the house, laid out in the [whole-home organization system](/blog/whole-home-organization-system/): measure the space, define the job, then make the product audition for it. A vanity adds electricity to the list of ways to get it wrong, so the audition has a few extra rounds.
 

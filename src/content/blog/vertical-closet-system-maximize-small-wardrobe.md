@@ -1,8 +1,8 @@
 ---
-title: "Vertical Wardrobe System: How I Fit 200+ Items in a 4ft Closet Without Cramming"
-description: "Small closet organization system: vertical storage, folding methods, rotation, and real metrics. Organize 200+ items, reduce dressing time to 90 seconds."
+title: "Vertical Closet Storage: 200 Items in a 4ft Wardrobe"
+description: "Vertical closet storage in a 4ft wardrobe is a second rod, file-folded stacks, and a rotation. Mine holds 200 items, and getting dressed dropped to about 90 seconds."
 pubDate: "2024-03-20T10:40:50-05:00"
-updatedDate: "2024-03-25T14:28:27-05:00"
+updatedDate: "2026-11-16T09:00:00-06:00"
 category: "Closet"
 subcategory: "Clothing"
 tags: ["closet-organization", "storage-solutions"]
@@ -30,7 +30,7 @@ imageAlt: "Small closet organized vertically with double hanging rods and fabric
 
 <img src="./images/vertical-closet.jpg" alt="Small closet organized vertically with double hanging rods and fabric bins" width="700" height="660" loading="lazy" decoding="async" />
 
-My closet is 4 feet wide, 5 deep, 7 tall. For the first year I used it the standard way: one rod, a shelf above, shoes wherever they landed. Getting dressed took ten to fifteen minutes, and I bought duplicates because I couldn't see what I owned.
+Vertical closet storage is what made this 4-foot wardrobe hold a full wardrobe. My closet is 4 feet wide, 5 deep, 7 tall. For the first year I used it the standard way: one rod, a shelf above, shoes wherever they landed. Getting dressed took ten to fifteen minutes, and I bought duplicates because I couldn't see what I owned.
 
 The fix wasn't a bigger closet. I went vertical and built three zones out of that one rod. The same rod-to-shelf measurement shows up as one of the eleven numbers in the [whole-home organization system](/blog/whole-home-organization-system/), where this room is one chapter of a twelve-week plan.
 

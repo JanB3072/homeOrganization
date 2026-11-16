@@ -1,6 +1,6 @@
 ---
-title: "How to Store Long Dresses in a Short Closet: The Fifteen Inches You Have to Find"
-description: "Don't let your gowns drag on the floor. Learn how to store long dresses in short closets using the double-hanger draping trick."
+title: "How to Hang Dresses in a Short Closet"
+description: "How to hang dresses in a short closet is a double-hanger drape, so a 58-inch gown clears a 45-inch rail instead of dragging the floor."
 pubDate: "2026-11-30T09:30:00-06:00"
 category: "Closet"
 subcategory: "Clothing"
@@ -44,7 +44,7 @@ image: ./images/how-to-store-long-dresses-in-short-closet.png
 imageAlt: "Long formal dresses hanging in a short closet with hems draped to clear the floor"
 ---
 
-Forty-five inches of rail, fifty-eight inches of dress. No amount of folding makes that disappear, because a formal gown is mostly length and length is what a short closet cannot give.
+How to hang dresses in a short closet starts with a gap folding cannot close: forty-five inches of rail, fifty-eight inches of dress. A formal gown is mostly length, and length is what a short closet cannot give.
 
 I tried three methods across two apartments before finding one that did not mark the fabric. The double hanger trick works, but only under conditions nobody mentions in the video.
 

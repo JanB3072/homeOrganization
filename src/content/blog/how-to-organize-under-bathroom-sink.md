@@ -1,7 +1,7 @@
 ---
-title: "How to Organize Under a Bathroom Sink: I Started at the P-Trap"
-description: "How to organize under a bathroom sink starts with the P-trap. Mine went from a damp tangle to a pull-out in one afternoon, about 40 minutes."
-updatedDate: "2026-11-11T09:00:00-06:00"
+title: "How to Organize Under the Bathroom Sink"
+description: "How to organize under the bathroom sink starts with the P-trap. Mine went from a damp tangle to a pull-out in one afternoon, about 40 minutes."
+updatedDate: "2026-11-16T09:00:00-06:00"
 pubDate: "2026-10-17T08:02:48-05:00"
 category: "Bathroom"
 subcategory: "Storage"
@@ -40,7 +40,7 @@ image: ./images/under-bathroom-sink.jpg
 imageAlt: "Inside of a bathroom sink cabinet organized with clear bins and pull-out drawers"
 ---
 
-How to organize under a bathroom sink, the way I do it now, is one sitting of about 40 minutes and a five-minute look each month. I have run it in three apartments, with two different plumbing layouts.
+How to organize under the bathroom sink, the way I do it now, is one sitting of about 40 minutes and a five-minute look each month. I have run it in three apartments, with two different plumbing layouts.
 
 The order matters. Everything before the measuring step is prep, and skipping that step is how I ended up with bins that did not fit. The two-year materials comparison is a [separate post](/blog/under-sink-storage-plumbing-friendly/). This page is only the process.
 

@@ -248,7 +248,7 @@ if (fs.existsSync(distDir)) {
     if (/organizingsmall\.com\/search\//.test(locs)) {
       fail('dist/sitemap-1.xml lists the empty search page');
     }
-    if (/organizingsmall\.com\/(?:archive|popular|now|privacy|affiliate-disclosure|tags)\//.test(locs)) {
+    if (/organizingsmall\.com\/(?:archive|popular|now|privacy|affiliate-disclosure|tags|about)\//.test(locs)) {
       fail('dist/sitemap-1.xml lists a noindex utility page');
     }
     if (/organizingsmall\.com\/(?:bathroom|closet|declutter|guides|kitchen|small-space)(?:\/[a-z0-9-]+)?\/\d+\//.test(locs)) {

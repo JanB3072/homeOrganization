@@ -50,6 +50,7 @@ export default defineConfig({
           !path.includes('/affiliate-disclosure/') &&
           !path.includes('/archive') &&
           !path.includes('/popular') &&
+          !path.includes('/about') &&
           !/\/\d+\/?$/.test(path)
         );
       },

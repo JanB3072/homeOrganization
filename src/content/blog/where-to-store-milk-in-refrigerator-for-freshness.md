@@ -1,6 +1,7 @@
 ---
-title: "Where to Store Milk in the Refrigerator for Freshness: The Door Is the Worst Spot in the Box"
-description: "Where to store milk in the refrigerator for freshness: the door shelf runs warmest, so I keep cartons on the middle shelf against the back wall at 40°F or below."
+title: "Where to Store Milk in the Refrigerator"
+description: "Where to store milk in the refrigerator: the door shelf runs warmest, so I keep cartons on the middle shelf against the back wall at 40°F or below."
+updatedDate: "2026-11-16T09:00:00-06:00"
 image: ./images/where-to-store-milk-in-refrigerator-for-freshness.png
 imageAlt: "Open refrigerator with milk cartons and glass bottles stored on the middle shelf toward the back, eggs in the door tray, and produce in the crisper drawers"
 pubDate: "2026-11-11T09:30:00-06:00"

@@ -1,6 +1,7 @@
 ---
-title: "Belts Curl and Crack When Stored Wrong: Racks, Hooks, or Rolled?"
+title: "How to Store Belts in a Closet: Hung, Hooked, or Rolled"
 description: "How to store belts in a closet: rack the weekly rotation on rounded hooks, ring-hang the rest, and roll overflow at a 4-to-5-inch coil, for about fifteen dollars."
+updatedDate: "2026-11-16T09:00:00-06:00"
 pubDate: "2024-09-23T08:24:38-05:00"
 category: "Closet"
 subcategory: "Accessories"
@@ -25,7 +26,7 @@ image: ./images/belt-storage.jpg
 imageAlt: "Belts hung and rolled in closet belt storage"
 ---
 
-Belts are the accessories that live everywhere they shouldn't: curled in a drawer, draped over a doorknob, hung over a hanger bar where they slide off at the slightest touch. The fix takes one decision and about $15. Belt storage really comes down to three options, rack, ring, or roll, and the right one depends on how often you actually reach for each belt.
+Belts are the accessories that live everywhere they shouldn't: curled in a drawer, draped over a doorknob, hung over a hanger bar where they slide off at the slightest touch. How to store belts in a closet is one decision and about $15: rack, ring, or roll, based on how often you reach for each belt. Hung leather stays flat. A loose roll is only for the overflow.
 
 ## Method 1: the rack or wall hook (for the daily rotation)
 

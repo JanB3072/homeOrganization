@@ -1,6 +1,7 @@
 ---
-title: "How to Store Winter Clothes in Summer (Without Mold, Moths, or Creases)"
+title: "How to Store Winter Clothes in Summer"
 description: "How to store winter clothes in summer is mostly about the cedar and the vacuum seal, and the moth holes I found in year one are why the bags now get a silica pack each."
+updatedDate: "2026-11-16T09:00:00-06:00"
 pubDate: "2024-09-02T09:44:40-05:00"
 category: "Closet"
 subcategory: "Seasonal"
