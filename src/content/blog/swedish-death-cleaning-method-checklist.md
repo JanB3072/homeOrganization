@@ -1,7 +1,7 @@
 ---
-title: "Swedish Death Cleaning Checklist: One Drawer, Then I Stop"
-description: "A Swedish death cleaning checklist I can finish is one question per object: would anyone want this if I were gone. That pass cleared about a third of my closet."
-updatedDate: "2026-11-11T09:00:00-06:00"
+title: "Death Cleaning: The Swedish Death Cleaning Checklist"
+description: "Death cleaning, for me, is a Swedish death cleaning checklist I can finish: one question per object, would anyone want this if I were gone. That pass cleared about a third of my closet."
+updatedDate: "2026-11-16T09:00:00-06:00"
 pubDate: "2024-10-14T10:47:51-05:00"
 category: "Declutter"
 subcategory: "Methods"
