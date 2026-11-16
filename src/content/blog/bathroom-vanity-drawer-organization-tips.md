@@ -1,7 +1,7 @@
 ---
-title: "How to Organize Vanity Drawers: I Measured Both of Mine First"
-description: "How to organize vanity drawers in two rentals came down to the inside of the box. The serum stands in the front row now, and the morning dig is one reach."
-updatedDate: "2026-11-11T09:00:00-06:00"
+title: "How to Organize Your Vanity Drawers: I Measured Both of Mine First"
+description: "How to organize your vanity drawers in two rentals came down to the inside of the box. The serum stands in the front row now, and the morning dig is one reach."
+updatedDate: "2026-11-16T09:00:00-06:00"
 pubDate: "2026-10-31T07:17:52-05:00"
 category: "Bathroom"
 subcategory: "Vanity"
