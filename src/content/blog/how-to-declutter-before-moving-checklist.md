@@ -1,7 +1,7 @@
 ---
-title: "How to Declutter Before Moving: Six Weeks, Four Boxes"
-description: "How to declutter before a move, for me, was six weeks and four boxes so I would stop paying to ship clothes I had not worn."
-updatedDate: "2026-11-11T09:00:00-06:00"
+title: "Declutter Before Moving Checklist: Six Weeks, Four Boxes"
+description: "A declutter before moving checklist, for me, was six weeks and four boxes so I would stop paying to ship clothes I had not worn."
+updatedDate: "2026-11-16T09:00:00-06:00"
 pubDate: "2024-07-29T08:41:55-05:00"
 category: "Declutter"
 subcategory: "Moving"
