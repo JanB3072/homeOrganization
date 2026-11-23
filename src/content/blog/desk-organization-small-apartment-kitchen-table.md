@@ -1,7 +1,8 @@
 ---
 title: "Desk Organization When the Desk Is Also the Kitchen Table"
 description: "Desk organization for a small apartment, where one surface has to work as a table, a filing spot, and a charging station without turning into a pile."
-imageAlt: "A small apartment desk used as both a work surface and a dining table, with a laptop, a notebook, and a single tray of papers"
+image: ./images/desk-organization-small-apartment-kitchen-table.png
+imageAlt: "Woman sorting file folders at a kitchen table used as a desk, with a closed laptop, a glass of water, a plate, and a stacked paper tray on the tabletop"
 pubDate: "2026-11-22T12:00:00-06:00"
 category: "Small Space"
 subcategory: "Apartment"
