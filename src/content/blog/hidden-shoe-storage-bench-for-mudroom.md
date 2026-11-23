@@ -52,7 +52,7 @@ What is left is 11 to 14 inches of clear cavity. That is the entire budget.
 
 It fits sneakers at 6 inches and ankle boots at 8. It fits a low rain boot at 12 if you skip the cushion. It does not fit a tall boot at 16, and no amount of clever layout changes that. Product photos of a bench holding three pairs of knee-high boots are either taken with a much taller bench or with the boots lying down, which creases the shaft over a winter. Keep tall boots upright on an open rack, which the [boot storage guide](/blog/how-to-store-leather-boots-in-closet/) explains in detail.
 
-There is a second constraint that has nothing to do with the bench. It has to sit within about three feet of the door. If the drop point is further away, wet shoes still land on the floor and the lid never gets opened. The [entryway landing strip](/blog/how-to-organize-shoes-in-a-small-closet-entryway/) covers that distance rule, and a bench does not exempt you from it.
+There is a second constraint that has nothing to do with the bench. It has to sit within about three feet of the door. If the drop point is further away, wet shoes still land on the floor and the lid never gets opened. The [entryway landing strip](/blog/how-to-organize-shoes-in-a-small-closet-entryway/) covers that distance rule, and a bench does not exempt you from it. If the bench is replacing a table at the door, the [entryway table guide](/blog/entryway-tables-small-apartment-door-swing/) starts one step earlier with the door swing and walking width that decide whether either piece fits.
 
 ## The anatomy, from the lid down
 
