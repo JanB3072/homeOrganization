@@ -98,7 +98,7 @@ Brushes do best bristle up in a cup ring, because a brush on a hook flattens on 
 
 ## What fell off in the first year
 
-Three things, all predictable in hindsight. Fabric shears on a single prong hook, which took the hole with it. A bin of offcuts on a four prong bracket rated beyond what the board could take. A ribbon roll above 72 inches, in the band I had told myself was fine for light items, which unrolled itself down the wall.
+Three things, all predictable in hindsight. Fabric shears on a single prong hook, which took the hole with it. A bin of offcuts on a four prong bracket rated beyond what the board could take. A ribbon roll above 72 inches, in the band I had told myself was fine for light items, which unrolled itself down the wall. Loose ribbon is a worse storage problem than it looks, and the [wrapping paper guide](/blog/how-to-store-wrapping-paper-small-apartment/) keeps it in one container for the same reason.
 
 Everything that stayed was hung low, on two holes, heavy end down.
 
