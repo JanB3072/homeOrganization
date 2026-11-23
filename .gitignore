@@ -33,3 +33,4 @@ _originals_backup/
 .xlsx
 *.mjs
 *.csv
+*.log
