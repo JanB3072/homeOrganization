@@ -125,7 +125,7 @@ Neither trick is dramatic. Together they add a full pair per shelf, which on a f
 
 ## Rain, guests, and the off-season
 
-Wet shoes are the reason a closed entry cabinet is a bad idea in a city with slush. A damp pair sealed in a box can show mildew within 24 hours, and the smell gets into the pair next to it. Stuff the toes with white paper, not newspaper, because newsprint ink transfers to a pale lining. Let them air on the open rack for two hours, then put them away. If the cabinet has no ventilation holes, leave the door open once a week.
+Wet shoes are the reason a closed entry cabinet is a bad idea in a city with slush. A damp pair sealed in a box can show mildew within 24 hours, and the smell gets into the pair next to it. Stuff the toes with white paper, not newspaper, because newsprint ink transfers to a pale lining. Let them air on the open rack for two hours, then put them away. If the cabinet has no ventilation holes, leave the door open once a week. The umbrella that soaked them needs the same open air before it folds, which the [umbrella storage guide](/blog/how-to-store-umbrellas-small-apartment/) handles from the doorway onward.
 
 For odor, a spoonful of baking soda left in a shoe for fifteen minutes and tipped out works faster than any spray. Cedar helps with moths, not with damp.
 
